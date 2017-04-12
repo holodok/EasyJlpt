@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">EasyJlpt</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="open_section">Open section</string>
+    <string name="description_learn">Учить</string>
+    <string name="label_can_you_read">Как читается?</string>
+    <string name="button_submit">Дальше</string>
+</resources>
