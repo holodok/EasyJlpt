@@ -6,6 +6,7 @@ package com.gogaworm.easyjlpt.game;
  * @author ikarpova
  */
 public interface Game {
+    boolean isValid(Task task);
     String getQuestion();
     String getTaskWord();
     String[] getVariants();
