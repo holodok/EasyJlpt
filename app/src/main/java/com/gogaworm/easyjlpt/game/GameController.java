@@ -1,6 +1,7 @@
 package com.gogaworm.easyjlpt.game;
 
-import java.util.ArrayList;
+import com.gogaworm.easyjlpt.data.Word;
+
 import java.util.LinkedList;
 import java.util.List;
 
@@ -10,19 +11,17 @@ import java.util.List;
  * @author ikarpova
  */
 public class GameController {
-    enum GameType {
+    public enum GameType {
         FLASH_CARD,
         SELECT_TRANSLATION_BY_READING,
         SELECT_TRANSLATION_BY_KANJI,
-        SELECT_READING_BY_KANJI,
-        SELECT_KANJI_BY_READING,
+        SELECT_READING_BY_KANJI, //todo: add adv version that will find similar kanji
+        SELECT_KANJI_BY_READING, //todo: add adv version that will find similiar readings
         SELECT_KANJI_BY_TRANSLATION,
         WRITE_READING,
         MULTYSELECT_KANJI_READING,
         WRITE_KANJI_IN_KANJI
     }
-
-    private List<Game> games = new ArrayList<>();
 
     private List<Task> tasks = new LinkedList<>();
     private int currentIndex;
@@ -30,20 +29,15 @@ public class GameController {
     private OnGameStateChangedListener listener;
 
     public GameController() {
-        games.add(new FlashCardGame());
-        games.add(new SelectTranslationByReadingGame());
-        games.add(new SelectTranslationByKanjiGame());
-        games.add(new SelectReadingByKanjiGame());
-        games.add(new SelectKanjiByReading());
-        games.add(new SelectKanjiByTranslation());
-        games.add(new WriteKanjiReadingGame());
-        games.add(new MultiSelectKanjiOnKunReading());
-        games.add(new WriteKanjiByReading());
     }
 
     public void setTasks(List<Task> tasks) {
         this.tasks.clear();
         this.tasks.addAll(tasks);
+
+        for (Task task : tasks) {
+            task.leftGames = 5;
+        }
     }
 
     public void startGame() {
@@ -62,7 +56,7 @@ public class GameController {
                 currentIndex++;
             }
         } else {
-            task.setupGame(GameType.FLASH_CARD, games.get(0));
+            task.gameType = GameType.FLASH_CARD;
             task.leftGames++;
         }
         showNextTask();
@@ -89,14 +83,13 @@ public class GameController {
 
     private void prepareTask(Task task) {
         if (task.gameType == null) {
-            task.setupGame(GameType.FLASH_CARD, games.get(0));
+            task.gameType = GameType.FLASH_CARD;
         } else {
             //find next proper gameType
             GameType[] gameTypes = GameType.values();
             for (int i = task.gameType.ordinal() + 1; i < gameTypes.length; i++) {
-                Game game = games.get(i);
-                if (game.isValid(task)) {
-                    task.setupGame(gameTypes[i], game);
+                if (isValidForGame(gameTypes[i], task)) {
+                    task.gameType = gameTypes[i];
                     return;
                 }
                 if (i == gameTypes.length - 1) i = 0;
@@ -122,6 +115,31 @@ public class GameController {
         if (listener != null) {
             listener.onGameOver();
         }
+    }
+
+    private boolean isValidForGame(GameType gameType, Task task) {
+        switch (gameType) {
+            case FLASH_CARD:
+                return true;
+            case SELECT_TRANSLATION_BY_READING:
+                return task instanceof WordTask;
+            case SELECT_TRANSLATION_BY_KANJI:
+            case SELECT_READING_BY_KANJI:
+            case SELECT_KANJI_BY_READING:
+            case SELECT_KANJI_BY_TRANSLATION:
+                if (task instanceof WordTask) {
+                    Word word = (Word) task.value;
+                    return word.hasKanji();
+                }
+                return false;
+            case WRITE_READING:
+                return task instanceof WordTask;
+            case MULTYSELECT_KANJI_READING:
+                return false; //todo
+            case WRITE_KANJI_IN_KANJI:
+                return false; //todo
+        }
+        return false;
     }
 
     public interface OnGameStateChangedListener {

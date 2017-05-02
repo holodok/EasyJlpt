@@ -6,6 +6,7 @@ import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.view.View;
 import com.gogaworm.easyjlpt.data.Word;
+import com.gogaworm.easyjlpt.game.Task;
 
 import java.util.List;
 
@@ -16,16 +17,15 @@ import java.util.List;
  */
 public abstract class WordGameFragment extends Fragment {
     private LearnLessonActivity learnLessonActivity;
+    private boolean showAnswer;
 
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-
-        Word word = learnLessonActivity.getWords().get(4); //todo: remove
-        setupTask(word);
+        setupTask(getCurrentTask());
     }
 
-    protected abstract void setupTask(Word word);
+    protected abstract void setupTask(Task task);
 
 
     @Override
@@ -43,4 +43,20 @@ public abstract class WordGameFragment extends Fragment {
     protected List<Word> getWords() {
         return learnLessonActivity.getWords();
     }
+
+    protected Task getCurrentTask() {
+        return learnLessonActivity.getCurrentTask();
+    }
+
+    protected void onUserAnswer(boolean correct) {
+        if (!showAnswer) {
+            showAnswer = true;
+            showAnswer(correct);
+        } else {
+            //then go to next
+            learnLessonActivity.onUserAnswer(correct);
+        }
+    }
+
+    protected abstract void showAnswer(boolean correct);
 }

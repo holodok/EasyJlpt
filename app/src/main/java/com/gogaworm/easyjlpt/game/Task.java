@@ -13,14 +13,7 @@ public class Task <T> {
     public int progress;
     public GameController.GameType gameType;
     public Date lastPractice;
-
-    public Game game;
     public int leftGames;
-
-    public void setupGame(GameController.GameType gameType, Game game) {
-        this.gameType = gameType;
-        this.game = game; //todo: pass this task to the game
-    }
 
     public boolean isComplete() {
         return leftGames == 0;

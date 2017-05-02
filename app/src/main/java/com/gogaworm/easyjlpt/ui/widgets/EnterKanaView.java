@@ -1,6 +1,8 @@
 package com.gogaworm.easyjlpt.ui.widgets;
 
 import android.content.Context;
+import android.content.res.Resources;
+import android.content.res.TypedArray;
 import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.text.TextPaint;
@@ -16,10 +18,8 @@ import java.io.IOException;
  *
  * @author ikarpova
  */
-//todo: replace with view and paint method
 public class EnterKanaView extends View implements KeyboardView.OnKeyPressedListener {
     private int maxLength;
-    private int position;
 
     private String text = "";
     private Paint textPaint;
@@ -36,17 +36,23 @@ public class EnterKanaView extends View implements KeyboardView.OnKeyPressedList
 
     public EnterKanaView(Context context, AttributeSet attrs) {
         super(context, attrs);
+
+        final Resources.Theme theme = context.getTheme();
         textPaint = new TextPaint();
-        textPaint.setTextSize(80);
-        textPaint.setAntiAlias(true);
         linePaint = new Paint();
-        linePaint.setColor(context.getResources().getColor(R.color.colorPrimary));
+
+        TypedArray typedArray = theme.obtainStyledAttributes(attrs, R.styleable.EnterKanaView, 0, 0);
+        textPaint.setColor(typedArray.getColor(R.styleable.EnterKanaView_textColor, getResources().getColor(R.color.primaryText)));
+        textPaint.setTextSize(typedArray.getDimensionPixelSize(R.styleable.EnterKanaView_textSize, 14));
+        typedArray.recycle();
+
+        textPaint.setAntiAlias(true);
+        linePaint.setColor(textPaint.getColor());
         strokeWidth = context.getResources().getDimensionPixelSize(R.dimen.enter_kana_stroke_width);
         linePaint.setStrokeWidth(strokeWidth);
         strokeGap = context.getResources().getDimensionPixelSize(R.dimen.enter_kana_stroke_gap);
 
         drawChar = text.toCharArray();
-
         english2KanaConverter = new English2KanaConverter();
     }
 
@@ -86,6 +92,10 @@ public class EnterKanaView extends View implements KeyboardView.OnKeyPressedList
     @Override
     public void onDeletePressed() {
         onCharacterDelete();
+    }
+
+    public String getText() {
+        return new String(drawChar);
     }
 
     @Override

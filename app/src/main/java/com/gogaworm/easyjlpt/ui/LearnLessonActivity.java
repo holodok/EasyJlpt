@@ -7,6 +7,9 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.content.Loader;
 import com.gogaworm.easyjlpt.R;
 import com.gogaworm.easyjlpt.data.Word;
+import com.gogaworm.easyjlpt.game.GameController;
+import com.gogaworm.easyjlpt.game.Task;
+import com.gogaworm.easyjlpt.game.TaskCreator;
 import com.gogaworm.easyjlpt.loaders.WordListLoader;
 import com.gogaworm.easyjlpt.utils.Constants;
 
@@ -17,9 +20,11 @@ import java.util.List;
  *
  * @author ikarpova
  */
-public class LearnLessonActivity extends UserSessionLoaderActivity<Word> {
+public class LearnLessonActivity extends UserSessionLoaderActivity<Word> implements GameController.OnGameStateChangedListener {
     private int lessonId;
     private List<Word> words;
+    private GameController gameController;
+    private Task currentTask;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -35,6 +40,9 @@ public class LearnLessonActivity extends UserSessionLoaderActivity<Word> {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         getSupportLoaderManager().initLoader(Constants.LOADER_ID_WORD_LIST, null, this).forceLoad();
+
+        gameController = new GameController();
+        gameController.setOnGameStateChangedListener(this);
     }
 
     @Override
@@ -45,6 +53,9 @@ public class LearnLessonActivity extends UserSessionLoaderActivity<Word> {
     @Override
     public void onLoadFinished(Loader<List<Word>> loader, List<Word> data) {
         words = data;
+        TaskCreator taskCreator = new TaskCreator();
+        taskCreator.addWords(0, lessonId, data);
+        gameController.setTasks(taskCreator.generateLearnSession());
     }
 
     public List<Word> getWords() {
@@ -52,8 +63,57 @@ public class LearnLessonActivity extends UserSessionLoaderActivity<Word> {
     }
 
     public void start() {
+        gameController.startGame();
+    }
+
+    @Override
+    public void onNextTask(Task task) {
         FragmentManager fragmentManager = getSupportFragmentManager();
-        Fragment fragment = new EnterReadingGameFragment();
+        Fragment fragment = null;
+
+        switch (task.gameType) {
+            case FLASH_CARD:
+                fragment = new FlashCardFragment();
+                break;
+            case SELECT_TRANSLATION_BY_READING:
+                fragment = new SelectWordGameFragment();
+                break;
+            case SELECT_TRANSLATION_BY_KANJI:
+                fragment = new SelectWordGameFragment();
+                break;
+            case SELECT_READING_BY_KANJI:
+                fragment = new SelectWordGameFragment();
+                break;
+            case SELECT_KANJI_BY_READING:
+                fragment = new SelectWordGameFragment();
+                break;
+            case SELECT_KANJI_BY_TRANSLATION:
+                fragment = new SelectWordGameFragment();
+                break;
+            case WRITE_READING:
+                fragment = new EnterReadingGameFragment();
+                break;
+            case MULTYSELECT_KANJI_READING:
+                fragment = new EnterReadingGameFragment();
+                break;
+            case WRITE_KANJI_IN_KANJI:
+                fragment = new EnterReadingGameFragment();
+                break;
+        }
         fragmentManager.beginTransaction().replace(R.id.content, fragment).commit();
+        currentTask = task;
+    }
+
+    @Override
+    public void onGameOver() {
+
+    }
+
+    public Task getCurrentTask() {
+        return currentTask;
+    }
+
+    public void onUserAnswer(boolean correct) {
+        gameController.onUserAnswer(correct);
     }
 }

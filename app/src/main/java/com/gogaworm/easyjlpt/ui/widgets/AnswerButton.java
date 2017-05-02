@@ -49,4 +49,11 @@ public class AnswerButton extends FrameLayout {
         subHeaderView.setText(translation);
         subHeaderView.setVisibility(VISIBLE);
     }
+
+    public void reset() {
+        headerView.setText("");
+        subHeaderView.setText("");
+        headerView.setVisibility(GONE);
+        subHeaderView.setVisibility(GONE);
+    }
 }

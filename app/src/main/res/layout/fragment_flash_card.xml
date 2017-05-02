@@ -18,36 +18,45 @@
                 android:id="@+id/question"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp"
                 android:textSize="12sp"
                 android:textColor="@color/colorPrimarySecondaryText"
-                tools:text="Can you read?"/>
+                android:text="@string/label_do_you_know_word"/>
         <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="1"
+                android:layout_height="match_parent"
                 android:orientation="vertical"
-                android:gravity="center">
+                android:gravity="center"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp">
             <TextView
                     android:id="@+id/japanese"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="16dp"
-                    android:textSize="24sp"
+                    android:layout_marginBottom="4dp"
+                    android:textSize="18sp"
                     android:textColor="@color/primaryText"
                     tools:text="SOME WORD"/>
-            <com.gogaworm.easyjlpt.ui.widgets.EnterKanaView
+            <TextView
                     android:id="@+id/reading"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    app:textSize="20sp"
-                    app:textColor="@color/colorPrimary"
-                    tools:text="Test"/>
+                    android:layout_marginBottom="8dp"
+                    android:textSize="16sp"
+                    android:textColor="@color/secondaryText"
+                    tools:text="Reading"/>
+            <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/buttonBackground"/>
+            <TextView
+                    android:id="@+id/translation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:textSize="18sp"
+                    android:textColor="@color/primaryText"
+                    tools:text="Translation"/>
         </LinearLayout>
-        <com.gogaworm.easyjlpt.ui.widgets.KeyboardView
-                android:id="@+id/keyboard"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
     </LinearLayout>
     <Button
             android:id="@+id/submitButton"

@@ -19,6 +19,10 @@ public class Word implements Parcelable {
         this.translation = translation;
     }
 
+    public boolean hasKanji() {
+        return !japanese.equals(reading) && reading.length() != 0;
+    }
+
     protected Word(Parcel in) {
         japanese = in.readString();
         reading = in.readString();
@@ -47,5 +51,23 @@ public class Word implements Parcelable {
         dest.writeString(japanese);
         dest.writeString(reading);
         dest.writeString(translation);
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj instanceof Word) {
+            Word toCompare = (Word) obj;
+            return (japanese == null && toCompare.japanese == null || japanese != null && japanese.equalsIgnoreCase(toCompare.japanese))
+                    && (reading == null && toCompare.reading == null || reading != null && reading.equalsIgnoreCase(toCompare.reading))
+                    && (translation == null && toCompare.translation == null || translation != null && translation.equalsIgnoreCase(toCompare.translation));
+        }
+        return super.equals(obj);
+    }
+
+    @Override
+    public int hashCode() {
+        return (japanese == null ? 0 : japanese.hashCode())
+                + (reading == null ? 0 : reading.hashCode())
+                + (translation == null ? 0 : translation.hashCode());
     }
 }

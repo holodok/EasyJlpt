@@ -1,6 +1,5 @@
 package com.gogaworm.easyjlpt.ui;
 
-import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
@@ -9,6 +8,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 import com.gogaworm.easyjlpt.R;
 import com.gogaworm.easyjlpt.data.Word;
+import com.gogaworm.easyjlpt.game.Task;
 import com.gogaworm.easyjlpt.ui.widgets.EnterKanaView;
 import com.gogaworm.easyjlpt.ui.widgets.KeyboardView;
 
@@ -23,6 +23,7 @@ public class EnterReadingGameFragment extends WordGameFragment {
     private TextView questionView;
     private TextView japaneseView;
     private EnterKanaView readingView;
+    private Word word;
 
     @Nullable
     @Override
@@ -39,21 +40,27 @@ public class EnterReadingGameFragment extends WordGameFragment {
         } catch (IOException ignore) { //should never happen
             ignore.printStackTrace();
         }
-/*
-        new AsyncTask<Void, Void, Void>() {
+
+        parentView.findViewById(R.id.submitButton).setOnClickListener(new View.OnClickListener() {
             @Override
-            protected Void doInBackground(Void... params) {
-                return null;
+            public void onClick(View v) {
+                //todo: check answer, show error
+                onUserAnswer(word.reading.equals(readingView.getText()));
             }
-        }.execute();
-*/
+        });
         return parentView;
     }
 
     @Override
-    protected void setupTask(Word word) {
+    protected void setupTask(Task task) {
+        word = (Word) task.value;
         questionView.setText(R.string.label_can_you_read);
         japaneseView.setText(word.japanese);
         readingView.setMaxLength(word.reading.length());
+    }
+
+    @Override
+    protected void showAnswer(boolean correct) {
+        //todo
     }
 }
