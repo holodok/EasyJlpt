@@ -56,7 +56,7 @@ public class EnterReadingGameFragment extends WordGameFragment {
         word = (Word) task.value;
         questionView.setText(R.string.label_can_you_read);
         japaneseView.setText(word.japanese);
-        readingView.setMaxLength(word.reading.length());
+        readingView.setExpectedWord(word.reading);
     }
 
     @Override

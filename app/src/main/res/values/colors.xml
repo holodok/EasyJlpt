@@ -17,4 +17,7 @@
 
     <color name="buttonBackground">#893F51B5</color>
     <color name="buttonBackgroundPressed">#3F51B5</color>
+
+    <color name="correctAnswerBorder">#699D00</color>
+    <color name="wrongAnswerBorder">#FF0000</color>
 </resources>

@@ -3,13 +3,13 @@
               android:orientation="vertical"
               android:layout_width="match_parent"
               android:layout_height="match_parent"
+              android:padding="16dp"
               android:gravity="center_horizontal"
               android:background="@color/itemBackground">
     <TextView
             android:id="@+id/question"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="16dp"
             android:layout_marginBottom="8dp"
             android:textSize="12sp"
             android:textColor="@color/colorPrimarySecondaryText"
@@ -18,22 +18,27 @@
             android:id="@+id/japanese"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:padding="12dp"
             android:textSize="18sp"
             android:textColor="@color/primaryText"
             tools:text="WORD"/>
     <View
             android:id="@+id/separator"
             android:layout_width="match_parent"
-            android:layout_margin="16dp"
             android:layout_height="1dp"
             android:background="@color/divider"/>
     <TextView
             android:id="@+id/translation"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="24dp"
+            android:layout_margin="12dp"
             android:textSize="14sp"
             tools:text="Translation"/>
+    <View
+            android:id="@+id/buttonSeparator"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
     <com.gogaworm.easyjlpt.ui.widgets.AnswerButton
             android:id="@+id/firstAnswer"
             android:layout_width="match_parent"

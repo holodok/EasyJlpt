@@ -8,6 +8,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 import com.gogaworm.easyjlpt.R;
 import com.gogaworm.easyjlpt.data.Word;
+import com.gogaworm.easyjlpt.game.GameController;
 import com.gogaworm.easyjlpt.game.Task;
 import com.gogaworm.easyjlpt.game.WordTask;
 import com.gogaworm.easyjlpt.ui.widgets.AnswerButton;
@@ -17,6 +18,9 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
+
+import static android.view.View.GONE;
+import static android.view.View.VISIBLE;
 
 /**
  * Created on 03.04.2017.
@@ -28,8 +32,14 @@ public class SelectWordGameFragment extends WordGameFragment {
     private KanjiKanaView japaneseView;
     private View separatorView;
     private TextView translationView;
+    private View buttonSeparator;
     private AnswerButton[] answerButtons;
+
+    private GameController.GameType gameType;
     private Word[] variants;
+    private int correctIndex;
+    private int userSelectedIndex;
+    private Word word;
 
     @Nullable
     @Override
@@ -39,6 +49,7 @@ public class SelectWordGameFragment extends WordGameFragment {
         japaneseView = (KanjiKanaView) parentView.findViewById(R.id.japanese);
         separatorView = parentView.findViewById(R.id.separator);
         translationView = (TextView) parentView.findViewById(R.id.translation);
+        buttonSeparator = parentView.findViewById(R.id.buttonSeparator);
 
         answerButtons = new AnswerButton[] {
                 (AnswerButton) parentView.findViewById(R.id.firstAnswer),
@@ -49,7 +60,23 @@ public class SelectWordGameFragment extends WordGameFragment {
         View.OnClickListener listener = new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                onUserAnswer(true); //todo: check answer
+                switch (v.getId()) {
+                    case R.id.firstAnswer:
+                        userSelectedIndex = 0;
+                        break;
+                    case R.id.secondAnswer:
+                        userSelectedIndex = 1;
+                        break;
+                    case R.id.thirdAnswer:
+                        userSelectedIndex = 2;
+                        break;
+                    case R.id.forthAnswer:
+                        userSelectedIndex = 3;
+                        break;
+                    default:
+                        return;
+                }
+                onUserAnswer(userSelectedIndex == correctIndex); //todo: check answer
             }
         };
         for (AnswerButton button : answerButtons) {
@@ -57,12 +84,15 @@ public class SelectWordGameFragment extends WordGameFragment {
         }
         variants = new Word[answerButtons.length];
 
+        separatorView.setVisibility(GONE);
+        translationView.setVisibility(GONE);
+
         return parentView;
     }
 
     @Override
     protected void setupTask(Task task) {
-        Word word = ((WordTask) task).value;
+        word = ((WordTask) task).value;
 
         switch (task.gameType) {
             case SELECT_TRANSLATION_BY_READING:
@@ -92,7 +122,7 @@ public class SelectWordGameFragment extends WordGameFragment {
                 new ReadingVariantsGenerator().generateVariants(word);
                 for (int i = 0; i < answerButtons.length; i++) {
                     answerButtons[i].reset();
-                    answerButtons[i].setJapanese("", variants[i].reading);
+                    answerButtons[i].setJapanese(variants[i].hasKanji() ? variants[i].reading : variants[i].japanese, "");
                 }
                 break;
             case SELECT_KANJI_BY_READING:
@@ -116,11 +146,31 @@ public class SelectWordGameFragment extends WordGameFragment {
                 }
                 break;
         }
+        gameType = task.gameType;
     }
 
     @Override
     protected void showAnswer(boolean correct) {
         //todo
+        //hide all but clicked and correct
+        for (int i = 0; i < answerButtons.length; i++) {
+            answerButtons[i].setVisibility(i == correctIndex || i == userSelectedIndex ? VISIBLE : GONE);
+            if (i == correctIndex) {
+                answerButtons[i].highlightCorrect(true);
+            } else if (i == userSelectedIndex) {
+                answerButtons[i].highlightCorrect(false);
+            }
+        }
+        buttonSeparator.setVisibility(GONE);
+
+        //mark correct and incorrect
+
+        switch (gameType) {
+            case SELECT_TRANSLATION_BY_READING:
+            case SELECT_TRANSLATION_BY_KANJI:
+                japaneseView.setText(word.japanese, word.reading);
+                break;
+        }
     }
 
     private abstract class VariantsGenerator {
@@ -135,7 +185,8 @@ public class SelectWordGameFragment extends WordGameFragment {
                 }
             }
 
-            variants[(int) (Math.random() * variants.length)] = taskWord;
+            correctIndex = (int) (Math.random() * variants.length);
+            variants[correctIndex] = taskWord;
         }
 
         abstract boolean equals(Word word1, Word word2);

@@ -10,6 +10,7 @@ import android.util.AttributeSet;
 import android.view.View;
 import com.gogaworm.easyjlpt.R;
 import com.gogaworm.easyjlpt.utils.English2KanaConverter;
+import com.gogaworm.easyjlpt.utils.WanaKanaJava;
 
 import java.io.IOException;
 
@@ -29,6 +30,10 @@ public class EnterKanaView extends View implements KeyboardView.OnKeyPressedList
     private char[] drawChar;
 
     private English2KanaConverter english2KanaConverter;
+    private WanaKanaJava kanaConverter;
+    private String expectedWord;
+    enum KanaType {Hiragana, Katakana, Mixed}
+    private KanaType kanaType;
 
     public EnterKanaView(Context context) {
         this(context, null);
@@ -54,21 +59,26 @@ public class EnterKanaView extends View implements KeyboardView.OnKeyPressedList
 
         drawChar = text.toCharArray();
         english2KanaConverter = new English2KanaConverter();
+        kanaConverter = new WanaKanaJava(false);
     }
 
     public void init() throws IOException {
         english2KanaConverter.initMapping(getContext());
     }
 
-    public void setMaxLength(int maxLength) {
-        this.maxLength = maxLength;
+    public void setExpectedWord(String expectedWord) {
+        this.expectedWord = expectedWord;
+        this.maxLength = expectedWord.length();
+        kanaType = kanaConverter.isHiragana(expectedWord) ? KanaType.Hiragana : kanaConverter.isKatakana(expectedWord) ? KanaType.Katakana : KanaType.Mixed;
         invalidate();
     }
 
     private void onCharacterInput(char ch) {
-        String converted = english2KanaConverter.convert(text + ch);
+        String toConvert = text + ch;
+        String converted = kanaType == KanaType.Hiragana ? kanaConverter.toHiragana(toConvert) : kanaConverter.toKatakana(toConvert);
         if (converted.length() > maxLength) {
-            text = english2KanaConverter.convert(text.substring(0, text.length() - 1) + ch);
+            toConvert = text.substring(0, text.length() - 1) + ch;
+            text = kanaType == KanaType.Hiragana ? kanaConverter.toHiragana(toConvert) : kanaConverter.toKatakana(toConvert);
         } else {
             text = converted;
         }

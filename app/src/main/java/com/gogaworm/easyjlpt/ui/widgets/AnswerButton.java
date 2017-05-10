@@ -38,6 +38,7 @@ public class AnswerButton extends FrameLayout {
         parentView = findViewById(R.id.parentPanel);
         headerView = (KanjiKanaView) findViewById(R.id.answerJapanese);
         subHeaderView = (TextView) findViewById(R.id.answerReading);
+        setClickable(true);
     }
 
     public void setJapanese(String japanese, String reading) {
@@ -55,5 +56,20 @@ public class AnswerButton extends FrameLayout {
         subHeaderView.setText("");
         headerView.setVisibility(GONE);
         subHeaderView.setVisibility(GONE);
+        changeBackground(R.drawable.answer_button_selector);
     }
+
+    public void highlightCorrect(boolean correct) {
+        changeBackground(correct ? R.drawable.correct_answer_background : R.drawable.wrong_answer_background);
+    }
+
+    private void changeBackground(int colorId) {
+        int paddingTop = parentView.getPaddingTop();
+        int paddingLeft = parentView.getPaddingLeft();
+        int paddingRight = parentView.getPaddingRight();
+        int paddingBottom = parentView.getPaddingBottom();
+        parentView.setBackgroundResource(colorId);
+        parentView.setPadding(paddingLeft, paddingTop, paddingRight, paddingBottom);
+    }
+
 }

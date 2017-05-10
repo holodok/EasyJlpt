@@ -73,7 +73,8 @@ public class LearnLessonActivity extends UserSessionLoaderActivity<Word> impleme
 
         switch (task.gameType) {
             case FLASH_CARD:
-                fragment = new FlashCardFragment();
+                //fragment = new FlashCardFragment();
+                fragment = new EnterReadingGameFragment();
                 break;
             case SELECT_TRANSLATION_BY_READING:
                 fragment = new SelectWordGameFragment();
