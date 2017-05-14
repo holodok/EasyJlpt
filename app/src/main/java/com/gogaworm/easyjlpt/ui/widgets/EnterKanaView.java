@@ -24,6 +24,7 @@ public class EnterKanaView extends View implements KeyboardView.OnKeyPressedList
 
     private String text = "";
     private Paint textPaint;
+    private Paint incorrectPaint;
     private Paint linePaint;
     private int strokeWidth;
     private int strokeGap;
@@ -32,6 +33,8 @@ public class EnterKanaView extends View implements KeyboardView.OnKeyPressedList
     private English2KanaConverter english2KanaConverter;
     private WanaKanaJava kanaConverter;
     private String expectedWord;
+    private boolean showDifference;
+
     enum KanaType {Hiragana, Katakana, Mixed}
     private KanaType kanaType;
 
@@ -49,9 +52,12 @@ public class EnterKanaView extends View implements KeyboardView.OnKeyPressedList
         TypedArray typedArray = theme.obtainStyledAttributes(attrs, R.styleable.EnterKanaView, 0, 0);
         textPaint.setColor(typedArray.getColor(R.styleable.EnterKanaView_textColor, getResources().getColor(R.color.primaryText)));
         textPaint.setTextSize(typedArray.getDimensionPixelSize(R.styleable.EnterKanaView_textSize, 14));
+        textPaint.setAntiAlias(true);
         typedArray.recycle();
 
-        textPaint.setAntiAlias(true);
+        incorrectPaint = new TextPaint(textPaint);
+        incorrectPaint.setColor(getResources().getColor(R.color.wrongAnswer));
+
         linePaint.setColor(textPaint.getColor());
         strokeWidth = context.getResources().getDimensionPixelSize(R.dimen.enter_kana_stroke_width);
         linePaint.setStrokeWidth(strokeWidth);
@@ -70,6 +76,11 @@ public class EnterKanaView extends View implements KeyboardView.OnKeyPressedList
         this.expectedWord = expectedWord;
         this.maxLength = expectedWord.length();
         kanaType = kanaConverter.isHiragana(expectedWord) ? KanaType.Hiragana : kanaConverter.isKatakana(expectedWord) ? KanaType.Katakana : KanaType.Mixed;
+        invalidate();
+    }
+
+    public void showDifference() {
+        showDifference = true;
         invalidate();
     }
 
@@ -128,7 +139,7 @@ public class EnterKanaView extends View implements KeyboardView.OnKeyPressedList
         for (int i = 0; i < drawnPlaceholderCount; i++) {
             //draw char if any
             if (i < text.length()) {
-                canvas.drawText(drawChar, i, 1, x, y, textPaint);
+                canvas.drawText(drawChar, i, 1, x, y, showDifference ? (drawChar[i] == expectedWord.charAt(i) ? textPaint : incorrectPaint) : textPaint);
             }
 
             canvas.drawLine(x, y  + strokeWidth * 2, x + placeHolderWidth, y + strokeWidth * 2, linePaint);

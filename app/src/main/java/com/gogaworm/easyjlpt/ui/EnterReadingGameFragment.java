@@ -24,6 +24,7 @@ public class EnterReadingGameFragment extends WordGameFragment {
     private TextView japaneseView;
     private EnterKanaView readingView;
     private Word word;
+    private KeyboardView keyboardView;
 
     @Nullable
     @Override
@@ -32,7 +33,7 @@ public class EnterReadingGameFragment extends WordGameFragment {
         questionView = (TextView) parentView.findViewById(R.id.question);
         japaneseView = (TextView) parentView.findViewById(R.id.japanese);
         readingView = (EnterKanaView) parentView.findViewById(R.id.reading);
-        KeyboardView keyboardView = (KeyboardView) parentView.findViewById(R.id.keyboard);
+        keyboardView = (KeyboardView) parentView.findViewById(R.id.keyboard);
         keyboardView.setOnKeyPressedListener(readingView);
 
         try {
@@ -44,7 +45,6 @@ public class EnterReadingGameFragment extends WordGameFragment {
         parentView.findViewById(R.id.submitButton).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //todo: check answer, show error
                 onUserAnswer(word.reading.equals(readingView.getText()));
             }
         });
@@ -61,6 +61,10 @@ public class EnterReadingGameFragment extends WordGameFragment {
 
     @Override
     protected void showAnswer(boolean correct) {
-        //todo
+        if (!correct) {
+            //show incorrect
+            readingView.showDifference();
+        }
+        keyboardView.setVisibility(View.INVISIBLE);
     }
 }
