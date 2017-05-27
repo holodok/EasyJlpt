@@ -14,7 +14,7 @@ import java.util.List;
 public class TaskCreator {
     private List<Task> tasks = new ArrayList<>();
 
-    public void addWords(int sectionId, int lessonId, List<Word> words) {
+    public void addWords(List<Word> words) {
         for (Word word : words) {
             tasks.add(new WordTask(word));
         }

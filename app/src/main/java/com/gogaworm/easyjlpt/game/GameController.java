@@ -24,6 +24,7 @@ public class GameController {
     }
 
     private List<Task> tasks = new LinkedList<>();
+    //todo: create other arrays for second run and separate for wrong answers
     private int currentIndex;
 
     private OnGameStateChangedListener listener;

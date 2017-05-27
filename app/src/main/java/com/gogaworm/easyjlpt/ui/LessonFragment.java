@@ -87,6 +87,7 @@ public class LessonFragment extends JlptListFragment<Lesson, Lesson> {
             private final ArcProgress progressView;
             private final KanjiKanaView kanjiView;
             private final TextView translationView;
+            private final View flashCardsButton;
             private final View learnButton;
             private final View examButton;
             // each data item is just a string in this case
@@ -97,6 +98,7 @@ public class LessonFragment extends JlptListFragment<Lesson, Lesson> {
                 progressView = (ArcProgress) view.findViewById(R.id.progress);
                 kanjiView = (KanjiKanaView) view.findViewById(R.id.kanjiView);
                 translationView = (TextView) view.findViewById(R.id.translation);
+                flashCardsButton = view.findViewById(R.id.flashCardButton);
                 learnButton = view.findViewById(R.id.learnButton);
                 examButton = view.findViewById(R.id.examButton);
             }
@@ -106,6 +108,16 @@ public class LessonFragment extends JlptListFragment<Lesson, Lesson> {
                 progressView.setProgress(100);
                 kanjiView.setText(value.title.japanese, value.title.reading);
                 translationView.setText(value.title.translation);
+                flashCardsButton.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        //todo: open lesson
+                        Intent intent = new Intent(getContext(), FlashCardsActivity.class);
+                        intent.putExtra("userSession", userSession);
+                        intent.putExtra("lessonId", value.id + sectionId * 10);
+                        startActivity(intent);
+                    }
+                });
                 learnButton.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {

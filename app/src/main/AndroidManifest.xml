@@ -20,6 +20,7 @@
         </activity>
         <activity android:name=".ui.LessonListActivity"/>
         <activity android:name=".ui.LearnLessonActivity"/>
+        <activity android:name=".ui.FlashCardsActivity"/>
     </application>
 
 </manifest>
