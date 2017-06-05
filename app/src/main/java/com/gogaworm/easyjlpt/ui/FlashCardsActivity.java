@@ -3,6 +3,7 @@ package com.gogaworm.easyjlpt.ui;
 import android.os.Bundle;
 import android.support.v4.content.Loader;
 import android.support.v4.view.GestureDetectorCompat;
+import android.support.v7.app.ActionBar;
 import android.support.v7.widget.Toolbar;
 import android.view.*;
 import android.widget.Button;
@@ -37,17 +38,16 @@ public class FlashCardsActivity extends UserSessionLoaderActivity<Word> {
 
     private int currentWordIndex;
     private List<Task> tasks;
+    private boolean taskNotAnswered;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         lessonId = getIntent().getIntExtra("lessonId", 0);
 
-        toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
+        ActionBar actionBar = getSupportActionBar();
 
-        ViewGroup contentPanel = (ViewGroup) findViewById(R.id.content);
-        LayoutInflater.from(this).inflate(R.layout.flash_card, contentPanel, false);
+        View contentPanel = LayoutInflater.from(this).inflate(R.layout.flash_card, (ViewGroup) findViewById(R.id.content), true);
 
         questionView = (TextView) findViewById(R.id.question);
         kanjiView = (TextView) findViewById(R.id.japanese);
@@ -59,7 +59,12 @@ public class FlashCardsActivity extends UserSessionLoaderActivity<Word> {
         yesButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                if (taskNotAnswered) {
+                    showAnswer();
+                } else {
+                    showTask(); //todo: move to next
+                }
+                taskNotAnswered = !taskNotAnswered;
             }
         });
 
@@ -70,7 +75,7 @@ public class FlashCardsActivity extends UserSessionLoaderActivity<Word> {
                 if (delta > 100) {
                     boolean moveForward = delta > 0f;
                     currentWordIndex += moveForward ? 1 : -1;
-                    initCard();
+                    //initCard();
                     return true;
                 }
                 return false;
@@ -78,7 +83,7 @@ public class FlashCardsActivity extends UserSessionLoaderActivity<Word> {
 
             @Override
             public boolean onDown(MotionEvent e) {
-                showCard();
+                //showCard();
                 return true;
             }
         });
@@ -137,7 +142,7 @@ public class FlashCardsActivity extends UserSessionLoaderActivity<Word> {
     }
 
     private void initCard() {
-        loadWord(showKanji, showReading, showTranslation);
+        loadWord(true, true, false);
     }
 
     private void showCard() {
@@ -151,11 +156,11 @@ public class FlashCardsActivity extends UserSessionLoaderActivity<Word> {
 */
 
         if (currentWordIndex >= 0 || currentWordIndex < tasks.size()) {
-            Word word = tasks.get(currentWordIndex);
+            Word word = (Word) tasks.get(currentWordIndex).value;
             kanjiView.setText(showKanji ? word.japanese : "");
             readingView.setText(showReading ? word.reading : "");
             translationView.setText(showTranslation ? word.translation : "");
-            toolbar.setTitle(getString(R.string.flash_cards_title, (currentWordIndex + 1), tasks.size()));
+            //toolbar.setTitle(getString(R.string.flash_cards_title, (currentWordIndex + 1), tasks.size()));
         } else {
             finish(); //todo: ask to start from the beginning
         }
