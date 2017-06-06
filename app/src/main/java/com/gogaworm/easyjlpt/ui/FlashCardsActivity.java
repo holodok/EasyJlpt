@@ -2,22 +2,21 @@ package com.gogaworm.easyjlpt.ui;
 
 import android.os.Bundle;
 import android.support.v4.content.Loader;
-import android.support.v4.view.GestureDetectorCompat;
 import android.support.v7.app.ActionBar;
-import android.support.v7.widget.Toolbar;
-import android.view.*;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
 import com.gogaworm.easyjlpt.R;
 import com.gogaworm.easyjlpt.data.Word;
-import com.gogaworm.easyjlpt.game.Task;
-import com.gogaworm.easyjlpt.game.TaskCreator;
-import com.gogaworm.easyjlpt.game.WordTask;
 import com.gogaworm.easyjlpt.loaders.WordListLoader;
 import com.gogaworm.easyjlpt.utils.Constants;
 
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.Random;
 
 /**
  * Created on 24.05.2017.
@@ -27,18 +26,17 @@ import java.util.List;
 public class FlashCardsActivity extends UserSessionLoaderActivity<Word> {
     private int lessonId;
 
-    private Toolbar toolbar;
     private TextView questionView;
     private TextView kanjiView;
     private TextView readingView;
     private TextView translationView;
     private Button yesButton;
     private Button noButton;
-    private GestureDetectorCompat detector;
 
-    private int currentWordIndex;
-    private List<Task> tasks;
     private boolean taskNotAnswered;
+
+    private SimpleGameController simpleGameController;
+    private Word word;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,7 +45,7 @@ public class FlashCardsActivity extends UserSessionLoaderActivity<Word> {
 
         ActionBar actionBar = getSupportActionBar();
 
-        View contentPanel = LayoutInflater.from(this).inflate(R.layout.flash_card, (ViewGroup) findViewById(R.id.content), true);
+        LayoutInflater.from(this).inflate(R.layout.flash_card, (ViewGroup) findViewById(R.id.content), true);
 
         questionView = (TextView) findViewById(R.id.question);
         kanjiView = (TextView) findViewById(R.id.japanese);
@@ -59,42 +57,28 @@ public class FlashCardsActivity extends UserSessionLoaderActivity<Word> {
         yesButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (taskNotAnswered) {
-                    showAnswer();
-                } else {
-                    showTask(); //todo: move to next
-                }
-                taskNotAnswered = !taskNotAnswered;
+                onUserAnswer(true);
+            }
+        });
+        noButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                onUserAnswer(false);
             }
         });
 
-        detector = new GestureDetectorCompat(this, new GestureDetector.SimpleOnGestureListener() {
-            @Override
-            public boolean onFling(MotionEvent e1, MotionEvent e2, float velocityX, float velocityY) {
-                float delta = e1.getX() - e2.getX();
-                if (delta > 100) {
-                    boolean moveForward = delta > 0f;
-                    currentWordIndex += moveForward ? 1 : -1;
-                    //initCard();
-                    return true;
-                }
-                return false;
-            }
-
-            @Override
-            public boolean onDown(MotionEvent e) {
-                //showCard();
-                return true;
-            }
-        });
-
+        simpleGameController = new SimpleGameController();
         getSupportLoaderManager().initLoader(Constants.LOADER_ID_WORD_LIST, null, this).forceLoad();
     }
 
-    @Override
-    public boolean onTouchEvent(MotionEvent event){
-        detector.onTouchEvent(event);
-        return super.onTouchEvent(event);
+    private void onUserAnswer(boolean correct) {
+        if (taskNotAnswered) {
+            showAnswer();
+        } else {
+            simpleGameController.onAnswered(word, correct);
+            showTask(); //todo: move to next
+        }
+        taskNotAnswered = !taskNotAnswered;
     }
 
     @Override
@@ -104,65 +88,95 @@ public class FlashCardsActivity extends UserSessionLoaderActivity<Word> {
 
     @Override
     public void onLoadFinished(Loader<List<Word>> loader, List<Word> data) {
-        TaskCreator taskCreator = new TaskCreator();
-        taskCreator.addWords(data);
-        this.tasks = taskCreator.generateLearnSession();
-        //randomize tasks
-        Collections.shuffle(this.tasks);
-        currentWordIndex = 0;
-
+        simpleGameController.init(data);
+        taskNotAnswered = true;
         //show first card
         showTask();
     }
 
     private void showTask() {
-        WordTask task = (WordTask) tasks.get(currentWordIndex);
-
-        kanjiView.setText(task.value.japanese);
-        readingView.setVisibility(View.GONE);
-        translationView.setVisibility(View.GONE);
-        noButton.setVisibility(View.GONE);
+        word = simpleGameController.getNextWord();
+        if (word == null) {
+            finish();
+        } else {
+            questionView.setText(R.string.label_do_you_know_word);
+            kanjiView.setText(word.japanese);
+            readingView.setVisibility(View.GONE);
+            translationView.setVisibility(View.GONE);
+            yesButton.setText(R.string.button_check);
+            noButton.setVisibility(View.GONE);
+        }
     }
 
     private void showAnswer() {
-        WordTask task = (WordTask) tasks.get(currentWordIndex);
-
-        kanjiView.setText(task.value.japanese);
-        readingView.setText(task.value.reading);
-        translationView.setText(task.value.translation);
+        questionView.setText(R.string.label_is_it_correct);
+        kanjiView.setText(word.japanese);
+        readingView.setText(word.reading);
+        translationView.setText(word.translation);
 
         readingView.setVisibility(View.VISIBLE);
         translationView.setVisibility(View.VISIBLE);
+        yesButton.setText(R.string.button_yes);
         noButton.setVisibility(View.VISIBLE);
     }
 
-    private void moveToCard(boolean next) {
-        currentWordIndex += next ? 1 : -1;
-        initCard();
+    class SimpleGameController {
+        List<Word> words;
+        int index;
+
+        void init(List<Word> words) {
+            this.words = new ArrayList<>(words);
+            Collections.shuffle(this.words);
+            index = 0;
+        }
+
+        Word getNextWord() {
+            return index == this.words.size() ? null : words.get(index++);
+        }
+
+        void onAnswered(Word word, boolean correct) {
+            // put as last item and add last check time to prevent repeating one card twice
+            if (!correct) {
+                int insertIndex = Math.min(words.size(), index + new Random(System.currentTimeMillis()).nextInt(3) + 1);
+                this.words.add(insertIndex, word);
+            }
+        }
     }
 
-    private void initCard() {
-        loadWord(true, true, false);
-    }
+    class GameController {
+        List<Word>[] boxes;
+        int index;
+        int switchTime;
 
-    private void showCard() {
-        loadWord(true, true, true);
-    }
+        void init(List<Word> words) {
+            boxes =  new List[] {
+                    new ArrayList<>(words),
+                    new ArrayList<>(words.size()),
+                    new ArrayList<>(words.size())
+            };
+            index = 0;
+            switchTime = 3;
+        }
 
-    private void loadWord(boolean showKanji, boolean showReading, boolean showTranslation) {
-/*
-        previousButton.setVisibility(currentWordIndex > 0 ? View.VISIBLE : View.GONE);
-        nextButton.setVisibility(currentWordIndex < tasks.size() - 1 ? View.VISIBLE : View.GONE);
-*/
+        Word getNextWord() {
+            if (boxes[index].isEmpty() || switchTime == 0) {
+                //move to other
+                int newIndex = index;
+                do {
+                    newIndex = newIndex + 1 < boxes.length ? newIndex + 1 : 0;
+                } while (newIndex != index && boxes[newIndex].isEmpty());
+                if (newIndex == index) {
+                    return null;
+                }
+                index = newIndex;
+                switchTime = 3;
+            }
+            switchTime--;
+            return boxes[index].remove(0);
+        }
 
-        if (currentWordIndex >= 0 || currentWordIndex < tasks.size()) {
-            Word word = (Word) tasks.get(currentWordIndex).value;
-            kanjiView.setText(showKanji ? word.japanese : "");
-            readingView.setText(showReading ? word.reading : "");
-            translationView.setText(showTranslation ? word.translation : "");
-            //toolbar.setTitle(getString(R.string.flash_cards_title, (currentWordIndex + 1), tasks.size()));
-        } else {
-            finish(); //todo: ask to start from the beginning
+        void onAnswered(Word word, boolean correct) {
+            // put as last item and add last check time to prevent repeating one card twice
         }
     }
 }

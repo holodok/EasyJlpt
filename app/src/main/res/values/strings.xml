@@ -12,8 +12,10 @@
     <string name="label_can_you_read">Как читается?</string>
     <string name="button_submit">Дальше</string>
     <string name="label_do_you_know_word">Знаешь это слово?</string>
+    <string name="label_is_it_correct">Верно?</string>
     <string name="label_can_you_translate">Как это перевести?</string>
     <string name="label_do_you_know">Знаешь слово?</string>
     <string name="button_no">Нет</string>
     <string name="button_yes">Да</string>
+    <string name="button_check">Ответ</string>
 </resources>
