@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
-        changeFragment(0);
+        changeFragment(R.id.nav_vocabulary_n2);
     }
 
     @Override
@@ -83,36 +83,22 @@ public class MainActivity extends AppCompatActivity
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
-        int id = item.getItemId();
-
-        if (id == R.id.nav_camera) {
-            // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
-
-        } else if (id == R.id.nav_slideshow) {
-
-        } else if (id == R.id.nav_manage) {
-
-        } else if (id == R.id.nav_share) {
-
-        } else if (id == R.id.nav_send) {
-
-        }
-
+        changeFragment(item.getItemId());
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
 
-    private void changeFragment(int position) {
+    private void changeFragment(int resId) {
         FragmentManager fragmentManager = getSupportFragmentManager();
         Fragment fragment = null;
 
-        UserSession userSession = new UserSession(UserSession.Mode.VOCABULARY, UserSession.Level.N2);
-
-        switch (position) {
-            case 0:
-                fragment = JlptListFragment.setArguments(new SectionFragment(), userSession);
+        switch (resId) {
+            case R.id.nav_vocabulary_n2:
+                fragment = JlptListFragment.setArguments(new SectionFragment(), new UserSession(UserSession.Mode.VOCABULARY, UserSession.Level.N2));
+                break;
+            case R.id.nav_kanji_n2:
+                fragment = JlptListFragment.setArguments(new SectionFragment(), new UserSession(UserSession.Mode.KANJI, UserSession.Level.N2));
                 break;
         }
         fragmentManager.beginTransaction().replace(R.id.content, fragment).commit();

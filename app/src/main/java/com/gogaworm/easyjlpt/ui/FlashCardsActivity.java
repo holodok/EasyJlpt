@@ -10,6 +10,7 @@ import android.widget.Button;
 import android.widget.TextView;
 import com.gogaworm.easyjlpt.R;
 import com.gogaworm.easyjlpt.data.Word;
+import com.gogaworm.easyjlpt.loaders.KanjiWordListLoader;
 import com.gogaworm.easyjlpt.loaders.WordListLoader;
 import com.gogaworm.easyjlpt.utils.Constants;
 
@@ -83,7 +84,13 @@ public class FlashCardsActivity extends UserSessionLoaderActivity<Word> {
 
     @Override
     protected Loader<List<Word>> createLoader(String folder) {
-        return new WordListLoader(this, folder, lessonId);
+        switch (userSession.mode) {
+            case VOCABULARY:
+                return new WordListLoader(this, folder, lessonId);
+            case KANJI:
+                return new KanjiWordListLoader(this, folder, lessonId);
+        }
+        return null;
     }
 
     @Override

@@ -18,4 +18,6 @@
     <string name="button_no">Нет</string>
     <string name="button_yes">Да</string>
     <string name="button_check">Ответ</string>
+    <string name="menu_vocabulary_n2">Слова</string>
+    <string name="menu_kanji_n2">Канджи</string>
 </resources>

@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
     <android.support.v7.widget.CardView
-            xmlns:android="http://schemas.android.com/apk/res/android"
-            xmlns:card_view="http://schemas.android.com/apk/res-auto"
-            xmlns:app="http://schemas.android.com/apk/res-auto"
-            xmlns:tools="http://schemas.android.com/tools"
-
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            card_view:cardPreventCornerOverlap="false"
-            card_view:cardUseCompatPadding="true"
-            card_view:cardCornerRadius="8dp">
+            card_view:cardUseCompatPadding="true">
         <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
-
             <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -29,9 +28,8 @@
                         app:arc_suffix_text_padding="2dp"
                         android:layout_marginRight="8dp"/>
                 <LinearLayout
-                        android:layout_width="0dp"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1"
                         android:orientation="vertical">
                     <com.gogaworm.easyjlpt.ui.widgets.KanjiKanaView
                             android:id="@+id/kanjiView"
@@ -39,6 +37,7 @@
                             android:layout_height="wrap_content"
                             android:textSize="16sp"
                             android:textColor="@color/primaryText"
+                            android:background="@color/divider"
                             tools:text="Japanese"/>
                     <TextView
                             android:id="@+id/translation"
@@ -78,3 +77,4 @@
             </LinearLayout>
         </LinearLayout>
     </android.support.v7.widget.CardView>
+</FrameLayout>

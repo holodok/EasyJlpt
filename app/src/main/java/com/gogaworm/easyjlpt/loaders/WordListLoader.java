@@ -40,7 +40,13 @@ public class WordListLoader extends JlptDataLoader<Word> {
     @Override
     protected void parseJson(List<Word> results, String json) throws JSONException {
         JSONObject root = new JSONObject(json);
-        JSONArray jsonWords = root.getJSONArray("words");
+        JSONArray jsonWords = root.optJSONArray("words");
+        if (jsonWords != null) {
+            parseWords(jsonWords, results);
+        }
+    }
+
+    void parseWords(JSONArray jsonWords, List<Word> results) throws JSONException {
         for (int i = 0; i < jsonWords.length(); i++) {
             JSONObject jsonWord = jsonWords.getJSONObject(i);
             results.add(new Word(

@@ -60,7 +60,7 @@ public class KanjiKanaSpannableString extends SpannableString {
     }
 
     private boolean isSeparator(char ch) {
-        return ch == ' ' || ch == '、' || Character.isDigit(ch) || ch == '・' || ch == '。';
+        return Character.isDigit(ch) || Character.isSpaceChar(ch) || Character.isWhitespace(ch) || ch == '・' || ch == 'っ';
     }
 
     class DoubleHeightSpan implements LineHeightSpan {

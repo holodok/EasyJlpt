@@ -20,16 +20,14 @@
                 android:title="Tools"/>
     </group>
 
-    <item android:title="Communicate">
+    <item android:title="N2">
         <menu>
             <item
-                    android:id="@+id/nav_share"
-                    android:icon="@drawable/ic_menu_share"
-                    android:title="Share"/>
+                    android:id="@+id/nav_vocabulary_n2"
+                    android:title="@string/menu_vocabulary_n2"/>
             <item
-                    android:id="@+id/nav_send"
-                    android:icon="@drawable/ic_menu_send"
-                    android:title="Send"/>
+                    android:id="@+id/nav_kanji_n2"
+                    android:title="@string/menu_kanji_n2"/>
         </menu>
     </item>
 
