@@ -118,10 +118,13 @@ public class FlashCardsActivity extends UserSessionLoaderActivity<Word> {
     private void showAnswer() {
         questionView.setText(R.string.label_is_it_correct);
         kanjiView.setText(word.japanese);
-        readingView.setText(word.reading);
-        translationView.setText(word.translation);
 
-        readingView.setVisibility(View.VISIBLE);
+        if (word.hasKanji()) {
+            readingView.setText(word.reading);
+            readingView.setVisibility(View.VISIBLE);
+        }
+
+        translationView.setText(word.translation);
         translationView.setVisibility(View.VISIBLE);
         yesButton.setText(R.string.button_yes);
         noButton.setVisibility(View.VISIBLE);
@@ -153,6 +156,7 @@ public class FlashCardsActivity extends UserSessionLoaderActivity<Word> {
                 this.tasks.add(insertIndex, task);
             }
             task.wasWrong = !correct;
+            index++;
         }
     }
 
