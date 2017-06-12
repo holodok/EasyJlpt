@@ -128,25 +128,40 @@ public class FlashCardsActivity extends UserSessionLoaderActivity<Word> {
     }
 
     class SimpleGameController {
-        List<Word> words;
+        List<FlashCardTask> tasks;
         int index;
+        Random random = new Random(System.currentTimeMillis());
 
         void init(List<Word> words) {
-            this.words = new ArrayList<>(words);
-            Collections.shuffle(this.words);
+            tasks = new ArrayList<>();
+            for (Word word : words) {
+                tasks.add(new FlashCardTask(word));
+            }
+            Collections.shuffle(this.tasks);
             index = 0;
         }
 
         Word getNextWord() {
-            return index == this.words.size() ? null : words.get(index++);
+            return index == this.tasks.size() ? null : tasks.get(index).word;
         }
 
         void onAnswered(Word word, boolean correct) {
             // put as last item and add last check time to prevent repeating one card twice
-            if (!correct) {
-                int insertIndex = Math.min(words.size(), index + new Random(System.currentTimeMillis()).nextInt(3) + 1);
-                this.words.add(insertIndex, word);
+            FlashCardTask task = tasks.get(index);
+            if (!correct || task.wasWrong) {
+                int insertIndex = Math.min(tasks.size(), index + random.nextInt(5) + 1);
+                this.tasks.add(insertIndex, task);
             }
+            task.wasWrong = !correct;
+        }
+    }
+
+    class FlashCardTask {
+        Word word;
+        boolean wasWrong;
+
+        FlashCardTask(Word word) {
+            this.word = word;
         }
     }
 

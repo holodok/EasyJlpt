@@ -16,8 +16,6 @@ public class KanjiKanaSpannableString extends SpannableString {
     public KanjiKanaSpannableString(String japanese, String reading) {
         super(japanese);
 
-        setSpan(new DoubleHeightSpan(), 0, japanese.length(), 0);
-
         int startKanji = 0;
         int startKana = 0;
         for (int i = 0; i < japanese.length(); i++) {
@@ -63,20 +61,13 @@ public class KanjiKanaSpannableString extends SpannableString {
         return Character.isDigit(ch) || Character.isSpaceChar(ch) || Character.isWhitespace(ch) || ch == '・' || ch == 'っ';
     }
 
-    class DoubleHeightSpan implements LineHeightSpan {
-        @Override
-        public void chooseHeight(CharSequence text, int start, int end, int spanstartv, int v, Paint.FontMetricsInt fm) {
-            int size = (-fm.top + fm.bottom) / 2;
-            fm.top = fm.top - size;
-        }
-    }
-
-    public static class KanjiSpan extends ReplacementSpan {
+    public static class KanjiSpan extends ReplacementSpan implements LineHeightSpan {
         CharSequence kanji;
         CharSequence kana;
 
         private int kanjiWidth;
         private int kanaWidth;
+        private float textSize;
 
         KanjiSpan(CharSequence kanji, CharSequence kana) {
             this.kanji = kanji;
@@ -89,7 +80,7 @@ public class KanjiKanaSpannableString extends SpannableString {
             paint.getTextBounds(kanji.toString(), 0, kanji.length(), bounds);
             kanjiWidth = bounds.width();
 
-            float textSize = paint.getTextSize();
+            textSize = paint.getTextSize();
             paint.setTextSize(textSize / 2);
             bounds = new Rect();
             paint.getTextBounds(kana.toString(), 0, kana.length(), bounds);
@@ -103,7 +94,6 @@ public class KanjiKanaSpannableString extends SpannableString {
         public void draw(Canvas canvas, CharSequence text, int start, int end, float x, int top, int y, int bottom, Paint paint) {
             int width = Math.max(kanjiWidth, kanaWidth);
 
-            float textSize = paint.getTextSize();
             int alpha = paint.getAlpha();
 
             paint.setTextSize(textSize / 2);
@@ -113,6 +103,19 @@ public class KanjiKanaSpannableString extends SpannableString {
             paint.setTextSize(textSize);
             paint.setAlpha(alpha);
             canvas.drawText(kanji.toString(), x + width / 2 - kanjiWidth / 2, y, paint);
+        }
+
+        @Override
+        public void chooseHeight(CharSequence text, int start, int end, int spanstartv, int v, Paint.FontMetricsInt fm) {
+            int ht = (int) (textSize * 2);
+
+            int need = ht - (v + fm.descent - fm.ascent - spanstartv);
+            if (need > 0)
+                fm.descent += need;
+
+            need = ht - (v + fm.bottom - fm.top - spanstartv);
+            if (need > 0)
+                fm.top -= need;
         }
     }
 
