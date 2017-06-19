@@ -152,7 +152,8 @@ public class FlashCardsActivity extends UserSessionLoaderActivity<Word> {
             // put as last item and add last check time to prevent repeating one card twice
             FlashCardTask task = tasks.get(index);
             if (!correct || task.wasWrong) {
-                int insertIndex = Math.min(tasks.size(), index + random.nextInt(5) + 1);
+                int nextIndexMin = !correct ? 3 : 6;
+                int insertIndex = Math.min(tasks.size(), index + random.nextInt(nextIndexMin) + 2);
                 this.tasks.add(insertIndex, task);
             }
             task.wasWrong = !correct;
