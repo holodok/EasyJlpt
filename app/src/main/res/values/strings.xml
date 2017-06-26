@@ -20,4 +20,5 @@
     <string name="button_check">Ответ</string>
     <string name="menu_vocabulary_n2">Слова</string>
     <string name="menu_kanji_n2">Канджи</string>
+    <string name="messageLeaveFlashCards">Выйти из режима карточек?</string>
 </resources>

@@ -1,8 +1,10 @@
 package com.gogaworm.easyjlpt.ui;
 
+import android.content.DialogInterface;
 import android.os.Bundle;
 import android.support.v4.content.Loader;
 import android.support.v7.app.ActionBar;
+import android.support.v7.app.AlertDialog;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -128,6 +130,21 @@ public class FlashCardsActivity extends UserSessionLoaderActivity<Word> {
         translationView.setVisibility(View.VISIBLE);
         yesButton.setText(R.string.button_yes);
         noButton.setVisibility(View.VISIBLE);
+    }
+
+    @Override
+    public void onBackPressed() {
+        //show dialog
+        new AlertDialog.Builder(this)
+                .setMessage(R.string.messageLeaveFlashCards)
+                .setPositiveButton(android.R.string.ok, new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        finish();
+                    }
+                })
+                .setNegativeButton(android.R.string.cancel, null)
+        .show();
     }
 
     class SimpleGameController {
