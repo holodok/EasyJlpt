@@ -7,6 +7,7 @@ import android.support.annotation.Nullable;
 import android.support.v4.content.Loader;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageButton;
 import android.widget.TextView;
 import com.gogaworm.easyjlpt.R;
 import com.gogaworm.easyjlpt.data.Lesson;
@@ -25,12 +26,12 @@ import static com.gogaworm.easyjlpt.utils.Constants.LOADER_ID_LESSON;
  *
  * @author ikarpova
  */
-public class LessonFragment extends JlptListFragment<Lesson, Lesson> {
+public class LessonFragment extends RecyclerViewFragment<Lesson, Lesson> {
     private int sectionId;
 
     public static LessonFragment getInstance(UserSession userSession, int sectionId) {
         LessonFragment lessonFragment = new LessonFragment();
-        JlptListFragment.setArguments(lessonFragment, userSession);
+        UserSessionFragment.setArguments(lessonFragment, userSession);
         lessonFragment.getArguments().putInt("sectionId", sectionId);
         return lessonFragment;
     }
@@ -87,6 +88,7 @@ public class LessonFragment extends JlptListFragment<Lesson, Lesson> {
             private final ArcProgress progressView;
             private final KanjiKanaView kanjiView;
             private final TextView translationView;
+            private final ImageButton viewButton;
             private final View flashCardsButton;
             private final View learnButton;
             private final View examButton;
@@ -98,23 +100,33 @@ public class LessonFragment extends JlptListFragment<Lesson, Lesson> {
                 progressView = (ArcProgress) view.findViewById(R.id.progress);
                 kanjiView = (KanjiKanaView) view.findViewById(R.id.kanjiView);
                 translationView = (TextView) view.findViewById(R.id.translation);
+                viewButton = (ImageButton) view.findViewById(R.id.viewButton);
                 flashCardsButton = view.findViewById(R.id.flashCardButton);
                 learnButton = view.findViewById(R.id.learnButton);
                 examButton = view.findViewById(R.id.examButton);
             }
 
             @Override
-            protected void bindViewHolder(Context context, final Lesson value) {
+            protected void bindViewHolder(Context context, final Lesson lesson) {
                 progressView.setProgress(100);
-                kanjiView.setText(value.title.japanese, value.title.reading);
-                translationView.setText(value.title.translation);
+                kanjiView.setText(lesson.title.japanese, lesson.title.reading);
+                translationView.setText(lesson.title.translation);
+                viewButton.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent intent = new Intent(getContext(), ViewLessonContentActivity.class);
+                        intent.putExtra("userSession", userSession);
+                        intent.putExtra("lesson", lesson);
+                        startActivity(intent);
+                    }
+                });
                 flashCardsButton.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
                         //todo: open lesson
                         Intent intent = new Intent(getContext(), FlashCardsActivity.class);
                         intent.putExtra("userSession", userSession);
-                        intent.putExtra("lessonId", value.id + sectionId * 10);
+                        intent.putExtra("lessonId", lesson.trainId);
                         startActivity(intent);
                     }
                 });
@@ -124,7 +136,7 @@ public class LessonFragment extends JlptListFragment<Lesson, Lesson> {
                         //todo: open lesson
                         Intent intent = new Intent(getContext(), LearnLessonActivity.class);
                         intent.putExtra("userSession", userSession);
-                        intent.putExtra("lessonId", value.id + sectionId * 10);
+                        intent.putExtra("lessonId", lesson.trainId);
                         startActivity(intent);
                     }
                 });
@@ -134,7 +146,7 @@ public class LessonFragment extends JlptListFragment<Lesson, Lesson> {
                         //todo: open exam
                         Intent intent = new Intent(getContext(), LearnLessonActivity.class); //change activity
                         intent.putExtra("userSession", userSession);
-                        intent.putExtra("lessonId", value.id + sectionId * 10);
+                        intent.putExtra("lessonId", lesson.trainId);
                         startActivity(intent);
                     }
                 });

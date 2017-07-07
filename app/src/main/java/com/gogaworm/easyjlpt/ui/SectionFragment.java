@@ -22,7 +22,7 @@ import static com.gogaworm.easyjlpt.utils.Constants.LOADER_ID_SECTION;
  *
  * @author ikarpova
  */
-public class SectionFragment extends JlptListFragment<Section, Section> {
+public class SectionFragment extends RecyclerViewFragment<Section, Section> {
 
     @Override
     protected int getLoaderId() {
@@ -62,8 +62,7 @@ public class SectionFragment extends JlptListFragment<Section, Section> {
 
         @Override
         public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-            View view = inflateView(parent, R.layout.list_item_section);
-            return new SectionViewHolder(view);
+            return new SectionViewHolder(inflateView(parent, R.layout.list_item_section));
         }
 
         class SectionViewHolder extends ViewHolder {
@@ -79,7 +78,7 @@ public class SectionFragment extends JlptListFragment<Section, Section> {
                 progressView = (ArcProgress) view.findViewById(R.id.progress);
                 kanjiView = (KanjiKanaView) view.findViewById(R.id.kanjiView);
                 translationView = (TextView) view.findViewById(R.id.translation);
-                openButton = view.findViewById(R.id.openButton);
+                openButton = view.findViewById(R.id.viewButton);
             }
 
             @Override

@@ -95,10 +95,13 @@ public class MainActivity extends AppCompatActivity
 
         switch (resId) {
             case R.id.nav_vocabulary_n2:
-                fragment = JlptListFragment.setArguments(new SectionFragment(), new UserSession(UserSession.Mode.VOCABULARY, UserSession.Level.N2));
+                fragment = UserSessionFragment.setArguments(new SectionFragment(), new UserSession(UserSession.Mode.VOCABULARY, UserSession.Level.N2));
                 break;
             case R.id.nav_kanji_n2:
-                fragment = JlptListFragment.setArguments(new SectionFragment(), new UserSession(UserSession.Mode.KANJI, UserSession.Level.N2));
+                fragment = UserSessionFragment.setArguments(new SectionFragment(), new UserSession(UserSession.Mode.KANJI, UserSession.Level.N2));
+                break;
+            case R.id.nav_grammar_n2:
+                fragment = UserSessionFragment.setArguments(new SectionFragment(), new UserSession(UserSession.Mode.GRAMMAR, UserSession.Level.N2));
                 break;
         }
         fragmentManager.beginTransaction().replace(R.id.content, fragment).commit();

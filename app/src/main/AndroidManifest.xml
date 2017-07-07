@@ -21,6 +21,7 @@
         <activity android:name=".ui.LessonListActivity"/>
         <activity android:name=".ui.LearnLessonActivity"/>
         <activity android:name=".ui.FlashCardsActivity"/>
+        <activity android:name=".ui.ViewLessonContentActivity"/>
     </application>
 
 </manifest>

@@ -6,6 +6,9 @@ import android.graphics.Rect;
 import android.text.SpannableString;
 import android.text.style.LineHeightSpan;
 import android.text.style.ReplacementSpan;
+import android.util.Log;
+
+import static android.text.TextUtils.isEmpty;
 
 /**
  * Created on 08.05.2017.
@@ -15,6 +18,9 @@ import android.text.style.ReplacementSpan;
 public class KanjiKanaSpannableString extends SpannableString {
     public KanjiKanaSpannableString(String japanese, String reading) {
         super(japanese);
+        if (isEmpty(reading) || japanese.equals(reading)) {
+            return;
+        }
 
         int startKanji = 0;
         int startKana = 0;
@@ -37,20 +43,24 @@ public class KanjiKanaSpannableString extends SpannableString {
                         break;
                     }
                 }
+                try {
                 String kanaWord = reading.substring(startKana, endKana);
                 startKana = endKana + 1;
-                if (!kanjiWord.equals(kanaWord)) {
-                    // try to cut kana ending
-                    for (int j = kanaWord.length() - 1, k = kanjiWord.length() - 1; j >= 0; j--, k--) {
-                        if (kanaWord.charAt(j) == kanjiWord.charAt(k)) {
-                            endKanji--;
-                        } else {
-                            kanaWord = kanaWord.substring(0, j + 1);
-                            kanjiWord = kanjiWord.substring(0, k + 1);
-                            break;
+                    if (!kanjiWord.equals(kanaWord)) {
+                        // try to cut kana ending
+                        for (int j = kanaWord.length() - 1, k = kanjiWord.length() - 1; j >= 0; j--, k--) {
+                            if (kanaWord.charAt(j) == kanjiWord.charAt(k)) {
+                                endKanji--;
+                            } else {
+                                kanaWord = kanaWord.substring(0, j + 1);
+                                kanjiWord = kanjiWord.substring(0, k + 1);
+                                break;
+                            }
                         }
+                        setSpan(new KanjiSpan(kanjiWord, kanaWord), startKanji, endKanji, 0);
                     }
-                    setSpan(new KanjiSpan(kanjiWord, kanaWord), startKanji, endKanji, 0);
+                } catch (Exception ex) {
+                    Log.e("KanaKanji", "KanjiKanaSpannableString: " + japanese, ex);
                 }
                 startKanji = i + 1;
             }
