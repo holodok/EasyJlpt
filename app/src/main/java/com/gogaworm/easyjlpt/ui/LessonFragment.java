@@ -12,7 +12,7 @@ import android.widget.TextView;
 import com.gogaworm.easyjlpt.R;
 import com.gogaworm.easyjlpt.data.Lesson;
 import com.gogaworm.easyjlpt.data.UserSession;
-import com.gogaworm.easyjlpt.loaders.LessonLoader;
+import com.gogaworm.easyjlpt.loaders.LessonListLoader;
 import com.gogaworm.easyjlpt.ui.widgets.ArcProgress;
 import com.gogaworm.easyjlpt.ui.widgets.KanjiKanaView;
 
@@ -54,7 +54,7 @@ public class LessonFragment extends RecyclerViewFragment<Lesson, Lesson> {
 
     @Override
     protected Loader<List<Lesson>> createLoader(String folder) {
-        return new LessonLoader(getContext(), folder, sectionId);
+        return new LessonListLoader(getContext(), folder, sectionId);
     }
 
     class LessonAdapter extends DynamicDataAdapter {
@@ -114,42 +114,36 @@ public class LessonFragment extends RecyclerViewFragment<Lesson, Lesson> {
                 viewButton.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent = new Intent(getContext(), ViewLessonContentActivity.class);
-                        intent.putExtra("userSession", userSession);
-                        intent.putExtra("lesson", lesson);
-                        startActivity(intent);
+                        startNextActivity(userSession.mode == UserSession.Mode.GRAMMAR ?
+                                ViewGrammarLessonContentActivity.class :
+                                ViewLessonContentActivity.class, lesson.trainId);
                     }
                 });
                 flashCardsButton.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        //todo: open lesson
-                        Intent intent = new Intent(getContext(), FlashCardsActivity.class);
-                        intent.putExtra("userSession", userSession);
-                        intent.putExtra("lessonId", lesson.trainId);
-                        startActivity(intent);
+                        startNextActivity(FlashCardsActivity.class, lesson.trainId);
                     }
                 });
                 learnButton.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        //todo: open lesson
-                        Intent intent = new Intent(getContext(), LearnLessonActivity.class);
-                        intent.putExtra("userSession", userSession);
-                        intent.putExtra("lessonId", lesson.trainId);
-                        startActivity(intent);
+                        startNextActivity(LearnLessonActivity.class, lesson.trainId);
                     }
                 });
                 examButton.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        //todo: open exam
-                        Intent intent = new Intent(getContext(), LearnLessonActivity.class); //change activity
-                        intent.putExtra("userSession", userSession);
-                        intent.putExtra("lessonId", lesson.trainId);
-                        startActivity(intent);
+                        startNextActivity(LearnLessonActivity.class, lesson.trainId);
                     }
                 });
+            }
+
+            private void startNextActivity(Class activityClass, int lessonId) {
+                Intent intent = new Intent(getContext(), activityClass);
+                intent.putExtra("userSession", userSession);
+                intent.putExtra("lessonId", lessonId);
+                startActivity(intent);
             }
         }
     }

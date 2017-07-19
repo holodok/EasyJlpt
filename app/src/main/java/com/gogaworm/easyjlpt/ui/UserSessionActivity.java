@@ -17,8 +17,12 @@ public class UserSessionActivity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_user_session);
+        setContentView(getContentViewResId());
 
         userSession = getIntent().getParcelableExtra("userSession");
+    }
+
+    protected int getContentViewResId() {
+        return R.layout.activity_user_session;
     }
 }

@@ -14,22 +14,10 @@ import java.util.List;
  *
  * @author ikarpova
  */
-public class WordListLoader extends JlptDataLoader<Word> {
-    private int lessonId;
+public class WordListLoader extends LessonLoader<Word> {
 
     public WordListLoader(Context context, String folder, int lessonId) {
-        super(context, folder);
-        this.lessonId = lessonId;
-    }
-
-    @Override
-    protected void syncWithDataBase(List<Word> results) {
-
-    }
-
-    @Override
-    protected String[] getFiles(String folder) {
-        return new String[] { folder + "/lesson_" + lessonId };
+        super(context, folder, lessonId);
     }
 
     @Override
@@ -48,11 +36,7 @@ public class WordListLoader extends JlptDataLoader<Word> {
 
     void parseWords(JSONArray jsonWords, List<Word> results) throws JSONException {
         for (int i = 0; i < jsonWords.length(); i++) {
-            JSONObject jsonWord = jsonWords.getJSONObject(i);
-            results.add(new Word(
-                    jsonWord.getString("japanese"),
-                    jsonWord.getString("reading"),
-                    jsonWord.getString("translation")));
+            results.add(parseWord(jsonWords.getJSONObject(i)));
         }
     }
 }

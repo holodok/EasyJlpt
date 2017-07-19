@@ -14,7 +14,7 @@ import java.util.List;
  *
  * @author ikarpova
  */
-public abstract class UserSessionFragment<V> extends Fragment implements LoaderManager.LoaderCallbacks<List<V>>  {
+public abstract class UserSessionFragment extends Fragment  {
     protected UserSession userSession;
 
     public static UserSessionFragment setArguments(UserSessionFragment fragment, UserSession userSession) {
@@ -36,12 +36,4 @@ public abstract class UserSessionFragment<V> extends Fragment implements LoaderM
         outState.putParcelable("userSession", userSession);
         super.onSaveInstanceState(outState);
     }
-
-    @Override
-    public Loader<List<V>> onCreateLoader(int id, Bundle args) {
-        return createLoader(userSession.getFolder());
-    }
-
-    protected abstract Loader<List<V>> createLoader(String folder);
-
 }

@@ -19,7 +19,7 @@ import java.util.List;
  *
  * @author ikarpova
  */
-public abstract class RecyclerViewFragment<V, D> extends UserSessionFragment<V> {
+public abstract class RecyclerViewFragment<V, D> extends UserSessionLoaderFragment<V> {
     private RecyclerView recyclerView;
     private DynamicDataAdapter adapter;
 

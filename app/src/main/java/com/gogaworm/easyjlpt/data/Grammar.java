@@ -13,8 +13,13 @@ public class Grammar {
     public String[] notes;
     public Word[] sentences;
 
-    public class Meaning {
+    public static class Meaning {
         public Word meaning;
         public String[] forms;
+
+        public Meaning(Word meaning, String[] forms) {
+            this.meaning = meaning;
+            this.forms = forms;
+        }
     }
 }

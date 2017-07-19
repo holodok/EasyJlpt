@@ -22,9 +22,7 @@ public class ViewLessonContentActivity extends UserSessionActivity {
         Lesson lesson = getIntent().getParcelableExtra("lesson");
 
         FragmentManager fragmentManager = getSupportFragmentManager();
-        Fragment fragment = userSession.mode == UserSession.Mode.GRAMMAR ?
-                WordListFragment.getInstance(userSession, lesson) :
-                WordListFragment.getInstance(userSession, lesson);
+        Fragment fragment = WordListFragment.getInstance(userSession, lesson);
         fragmentManager.beginTransaction().add(R.id.content, fragment).commit();
 
         getSupportActionBar().setTitle(lesson.title.japanese);

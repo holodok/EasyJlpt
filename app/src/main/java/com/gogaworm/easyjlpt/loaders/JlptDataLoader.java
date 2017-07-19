@@ -2,6 +2,7 @@ package com.gogaworm.easyjlpt.loaders;
 
 import android.content.Context;
 import com.gogaworm.easyjlpt.data.Word;
+import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -15,7 +16,7 @@ import java.util.List;
 public abstract class JlptDataLoader<T> extends AbstractJsonDataLoader<T> {
     private String folder;
 
-    public JlptDataLoader(Context context, String folder) {
+    JlptDataLoader(Context context, String folder) {
         super(context);
         this.folder = folder;
     }
@@ -36,11 +37,19 @@ public abstract class JlptDataLoader<T> extends AbstractJsonDataLoader<T> {
 
     protected abstract String[] getFiles(String folder);
 
-    protected Word parseWord(JSONObject json) throws JSONException {
+    Word parseWord(JSONObject json) throws JSONException {
         return new Word(
                 json.getString("japanese"),
                 json.getString("reading"),
                 json.getString("translation")
         );
+    }
+
+    String[] parseStrings(JSONArray array) throws JSONException {
+        String[] values = new String[array.length()];
+        for (int i = 0; i < array.length(); i++) {
+            values[i] = array.getString(i);
+        }
+        return values;
     }
 }

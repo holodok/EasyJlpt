@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<card_view:android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/meaning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardUseCompatPadding="true">
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp">
+        <TextView
+                android:id="@+id/grammarItem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="@color/primaryText"
+                tools:text="〜げ"/>
+        <TextView
+                android:id="@+id/meaningTranslation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="похоже, выглядит как"/>
+        <TextView
+                android:id="@+id/meaningJapanese"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="@color/secondaryText"
+                tools:text="〜そう（見てその人の気持ちが感じられる様子をあらわす"/>
+        <View android:layout_width="match_parent" android:layout_height="1px" android:background="@color/divider" android:layout_marginTop="8dp" android:layout_marginBottom="8dp"/>
+        <TextView
+                android:id="@+id/grammarForms"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="@color/primaryText"
+                android:gravity="center_horizontal"
+                tools:text="い形-O+げ\nな形-na+げ\n動たい形-O+げ"/>
+    </LinearLayout>
+</card_view:android.support.v7.widget.CardView>
