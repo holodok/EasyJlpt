@@ -11,6 +11,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
 import com.gogaworm.easyjlpt.R;
+import com.gogaworm.easyjlpt.data.Lesson;
 import com.gogaworm.easyjlpt.data.Word;
 import com.gogaworm.easyjlpt.loaders.KanjiWordListLoader;
 import com.gogaworm.easyjlpt.loaders.WordListLoader;
@@ -27,7 +28,7 @@ import java.util.Random;
  * @author ikarpova
  */
 public class FlashCardsActivity extends UserSessionLoaderActivity<Word> {
-    private int lessonId;
+    private Lesson lesson;
 
     private TextView questionView;
     private TextView kanjiView;
@@ -44,7 +45,7 @@ public class FlashCardsActivity extends UserSessionLoaderActivity<Word> {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        lessonId = getIntent().getIntExtra("lessonId", 0);
+        lesson = getIntent().getParcelableExtra("lesson");
 
         ActionBar actionBar = getSupportActionBar();
 
@@ -88,9 +89,9 @@ public class FlashCardsActivity extends UserSessionLoaderActivity<Word> {
     protected Loader<List<Word>> createLoader(String folder) {
         switch (userSession.mode) {
             case VOCABULARY:
-                return new WordListLoader(this, folder, lessonId);
+                return new WordListLoader(this, folder, lesson.trainId);
             case KANJI:
-                return new KanjiWordListLoader(this, folder, lessonId);
+                return new KanjiWordListLoader(this, folder, lesson.trainId);
         }
         return null;
     }

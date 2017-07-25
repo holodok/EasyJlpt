@@ -40,7 +40,7 @@ public abstract class JlptDataLoader<T> extends AbstractJsonDataLoader<T> {
     Word parseWord(JSONObject json) throws JSONException {
         return new Word(
                 json.getString("japanese"),
-                json.getString("reading"),
+                json.optString("reading"),
                 json.getString("translation")
         );
     }

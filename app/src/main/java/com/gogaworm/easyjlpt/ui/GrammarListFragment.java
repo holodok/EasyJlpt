@@ -9,6 +9,10 @@ import android.widget.TextView;
 import com.gogaworm.easyjlpt.R;
 import com.gogaworm.easyjlpt.data.Grammar;
 import com.gogaworm.easyjlpt.data.UserSession;
+import com.gogaworm.easyjlpt.utils.UnitedKanjiKanaSpannableString;
+
+import static android.view.View.GONE;
+import static android.view.View.VISIBLE;
 
 /**
  * Created on 05.07.2017.
@@ -45,13 +49,14 @@ public class GrammarListFragment extends UserSessionFragment  {
         }
 
         TextView grammarNotesView = (TextView) parentView.findViewById(R.id.grammarNotes);
+        parentView.findViewById(R.id.notes).setVisibility(grammar.notes.length != 0 ? VISIBLE : GONE);
         grammarNotesView.setText(convertStringArrayToString(grammar.notes));
 
         ViewGroup sentenceContent = (ViewGroup) parentView.findViewById(R.id.sentence);
         for (int i = 0; i < grammar.sentences.length; i++) {
             View sentenceView = inflater.inflate(R.layout.list_item_sentence, sentenceContent, false);
             TextView japaneseSentenceView = (TextView) sentenceView.findViewById(R.id.japanese);
-            japaneseSentenceView.setText(grammar.sentences[i].japanese);
+            japaneseSentenceView.setText(new UnitedKanjiKanaSpannableString(grammar.sentences[i].japanese));
             TextView translationSentenceView = (TextView) sentenceView.findViewById(R.id.translation);
             translationSentenceView.setText(grammar.sentences[i].translation);
             sentenceContent.addView(sentenceView);

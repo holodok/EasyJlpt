@@ -6,6 +6,7 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.content.Loader;
 import com.gogaworm.easyjlpt.R;
+import com.gogaworm.easyjlpt.data.Lesson;
 import com.gogaworm.easyjlpt.data.Word;
 import com.gogaworm.easyjlpt.game.GameController;
 import com.gogaworm.easyjlpt.game.Task;
@@ -21,7 +22,7 @@ import java.util.List;
  * @author ikarpova
  */
 public class LearnLessonActivity extends UserSessionLoaderActivity<Word> implements GameController.OnGameStateChangedListener {
-    private int lessonId;
+    private Lesson lesson;
     private List<Word> words;
     private GameController gameController;
     private Task currentTask;
@@ -30,7 +31,7 @@ public class LearnLessonActivity extends UserSessionLoaderActivity<Word> impleme
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        lessonId = getIntent().getIntExtra("lessonId", 0);
+        lesson = getIntent().getParcelableExtra("lesson");
 
         FragmentManager fragmentManager = getSupportFragmentManager();
         Fragment fragment = new StartLessonFragment();
@@ -47,7 +48,7 @@ public class LearnLessonActivity extends UserSessionLoaderActivity<Word> impleme
 
     @Override
     protected Loader<List<Word>> createLoader(String folder) {
-        return new WordListLoader(this, folder, lessonId);
+        return new WordListLoader(this, folder, lesson.trainId);
     }
 
     @Override

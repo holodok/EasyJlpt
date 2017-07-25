@@ -116,33 +116,33 @@ public class LessonFragment extends RecyclerViewFragment<Lesson, Lesson> {
                     public void onClick(View v) {
                         startNextActivity(userSession.mode == UserSession.Mode.GRAMMAR ?
                                 ViewGrammarLessonContentActivity.class :
-                                ViewLessonContentActivity.class, lesson.trainId);
+                                ViewLessonContentActivity.class, lesson);
                     }
                 });
                 flashCardsButton.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        startNextActivity(FlashCardsActivity.class, lesson.trainId);
+                        startNextActivity(FlashCardsActivity.class, lesson);
                     }
                 });
                 learnButton.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        startNextActivity(LearnLessonActivity.class, lesson.trainId);
+                        startNextActivity(LearnLessonActivity.class, lesson);
                     }
                 });
                 examButton.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        startNextActivity(LearnLessonActivity.class, lesson.trainId);
+                        startNextActivity(LearnLessonActivity.class, lesson);
                     }
                 });
             }
 
-            private void startNextActivity(Class activityClass, int lessonId) {
+            private void startNextActivity(Class activityClass, Lesson lesson) {
                 Intent intent = new Intent(getContext(), activityClass);
                 intent.putExtra("userSession", userSession);
-                intent.putExtra("lessonId", lessonId);
+                intent.putExtra("lesson", lesson);
                 startActivity(intent);
             }
         }

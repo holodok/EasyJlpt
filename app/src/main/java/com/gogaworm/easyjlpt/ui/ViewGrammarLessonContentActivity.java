@@ -9,6 +9,7 @@ import android.support.v4.content.Loader;
 import android.support.v4.view.ViewPager;
 import com.gogaworm.easyjlpt.R;
 import com.gogaworm.easyjlpt.data.Grammar;
+import com.gogaworm.easyjlpt.data.Lesson;
 import com.gogaworm.easyjlpt.loaders.GrammarLoader;
 import com.gogaworm.easyjlpt.utils.Constants;
 
@@ -21,19 +22,17 @@ import java.util.List;
  * @author ikarpova
  */
 public class ViewGrammarLessonContentActivity extends UserSessionLoaderActivity<Grammar> {
-    private int lessonId;
+    private Lesson lesson;
     private CollectionPagerAdapter adapter;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        lessonId = getIntent().getIntExtra("lessonId", 0);
+        lesson = getIntent().getParcelableExtra("lesson");
 
-/*
         getSupportActionBar().setTitle(lesson.title.japanese);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-*/
 
         // ViewPager and its adapters use support library
         // fragments, so use getSupportFragmentManager.
@@ -51,7 +50,7 @@ public class ViewGrammarLessonContentActivity extends UserSessionLoaderActivity<
 
     @Override
     protected Loader<List<Grammar>> createLoader(String folder) {
-        return new GrammarLoader(this, userSession.getFolder(), lessonId);
+        return new GrammarLoader(this, userSession.getFolder(), lesson.trainId);
     }
 
     @Override
