@@ -1,0 +1,79 @@
+﻿{
+	"words": [
+	{
+		"japanese": "上司",
+		"reading": "じょうし",
+		"translation": "начальник, босс"
+	},
+	{
+		"japanese": "部下",
+		"reading": "ぶか",
+		"translation": "подчиненный"
+	},
+	{
+		"japanese": "課長",
+		"reading": "かちょう",
+		"translation": "начальник отдела"
+	},
+	{
+		"japanese": "先輩",
+		"reading": "せんぱい",
+		"translation": "старший (товарищ)"
+	},
+	{
+		"japanese": "後輩",
+		"reading": "こうはい",
+		"translation": "младший (товарищ)"
+	},
+	{
+		"japanese": "同僚",
+		"reading": "どうりょう",
+		"translation": "коллега"
+	},
+	{
+		"japanese": "仕事仲間",
+		"reading": "しごとなかま",
+		"translation": "коллега"
+	},
+	{
+		"japanese": "大企業に就職する",
+		"reading": "だいきぎょうにしゅうしょくする",
+		"translation": "получить работу в большой компании"
+	},
+	{
+		"japanese": "４月に入社する",
+		"reading": "しがつににゅうしゃする",
+		"translation": "приступить к работе в апреле"
+	},
+	{
+		"japanese": "新入社員",
+		"reading": "しんにゅうしゃいん",
+		"translation": "новичок на работе, новый работник"
+	},
+	{
+		"japanese": "我が社の女子社員",
+		"reading": "わがしゃのじょししゃいん",
+		"translation": "женский коллектив нашей компании"
+	},
+	{
+		"japanese": "先輩に教わる",
+		"reading": "せんぱいにおそわる",
+		"translation": "учиться от старших товарищей"
+	},
+	{
+		"japanese": "先輩を見習う",
+		"reading": "せんぱいをみならう",
+		"translation": "брать пример со старших товарищей"
+	},
+	{
+		"japanese": "早退する",
+		"reading": "そうたいする",
+		"translation": "идти домой рано"
+	},
+	{
+		"japanese": "",
+		"reading": "",
+		"translation": ""
+	},
+	]
+}

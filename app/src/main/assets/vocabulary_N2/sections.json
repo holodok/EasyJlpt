@@ -1,0 +1,412 @@
+﻿{
+  "sections":
+  [{
+    "section": 21,
+    "title": {
+				"japanese": "楽しく 暮らして いますか？",
+				"reading": "たのしく くらして いますか？",
+				"translation": "Как тебе живется?"
+			},
+    "lessons": [{
+      "lesson": 1,
+      "title": {
+				"japanese": "アパート を 探して います。",
+				"reading": "アパート を さがして います。",
+				"translation": "Ищу жилье."
+			}
+    }, {
+      "lesson": 2,
+      "title": {
+				"japanese": "引っ越し は 大変 です。",
+				"reading": "ひっこし は たいへん です。",
+				"translation": "Хлопоты при переезде."
+			}
+    }, {
+      "lesson": 3,
+      "title": {
+				"japanese": "友人 を 招きました。",
+				"reading": "ゆうじん を まねきました。",
+				"translation": "Пригласил друзей."
+			}
+    }, {
+      "lesson": 4,
+      "title": {
+				"japanese": "火事・子育て は 大変 です。",
+				"reading": "かじ・こそだて は たいへん です。",
+				"translation": "Домашние дела и воспитание детей - тяжелая работа."
+			}
+    }, {
+      "lesson": 5,
+      "title": {
+				"japanese": "夏休み を 海 で 過ごしています。",
+				"reading": "なつやすみ を うみ で すごしています。",
+				"translation": "Летний отпуск провожу на море."
+			}
+    }, {
+      "lesson": 6,
+      "title": {
+				"japanese": "お金 を 使いすぎました。",
+				"reading": "おかね を つかいすぎました。",
+				"translation": "Потратил слишком много денег."
+			}
+    }]
+  },
+  {
+    "section": 22,
+    "title": {
+				"japanese": "仕事　は　順調　ですか。",
+				"reading": "しごと　は　じゅんちょう　ですか。",
+				"translation": "Как работается?"
+			},
+    "lessons": [{
+      "lesson": 1,
+      "title": {
+				"japanese": "仕事　を　探して　います。",
+				"reading": "しごと　を　さがして　います。",
+				"translation": "Ищу работу."
+			}
+    }, {
+      "lesson": 2,
+      "title": {
+				"japanese": "仕事　を　して　います　１。",
+				"reading": "しごと　を　して　います　１。",
+				"translation": "Работаю 1"
+			}
+    }, {
+      "lesson": 3,
+      "title": {
+				"japanese": "",
+				"reading": "",
+				"translation": "Нашел работу 2"
+			}
+    }, {
+      "lesson": 4,
+      "title": {
+				"japanese": "",
+				"reading": "",
+				"translation": "Работа за компьютером 1"
+			}
+    }, {
+      "lesson": 5,
+      "title": {
+				"japanese": "",
+				"reading": "",
+				"translation": "Работа за компьютером 2"
+			}
+    }, {
+      "lesson": 6,
+      "title": {
+				"japanese": "",
+				"reading": "",
+				"translation": "Работа за компьютером 3"
+			}
+    }]
+  },
+  {
+    "section": 23,
+    "title": {
+				"japanese": "",
+				"reading": "",
+				"translation": "Разные выражения"
+			},
+    "lessons": [{
+      "lesson": 1,
+      "title": {
+				"japanese": "",
+				"reading": "",
+				"translation": "Какой он человек?"
+			}
+    }, {
+      "lesson": 2,
+      "title": {
+				"japanese": "",
+				"reading": "",
+				"translation": "Как дела с...?"
+			}
+    }, {
+      "lesson": 3,
+      "title": {
+				"japanese": "",
+				"reading": "",
+				"translation": "Поведение"
+			}
+    }, {
+      "lesson": 4,
+      "title": {
+				"japanese": "",
+				"reading": "",
+				"translation": "Что ты об этом думаешь? 1"
+			}
+    }, {
+      "lesson": 5,
+      "title": {
+				"japanese": "",
+				"reading": "",
+				"translation": "Что ты об этом думаешь? 2"
+			}
+    }, {
+      "lesson": 6,
+      "title": {
+				"japanese": "",
+				"reading": "",
+				"translation": "Как ты себя чувствуешь?"
+			}
+    }]
+  },
+  {
+    "section": 24,
+    "title": {
+				"japanese": "",
+				"reading": "",
+				"translation": "Запоминаем наречия"
+			},
+    "lessons": [{
+      "lesson": 1,
+      "title": {
+				"japanese": "",
+				"reading": "",
+				"translation": "Попробую выучить"
+			}
+    }, {
+      "lesson": 2,
+      "title": {
+				"japanese": "",
+				"reading": "",
+				"translation": "В конце концов запомню"
+			}
+    }, {
+      "lesson": 3,
+      "title": {
+				"japanese": "",
+				"reading": "",
+				"translation": "Хорошенько выучу"
+			}
+    }, {
+      "lesson": 4,
+      "title": {
+				"japanese": "",
+				"reading": "",
+				"translation": "Попробую запомнить больше"
+			}
+    }, {
+      "lesson": 5,
+      "title": {
+				"japanese": "",
+				"reading": "",
+				"translation": "Выучу на всю жизнь!"
+			}
+    }, {
+      "lesson": 6,
+      "title": {
+				"japanese": "",
+				"reading": "",
+				"translation": "Если один раз выучить, то уже не забудешь"
+			}
+    }]
+  },
+  {
+    "section": 25,
+    "title": {
+				"japanese": "",
+				"reading": "",
+				"translation": "Напишу простыми канджи"
+			},
+    "lessons": [{
+      "lesson": 1,
+      "title": {
+				"japanese": "",
+				"reading": "",
+				"translation": "Вещи, время, даты"
+			}
+    }, {
+      "lesson": 2,
+      "title": {
+				"japanese": "",
+				"reading": "",
+				"translation": "Ночь, жизнь, работа"
+			}
+    }, {
+      "lesson": 3,
+      "title": {
+				"japanese": "",
+				"reading": "",
+				"translation": "Вся жизнь, осторожность, совершество"
+			}
+    }, {
+      "lesson": 4,
+      "title": {
+				"japanese": "",
+				"reading": "",
+				"translation": "Земля, фамилия, продажа"
+			}
+    }, {
+      "lesson": 5,
+      "title": {
+				"japanese": "",
+				"reading": "",
+				"translation": "Магия, сигналы, сила духа"
+			}
+    }, {
+      "lesson": 6,
+      "title": {
+				"japanese": "",
+				"reading": "",
+				"translation": "Серьезность, беззаботность, цель"
+			}
+    }]
+  },
+  {
+    "section": 26,
+    "title": {
+				"japanese": "",
+				"reading": "",
+				"translation": "Соединим все вместе и запомним 1"
+			},
+    "lessons": [{
+      "lesson": 1,
+      "title": {
+				"japanese": "",
+				"reading": "",
+				"translation": "Слова, написанные катаканой 1"
+			}
+    }, {
+      "lesson": 2,
+      "title": {
+				"japanese": "",
+				"reading": "",
+				"translation": "Слова, написанные катаканой 2"
+			}
+    }, {
+      "lesson": 3,
+      "title": {
+				"japanese": "",
+				"reading": "",
+				"translation": "Слова, написанные катаканой 3"
+			}
+    }, {
+      "lesson": 4,
+      "title": {
+				"japanese": "",
+				"reading": "",
+				"translation": "Похожие слова 1"
+			}
+    }, {
+      "lesson": 5,
+      "title": {
+				"japanese": "",
+				"reading": "",
+				"translation": "Похожие слова 2"
+			}
+    }, {
+      "lesson": 6,
+      "title": {
+				"japanese": "",
+				"reading": "",
+				"translation": "Похожие слова 3"
+			}
+    }]
+  },
+  {
+    "section": 27,
+    "title": {
+				"japanese": "",
+				"reading": "",
+				"translation": "Соединим все вместе и запомним 2"
+			},
+    "lessons": [{
+      "lesson": 1,
+      "title": {
+				"japanese": "",
+				"reading": "",
+				"translation": "Слова с разными значениями 1"
+			}
+    }, {
+      "lesson": 2,
+      "title": {
+				"japanese": "",
+				"reading": "",
+				"translation": "Слова с разными значениями 2"
+			}
+    }, {
+      "lesson": 3,
+      "title": {
+				"japanese": "",
+				"reading": "",
+				"translation": "Слова с разными значениями 3"
+			}
+    }, {
+      "lesson": 4,
+      "title": {
+				"japanese": "",
+				"reading": "",
+				"translation": "В начале слова"
+			}
+    }, {
+      "lesson": 5,
+      "title": {
+				"japanese": "",
+				"reading": "",
+				"translation": "В конце слова 1"
+			}
+    }, {
+      "lesson": 6,
+      "title": {
+				"japanese": "",
+				"reading": "",
+				"translation": "В конце слова 2"
+			}
+    }]
+  },
+  {
+    "section": 28,
+    "title": {
+				"japanese": "",
+				"reading": "",
+				"translation": "Соединим все вместе и запомним 3"
+			},
+    "lessons": [{
+      "lesson": 1,
+      "title": {
+				"japanese": "",
+				"reading": "",
+				"translation": "Комбинации слов 1"
+			}
+    }, {
+      "lesson": 2,
+      "title": {
+				"japanese": "",
+				"reading": "",
+				"translation": "Комбинации слов 2"
+			}
+    }, {
+      "lesson": 3,
+      "title": {
+				"japanese": "",
+				"reading": "",
+				"translation": "Часто используемые выражения 1"
+			}
+    }, {
+      "lesson": 4,
+      "title": {
+				"japanese": "",
+				"reading": "",
+				"translation": "Часто используемые выражения 2"
+			}
+    }, {
+      "lesson": 5,
+      "title": {
+				"japanese": "",
+				"reading": "",
+				"translation": "Часто используемые выражения 3"
+			}
+    }, {
+      "lesson": 6,
+      "title": {
+				"japanese": "",
+				"reading": "",
+				"translation": "Часто используемые выражения 4"
+			}
+    }]
+  }
+  ]
+}

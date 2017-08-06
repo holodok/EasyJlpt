@@ -1,0 +1,159 @@
+﻿{
+	"words": [
+	{
+		"japanese": "紙幣",
+		"reading": "しへい",
+		"translation": "купюра"
+	},
+	{
+		"japanese": "お札",
+		"reading": "おさつ",
+		"translation": "купюра"
+	},
+	{
+		"japanese": "請求書",
+		"reading": "せいきゅうしょ",
+		"translation": "счет, инвойс"
+	},
+	{
+		"japanese": "小銭",
+		"reading": "こぜに",
+		"translation": "монета"
+	},
+	{
+		"japanese": "銀行 で お金 を 下ろす",
+		"reading": "ぎんこう で おかね を おろす",
+		"translation": "снять деньги со счета"
+	},
+	{
+		"japanese": "銀行 で お金 を 引き出す",
+		"reading": "ぎんこう で おかね を ひきだす",
+		"translation": "снять деньги со счета"
+	},
+	{
+		"japanese": "銀行 で お金 を 預ける",
+		"reading": "ぎんこう で おかね を あずける",
+		"translation": "пополнить счет"
+	},
+	{
+		"japanese": "銀行口座",
+		"reading": "ぎんこうこうざ",
+		"translation": "банковский счет"
+	},
+	{
+		"japanese": "自動 で 引き落とされる",
+		"reading": "じどう で ひきおとされる",
+		"translation": "будет оплачено автоматическим банковским переводом"
+	},
+	{
+		"japanese": "授業料 を 払い込む",
+		"reading": "じゅぎょうりょう を はらいこむ",
+		"translation": "оплатить обучение банковским переводом"
+	},
+	{
+		"japanese": "家賃 を 振り込む",
+		"reading": "やちん を ふりこむ",
+		"translation": "оплатить аренду банковским переводом"
+	},
+	{
+		"japanese": "振込",
+		"reading": "ふりこみ",
+		"translation": "банковский перевод"
+	},
+	{
+		"japanese": "公共料金 を 支払う",
+		"reading": "こうきょうりょうきん を しはらう",
+		"translation": "оплатить электричество, газ, воду, телефон и т.д."
+	},
+	{
+		"japanese": "支払い",
+		"reading": "しはらい",
+		"translation": "оплата"
+	},
+	{
+		"japanese": "手数料 が かかる",
+		"reading": "てすりょう が かかる",
+		"translation": "требуются комиссионные"
+	},
+	{
+		"japanese": "収入",
+		"reading": "しゅうにゅう",
+		"translation": "доход"
+	},
+	{
+		"japanese": "支出",
+		"reading": "ししゅつ",
+		"translation": "расходы"
+	},
+	{
+		"japanese": "赤字",
+		"reading": "あかじ",
+		"translation": "дефицит"
+	},
+	{
+		"japanese": "黒字",
+		"reading": "くろじ",
+		"translation": "бездефицитный"
+	},
+	{
+		"japanese": "外食する",
+		"reading": "がいしょくする",
+		"translation": "кушать не дома"
+	},
+	{
+		"japanese": "自炊する",
+		"reading": "じすいする",
+		"translation": "готовить себе еду"
+	},
+	{
+		"japanese": "高くつく",
+		"reading": "たかくつく",
+		"translation": "быть дорогим"
+	},
+	{
+		"japanese": "栄養 が かたよる",
+		"reading": "えいよう が かたよる",
+		"translation": "бедный рацион"
+	},
+	{
+		"japanese": "バランス が 取れた 食事",
+		"reading": "バランス が とれた しょくじ",
+		"translation": "сбалансированная еда"
+	},
+	{
+		"japanese": "生活費 が 不足する",
+		"reading": "せいかつひ が ふそくする",
+		"translation": "недостаток средств для жизни"
+	},
+	{
+		"japanese": "ぜいたく を する",
+		"reading": "",
+		"translation": "жить на широкую ногу"
+	},
+	{
+		"japanese": "食費 を 節約する",
+		"reading": "しょくひ を せつやくする",
+		"translation": "экономить на еде"
+	},
+	{
+		"japanese": "むだづかい を する",
+		"reading": "",
+		"translation": "тратить попусту деньги"
+	},
+	{
+		"japanese": "旅行する 余裕 が ない",
+		"reading": "りょこうする よゆう が ない",
+		"translation": "нет лишних денег на путешествие"
+	},
+	{
+		"japanese": "むだ を 省く",
+		"reading": "むだ を はぶく",
+		"translation": "устранять бесполезные траты"
+	},
+	{
+		"japanese": "収入 に つりあう 生活",
+		"reading": "しゅうにゅう に つりあう せいかつ",
+		"translation": "хватает на жизнь"
+	}
+	]
+}

@@ -1,0 +1,376 @@
+{
+	"kanji":[
+	{
+		"japanese": "様",
+		"on": "ヨウ",
+		"kun": "さま",
+		"translation": "",
+		"words": [
+			{
+				"japanese": "様子",
+				"reading": "ようす",
+				"translation": "вид, поведение, ситуация"
+			},
+			{
+				"japanese": "～様",
+				"reading": "～さま",
+				"translation": "господин, госпожа (вежливо)"
+			},
+			{
+				"japanese": "同様",
+				"reading": "どうよう",
+				"translation": "такой же"
+			},
+			{
+				"japanese": "様々",
+				"reading": "さまざま",
+				"translation": "различный"
+			}
+		]
+	},
+	{
+		"japanese": "要",
+		"on": "ヨウ",
+		"kun": "い・る",
+		"translation": "",
+		"words": [
+			{
+				"japanese": "重要",
+				"reading": "じゅうよう",
+				"translation": "важный"
+			},
+			{
+				"japanese": "要約",
+				"reading": "ようやく",
+				"translation": "выводы, резюме, основное содержание"
+			},
+			{
+				"japanese": "要点",
+				"reading": "ようてん",
+				"translation": "главный пункт, суть"
+			},
+			{
+				"japanese": "要る",
+				"reading": "いる",
+				"translation": "нуждаться"
+			}
+		]
+	},
+	{
+		"japanese": "利",
+		"on": "リ",
+		"kun": "",
+		"translation": "",
+		"words": [
+			{
+				"japanese": "利用",
+				"reading": "りよう",
+				"translation": "использование"
+			},
+			{
+				"japanese": "金利",
+				"reading": "きんり",
+				"translation": "проценты (по вкладу)"
+			},
+			{
+				"japanese": "便利",
+				"reading": "べんり",
+				"translation": "удобный"
+			},
+			{
+				"japanese": "有利",
+				"reading": "ゆうり",
+				"translation": "полезный, выгодный"
+			}
+		]
+	},
+	{
+		"japanese": "細",
+		"on": "サイ",
+		"kun": "ほそ・い、こま・かい",
+		"translation": "",
+		"words": [
+			{
+				"japanese": "明細",
+				"reading": "めいさい",
+				"translation": "детали"
+			},
+			{
+				"japanese": "細い",
+				"reading": "ほそい",
+				"translation": "тонкий, узкий"
+			},
+			{
+				"japanese": "細かい",
+				"reading": "こまかい",
+				"translation": "мелкий, подробный"
+			},
+			{
+				"japanese": "心細い",
+				"reading": "こころぼそい",
+				"translation": "одинокий, беспомощный"
+			}
+		]
+	},
+	{
+		"japanese": "在",
+		"on": "ザイ",
+		"kun": "",
+		"translation": "",
+		"words": [
+			{
+				"japanese": "在中",
+				"reading": "ざいちゅう",
+				"translation": "содержит (только)"
+			},
+			{
+				"japanese": "現在",
+				"reading": "げんざい",
+				"translation": "настоящее время, теперь"
+			},
+			{
+				"japanese": "在学",
+				"reading": "ざいがく",
+				"translation": "учиться в школе"
+			}
+			{
+				"japanese": "不在",
+				"reading": "ふざい",
+				"translation": "отсутствие"
+			}
+		]
+	},
+	{
+		"japanese": "客",
+		"on": "キャク",
+		"kun": "",
+		"translation": "",
+		"words": [
+			{
+				"japanese": "客席",
+				"reading": "きゃくせき",
+				"translation": "место (в театре, кино)"
+			},
+			{
+				"japanese": "お客様",
+				"reading": "おきゃくさま",
+				"translation": "гость, посетитель"
+			},
+			{
+				"japanese": "乗客",
+				"reading": "じょうきゃく",
+				"translation": "пассажир"
+			}
+		]
+	},
+	{
+		"japanese": "額",
+		"on": "ガク",
+		"kun": "ひたい",
+		"translation": "",
+		"words": [
+			{
+				"japanese": "額",
+				"reading": "がく",
+				"translation": "рамка"
+			},
+			{
+				"japanese": "額",
+				"reading": "ひたい",
+				"translation": "лоб"
+			}
+			{
+				"japanese": "金額",
+				"reading": "きんがく",
+				"translation": "сумма (денег)"
+			}
+		]
+	},
+	{
+		"japanese": "込",
+		"on": "",
+		"kun": "こ・む、こ・める",
+		"translation": "",
+		"words": [
+			{
+				"japanese": "込む",
+				"reading": "こむ",
+				"translation": "быть переполненным"
+			},
+			{
+				"japanese": "払い込む",
+				"reading": "はらいこむ",
+				"translation": "уплачивать"
+			},
+			{
+				"japanese": "飛び込む",
+				"reading": "とびこむ",
+				"translation": "влететь, впрыгивать"
+			}
+			{
+				"japanese": "申し込む",
+				"reading": "もうしこむ",
+				"translation": "давать заявку на что-то"
+			}
+			{
+				"japanese": "思い込む",
+				"reading": "おもいこむ",
+				"translation": "твердо верить, быть убежденным"
+			}
+		]
+	},
+	{
+		"japanese": "領",
+		"on": "リョウ",
+		"kun": "",
+		"translation": "",
+		"words": [
+			{
+				"japanese": "領収書",
+				"reading": "りょうしゅうしょ",
+				"translation": "чек"
+			},
+			{
+				"japanese": "領事館",
+				"reading": "りょうじかん",
+				"translation": "консульство"
+			}
+			{
+				"japanese": "～領",
+				"reading": "～りょう",
+				"translation": "террирория"
+			}
+			{
+				"japanese": "大統領",
+				"reading": "だいとうりょう",
+				"translation": "президент"
+			}
+		]
+	},
+	{
+		"japanese": "収",
+		"on": "シュウ",
+		"kun": "おさ・める、おさ・まる",
+		"translation": "",
+		"words": [
+			{
+				"japanese": "収入",
+				"reading": "しゅうにゅう",
+				"translation": "доход"
+			},
+			{
+				"japanese": "回収",
+				"reading": "かいしゅう",
+				"translation": "собирать, отбирать назад"
+			},
+			{
+				"japanese": "収める",
+				"reading": "おさめる",
+				"translation": "уплачивать, поставлять"
+			}
+			{
+				"japanese": "収集",
+				"reading": "しゅうしゅう",
+				"translation": "сбор"
+			}
+			{
+				"japanese": "吸収",
+				"reading": "きゅうしゅう",
+				"translation": "всасывание, впитывание"
+			}
+		]
+	},
+	{
+		"japanese": "械",
+		"on": "カイ",
+		"kun": "",
+		"translation": "",
+		"words": [
+			{
+				"japanese": "機械",
+				"reading": "きかい",
+				"translation": "машина, механизм"
+			},
+			{
+				"japanese": "器械体操",
+				"reading": "きかいたいそう",
+				"translation": "гимнастические упражнения на снарядах"
+			}
+		]
+	},
+	{
+		"japanese": "曲",
+		"on": "キョク",
+		"kun": "ま・がる、ま・げる",
+		"translation": "",
+		"words": [
+			{
+				"japanese": "曲",
+				"reading": "きょく",
+				"translation": "мелодия"
+			},
+			{
+				"japanese": "折り曲げる",
+				"reading": "おりまげる",
+				"translation": "сгибать, загибать"
+			},
+			{
+				"japanese": "曲線",
+				"reading": "きょくせん",
+				"translation": "кривая линия"
+			}
+			{
+				"japanese": "曲がる",
+				"reading": "まがる",
+				"translation": "поворачивать"
+			}
+		]
+	},
+	{
+		"japanese": "汚",
+		"on": "オ",
+		"kun": "きたな・い、よご・す、よご・れる",
+		"translation": "",
+		"words": [
+			{
+				"japanese": "汚染",
+				"reading": "おせん",
+				"translation": "загрязнение"
+			},
+			{
+				"japanese": "汚す",
+				"reading": "よごす",
+				"translation": "пачкать, загрязнять"
+			},
+			{
+				"japanese": "汚い",
+				"reading": "きたない",
+				"translation": "грязный"
+			},
+			{
+				"japanese": "汚れる",
+				"reading": "よごれる",
+				"translation": "пачкаться, загрязняться"
+			}
+		]
+	},
+	{
+		"japanese": "殿",
+		"on": "",
+		"kun": "との、どの",
+		"translation": "",
+		"words": [
+			{
+				"japanese": "殿様",
+				"reading": "とのさま",
+				"translation": "барин, ваша светлость"
+			},
+			{
+				"japanese": "～殿",
+				"reading": "～どの",
+				"translation": "господин (после фамилии, чина, от вышестоящего)"
+			}
+		]
+	}
+	]
+}

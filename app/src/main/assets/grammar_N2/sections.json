@@ -1,0 +1,176 @@
+﻿{
+  "sections":
+  [{
+    "section": 21,
+    "title": {
+				"japanese": "おぼえずにはいられない",
+				"reading": "",
+				"translation": "Не могу не запомнить."
+			},
+    "lessons": [{
+      "lesson": 1,
+      "title": {
+				"japanese": "熱っぽい",
+				"reading": "ねつっぽい",
+				"translation": "Как будто температура."
+			}
+    }, {
+      "lesson": 2,
+      "title": {
+				"japanese": "",
+				"reading": "",
+				"translation": "."
+			}
+    }, {
+      "lesson": 3,
+      "title": {
+				"japanese": "",
+				"reading": "",
+				"translation": "."
+			}
+    }, {
+      "lesson": 4,
+      "title": {
+				"japanese": "駅　で　よく　見る　表示",
+				"reading": "えき　で　よく　みる　ひょうじ",
+				"translation": "Знаки, которые можно увидеть на станции."
+			}
+    }, {
+      "lesson": 5,
+      "title": {
+				"japanese": "乗り物　で　よく　見る　表示",
+				"reading": "のりもの　で　よく　みる　ひょうじ",
+				"translation": "Знаки, которые можно увидеть в транспорте."
+			}
+    }, {
+      "lesson": 6,
+      "title": {
+				"japanese": "郵便局・病院　で　見る　表示",
+				"reading": "ゆうびんきょく・びょういん　で　みる　ひょうじ",
+				"translation": "Знаки, которые можно увидеть на почте и в больнице."
+			}
+    }, {
+      "lesson": 7,
+      "title": {
+				"japanese": "看板・立て札・表示",
+				"reading": "かんばん・たてふだ・ひょうじ",
+				"translation": "Вывески, доски для объявлений, выражения."
+			}
+    }]
+  }, {
+    "section": 22,
+    "title": {
+				"japanese": "使う",
+				"reading": "つかう",
+				"translation": "Использовать"
+			},
+    "lessons": [{
+      "lesson": 1,
+      "title": {
+				"japanese": "自動券売機",
+				"reading": "じどうけんばいき",
+				"translation": "Автомат для продажи билетов"
+			}
+    }, {
+      "lesson": 2,
+      "title": {
+				"japanese": "現金自動支払機",
+				"reading": "げんきんじどうしはらいき",
+				"translation": "Банкомат"
+			}
+    }, {
+      "lesson": 3,
+      "title": {
+				"japanese": "自動販売機・自動券売機",
+				"reading": "じどうはんばいき・じどうけんばいき",
+				"translation": "Торговые автоматы, автоматы продажи билетов."
+			}
+    }, {
+      "lesson": 4,
+      "title": {
+				"japanese": "家電　の　リモコン",
+				"reading": "かでん　の　リモコン",
+				"translation": "Пульт дистанционного управления."
+			}
+    }, {
+      "lesson": 5,
+      "title": {
+				"japanese": "電話・携帯電話",
+				"reading": "でんわ・けいたいでんわ",
+				"translation": "Телефон, мобильник."
+			}
+    }, {
+      "lesson": 6,
+      "title": {
+				"japanese": "携帯電話・パソコン",
+				"reading": "けいたいでんわ・パソコン",
+				"translation": "Мобильник, компьютер."
+			}
+    }, {
+      "lesson": 7,
+      "title": {
+				"japanese": "看板・立て札・表示",
+				"reading": "かんばん・たてふだ・ひょうじ",
+				"translation": "Вывески, доски для объявлений, выражения."
+			}
+    }]
+  }, {
+    "section": 23,
+    "title": {
+				"japanese": "読む",
+				"reading": "よむ",
+				"translation": "Читать"
+			},
+    "lessons": [{
+      "lesson": 1,
+      "title": {
+				"japanese": "料金通知・払込用紙",
+				"reading": "りょうきんつうち・はらいこみようし",
+				"translation": "Зарплатная ведомость, платежка."
+			}
+    }, {
+      "lesson": 2,
+      "title": {
+				"japanese": "",
+				"reading": "",
+				"translation": ""
+			}
+    }, {
+      "lesson": 3,
+      "title": {
+				"japanese": "自動販売機・自動券売機",
+				"reading": "じどうはんばいき・じどうけんばいき",
+				"translation": "Торговые автоматы, автоматы продажи билетов."
+			}
+    }, {
+      "lesson": 4,
+      "title": {
+				"japanese": "家電　の　リモコン",
+				"reading": "かでん　の　リモコン",
+				"translation": "Пульт дистанционного управления."
+			}
+    }, {
+      "lesson": 5,
+      "title": {
+				"japanese": "電話・携帯電話",
+				"reading": "でんわ・けいたいでんわ",
+				"translation": "Телефон, мобильник."
+			}
+    }, {
+      "lesson": 6,
+      "title": {
+				"japanese": "携帯電話・パソコン",
+				"reading": "けいたいでんわ・パソコン",
+				"translation": "Мобильник, компьютер."
+			}
+    }, {
+      "lesson": 7,
+      "title": {
+				"japanese": "看板・立て札・表示",
+				"reading": "かんばん・たてふだ・ひょうじ",
+				"translation": "Вывески, доски для объявлений, выражения."
+			}
+    }]
+  }
+  ]
+}

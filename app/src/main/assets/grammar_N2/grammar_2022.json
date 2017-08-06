@@ -1,0 +1,26 @@
+{
+    "id": 2022,
+    "japanese": "〜てはならない",
+	"meanings": [
+	{
+		"meaning": "禁止を表す",
+		"translation": "должен",
+		"forms":["動て形"],
+	}
+	]
+	"excludes": [""],
+	"notes": "例： ",
+	"examples": [
+		{
+			"japanese": "この悲惨な経験を決して忘れてはならない。",
+			"reading": "この ひさんな けいけん を けっして わすれてはならない。",
+			"translation": "Я никогда не забуду этот трагический опыт."
+		},
+		{
+			"japanese": "失敗を人のせいにしてはなりません。",
+			"reading": "しっぱい を ひと の せいに してはなりません。",
+			"translation": "Не нужно винить других в своих ошибках."
+		}
+	],
+	"references":["put ids of reference here"]
+}

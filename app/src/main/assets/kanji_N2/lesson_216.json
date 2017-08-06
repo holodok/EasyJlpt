@@ -1,0 +1,301 @@
+{
+	"kanji":[
+	{
+		"japanese": "郵",
+		"on": "ユウ",
+		"kun": "",
+		"translation": "почта",
+		"words": [
+			{
+				"japanese": "郵便",
+				"reading": "ゆうびん",
+				"translation": "почта (сервис)"
+			},
+			{
+				"japanese": "郵送",
+				"reading": "ゆうそう",
+				"translation": "отправлять почтой"
+			}
+		]
+	},
+	{
+		"japanese": "局",
+		"on": "キョク",
+		"kun": "",
+		"translation": "бюро, офис",
+		"words": [
+			{
+				"japanese": "郵便局",
+				"reading": "ゆうびんきょく",
+				"translation": " почта (здание)"
+			},
+			{
+				"japanese": "放送局",
+				"reading": "ほうそうきょく",
+				"translation": "радио станция"
+			},
+			{
+				"japanese": "薬局",
+				"reading": "やっきょく",
+				"translation": "аптека"
+			}
+		]
+	},
+	{
+		"japanese": "貯",
+		"on": "チョ",
+		"kun": "",
+		"translation": "сбережения",
+		"words": [
+			{
+				"japanese": "貯金",
+				"reading": "ちょきん",
+				"translation": "сбережения"
+			}
+		]
+	},
+	{
+		"japanese": "包",
+		"on": "ホウ",
+		"kun": "つつ・む、つつ・み",
+		"translation": "упаковывать, заворачивать",
+		"words": [
+			{
+				"japanese": "包帯",
+				"reading": "ほうたい",
+				"translation": "перевязка, бандаж"
+			},
+			{
+				"japanese": "包む",
+				"reading": "つつむ",
+				"translation": "обёртывать, заворачивать"
+			},
+			{
+				"japanese": "小包",
+				"reading": "こつづみ",
+				"translation": "бандероль"
+			}
+		]
+	},
+	{
+		"japanese": "達",
+		"on": "タツ",
+		"kun": "",
+		"translation": "законченный, достигать",
+		"words": [
+			{
+				"japanese": "発達",
+				"reading": "はったつ",
+				"translation": "развитие, прогресс"
+			},
+			{
+				"japanese": "友達",
+				"reading": "ともだち",
+				"translation": "друг"
+			},
+			{
+				"japanese": "速達",
+				"reading": "そくたつ",
+				"translation": "экспресс доставка"
+			}
+		]
+	},
+	{
+		"japanese": "際",
+		"on": "サイ",
+		"kun": "",
+		"translation": "повод, когда",
+		"words": [
+			{
+				"japanese": "国際",
+				"reading": "こくさい",
+				"translation": "международный"
+			},
+			{
+				"japanese": "実際に",
+				"reading": "じっさいに",
+				"translation": "на самом деле"
+			},
+			{
+				"japanese": "～の際",
+				"reading": "～のさい",
+				"translation": "во время~"
+			}
+		]
+	},
+	{
+		"japanese": "初",
+		"on": "ショ",
+		"kun": "はじ・め、はじ・めて、はつ",
+		"translation": "первый раз",
+		"words": [
+			{
+				"japanese": "初診",
+				"reading": "しょしん",
+				"translation": "первый осмотр у врача"
+			},
+			{
+				"japanese": "初恋",
+				"reading": "はつこい",
+				"translation": "первая любовь"
+			},
+			{
+				"japanese": "初めて",
+				"reading": "はじめて",
+				"translation": "впервые"
+			},
+			{
+				"japanese": "初雪",
+				"reading": "はつゆき",
+				"translation": "первый снег"
+			}
+		]
+	},
+	{
+		"japanese": "再",
+		"on": "サイ・サ",
+		"kun": "ふたた・び",
+		"translation": "второй раз",
+		"words": [
+			{
+				"japanese": "再診",
+				"reading": "さいしん",
+				"translation": "последующий осмотр у врача"
+			},
+			{
+				"japanese": "再来年",
+				"reading": "さらいねん",
+				"translation": "через год"
+			},
+			{
+				"japanese": "再生",
+				"reading": "さいせい",
+				"translation": "регенерация, утилизация"
+			},
+			{
+				"japanese": "再び",
+				"reading": "ふたたび",
+				"translation": "повторно"
+			}
+		]
+	},
+	{
+		"japanese": "療",
+		"on": "リョウ",
+		"kun": "",
+		"translation": "лечение",
+		"words": [
+			{
+				"japanese": "診療",
+				"reading": "しんりょう",
+				"translation": "медицинский осмотр"
+			},
+			{
+				"japanese": "医療",
+				"reading": "いりょう",
+				"translation": "лечение"
+			},
+			{
+				"japanese": "治療",
+				"reading": "ちりょう",
+				"translation": "лечение, медицинская помощь"
+			}
+		]
+	},
+	{
+		"japanese": "科",
+		"on": "カ",
+		"kun": "",
+		"translation": "отделение",
+		"words": [
+			{
+				"japanese": "科学",
+				"reading": "かがく",
+				"translation": "наука"
+			},
+			{
+				"japanese": "内科",
+				"reading": "ないか",
+				"translation": "терапевтия"
+			},
+			{
+				"japanese": "外科",
+				"reading": "げか",
+				"translation": "хирургия"
+			}
+		]
+	},
+	{
+		"japanese": "婦",
+		"on": "フ",
+		"kun": "",
+		"translation": "женщина, жена",
+		"words": [
+			{
+				"japanese": "産婦人科",
+				"reading": "さんふじんか",
+				"translation": "отдел гинекологии"
+			},
+			{
+				"japanese": "婦人",
+				"reading": "ふじん",
+				"translation": "женщина"
+			},
+			{
+				"japanese": "主婦",
+				"reading": "しゅふ",
+				"translation": "домохозяйка"
+			}
+		]
+	},
+	{
+		"japanese": "皮",
+		"on": "ヒ",
+		"kun": "かわ",
+		"translation": "кожа",
+		"words": [
+			{
+				"japanese": "皮肉",
+				"reading": "ひにく",
+				"translation": "ирония, сарказм"
+			},
+			{
+				"japanese": "皮",
+				"reading": "かわ",
+				"translation": "кожа, шкура, кожура"
+			}
+		]
+	},
+	{
+		"japanese": "膚",
+		"on": "フ",
+		"kun": "",
+		"translation": "кожа",
+		"words": [
+			{
+				"japanese": "皮膚",
+				"reading": "ひふ",
+				"translation": "кожа"
+			}
+		]
+	},
+	{
+		"japanese": "救",
+		"on": "キュウ",
+		"kun": "すく・う",
+		"translation": "спасение",
+		"words": [
+			{
+				"japanese": "救急",
+				"reading": "きゅうきゅう",
+				"translation": "первая помощь"
+			},
+			{
+				"japanese": "救う",
+				"reading": "すくう",
+				"translation": "спасать, помогать"
+			}
+		]
+	}
+	]
+}

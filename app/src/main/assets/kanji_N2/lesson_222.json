@@ -1,0 +1,336 @@
+{
+	"kanji":[
+	{
+		"japanese": "現",
+		"on": "ゲン",
+		"kun": "あらわ・れる、あらわ・す",
+		"translation": "настоящее",
+		"words": [
+			{
+				"japanese": "現金",
+				"reading": "げんきん",
+				"translation": "наличные"
+			},
+			{
+				"japanese": "現れる",
+				"reading": "あらわれる",
+				"translation": "появляться"
+			},
+			{
+				"japanese": "表現",
+				"reading": "ひょうげん",
+				"translation": "выражение, проявление"
+			}
+		]
+	},
+	{
+		"japanese": "支",
+		"on": "シ",
+		"kun": "ささ・える",
+		"translation": "филиал, поддержка",
+		"words": [
+			{
+				"japanese": "支店",
+				"reading": "してん",
+				"translation": "отделение, филиал"
+			},
+			{
+				"japanese": "支える",
+				"reading": "ささえる",
+				"translation": "поддерживать"
+			},
+			{
+				"japanese": "支持",
+				"reading": "しじ",
+				"translation": "поддержка"
+			}
+		]
+	},
+	{
+		"japanese": "払",
+		"on": "",
+		"kun": "はら・う",
+		"translation": "оплата",
+		"words": [
+			{
+				"japanese": "払う",
+				"reading": "はらう",
+				"translation": "платить, мести, чистить"
+			},
+			{
+				"japanese": "支払機",
+				"reading": "しはらいき",
+				"translation": "автомат для разммена денег"
+			},
+			{
+				"japanese": "支払う",
+				"reading": "しはらう",
+				"translation": "платить"
+			}
+		]
+	},
+	{
+		"japanese": "預",
+		"on": "ヨ",
+		"kun": "あず・ける、あず・かる",
+		"translation": "депозит, доверяь что-то",
+		"words": [
+			{
+				"japanese": "預金",
+				"reading": "よきん",
+				"translation": "денежный вклад, депозит"
+			},
+			{
+				"japanese": "預ける",
+				"reading": "あずける",
+				"translation": "сдавать на хранение, доверять что-либо"
+			},
+			{
+				"japanese": "預かる",
+				"reading": "あずかる",
+				"translation": "принимать на хранение"
+			}
+		]
+	},
+	{
+		"japanese": "戻",
+		"on": "",
+		"kun": "もど・す、もど・る",
+		"translation": "возвращать",
+		"words": [
+			{
+				"japanese": "払い戻し",
+				"reading": "はらいもどし",
+				"translation": "возвращение (денег)"
+			},
+			{
+				"japanese": "戻る",
+				"reading": "もどる",
+				"translation": "возвращаться, быть возращенным (о вещах)"
+			},
+			{
+				"japanese": "戻す",
+				"reading": "もどす",
+				"translation": "возвращать, отдавать обратно"
+			}
+		]
+	},
+	{
+		"japanese": "残",
+		"on": "ザン",
+		"kun": "のこ・る、のこ・す",
+		"translation": "остаток",
+		"words": [
+			{
+				"japanese": "残高照会",
+				"reading": "ざんだかしょうかい",
+				"translation": "запрос баланса"
+			},
+			{
+				"japanese": "残る",
+				"reading": "のこる",
+				"translation": "оставаться"
+			},
+			{
+				"japanese": "残す",
+				"reading": "のこす",
+				"translation": "оставлять"
+			}
+		]
+	},
+	{
+		"japanese": "照",
+		"on": "ショウ",
+		"kun": "て・る、て・らす",
+		"translation": "освещение",
+		"words": [
+			{
+				"japanese": "照明",
+				"reading": "しょうめい",
+				"translation": "освещение, свет (от искусственного источника)"
+			},
+			{
+				"japanese": "照らす",
+				"reading": "てらす",
+				"translation": "освещать"
+			},
+			{
+				"japanese": "対照的",
+				"reading": "たいしょうてき",
+				"translation": "контрастный"
+			}
+		]
+	},
+	{
+		"japanese": "硬",
+		"on": "コウ",
+		"kun": "かた・い",
+		"translation": "тесный, твердый",
+		"words": [
+			{
+				"japanese": "硬貨",
+				"reading": "こうか",
+				"translation": "монета"
+			},
+			{
+				"japanese": "硬い",
+				"reading": "かたい",
+				"translation": "твердый, тугой, тесный"
+			}
+		]
+	},
+	{
+		"japanese": "貨",
+		"on": "カ",
+		"kun": "",
+		"translation": "груз, товары",
+		"words": [
+			{
+				"japanese": "貨物",
+				"reading": "かもつ",
+				"translation": "груз, багаж"
+			},
+			{
+				"japanese": "通貨",
+				"reading": "つうか",
+				"translation": "валюта"
+			}
+		]
+	},
+	{
+		"japanese": "確",
+		"on": "カク",
+		"kun": "たし・か、たし・かめる",
+		"translation": "гарантия, крепкий",
+		"words": [
+			{
+				"japanese": "確定",
+				"reading": "かくてい",
+				"translation": "решение, постановление"
+			},
+			{
+				"japanese": "確か",
+				"reading": "たしか",
+				"translation": "достоверный, точный"
+			},
+			{
+				"japanese": "明確",
+				"reading": "めいかく",
+				"translation": "ясный, определенный"
+			},
+			{
+				"japanese": "確かめる",
+				"reading": "たしかめる",
+				"translation": "проверять, уточнять"
+			}
+		]
+	},
+	{
+		"japanese": "認",
+		"on": "ニン",
+		"kun": "みと・める",
+		"translation": "признавать, одобрять",
+		"words": [
+			{
+				"japanese": "確認",
+				"reading": "かくにん",
+				"translation": "подтверждение"
+			},
+			{
+				"japanese": "認める",
+				"reading": "みとめる",
+				"translation": "признавать, одобрять"
+			}
+		]
+	},
+	{
+		"japanese": "違",
+		"on": "イ",
+		"kun": "ちが・う、ちが・える",
+		"translation": "разница, отличие",
+		"words": [
+			{
+				"japanese": "違法",
+				"reading": "いほう",
+				"translation": "незаконный, нелегальный"
+			},
+			{
+				"japanese": "間違える",
+				"reading": "まちがえる",
+				"translation": "ошибаться"
+			},
+			{
+				"japanese": "違い",
+				"reading": "ちがい",
+				"translation": "отличие, разница"
+			},
+			{
+				"japanese": "間違い",
+				"reading": "まちがい",
+				"translation": "ошибка"
+			}
+		]
+	},
+	{
+		"japanese": "取",
+		"on": "シュ",
+		"kun": "と・る",
+		"translation": "брать",
+		"words": [
+			{
+				"japanese": "取材",
+				"reading": "しゅざい",
+				"translation": "выбор материала"
+			},
+			{
+				"japanese": "取る",
+				"reading": "とる",
+				"translation": "брать"
+			},
+			{
+				"japanese": "書き取り",
+				"reading": "かきとり",
+				"translation": "диктант"
+			},
+			{
+				"japanese": "取り消し",
+				"reading": "とりけし",
+				"translation": "отмена"
+			},
+			{
+				"japanese": "聞き取り",
+				"reading": "ききとり",
+				"translation": "восприятие на слух, слушание"
+			}
+		]
+	},
+	{
+		"japanese": "消",
+		"on": "ショウ",
+		"kun": "き・える、け・す",
+		"translation": "гасить, отменять",
+		"words": [
+			{
+				"japanese": "消去",
+				"reading": "しょうきょ",
+				"translation": "исключение, устранение"
+			},
+			{
+				"japanese": "消す",
+				"reading": "けす",
+				"translation": "гасить, стирать"
+			},
+			{
+				"japanese": "消える",
+				"reading": "きえる",
+				"translation": "гаснуть, исчезать"
+			},
+			{
+				"japanese": "消しゴム",
+				"reading": "けしごむ",
+				"translation": "ластик"
+			}
+		]
+	}
+	]
+}

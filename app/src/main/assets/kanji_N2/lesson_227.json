@@ -1,0 +1,133 @@
+{
+	"kanji":[
+	{
+		"japanese": "若",
+		"on": "",
+		"kun": "わか・い",
+		"translation": "",
+		"words": [
+			{
+				"japanese": "若い",
+				"reading": "わかい",
+				"translation": "молодой"
+			},
+			{
+				"japanese": "若者",
+				"reading": "わかもの",
+				"translation": "молодежь"
+			}
+		]
+	},
+	{
+		"japanese": "反",
+		"on": "ハン",
+		"kun": "",
+		"translation": "",
+		"words": [
+			{
+				"japanese": "反対",
+				"reading": "はんたい",
+				"translation": "возражение, противоположность"
+			}
+		]
+	},
+	{
+		"japanese": "賛",
+		"on": "サン",
+		"kun": "",
+		"translation": "",
+		"words": [
+			{
+				"japanese": "賛成",
+				"reading": "さんせい",
+				"translation": "согласие, одобрение"
+			}
+		]
+	},
+	{
+		"japanese": "拾",
+		"on": "",
+		"kun": "ひろ・う",
+		"translation": "",
+		"words": [
+			{
+				"japanese": "拾う",
+				"reading": "ひろう",
+				"translation": "подбирать (с земли), находить (кем-то утерянное)"
+			}
+		]
+	},
+	{
+		"japanese": "鋭",
+		"on": "",
+		"kun": "するど・い",
+		"translation": "",
+		"words": [
+			{
+				"japanese": "鋭い",
+				"reading": "するどい",
+				"translation": "острый, проницательный"
+			}
+		]
+	},
+	{
+		"japanese": "鈍",
+		"on": "",
+		"kun": "にぶ・い",
+		"translation": "",
+		"words": [
+			{
+				"japanese": "鈍い",
+				"reading": "にぶい",
+				"translation": "тупой, несообразительный"
+			}
+		]
+	},
+	{
+		"japanese": "浮",
+		"on": "",
+		"kun": "う・く、う・かぶ、う・かべる",
+		"translation": "",
+		"words": [
+			{
+				"japanese": "浮く",
+				"reading": "うく",
+				"translation": "плавать на поверхности, встплывать"
+			},
+			{
+				"japanese": "浮かぶ",
+				"reading": "うかぶ",
+				"translation": "всплывать, приходить на ум"
+			},
+			{
+				"japanese": "浮かべる",
+				"reading": "うかべる",
+				"translation": "пускать на воду, пускать по воде"
+			},
+			{
+				"japanese": "浮かれている",
+				"reading": "うかれている",
+				"translation": "быть веселым, возбужденным"
+			}
+		]
+	},
+	{
+		"japanese": "沈",
+		"on": "",
+		"kun": "しず・む",
+		"translation": "",
+		"words": [
+			{
+				"japanese": "沈む",
+				"reading": "しずむ",
+				"translation": "тонуть"
+			},
+			{
+				"japanese": "沈んでいる",
+				"reading": "しずんでいる",
+				"translation": "быть в депрессии"
+			}
+		]
+	}
+	]
+}

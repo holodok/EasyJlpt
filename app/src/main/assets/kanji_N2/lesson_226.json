@@ -1,0 +1,316 @@
+{
+	"kanji":[
+	{
+		"japanese": "登",
+		"on": "トウ、ト",
+		"kun": "のぼ・る",
+		"translation": "",
+		"words": [
+			{
+				"japanese": "登録",
+				"reading": "とうろく",
+				"translation": "регистрация"
+			},
+			{
+				"japanese": "登場",
+				"reading": "とうじょう",
+				"translation": "появление на сцене"
+			},
+			{
+				"japanese": "登山",
+				"reading": "とざん",
+				"translation": "восхождение на гору"
+			},
+			{
+				"japanese": "山登り",
+				"reading": "やまのぼり",
+				"translation": "подъем на гору"
+			}
+		]
+	},
+	{
+		"japanese": "編",
+		"on": "編",
+		"kun": "あ・む",
+		"translation": "",
+		"words": [
+			{
+				"japanese": "編集",
+				"reading": "へんしゅう",
+				"translation": "редактирование"
+			},
+			{
+				"japanese": "短編",
+				"reading": "たんぺん",
+				"translation": "короткая работа (рассказ, фильм)"
+			},
+			{
+				"japanese": "長編",
+				"reading": "ちょうへん",
+				"translation": "крупное произведение (роман, фильм)"
+			},
+			{
+				"japanese": "編み物",
+				"reading": "あみもの",
+				"translation": "вязание, вязаное изделие"
+			}
+		]
+	},
+	{
+		"japanese": "能",
+		"on": "ノウ",
+		"kun": "",
+		"translation": "",
+		"words": [
+			{
+				"japanese": "機能",
+				"reading": "きのう",
+				"translation": "функция"
+			},
+			{
+				"japanese": "能力",
+				"reading": "のうりょく",
+				"translation": "способность"
+			},
+			{
+				"japanese": "可能",
+				"reading": "かのう",
+				"translation": "возможный"
+			}
+		]
+	},
+	{
+		"japanese": "修",
+		"on": "シュウ",
+		"kun": "",
+		"translation": "",
+		"words": [
+			{
+				"japanese": "修正",
+				"reading": "しゅうせい",
+				"translation": "правка, коррекция"
+			},
+			{
+				"japanese": "修士",
+				"reading": "しゅうし",
+				"translation": "магистр"
+			},
+			{
+				"japanese": "修理",
+				"reading": "しゅうり",
+				"translation": "чинить"
+			}
+		]
+	},
+	{
+		"japanese": "完",
+		"on": "カン",
+		"kun": "",
+		"translation": "",
+		"words": [
+			{
+				"japanese": "完了",
+				"reading": "かんりょう",
+				"translation": "окончание, завершение"
+			},
+			{
+				"japanese": "完備",
+				"reading": "かんび",
+				"translation": "законченный, полностью укомплектованный"
+			},
+			{
+				"japanese": "完成",
+				"reading": "かんせい",
+				"translation": "завершение"
+			}
+		]
+	},
+	{
+		"japanese": "了",
+		"on": "了",
+		"kun": "",
+		"translation": "",
+		"words": [
+			{
+				"japanese": "終了",
+				"reading": "しゅうりょう",
+				"translation": "окончание, истечение срока"
+			},
+			{
+				"japanese": "修了",
+				"reading": "しゅうりょう",
+				"translation": "завершение (курса)"
+			}
+		]
+	},
+	{
+		"japanese": "像",
+		"on": "ゾウ",
+		"kun": "",
+		"translation": "",
+		"words": [
+			{
+				"japanese": "画像",
+				"reading": "がぞう",
+				"translation": "портрет, картинка"
+			},
+			{
+				"japanese": "現像",
+				"reading": "げんぞう",
+				"translation": "проявление (пленки)"
+			},
+			{
+				"japanese": "映像",
+				"reading": "えいぞう",
+				"translation": "отражение, картинка, видео"
+			}
+		]
+	},
+	{
+		"japanese": "類",
+		"on": "ルイ",
+		"kun": "",
+		"translation": "",
+		"words": [
+			{
+				"japanese": "書類",
+				"reading": "しょるい",
+				"translation": "документ"
+			},
+			{
+				"japanese": "人類",
+				"reading": "じんるい",
+				"translation": "человеческая расса"
+			},
+			{
+				"japanese": "分類",
+				"reading": "ぶんるい",
+				"translation": "классификация"
+			}
+		]
+	},
+	{
+		"japanese": "式",
+		"on": "シキ",
+		"kun": "",
+		"translation": "",
+		"words": [
+			{
+				"japanese": "書式",
+				"reading": "しょしき",
+				"translation": "установленная форма документа, бланк"
+			},
+			{
+				"japanese": "日本式",
+				"reading": "にほんしき",
+				"translation": "японский стиль"
+			},
+			{
+				"japanese": "入学式",
+				"reading": "にゅうがくしき",
+				"translation": "торжественная церемония для поступивших (линейка)"
+			},
+			{
+				"japanese": "正式",
+				"reading": "せいしき",
+				"translation": "формальный, официальный"
+			}
+		]
+	},
+	{
+		"japanese": "央",
+		"on": "オウ",
+		"kun": "",
+		"translation": "",
+		"words": [
+			{
+				"japanese": "中央",
+				"reading": "ちゅうおう",
+				"translation": "центр"
+			}
+		]
+	},
+	{
+		"japanese": "存",
+		"on": "ゾン、ソン",
+		"kun": "",
+		"translation": "",
+		"words": [
+			{
+				"japanese": "保存",
+				"reading": "ほぞん",
+				"translation": "сохранение"
+			},
+			{
+				"japanese": "ご存知",
+				"reading": "ごぞんじ",
+				"translation": "знать (скромно)"
+			},
+			{
+				"japanese": "生存",
+				"reading": "せいぞん",
+				"translation": "выживание"
+			},
+			{
+				"japanese": "存在",
+				"reading": "そんざい",
+				"translation": "существование"
+			}
+		]
+	},
+	{
+		"japanese": "印",
+		"on": "イン",
+		"kun": "しるし",
+		"translation": "",
+		"words": [
+			{
+				"japanese": "認め印",
+				"reading": "みとめいん",
+				"translation": "личная печать"
+			},
+			{
+				"japanese": "印",
+				"reading": "しるし",
+				"translation": "знак, отметка"
+			},
+			{
+				"japanese": "目印",
+				"reading": "めじるし",
+				"translation": "ориентир, примета"
+			}
+		]
+	},
+	{
+		"japanese": "刷",
+		"on": "サツ",
+		"kun": "",
+		"translation": "",
+		"words": [
+			{
+				"japanese": "印刷",
+				"reading": "いんさつ",
+				"translation": "печать"
+			}
+		]
+	},
+	{
+		"japanese": "拡",
+		"on": "カク",
+		"kun": "",
+		"translation": "",
+		"words": [
+			{
+				"japanese": "拡大",
+				"reading": "かくだい",
+				"translation": "увеличение"
+			},
+			{
+				"japanese": "縮小",
+				"reading": "しゅくしょう",
+				"translation": "уменьшение"
+			}
+		]
+	}
+	]
+}

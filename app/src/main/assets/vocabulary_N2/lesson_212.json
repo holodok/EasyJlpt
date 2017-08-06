@@ -1,0 +1,189 @@
+﻿{
+	"words": [
+	{
+		"japanese": "段ボール箱",
+		"reading": "だんボールばこ",
+		"translation": "картонная коробка"
+	},
+	{
+		"japanese": "ガムテープ",
+		"reading": "ガムテープ",
+		"translation": "клейкая лента для упаковки"
+	},
+	{
+		"japanese": "ポリ袋",
+		"reading": "ポリぶくろ",
+		"translation": "пластиковый пакет"
+	},
+	{
+		"japanese": "レジ袋",
+		"reading": "レジぶくろ",
+		"translation": "пластиковый пакет майка"
+	},
+	{
+		"japanese": "パック",
+		"reading": "パック",
+		"translation": "упаковка (яиц, молока)"
+	},
+	{
+		"japanese": "トレイ",
+		"reading": "トレイ",
+		"translation": "контенер (для мяса и т.п.)"
+	},
+	{
+		"japanese": "キャップ",
+		"reading": "キャップ",
+		"translation": "колпачок"
+	},
+	{
+		"japanese": "ラベル",
+		"reading": "ラベル",
+		"translation": "этикетка"
+	},
+	{
+		"japanese": "ペットボトル",
+		"reading": "ペットボトル",
+		"translation": "пластиковая бутылка"
+	},
+	{
+		"japanese": "買い換える",
+		"reading": "かいかえる",
+		"translation": "купить замену"
+	},
+	{
+		"japanese": "家電製品",
+		"reading": "かでんせいひん",
+		"translation": "техника для дома"
+	},
+	{
+		"japanese": "省エネ",
+		"reading": "しょうエネ",
+		"translation": "энергосбережение"
+	},
+	{
+		"japanese": "電気代を節約する",
+		"reading": "でんきだいをせつやくする",
+		"translation": "уменьшить счет за электричество"
+	},
+	{
+		"japanese": "ごみが溜まる",
+		"reading": "ごみがたまる",
+		"translation": "мусор накапливается"
+	},
+	{
+		"japanese": "リサイクルに出す",
+		"reading": "リサイクルにだす",
+		"translation": "сдавать на переработку"
+	},
+	{
+		"japanese": "不用品を処分する",
+		"reading": "ふようひんをしょぶんする",
+		"translation": "избавляться от ненужных вещей"
+	},
+	{
+		"japanese": "ごみを分別する",
+		"reading": "ごみをぶんべつする",
+		"translation": "сортировать мусор"
+	},
+	{
+		"japanese": "燃えるごみ",
+		"reading": "もえるごみ",
+		"translation": "сжигаемый мусор"
+	},
+	{
+		"japanese": "可燃ごみ",
+		"reading": "かねんごみ",
+		"translation": "сжигаемый мусор"
+	},
+	{
+		"japanese": "燃やせるごみ",
+		"reading": "もやせるごみ",
+		"translation": "сжигаемый мусор"
+	},
+	{
+		"japanese": "燃えないごみ",
+		"reading": "もえないごみ",
+		"translation": "несжигаемый мусор"
+	},
+	{
+		"japanese": "不燃ごみ",
+		"reading": "ふねんごみ",
+		"translation": "несжигаемый мусор"
+	},
+	{
+		"japanese": "燃やせないごみ",
+		"reading": "もやせないごみ",
+		"translation": "несжигаемый мусор"
+	},
+	{
+		"japanese": "生ごみ",
+		"reading": "なまごみ",
+		"translation": "отходы еды"
+	},
+	{
+		"japanese": "粗大ごみ",
+		"reading": "そだいごみ",
+		"translation": "крупногабаритный мусор"
+	},
+	{
+		"japanese": "資源ごみ",
+		"reading": "しげんごみ",
+		"translation": "перерабатываемые отходы"
+	},
+	{
+		"japanese": "指定のごみ袋",
+		"reading": "していのごみぶくろ",
+		"translation": "пакеты для мусора, одобренные правительством"
+	},
+	{
+		"japanese": "ペットボトルをすすぐ",
+		"reading": "ペットボトルをすすぐ",
+		"translation": "полоскать пластиковую бутылку"
+	},
+	{
+		"japanese": "ラベルをはがす",
+		"reading": "ラベルをはがす",
+		"translation": "отрывать этикетку"
+	},
+	{
+		"japanese": "シールを貼る",
+		"reading": "シールをはる",
+		"translation": "наклеивать наклейку"
+	},
+	{
+		"japanese": "アルミ缶をつぶす",
+		"reading": "アルミかんをつぶす",
+		"translation": "расплющивать аллюминевую банку"
+	},
+	{
+		"japanese": "古新聞を再利用する",
+		"reading": "ふるしんぶんをさいりようする",
+		"translation": "повторно использовать старые газеты"
+	},
+	{
+		"japanese": "水がもれる",
+		"reading": "みずがもれる",
+		"translation": "вода просачивается (кран течет)"
+	},
+	{
+		"japanese": "水をもらす",
+		"reading": "みずをもらす",
+		"translation": "утечка воды"
+	},
+	{
+		"japanese": "秘密がもれる",
+		"reading": "ひみつがもれる",
+		"translation": "утечка секретов"
+	},
+	{
+		"japanese": "秘密をもらす",
+		"reading": "ひみつをもらす",
+		"translation": "раскрывать секрет"
+	},
+	{
+		"japanese": "こぼれる",
+		"reading": "こぼれる",
+		"translation": "проливаться, переливаться через край"
+	}
+	]
+}

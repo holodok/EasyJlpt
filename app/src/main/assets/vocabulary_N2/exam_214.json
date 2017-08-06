@@ -1,0 +1,148 @@
+﻿{
+  "sentences":[
+  {
+	"id" : 1,
+    "japanese": "お母さん が 赤ちゃん を 背中 に _ して いる。",
+    "reading": "おかあさん が あかちゃん を せなか に _ して いる。",
+	"translation": "Мама несет ребенка на спине.",
+	"answers": [
+	{
+		"japanese": "だっこ",
+		"reading": ""
+	},
+	{
+		"japanese": "おんぶ",
+		"reading": ""
+	}],
+	"correct": 2
+  },
+  {
+	"id" : 2,
+    "japanese": "サッカーボール を 足 で _。",
+    "reading": "サッカーボール を あし で_。",
+	"translation": "Я ударил футбольный мяч ногой.",
+	"answers": [
+	{
+		"japanese": "なぐった",
+		"reading": ""
+	},
+	{
+		"japanese": "けった",
+		"reading": ""
+	}],
+	"correct": 2
+  },
+  {
+	"id" : 3,
+    "japanese": "子ども が 注射 を いやがって _。",
+    "reading": "こども が ちゅうしゃ を いやがって _。",
+	"translation": "Ребенок капризничает, потому что ненавидит уколы.",
+	"answers": [
+	{
+		"japanese": "あばれている",
+		"reading": ""
+	},
+	{
+		"japanese": "ぶっている",
+		"reading": ""
+	}],
+	"correct": 1
+  },
+  {
+	"id" : 4,
+    "japanese": "食べた あと の、洗い物 を _ に 持って いきなさい。",
+    "reading": "たべた あと の、あらいもの を _ に もって いきなさい。",
+	"translation": "Как поешь, отнеси грязную помуду в раковину.",
+	"answers": [
+	{
+		"japanese": "洗濯機",
+		"reading": "せんたくき"
+	},
+	{
+		"japanese": "流し",
+		"reading": "ながし"
+	}],
+	"correct": 2
+  },
+  {
+	"id" : 5,
+    "japanese": "爪 を かむ の は _。",
+    "reading": "つめ を かむ の は _。",
+	"translation": "Прекрати грызть ногти.",
+	"answers": [
+	{
+		"japanese": "よしなさい",
+		"reading": ""
+	},
+	{
+		"japanese": "たたきなさい",
+		"reading": ""
+	}],
+	"correct": 1
+  },
+  {
+	"id" : 6,
+    "japanese": "父 に 大声 で _。",
+    "reading": "ちち に おおごえ で _。",
+	"translation": "На меня накричал отец.",
+	"answers": [
+	{
+		"japanese": "なぐられた",
+		"reading": ""
+	},
+	{
+		"japanese": "どなられた",
+		"reading": ""
+	}],
+	"correct": 2
+  },
+  {
+	"id" : 7,
+    "japanese": "５歳 の 息子 は いつも _ ばかり して いる。",
+    "reading": "５さい の むすこ は いつも _ ばかり して いる。",
+	"translation": "Мой пятилетний сын только и делает, что балуется.",
+	"answers": [
+	{
+		"japanese": "しつけ",
+		"reading": ""
+	},
+	{
+		"japanese": "いじめ",
+		"reading": ""
+	},
+	{
+		"japanese": "おしめ",
+		"reading": ""
+	},
+	{
+		"japanese": "いたずら",
+		"reading": ""
+	}],
+	"correct": 4
+  },
+  {
+	"id" : 8,
+    "japanese": "子ども を _ ように 育てる の は 難しい です。",
+    "reading": "こども を _ ように そだてる の は むずかしい です。",
+	"translation": "Трудно воспитать ребенка, не избаловав его.",
+	"answers": [
+	{
+		"japanese": "なぐらない",
+		"reading": ""
+	},
+	{
+		"japanese": "あまやかさない",
+		"reading": ""
+	},
+	{
+		"japanese": "いじめない",
+		"reading": ""
+	},
+	{
+		"japanese": "しつけない",
+		"reading": ""
+	}],
+	"correct": 2
+  }
+  ]
+}

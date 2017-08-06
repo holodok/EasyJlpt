@@ -1,0 +1,286 @@
+{
+	"kanji":[
+	{
+		"japanese": "鉄",
+		"on": "テツ",
+		"kun": "",
+		"translation": "железо",
+		"words": [
+			{
+				"japanese": "地下鉄",
+				"reading": "ちかてつ",
+				"translation": "метро"
+			},
+			{
+				"japanese": "私鉄",
+				"reading": "してつ",
+				"translation": "частная ж/д"
+			}
+		]
+	},
+	{
+		"japanese": "窓",
+		"on": "ソウ",
+		"kun": "まど",
+		"translation": "окно",
+		"words": [
+			{
+				"japanese": "同窓会",
+				"reading": "どうそうかい",
+				"translation": "общество бывших соучеников"
+			},
+			{
+				"japanese": "窓",
+				"reading": "まど",
+				"translation": "окно"
+			},
+			{
+				"japanese": "窓口",
+				"reading": "まどぐち",
+				"translation": "окошко (кассы, почты и т.д.)"
+			}
+		]
+	},
+	{
+		"japanese": "符",
+		"on": "フ",
+		"kun": "",
+		"translation": "знак, отметка",
+		"words": [
+			{
+				"japanese": "切符",
+				"reading": "きっぷ",
+				"translation": "билет"
+			}
+		]
+	},
+	{
+		"japanese": "精",
+		"on": "セイ",
+		"kun": "",
+		"translation": "очищенный, призрак",
+		"words": [
+			{
+				"japanese": "精算",
+				"reading": "せいさん",
+				"translation": "доплата за проезд"
+			},
+			{
+				"japanese": "精神",
+				"reading": "せいしん",
+				"translation": "дух, душа"
+			}
+		]
+	},
+	{
+		"japanese": "算",
+		"on": "サン",
+		"kun": "",
+		"translation": "считать",
+		"words": [
+			{
+				"japanese": "計算",
+				"reading": "けいさん",
+				"translation": "счет, подсчет"
+			},
+			{
+				"japanese": "足し算",
+				"reading": "たしざん",
+				"translation": "сложение"
+			},
+			{
+				"japanese": "引き算",
+				"reading": "ひきざん",
+				"translation": "вычитание"
+			}
+		]
+	},
+	{
+		"japanese": "改",
+		"on": "カイ",
+		"kun": "あらた・める、あらた・まる",
+		"translation": "изменение",
+		"words": [
+			{
+				"japanese": "改正",
+				"reading": "かいせい",
+				"translation": "изменение, поправка"
+			},
+			{
+				"japanese": "改める",
+				"reading": "あらためる",
+				"translation": "изменять, исправлять"
+			},
+			{
+				"japanese": "改まる",
+				"reading": "あらたまる",
+				"translation": "улучшаться, исправляться"
+			}
+		]
+	},
+	{
+		"japanese": "札",
+		"on": "セツ",
+		"kun": "ふだ",
+		"translation": "этикетка, купюра",
+		"words": [
+			{
+				"japanese": "改札口",
+				"reading": "かいさつぐち",
+				"translation": "турникет (где проверяют билеты)"
+			},
+			{
+				"japanese": "札",
+				"reading": "ふだ",
+				"translation": "табличка, этикетка"
+			},
+			{
+				"japanese": "１万円札",
+				"reading": "１まんえんさつ",
+				"translation": "10 тысячная купюра"
+			}
+		]
+	},
+	{
+		"japanese": "線",
+		"on": "セン",
+		"kun": "",
+		"translation": "линия",
+		"words": [
+			{
+				"japanese": "下線",
+				"reading": "かせん",
+				"translation": "подчеркивание"
+			},
+			{
+				"japanese": "新幹線",
+				"reading": "しんかんせん",
+				"translation": "шинкансен"
+			},
+			{
+				"japanese": "線路",
+				"reading": "せんろ",
+				"translation": "ж/д путь"
+			}
+		]
+	},
+	{
+		"japanese": "刻",
+		"on": "コク",
+		"kun": "きざ・む",
+		"translation": "вырезать",
+		"words": [
+			{
+				"japanese": "時刻",
+				"reading": "じこく",
+				"translation": "время"
+			},
+			{
+				"japanese": "刻む",
+				"reading": "きざむ",
+				"translation": "вырезать, гравировать"
+			}
+		]
+	},
+	{
+		"japanese": "番",
+		"on": "バン",
+		"kun": "",
+		"translation": "очередь, номер в последовательности",
+		"words": [
+			{
+				"japanese": "番号",
+				"reading": "ばんごう",
+				"translation": "номер"
+			},
+			{
+				"japanese": "～番線",
+				"reading": "～ばんせん",
+				"translation": "номер пути"
+			}
+		]
+	},
+	{
+		"japanese": "号",
+		"on": "ゴウ",
+		"kun": "",
+		"translation": "кличка, номер",
+		"words": [
+			{
+				"japanese": "符号",
+				"reading": "ふごう",
+				"translation": "знак, символ"
+			},
+			{
+				"japanese": "信号",
+				"reading": "しんごう",
+				"translation": "светофор, сигнал"
+			},
+			{
+				"japanese": "〜号車",
+				"reading": "〜ごうしゃ",
+				"translation": "номер вагона"
+			}
+		]
+	},
+	{
+		"japanese": "快",
+		"on": "カイ",
+		"kun": "こころよ・い",
+		"translation": "приятный",
+		"words": [
+			{
+				"japanese": "快速",
+				"reading": "かいそく",
+				"translation": "высокоскоростной"
+			},
+			{
+				"japanese": "快い",
+				"reading": "こころよい",
+				"translation": "приятный"
+			}
+		]
+	},
+	{
+		"japanese": "速",
+		"on": "ソク",
+		"kun": "はや・い",
+		"translation": "быстрый",
+		"words": [
+			{
+				"japanese": "時速",
+				"reading": "じそく",
+				"translation": "скорость (в час)"
+			},
+			{
+				"japanese": "速い",
+				"reading": "はやい",
+				"translation": "быстрый"
+			},
+			{
+				"japanese": "早速",
+				"reading": "さっそく",
+				"translation": "немедленно, сейчас же"
+			}
+		]
+	},
+	{
+		"japanese": "路",
+		"on": "ロ",
+		"kun": "",
+		"translation": "путь",
+		"words": [
+			{
+				"japanese": "道路",
+				"reading": "どうろ",
+				"translation": "дорога"
+			},
+			{
+				"japanese": "通路",
+				"reading": "つうろ",
+				"translation": "проход"
+			}
+		]
+	}
+	]
+}

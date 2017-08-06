@@ -1,0 +1,148 @@
+﻿{
+  "sentences":[
+  {
+	"id" : 1,
+    "japanese": "この自転車は古いので_と変な音がある。",
+    "reading": "このじてんしゃはふるいので_とへんなおとがある。",
+	"translation": "Этот велосипед уже старый, поэтому когда крутишь педали появляется странный звук.",
+	"answers": [
+	{
+		"japanese": "かく",
+		"reading": ""
+	},
+	{
+		"japanese": "こぐ",
+		"reading": ""
+	}],
+	"correct": 2
+  },
+  {
+	"id" : 2,
+    "japanese": "泥棒が_。",
+    "reading": "どろぼうが_。",
+	"translation": "Вор был пойман.",
+	"answers": [
+	{
+		"japanese": "つかまれた",
+		"reading": ""
+	},
+	{
+		"japanese": "つかまえられた",
+		"reading": ""
+	}],
+	"correct": 2
+  },
+  {
+	"id" : 3,
+    "japanese": "電気が消えて_になった。",
+    "reading": "でんきがきえて_になった。",
+	"translation": "Свет выключился и стало темно.",
+	"answers": [
+	{
+		"japanese": "真っ暗",
+		"reading": "まっくら"
+	},
+	{
+		"japanese": "真っ黒",
+		"reading": "まっくろ"
+	}],
+	"correct": 1
+  },
+  {
+	"id" : 4,
+    "japanese": "「あ！大変だ！あそこで子どもが_。」",
+    "reading": "「あ！たいへんだ！あそこでこどもが_。」",
+	"translation": "А! Какой ужас! Там ребенок тонет.",
+	"answers": [
+	{
+		"japanese": "もぐっている",
+		"reading": ""
+	},
+	{
+		"japanese": "おぼれている",
+		"reading": ""
+	}],
+	"correct": 2
+  },
+  {
+	"id" : 5,
+    "japanese": "食べてみたら、_。",
+    "reading": "たべてみたら、_。",
+	"translation": "Когда я попробовал, было невкусно.",
+	"answers": [
+	{
+		"japanese": "まずかった",
+		"reading": ""
+	},
+	{
+		"japanese": "うまそうだった",
+		"reading": ""
+	}],
+	"correct": 1
+  },
+  {
+	"id" : 6,
+    "japanese": "祖父が振り込め詐欺に_しまった。",
+    "reading": "そふがふりこめさぎに_しまった。",
+	"translation": "Дедушку развели на денежный перевод.",
+	"answers": [
+	{
+		"japanese": "引っかけて",
+		"reading": "ひっかけて"
+	},
+	{
+		"japanese": "引っかかって",
+		"reading": "ひっかかって"
+	}],
+	"correct": 2
+  },
+  {
+	"id" : 7,
+    "japanese": "その犬にあまり_とかまれるよ。",
+    "reading": "そのいぬにあまり_とかまれるよ。",
+	"translation": "Если слишком приблизится к собаке, укусит.",
+	"answers": [
+	{
+		"japanese": "近づける",
+		"reading": "ちかづける"
+	},
+	{
+		"japanese": "近寄る",
+		"reading": "ちかよる"
+	},
+	{
+		"japanese": "あばれる",
+		"reading": ""
+	},
+	{
+		"japanese": "つかまる",
+		"reading": ""
+	}],
+	"correct": 2
+  },
+  {
+	"id" : 8,
+    "japanese": "コーヒーカップを_しまった。",
+    "reading": "",
+	"translation": "Я перевернул чашку с кофе, блин.",
+	"answers": [
+	{
+		"japanese": "はずして",
+		"reading": ""
+	},
+	{
+		"japanese": "おぼれて",
+		"reading": ""
+	},
+	{
+		"japanese": "引っかかって",
+		"reading": "ひっかかって"
+	},
+	{
+		"japanese": "ひっくり返して",
+		"reading": "ひっくりかえして"
+	}],
+	"correct": 4
+  }
+  ]
+}
