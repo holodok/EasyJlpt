@@ -43,13 +43,14 @@ public class FlashCardsActivity extends UserSessionLoaderActivity<Word> {
 
     private SimpleGameController simpleGameController;
     private Word word;
+    private ActionBar actionBar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         lesson = getIntent().getParcelableExtra("lesson");
 
-        ActionBar actionBar = getSupportActionBar();
+        actionBar = getSupportActionBar();
 
         LayoutInflater.from(this).inflate(R.layout.flash_card, (ViewGroup) findViewById(R.id.content), true);
 
@@ -156,6 +157,12 @@ public class FlashCardsActivity extends UserSessionLoaderActivity<Word> {
         .show();
     }
 
+    private void updateLeftCount(int count) {
+        if (count > 0) {
+            actionBar.setTitle(getString(R.string.title_flash_cards, count));
+        }
+    }
+
     class SimpleGameController {
         List<FlashCardTask> tasks;
         int index;
@@ -168,6 +175,7 @@ public class FlashCardsActivity extends UserSessionLoaderActivity<Word> {
             }
             Collections.shuffle(this.tasks);
             index = 0;
+            updateLeftCount(tasks.size());
         }
 
         Word getNextWord() {
@@ -184,6 +192,7 @@ public class FlashCardsActivity extends UserSessionLoaderActivity<Word> {
             }
             task.wasWrong = !correct;
             index++;
+            updateLeftCount(tasks.size() - index);
         }
     }
 

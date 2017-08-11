@@ -22,4 +22,5 @@
     <string name="menu_kanji_n2">Канджи</string>
     <string name="messageLeaveFlashCards">Выйти из режима карточек?</string>
     <string name="menu_grammar_n2">Грамматика</string>
+    <string name="title_flash_cards">Осталось %d</string>
 </resources>
