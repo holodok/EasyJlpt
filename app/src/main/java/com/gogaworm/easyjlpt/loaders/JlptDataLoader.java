@@ -37,7 +37,7 @@ public abstract class JlptDataLoader<T> extends AbstractJsonDataLoader<T> {
 
     protected abstract String[] getFiles(String folder);
 
-    Word parseWord(JSONObject json) throws JSONException {
+    static Word parseWord(JSONObject json) throws JSONException {
         return new Word(
                 json.getString("japanese"),
                 json.optString("reading"),
@@ -45,7 +45,7 @@ public abstract class JlptDataLoader<T> extends AbstractJsonDataLoader<T> {
         );
     }
 
-    String[] parseStrings(JSONArray array) throws JSONException {
+    static String[] parseStrings(JSONArray array) throws JSONException {
         String[] values = new String[array.length()];
         for (int i = 0; i < array.length(); i++) {
             values[i] = array.getString(i);

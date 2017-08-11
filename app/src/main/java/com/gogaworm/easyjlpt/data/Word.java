@@ -20,7 +20,11 @@ public class Word implements Parcelable {
     }
 
     public boolean hasKanji() {
-        return !japanese.equals(reading) && reading.length() != 0;
+        return  reading != null && !japanese.equals(reading) && reading.length() != 0;
+    }
+
+    public boolean isNewKanjiMode() {
+        return japanese.contains("|");
     }
 
     protected Word(Parcel in) {

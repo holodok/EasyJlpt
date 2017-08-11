@@ -13,9 +13,11 @@ import android.widget.TextView;
 import com.gogaworm.easyjlpt.R;
 import com.gogaworm.easyjlpt.data.Lesson;
 import com.gogaworm.easyjlpt.data.Word;
+import com.gogaworm.easyjlpt.loaders.GrammarWordListLoader;
 import com.gogaworm.easyjlpt.loaders.KanjiWordListLoader;
 import com.gogaworm.easyjlpt.loaders.WordListLoader;
 import com.gogaworm.easyjlpt.utils.Constants;
+import com.gogaworm.easyjlpt.utils.UnitedKanjiKanaSpannableString;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -92,6 +94,8 @@ public class FlashCardsActivity extends UserSessionLoaderActivity<Word> {
                 return new WordListLoader(this, folder, lesson.trainId);
             case KANJI:
                 return new KanjiWordListLoader(this, folder, lesson.trainId);
+            case GRAMMAR:
+                return new GrammarWordListLoader(this, folder, lesson.trainId);
         }
         return null;
     }
@@ -110,7 +114,12 @@ public class FlashCardsActivity extends UserSessionLoaderActivity<Word> {
             finish();
         } else {
             questionView.setText(R.string.label_do_you_know_word);
-            kanjiView.setText(word.japanese);
+            if (word.isNewKanjiMode()) {
+                kanjiView.setText(new UnitedKanjiKanaSpannableString(word.japanese));
+            } else {
+                kanjiView.setText(word.japanese);
+            }
+
             readingView.setVisibility(View.GONE);
             translationView.setVisibility(View.GONE);
             yesButton.setText(R.string.button_check);
@@ -120,7 +129,6 @@ public class FlashCardsActivity extends UserSessionLoaderActivity<Word> {
 
     private void showAnswer() {
         questionView.setText(R.string.label_is_it_correct);
-        kanjiView.setText(word.japanese);
 
         if (word.hasKanji()) {
             readingView.setText(word.reading);

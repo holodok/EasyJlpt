@@ -42,7 +42,7 @@ public class GrammarLoader extends LessonLoader<Grammar> {
         }
     }
 
-    private Grammar.Meaning[] parseMeanings(JSONArray jsonMeanings) throws JSONException {
+    static Grammar.Meaning[] parseMeanings(JSONArray jsonMeanings) throws JSONException {
         Grammar.Meaning[] meanings = new Grammar.Meaning[jsonMeanings.length()];
         for (int i = 0; i < jsonMeanings.length(); i++) {
             JSONObject jsonMeaning = jsonMeanings.getJSONObject(i);
@@ -53,7 +53,7 @@ public class GrammarLoader extends LessonLoader<Grammar> {
         return meanings;
     }
 
-    private Word[] parseSentences(JSONArray jsonSentences) throws JSONException {
+    public static Word[] parseSentences(JSONArray jsonSentences) throws JSONException {
         Word[] words = new Word[jsonSentences.length()];
         for (int i = 0; i < jsonSentences.length(); i++) {
             words[i] = parseWord(jsonSentences.getJSONObject(i));

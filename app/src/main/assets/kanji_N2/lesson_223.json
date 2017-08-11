@@ -4,7 +4,7 @@
 		"japanese": "温",
 		"on": "オン",
 		"kun": "あたた・かい、あたた・まる、あたた・める",
-		"translation": "",
+		"translation": "теплота",
 		"words": [
 			{
 				"japanese": "温度",
@@ -32,7 +32,7 @@
 		"japanese": "冷",
 		"on": "レイ",
 		"kun": "つめ・たい、ひ・える、ひ・やす、さ・める、さ・ます",
-		"translation": "",
+		"translation": "прохлада",
 		"words": [
 			{
 				"japanese": "冷静",
@@ -70,7 +70,7 @@
 		"japanese": "緑",
 		"on": "リョク",
 		"kun": "みどり",
-		"translation": "",
+		"translation": "зелень",
 		"words": [
 			{
 				"japanese": "緑茶",
@@ -93,7 +93,7 @@
 		"japanese": "紅",
 		"on": "コウ",
 		"kun": "べに",
-		"translation": "",
+		"translation": "багрянец, темно-красный",
 		"words": [
 			{
 				"japanese": "紅茶",
@@ -111,7 +111,7 @@
 		"japanese": "玉",
 		"on": "",
 		"kun": "たま",
-		"translation": "",
+		"translation": "драгоценность, шар",
 		"words": [
 			{
 				"japanese": "水玉",
@@ -134,7 +134,7 @@
 		"japanese": "返",
 		"on": "ヘン",
 		"kun": "かえ・す、かえ・る",
-		"translation": "",
+		"translation": "возврат, ответ",
 		"words": [
 			{
 				"japanese": "返事",
@@ -162,7 +162,7 @@
 		"japanese": "団",
 		"on": "ダン",
 		"kun": "トン",
-		"translation": "",
+		"translation": "группа",
 		"words": [
 			{
 				"japanese": "団体",
@@ -190,7 +190,7 @@
 		"japanese": "般",
 		"on": "ハン",
 		"kun": "",
-		"translation": "",
+		"translation": "все",
 		"words": [
 			{
 				"japanese": "一般",
@@ -208,7 +208,7 @@
 		"japanese": "幼",
 		"on": "ヨウ",
 		"kun": "おさな・い",
-		"translation": "",
+		"translation": "детство",
 		"words": [
 			{
 				"japanese": "幼児",
@@ -226,7 +226,7 @@
 		"japanese": "児",
 		"on": "二、ジ",
 		"kun": "",
-		"translation": "",
+		"translation": "новорожденный",
 		"words": [
 			{
 				"japanese": "小児科",
@@ -244,7 +244,7 @@
 		"japanese": "歳",
 		"on": "サイ",
 		"kun": "",
-		"translation": "",
+		"translation": "возраст",
 		"words": [
 			{
 				"japanese": "～歳",
@@ -262,7 +262,7 @@
 		"japanese": "未",
 		"on": "ミ",
 		"kun": "",
-		"translation": "",
+		"translation": "не-, еще не",
 		"words": [
 			{
 				"japanese": "未定",
@@ -290,7 +290,7 @@
 		"japanese": "満",
 		"on": "マン",
 		"kun": "み・ちる、み・たす",
-		"translation": "",
+		"translation": "полный, заполненый",
 		"words": [
 			{
 				"japanese": "未満",
@@ -318,7 +318,7 @@
 		"japanese": "老",
 		"on": "ロウ",
 		"kun": "お・いる",
-		"translation": "",
+		"translation": "старик",
 		"words": [
 			{
 				"japanese": "老人",

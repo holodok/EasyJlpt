@@ -13,7 +13,7 @@
 				}
 			],
 
-			"excludes": [""],
+			"excludes": [],
 			"examples": "",
 			"notes": ["「〜はもちろん」に比べて、「〜はもとより」のほうが改まって言い方。"],
 			"sentences": [
@@ -50,7 +50,7 @@
                   "forms":["名＋はともかく"]
 				}
 			],
-			"excludes": [""],
+			"excludes": [],
 			"examples": "",
 			"notes": [],
 			"sentences": [
@@ -91,7 +91,7 @@
 					"forms": ["名＋はまだしも"]
 				}
 			],
-			"excludes": [""],
+			"excludes": [],
 			"examples": "",
 			"notes": [],
 			"sentences": [
@@ -132,9 +132,9 @@
 					"forms": ["名＋ぬきで"]
 				}
 			],
-			"excludes": [""],
+			"excludes": [],
 			"examples": "",
-			"notes": [""],
+			"notes": [],
 			"sentences": [
 				{
 					"japanese": "|皆-みな|さん、|仕-し||事-ごと|の|話-はなし|は|抜-ぬ|きにして|楽-たの|しく|飲-の|みましょう。",
