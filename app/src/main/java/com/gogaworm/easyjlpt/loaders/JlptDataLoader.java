@@ -41,7 +41,7 @@ public abstract class JlptDataLoader<T> extends AbstractJsonDataLoader<T> {
         return new Word(
                 json.getString("japanese"),
                 json.optString("reading"),
-                json.getString("translation")
+                json.optString("translation")
         );
     }
 

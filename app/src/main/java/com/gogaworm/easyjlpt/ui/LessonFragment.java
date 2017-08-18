@@ -134,7 +134,7 @@ public class LessonFragment extends RecyclerViewFragment<Lesson, Lesson> {
                 examButton.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        startNextActivity(LearnLessonActivity.class, lesson);
+                        startNextActivity(ExamActivity.class, lesson);
                     }
                 });
             }

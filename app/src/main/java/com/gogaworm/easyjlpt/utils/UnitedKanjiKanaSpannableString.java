@@ -14,7 +14,12 @@ import static android.text.TextUtils.isEmpty;
  * @author ikarpova
  */
 public class UnitedKanjiKanaSpannableString extends SpannableString {
+
     public UnitedKanjiKanaSpannableString(CharSequence text) {
+        this(text, true);
+    }
+
+    public UnitedKanjiKanaSpannableString(CharSequence text, boolean showReading) {
         super(getKanjiFromReading(text)); //todo: remove reading from here
         if (isEmpty(text)) {
             return;
@@ -32,7 +37,7 @@ public class UnitedKanjiKanaSpannableString extends SpannableString {
             char ch = text.charAt(i);
             if (ch == '|') {
                 if (readingStart) {
-                    setSpan(new KanjiSpan(kanji.toString(), kana.toString()), startPosition, endPosition, 0);
+                    setSpan(new KanjiSpan(kanji.toString(), kana.toString(), showReading), startPosition, endPosition, 0);
 
                     readingStart = false;
                     kanji.delete(0, kanji.length());
@@ -82,14 +87,16 @@ public class UnitedKanjiKanaSpannableString extends SpannableString {
     public static class KanjiSpan extends ReplacementSpan implements LineHeightSpan {
         CharSequence kanji;
         CharSequence kana;
+        private boolean showReading;
 
         private float kanjiWidth;
         private float kanaWidth;
         private float textSize;
 
-        KanjiSpan(CharSequence kanji, CharSequence kana) {
+        KanjiSpan(CharSequence kanji, CharSequence kana, boolean showReading) {
             this.kanji = kanji;
             this.kana = kana;
+            this.showReading = showReading;
         }
 
         @Override
@@ -109,10 +116,11 @@ public class UnitedKanjiKanaSpannableString extends SpannableString {
             int width = (int) Math.max(kanjiWidth, kanaWidth);
 
             int alpha = paint.getAlpha();
-
-            paint.setTextSize(textSize / 2);
-            paint.setAlpha(137);
-            canvas.drawText(kana.toString(), x + width / 2 - kanaWidth / 2, y - textSize, paint);
+            if (showReading) {
+                paint.setTextSize(textSize / 2);
+                paint.setAlpha(137);
+                canvas.drawText(kana.toString(), x + width / 2 - kanaWidth / 2, y - textSize, paint);
+            }
 
             paint.setTextSize(textSize);
             paint.setAlpha(alpha);

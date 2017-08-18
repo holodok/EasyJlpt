@@ -10,4 +10,5 @@ public interface Constants {
     int LOADER_ID_LESSON = 2000;
     int LOADER_ID_WORD_LIST = 3000;
     int LOADER_ID_GRAMMAR_LIST = 4000;
+    int LOADER_ID_EXAM = 5000;
 }
