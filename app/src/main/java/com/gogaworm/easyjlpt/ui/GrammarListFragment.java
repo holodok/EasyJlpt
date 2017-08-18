@@ -2,6 +2,11 @@ package com.gogaworm.easyjlpt.ui;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.text.Spannable;
+import android.text.SpannableString;
+import android.text.Spanned;
+import android.text.style.ForegroundColorSpan;
+import android.text.style.StrikethroughSpan;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -44,8 +49,9 @@ public class GrammarListFragment extends UserSessionFragment  {
             meaningTranslationView.setText(grammar.meanings[i].meaning.translation);
             TextView meaningJapaneseView = (TextView) meaning.findViewById(R.id.meaningJapanese);
             meaningJapaneseView.setText(grammar.meanings[i].meaning.japanese);
+
             TextView grammarFormsView = (TextView) meaning.findViewById(R.id.grammarForms);
-            grammarFormsView.setText(convertStringArrayToString(grammar.meanings[i].forms));
+            grammarFormsView.setText(getGrammarFormsSpannable(grammar.meanings[i].forms));
         }
 
         TextView grammarNotesView = (TextView) parentView.findViewById(R.id.grammarNotes);
@@ -76,5 +82,33 @@ public class GrammarListFragment extends UserSessionFragment  {
             }
         }
         return value.toString();
+    }
+
+    private Spannable getGrammarFormsSpannable(String[] grammarForms) {
+        SpannableString spannableString = new SpannableString(convertStringArrayToString(grammarForms));
+        int startMinus = -1;
+        int startItem = -1;
+        for (int i = 0; i < spannableString.length(); i++) {
+            char ch = spannableString.charAt(i);
+            if (ch == '形' || ch == '動' || ch == '名') {
+                //display grayed
+                spannableString.setSpan(new ForegroundColorSpan(getResources().getColor(R.color.secondaryText)), i, i + 1, Spanned.SPAN_INCLUSIVE_INCLUSIVE);
+            } else if (ch == '-' || ch == '—') {
+                startMinus = i;
+            } else if (ch == '+' || ch == '＋') {
+                startItem = i;
+                if (startMinus >=0) {
+                    spannableString.setSpan(new StrikethroughSpan(), startMinus + 1, i, Spanned.SPAN_EXCLUSIVE_INCLUSIVE);
+                    startMinus = -1;
+                }
+            } else if (ch == '\n' && startItem >=0) {
+                spannableString.setSpan(new ForegroundColorSpan(getResources().getColor(R.color.colorAccent)), startItem + 1, i, Spanned.SPAN_EXCLUSIVE_INCLUSIVE);
+                startItem = -1;
+            }
+        }
+        if (startItem >=0) {
+            spannableString.setSpan(new ForegroundColorSpan(getResources().getColor(R.color.colorAccent)), startItem + 1, spannableString.length(), Spanned.SPAN_EXCLUSIVE_INCLUSIVE);
+        }
+        return spannableString;
     }
 }

@@ -38,23 +38,16 @@
     }, {
       "lesson": 5,
       "title": {
-				"japanese": "",
+				"japanese": "やめられないことはない",
 				"reading": "",
-				"translation": ""
+				"translation": "Я могу бросить..."
 			}
     }, {
       "lesson": 6,
       "title": {
-				"japanese": "",
-				"reading": "",
-				"translation": ""
-			}
-    }, {
-      "lesson": 7,
-      "title": {
-				"japanese": "看板・立て札・表示",
-				"reading": "かんばん・たてふだ・ひょうじ",
-				"translation": "Вывески, доски для объявлений, выражения."
+				"japanese": "見ていられない",
+				"reading": "みていられない",
+				"translation": "Не могу на это смотреть."
 			}
     }]
   }, {

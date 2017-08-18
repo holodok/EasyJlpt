@@ -2,6 +2,7 @@ package com.gogaworm.easyjlpt.ui;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
@@ -39,6 +40,8 @@ public class ViewGrammarLessonContentActivity extends UserSessionLoaderActivity<
         ViewPager viewPager = (ViewPager) findViewById(R.id.pager);
         adapter = new CollectionPagerAdapter(getSupportFragmentManager());
         viewPager.setAdapter(adapter);
+        TabLayout tabLayout = (TabLayout) findViewById(R.id.tabDots);
+        tabLayout.setupWithViewPager(viewPager, true);
 
         getSupportLoaderManager().initLoader(Constants.LOADER_ID_GRAMMAR_LIST, null, this).forceLoad();
     }
