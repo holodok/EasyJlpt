@@ -71,9 +71,114 @@
 		"translation": "идти домой рано"
 	},
 	{
-		"japanese": "",
-		"reading": "",
-		"translation": ""
+		"japanese": "遅刻する",
+		"reading": "ちこくする",
+		"translation": "опаздывать"
 	},
+	{
+		"japanese": "休憩する",
+		"reading": "きゅうけいする",
+		"translation": "делать перерыв"
+	},
+	{
+		"japanese": "休みを取る",
+		"reading": "やすみをとる",
+		"translation": "брать выходной"
+	},
+	{
+		"japanese": "休暇をする",
+		"reading": "きゅうかをする",
+		"translation": "брать выходной"
+	},
+	{
+		"japanese": "有給休暇",
+		"reading": "ゆうきゅうきゅうか",
+		"translation": "оплачиваемый отпуск"
+	},
+	{
+		"japanese": "席を外す",
+		"reading": "せきをはずす",
+		"translation": "покинуть рабочее место"
+	},
+	{
+		"japanese": "やりがいのある仕事",
+		"reading": "やりがいのあるしごと",
+		"translation": "стоящая работа"
+	},
+	{
+		"japanese": "仕事が生きがいだ",
+		"reading": "しごとがいきがいだ",
+		"translation": "жить ради работы"
+	},
+	{
+		"japanese": "休む間がない",
+		"reading": "やすむまがない",
+		"translation": "нет времени отдыхать"
+	},
+	{
+		"japanese": "体がもたない",
+		"reading": "からだがもたない",
+		"translation": "не выдерживать темп"
+	},
+	{
+		"japanese": "やる気がない",
+		"reading": "やるきがない",
+		"translation": "нет заинтересованности в работе"
+	},
+	{
+		"japanese": "やる気が出ない",
+		"reading": "やるきがでない",
+		"translation": "нет мотивации"
+	},
+	{
+		"japanese": "具合が悪いふりをする",
+		"reading": "ぐあいがわるいふりをする",
+		"translation": "притворится больным"
+	},
+	{
+		"japanese": "仕事を怠ける",
+		"reading": "しごとをなまける",
+		"translation": "работать небрежно"
+	},
+	{
+		"japanese": "仕事をサボる",
+		"reading": "しごとをサボる",
+		"translation": "саботировать работу"
+	},
+	{
+		"japanese": "怠け者",
+		"reading": "なまけもの",
+		"translation": "лентяй"
+	},
+	{
+		"japanese": "働き者",
+		"reading": "はたらきもの",
+		"translation": "трудяга"
+	},
+	{
+		"japanese": "仕事でミスをする",
+		"reading": "しごとでミスをする",
+		"translation": "делать ошибки на работе"
+	},
+	{
+		"japanese": "遅刻の言い訳をする",
+		"reading": "ちこくのいいわけをする",
+		"translation": "придумывать отговорки почему опоздал"
+	},
+	{
+		"japanese": "上司にゴマをする",
+		"reading": "じょうしにゴマをする",
+		"translation": "подмазываться к боссу"
+	},
+	{
+		"japanese": "おせじを言う",
+		"reading": "おせじをいう",
+		"translation": "льстить"
+	},
+	{
+		"japanese": "超忙しい",
+		"reading": "ちょういそがしい",
+		"translation": "мегазанят"
+	}
 	]
 }

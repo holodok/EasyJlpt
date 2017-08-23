@@ -3,50 +3,43 @@
   [{
     "section": 21,
     "title": {
-				"japanese": "楽しく 暮らして いますか？",
-				"reading": "たのしく くらして いますか？",
+				"japanese": "|楽-たの|しく|暮-く|らしていますか？",
 				"translation": "Как тебе живется?"
 			},
     "lessons": [{
       "lesson": 1,
       "title": {
-				"japanese": "アパート を 探して います。",
-				"reading": "アパート を さがして います。",
+				"japanese": "アパートを|探-さが|しています。",
 				"translation": "Ищу жилье."
 			}
     }, {
       "lesson": 2,
       "title": {
-				"japanese": "引っ越し は 大変 です。",
-				"reading": "ひっこし は たいへん です。",
+				"japanese": "|引-ひ|っ|越-こ|しは|大-たい||変-へん|です。",
 				"translation": "Хлопоты при переезде."
 			}
     }, {
       "lesson": 3,
       "title": {
-				"japanese": "友人 を 招きました。",
-				"reading": "ゆうじん を まねきました。",
+				"japanese": "|友-ゆう||人-じん|を|招-まね|きました。",
 				"translation": "Пригласил друзей."
 			}
     }, {
       "lesson": 4,
       "title": {
-				"japanese": "火事・子育て は 大変 です。",
-				"reading": "かじ・こそだて は たいへん です。",
+				"japanese": "|火-か||事-じ|・|子-こ||育-そだ|ては|大-たい||変-へん|です。",
 				"translation": "Домашние дела и воспитание детей - тяжелая работа."
 			}
     }, {
       "lesson": 5,
       "title": {
-				"japanese": "夏休み を 海 で 過ごしています。",
-				"reading": "なつやすみ を うみ で すごしています。",
+				"japanese": "|夏-なつ||休-やす|みを|海-うみ|で|過-す|ごしています。",
 				"translation": "Летний отпуск провожу на море."
 			}
     }, {
       "lesson": 6,
       "title": {
-				"japanese": "お金 を 使いすぎました。",
-				"reading": "おかね を つかいすぎました。",
+				"japanese": "お|金-かね|を|使-つか|いすぎました。",
 				"translation": "Потратил слишком много денег."
 			}
     }]
@@ -54,30 +47,26 @@
   {
     "section": 22,
     "title": {
-				"japanese": "仕事　は　順調　ですか。",
-				"reading": "しごと　は　じゅんちょう　ですか。",
-				"translation": "Как работается?"
+				"japanese": "|仕-し||事-ごと|は|順-じゅん||調-ちょう|ですか。",
+				"translation": "На работе все хорошо?"
 			},
     "lessons": [{
       "lesson": 1,
       "title": {
-				"japanese": "仕事　を　探して　います。",
-				"reading": "しごと　を　さがして　います。",
+				"japanese": "|仕-し||事-ごと|を|探-さが|しています。",
 				"translation": "Ищу работу."
 			}
     }, {
       "lesson": 2,
       "title": {
-				"japanese": "仕事　を　して　います　１。",
-				"reading": "しごと　を　して　います　１。",
+				"japanese": "|仕-し||事-ごと|をしています１。",
 				"translation": "Работаю 1"
 			}
     }, {
       "lesson": 3,
       "title": {
-				"japanese": "",
-				"reading": "",
-				"translation": "Нашел работу 2"
+				"japanese": "|仕-し||事-ごと|をしています１。",
+				"translation": "Работаю 2"
 			}
     }, {
       "lesson": 4,

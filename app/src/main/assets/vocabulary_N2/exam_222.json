@@ -1,0 +1,120 @@
+﻿{
+  "sentences":[
+  {
+	"id" : 1,
+    "japanese": "|子-こ||供-ども|が|私-わたし|の＿です。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "やりがい"
+	},
+	{
+		"japanese": "いきがい"
+	}],
+	"correct": 2
+  },
+  {
+	"id" : 2,
+    "japanese": "忙しく休む＿がない。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "|体-からだ|"
+	},
+	{
+		"japanese": "ひま"
+	}],
+	"correct": 2
+  },
+  {
+	"id" : 3,
+    "japanese": "|休-やす|みを＿、|旅-りょ||行-こう|に|行-い|きたい。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "|取って-とって|"
+	},
+	{
+		"japanese": "はずして"
+	}],
+	"correct": 1
+  },
+  {
+	"id" : 4,
+    "japanese": "|教-おそ|わっても＿となかなか|上-じょう||達-たつ|しないよ。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "|体-からだ|が|持-も|たない"
+	},
+	{
+		"japanese": "やる|気-き|がない"
+	}],
+	"correct": 2
+  },
+  {
+	"id" : 5,
+    "japanese": "|彼-かれ|は|同-おな|じ|大-だい||学-がく|の＿です。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "|部下-ぶか|"
+	},
+	{
+		"japanese": "|後輩-こうはい|"
+	}],
+	"correct": 2
+  },
+  {
+	"id" : 6,
+    "japanese": "また遅刻した。部長に「＿をしてもだめだ。」と言われた。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "|言-い|い|訳-わけ|"
+	},
+	{
+		"japanese": "ゴマ"
+	}],
+	"correct": 1
+  },
+  {
+	"id" : 7,
+    "japanese": "|申-もう|し|訳-わけ|ありません。|部-ぶ||長-ちょう|はちょっと＿おりますが、すぐ|戻-もど|ると|思-おも|います。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "|席-せき|を|外-はず|して"
+	},
+	{
+		"japanese": "|早-そう||退-たい|して"
+	},
+	{
+		"japanese": "|休-やす|みを|取-と|って"
+	},
+	{
+		"japanese": "|不-ふ||足-そく|して"
+	}],
+	"correct": 1
+  },
+  {
+	"id" : 8,
+    "japanese": "|上-じょう||司-し|から|次々-つぎつぎ|と|仕-し||事-ごと|が|与-あた|えられ、|休-やす|む＿もない。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "|気-き|"
+	},
+	{
+		"japanese": "|時-とき|"
+	},
+	{
+		"japanese": "|場-ば|"
+	},
+	{
+		"japanese": "|間-ま|"
+	}],
+	"correct": 4
+  }
+  ]
+}

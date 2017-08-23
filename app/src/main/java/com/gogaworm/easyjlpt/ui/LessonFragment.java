@@ -14,7 +14,7 @@ import com.gogaworm.easyjlpt.data.Lesson;
 import com.gogaworm.easyjlpt.data.UserSession;
 import com.gogaworm.easyjlpt.loaders.LessonListLoader;
 import com.gogaworm.easyjlpt.ui.widgets.ArcProgress;
-import com.gogaworm.easyjlpt.ui.widgets.KanjiKanaView;
+import com.gogaworm.easyjlpt.utils.UnitedKanjiKanaSpannableString;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -86,7 +86,7 @@ public class LessonFragment extends RecyclerViewFragment<Lesson, Lesson> {
 
         class LessonViewHolder extends ViewHolder {
             private final ArcProgress progressView;
-            private final KanjiKanaView kanjiView;
+            private final TextView kanjiView;
             private final TextView translationView;
             private final ImageButton viewButton;
             private final View flashCardsButton;
@@ -98,7 +98,7 @@ public class LessonFragment extends RecyclerViewFragment<Lesson, Lesson> {
             LessonViewHolder(View view) {
                 super(view);
                 progressView = (ArcProgress) view.findViewById(R.id.progress);
-                kanjiView = (KanjiKanaView) view.findViewById(R.id.kanjiView);
+                kanjiView = (TextView) view.findViewById(R.id.kanjiView);
                 translationView = (TextView) view.findViewById(R.id.translation);
                 viewButton = (ImageButton) view.findViewById(R.id.viewButton);
                 flashCardsButton = view.findViewById(R.id.flashCardButton);
@@ -109,7 +109,7 @@ public class LessonFragment extends RecyclerViewFragment<Lesson, Lesson> {
             @Override
             protected void bindViewHolder(Context context, final Lesson lesson) {
                 progressView.setProgress(100);
-                kanjiView.setText(lesson.title.japanese, lesson.title.reading);
+                kanjiView.setText(new UnitedKanjiKanaSpannableString(lesson.title.japanese));
                 translationView.setText(lesson.title.translation);
                 viewButton.setOnClickListener(new View.OnClickListener() {
                     @Override

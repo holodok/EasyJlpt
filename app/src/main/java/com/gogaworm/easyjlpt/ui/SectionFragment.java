@@ -11,6 +11,7 @@ import com.gogaworm.easyjlpt.data.Section;
 import com.gogaworm.easyjlpt.loaders.SectionLoader;
 import com.gogaworm.easyjlpt.ui.widgets.ArcProgress;
 import com.gogaworm.easyjlpt.ui.widgets.KanjiKanaView;
+import com.gogaworm.easyjlpt.utils.UnitedKanjiKanaSpannableString;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -67,16 +68,15 @@ public class SectionFragment extends RecyclerViewFragment<Section, Section> {
 
         class SectionViewHolder extends ViewHolder {
             private final ArcProgress progressView;
-            private final KanjiKanaView kanjiView;
+            private final TextView kanjiView;
             private final TextView translationView;
             private final View openButton;
             // each data item is just a string in this case
 
-
             SectionViewHolder(View view) {
                 super(view);
                 progressView = (ArcProgress) view.findViewById(R.id.progress);
-                kanjiView = (KanjiKanaView) view.findViewById(R.id.kanjiView);
+                kanjiView = (TextView) view.findViewById(R.id.kanjiView);
                 translationView = (TextView) view.findViewById(R.id.translation);
                 openButton = view.findViewById(R.id.viewButton);
             }
@@ -84,7 +84,7 @@ public class SectionFragment extends RecyclerViewFragment<Section, Section> {
             @Override
             protected void bindViewHolder(final Context context, final Section value) {
                 progressView.setProgress(0);
-                kanjiView.setText(value.title.japanese, value.title.reading);
+                kanjiView.setText(new UnitedKanjiKanaSpannableString(value.title.japanese));
                 translationView.setText(value.title.translation);
                 openButton.setOnClickListener(new View.OnClickListener() {
                     @Override

@@ -1,0 +1,123 @@
+﻿{
+  "sentences":[
+  {
+	"id" : 1,
+    "japanese": "パソコンの|辞-じ||書-しょ|に|自-じ||分-ぶん|の|名-な||前-まえ|を＿した。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "|採-さい||用-よう|"
+	},
+	{
+		"japanese": "|登-とう||録-ろく|"
+	}],
+	"correct": 2
+  },
+  {
+	"id" : 2,
+    "japanese": "|給-きゅう||料-りょう|に|加-くわ|えて|食-しょく||事-じ||代-だい|として|一人-ひとり|２０００|円-えん|＿された。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "|引-ひ|き|落-お|とし"
+	},
+	{
+		"japanese": "|支-し||給-きゅう|"
+	}],
+	"correct": 2
+  },
+  {
+	"id" : 3,
+    "japanese": "ホームヘルパーの|数-かず|はまだまだ＿している。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "|募-ぼ||集-しゅう|"
+	},
+	{
+		"japanese": "|不-ふ||足-そく|"
+	}],
+	"correct": 2
+  },
+  {
+	"id" : 4,
+    "japanese": "|彼-かれ|は|賃-ちん||貸-たい|アパートの＿をしている。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "フリーター"
+	},
+	{
+		"japanese": "オーナー"
+	}],
+	"correct": 2
+  },
+  {
+	"id" : 5,
+    "japanese": "|年-ねん||齢-れい|を＿|仕-し||事-ごと|はないだろうか。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "|問-と|わない",
+		"reading": ""
+	},
+	{
+		"japanese": "|問-と|い|合-あ|わせない",
+		"reading": ""
+	}],
+	"correct": 1
+  },
+  {
+	"id" : 6,
+    "japanese": "|結-けっ||婚-こん||式-しき|に|招-しょう||待-たい|されたけれど、それに＿|服-ふく|をもっていない。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "|気-き||軽-がる|な"
+	},
+	{
+		"japanese": "ふさわしい"
+	}],
+	"correct": 2
+  },
+  {
+	"id" : 7,
+    "japanese": "|田-た||中-なか|さんはコンピューター|関-かん||係-けい|の|会-かい||社-しゃ|に＿。",
+    "reading": "",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "|募-ぼ||集-しゅう|された"
+	},
+	{
+		"japanese": "|勤-きん||務-む|された"
+	},
+	{
+		"japanese": "やとわされた"
+	},
+	{
+		"japanese": "|採-さい||用-よう|された"
+	}],
+	"correct": 4
+  },
+  {
+	"id" : 8,
+    "japanese": "リンさんはバイトで|月-つき|に１０|万-まん||円-えん|＿いるそうだ。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "かせいで"
+	},
+	{
+		"japanese": "やとって"
+	},
+	{
+		"japanese": "もうかって"
+	},
+	{
+		"japanese": "はぶいて"
+	}],
+	"correct": 1
+  }
+  ]
+}
