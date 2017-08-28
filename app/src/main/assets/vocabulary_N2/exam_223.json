@@ -2,147 +2,119 @@
   "sentences":[
   {
 	"id" : 1,
-    "japanese": "",
-    "reading": "",
+    "japanese": "|明日-あした|の|会-かい||議-ぎ|で|新-あたら|しい|商-しょう||品-ひん|の＿を|出-だ|さなければならない。",
 	"translation": "",
 	"answers": [
 	{
-		"japanese": "",
-		"reading": ""
+		"japanese": "|案-あん|"
 	},
 	{
-		"japanese": "",
-		"reading": ""
+		"japanese": "メモ"
 	}],
-	"correct": 2
+	"correct": 1
   },
   {
 	"id" : 2,
-    "japanese": "",
-    "reading": "",
+    "japanese": "|明日-あした|から|２日-ふつか||間-かん|、|東-とう||京-きょう|へ＿します。",
 	"translation": "",
 	"answers": [
 	{
-		"japanese": "",
-		"reading": ""
+		"japanese": "|転-てん||勤-きん|"
 	},
 	{
-		"japanese": "",
-		"reading": ""
+		"japanese": "|出-しゅっ||張-ちょう|"
 	}],
 	"correct": 2
   },
   {
 	"id" : 3,
-    "japanese": "",
-    "reading": "",
+    "japanese": "|来-らい||月-げつ|のスケジュールを＿から、またご|連-れん||絡-らく|します。",
 	"translation": "",
 	"answers": [
 	{
-		"japanese": "",
-		"reading": ""
+		"japanese": "|取-と|って"
 	},
 	{
-		"japanese": "",
-		"reading": ""
+		"japanese": "|組-く|んで"
 	}],
-	"correct": 1
+	"correct": 2
   },
   {
 	"id" : 4,
-    "japanese": "",
-    "reading": "",
+    "japanese": "|会-かい||議-ぎ|で|資-し||料-りょう|を＿。",
 	"translation": "",
 	"answers": [
 	{
-		"japanese": "",
-		"reading": ""
+		"japanese": "|述-の|べた"
 	},
 	{
-		"japanese": "",
-		"reading": ""
+		"japanese": "|配-くば|った"
 	}],
 	"correct": 2
   },
   {
 	"id" : 5,
-    "japanese": "",
-    "reading": "",
+    "japanese": "|最-さい||後-ご|に|結-けつ||論-ろん|が＿。",
 	"translation": "",
 	"answers": [
 	{
-		"japanese": "",
-		"reading": ""
+		"japanese": "|述-の|べられた"
 	},
 	{
-		"japanese": "",
-		"reading": ""
+		"japanese": "|長-なが||引-び|かれた"
 	}],
 	"correct": 1
   },
   {
 	"id" : 6,
-    "japanese": "",
-    "reading": "",
+    "japanese": "「その|仕-し||事-ごと|は|私-わたし|が＿。」",
 	"translation": "",
 	"answers": [
 	{
-		"japanese": "",
-		"reading": ""
+		"japanese": "|引-ひ|き|受-う|けます"
 	},
 	{
-		"japanese": "",
-		"reading": ""
+		"japanese": "|打-う|ち|合-あ|わせます"
 	}],
-	"correct": 2
+	"correct": 1
   },
   {
 	"id" : 7,
-    "japanese": "",
-    "reading": "",
+    "japanese": "|会-かい||議-ぎ|で|意-い||見-けん|を＿|困-こま|った。",
 	"translation": "",
 	"answers": [
 	{
-		"japanese": "",
-		"reading": ""
+		"japanese": "なまけられて"
 	},
 	{
-		"japanese": "",
-		"reading": ""
+		"japanese": "|配-くば|られて"
 	},
 	{
-		"japanese": "",
-		"reading": ""
+		"japanese": "まとめられて"
 	},
 	{
-		"japanese": "",
-		"reading": ""
+		"japanese": "もとめられて"
 	}],
 	"correct": 4
   },
   {
 	"id" : 8,
-    "japanese": "",
-    "reading": "",
+    "japanese": "＿が|長-なが||引-び|いて|疲-つか|れた。",
 	"translation": "",
 	"answers": [
 	{
-		"japanese": "",
-		"reading": ""
+		"japanese": "ミーティング"
 	},
 	{
-		"japanese": "",
-		"reading": ""
+		"japanese": "アイデア"
 	},
 	{
-		"japanese": "",
-		"reading": ""
+		"japanese": "プリント"
 	},
 	{
-		"japanese": "",
-		"reading": ""
+		"japanese": "メモ"
 	}],
-	"correct": 2
+	"correct": 1
   }
   ]
 }

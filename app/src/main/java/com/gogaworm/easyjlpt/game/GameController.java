@@ -123,15 +123,16 @@ public class GameController {
             case FLASH_CARD:
                 return true;
             case SELECT_TRANSLATION_BY_READING:
+                return true;
             case SELECT_KANJI_BY_TRANSLATION:
-                return task instanceof WordTask;
+                return false && task instanceof WordTask;
             case SELECT_TRANSLATION_BY_KANJI:
             case SELECT_READING_BY_KANJI:
             case SELECT_KANJI_BY_READING:
             case WRITE_READING:
                 if (task instanceof WordTask) {
                     Word word = (Word) task.value;
-                    return word.hasKanji();
+                    return false && word.hasKanji();
                 }
                 return false;
             case MULTYSELECT_KANJI_READING:

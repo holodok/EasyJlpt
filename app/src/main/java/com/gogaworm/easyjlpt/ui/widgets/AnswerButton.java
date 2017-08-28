@@ -56,11 +56,15 @@ public class AnswerButton extends FrameLayout {
         subHeaderView.setText("");
         headerView.setVisibility(GONE);
         subHeaderView.setVisibility(GONE);
-        changeBackground(R.drawable.answer_button_selector);
+        changeBackground(R.drawable.correct_answer_button_selector);
     }
 
     public void highlightCorrect(boolean correct) {
         changeBackground(correct ? R.drawable.correct_answer_background : R.drawable.wrong_answer_background);
+    }
+
+    public void setupBackground(boolean correct) {
+        changeBackground(correct ? R.drawable.correct_answer_button_selector : R.drawable.wrong_answer_button_selector);
     }
 
     private void changeBackground(int colorId) {

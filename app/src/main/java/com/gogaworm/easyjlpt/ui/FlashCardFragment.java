@@ -21,6 +21,7 @@ public class FlashCardFragment extends WordGameFragment {
     private TextView translationView;
 
     private Word word;
+    private boolean showAnswer;
 
     @Nullable
     @Override
@@ -44,6 +45,16 @@ public class FlashCardFragment extends WordGameFragment {
         word = (Word) task.value;
         japaneseView.setText(word.japanese);
         readingView.setText(!word.japanese.equals(word.reading) ? word.reading : "");
+    }
+
+    protected void onUserAnswer(boolean correct) {
+        if (!showAnswer) {
+            showAnswer = true;
+            showAnswer(correct);
+        } else {
+            //then go to next
+            gotoNext();
+        }
     }
 
     @Override

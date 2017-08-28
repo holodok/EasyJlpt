@@ -17,7 +17,7 @@ import java.util.List;
  */
 public abstract class WordGameFragment extends Fragment {
     private LearnLessonActivity learnLessonActivity;
-    private boolean showAnswer;
+    private boolean correctAnswer;
 
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
@@ -49,13 +49,12 @@ public abstract class WordGameFragment extends Fragment {
     }
 
     protected void onUserAnswer(boolean correct) {
-        if (!showAnswer) {
-            showAnswer = true;
-            showAnswer(correct);
-        } else {
-            //then go to next
-            learnLessonActivity.onUserAnswer(correct);
-        }
+        correctAnswer = correct;
+        showAnswer(correct);
+    }
+
+    protected void gotoNext() {
+        learnLessonActivity.onUserAnswer(correctAnswer);
     }
 
     protected abstract void showAnswer(boolean correct);
