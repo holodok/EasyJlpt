@@ -1,12 +1,12 @@
 package com.gogaworm.easyjlpt.ui;
 
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.content.Loader;
-import android.view.View;
 import com.gogaworm.easyjlpt.R;
 import com.gogaworm.easyjlpt.data.Exam;
+import com.gogaworm.easyjlpt.data.JlptLevel;
+import com.gogaworm.easyjlpt.data.JlptSection;
 import com.gogaworm.easyjlpt.data.Lesson;
 import com.gogaworm.easyjlpt.loaders.ExamLoader;
 
@@ -59,8 +59,8 @@ public class ExamActivity extends UserSessionLoaderActivity<Exam> implements Wor
     }
 
     @Override
-    protected Loader<List<Exam>> createLoader(String folder) {
-        return new ExamLoader(this, folder, lesson.examId);
+    protected Loader<List<Exam>> createLoader(JlptSection section, JlptLevel level) {
+        return new ExamLoader(this, section, level, lesson.examId);
     }
 
     private void initExam() {

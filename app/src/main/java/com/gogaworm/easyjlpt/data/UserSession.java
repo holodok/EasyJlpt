@@ -9,37 +9,21 @@ import android.os.Parcelable;
  * @author ikarpova
  */
 public class UserSession implements Parcelable {
-    public enum Mode {
-        VOCABULARY,
-        KANJI,
-        GRAMMAR
-    }
-    public enum Level {
-        N5,
-        N4,
-        N3,
-        N2,
-        N1
-    }
+    public JlptSection section;
+    public JlptLevel level;
 
-    public Mode mode;
-    public Level level;
-
-    public UserSession() {
-    }
-
-    public UserSession(Mode mode, Level level) {
-        this.mode = mode;
+    public UserSession(JlptSection section, JlptLevel level) {
+        this.section = section;
         this.level = level;
     }
 
     public String getFolder() {
-        return mode.name().toLowerCase() + '_' + level.name();
+        return section.name().toLowerCase() + '_' + level.name();
     }
 
     private UserSession(Parcel in) {
-        mode = Mode.valueOf(in.readString());
-        level = Level.valueOf(in.readString());
+        section = JlptSection.valueOf(in.readString());
+        level = JlptLevel.valueOf(in.readString());
     }
 
     public static final Creator<UserSession> CREATOR = new Creator<UserSession>() {
@@ -61,7 +45,7 @@ public class UserSession implements Parcelable {
 
     @Override
     public void writeToParcel(Parcel dest, int flags) {
-        dest.writeString(mode.toString());
+        dest.writeString(section.toString());
         dest.writeString(level.toString());
     }
 }

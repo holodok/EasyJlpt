@@ -4,25 +4,30 @@ import android.content.Context;
 import com.gogaworm.easyjlpt.data.JlptLevel;
 import com.gogaworm.easyjlpt.data.JlptSection;
 import com.gogaworm.easyjlpt.data.Kanji;
-import com.gogaworm.easyjlpt.data.Word;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.util.LinkedList;
 import java.util.List;
 
 /**
- * Created on 07.06.2017.
+ * Created on 30.08.2017.
  *
  * @author ikarpova
  */
-public class KanjiWordListLoader extends WordListLoader {
-    public KanjiWordListLoader(Context context, JlptSection section, JlptLevel level, int lessonId) {
-        super(context, section, level, lessonId);
+public class KanjiViewListLoader extends LessonLoader<Kanji> {
+    KanjiViewListLoader(Context context, JlptSection section, JlptLevel jlptLevel, int lessonid) {
+        super(context, section, jlptLevel, lessonid);
     }
 
     @Override
-    protected void parseJson(List<Word> results, String json) throws JSONException {
+    protected List<Kanji> createEmptyList() {
+        return new LinkedList<>();
+    }
+
+    @Override
+    protected void parseJson(List<Kanji> results, String json) throws JSONException {
         JSONObject root = new JSONObject(json);
         JSONArray jsonKanji = root.optJSONArray("kanji");
         if (jsonKanji != null) {
@@ -35,11 +40,6 @@ public class KanjiWordListLoader extends WordListLoader {
                         jsonKanjiItem.optString("on"),
                         jsonKanjiItem.optString("kun"),
                         jsonKanjiItem.getString("translation")));
-
-                JSONArray jsonWords = jsonKanjiItem.optJSONArray("words");
-                if (jsonWords != null) {
-                    parseWords(jsonWords, results);
-                }
             }
         }
     }

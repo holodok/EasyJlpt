@@ -1,6 +1,8 @@
 package com.gogaworm.easyjlpt.loaders;
 
 import android.content.Context;
+import com.gogaworm.easyjlpt.data.JlptLevel;
+import com.gogaworm.easyjlpt.data.JlptSection;
 
 import java.util.List;
 
@@ -12,8 +14,8 @@ import java.util.List;
 public abstract class LessonLoader<V> extends JlptDataLoader<V> {
     private int lessonId;
 
-    LessonLoader(Context context, String folder, int lessonId) {
-        super(context, folder);
+    LessonLoader(Context context, JlptSection section, JlptLevel jlptLevel, int lessonId) {
+        super(context, section, jlptLevel);
         this.lessonId = lessonId;
     }
 

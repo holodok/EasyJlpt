@@ -2,6 +2,8 @@ package com.gogaworm.easyjlpt.loaders;
 
 import android.content.Context;
 import com.gogaworm.easyjlpt.data.Grammar;
+import com.gogaworm.easyjlpt.data.JlptLevel;
+import com.gogaworm.easyjlpt.data.JlptSection;
 import com.gogaworm.easyjlpt.data.Word;
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -16,8 +18,8 @@ import java.util.List;
  * @author ikarpova
  */
 public class GrammarLoader extends LessonLoader<Grammar> {
-    public GrammarLoader(Context context, String folder, int lessonId) {
-        super(context, folder, lessonId);
+    public GrammarLoader(Context context, JlptSection section, JlptLevel jlptLevel, int lessonId) {
+        super(context, section, jlptLevel, lessonId);
     }
 
     @Override
@@ -53,7 +55,7 @@ public class GrammarLoader extends LessonLoader<Grammar> {
         return meanings;
     }
 
-    public static Word[] parseSentences(JSONArray jsonSentences) throws JSONException {
+    static Word[] parseSentences(JSONArray jsonSentences) throws JSONException {
         Word[] words = new Word[jsonSentences.length()];
         for (int i = 0; i < jsonSentences.length(); i++) {
             words[i] = parseWord(jsonSentences.getJSONObject(i));

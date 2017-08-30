@@ -10,9 +10,11 @@ import android.view.ViewGroup;
 import android.widget.ImageButton;
 import android.widget.TextView;
 import com.gogaworm.easyjlpt.R;
+import com.gogaworm.easyjlpt.data.JlptLevel;
+import com.gogaworm.easyjlpt.data.JlptSection;
 import com.gogaworm.easyjlpt.data.Lesson;
 import com.gogaworm.easyjlpt.data.UserSession;
-import com.gogaworm.easyjlpt.loaders.LessonListLoader;
+import com.gogaworm.easyjlpt.loaders.LoaderFactory;
 import com.gogaworm.easyjlpt.ui.widgets.ArcProgress;
 import com.gogaworm.easyjlpt.utils.UnitedKanjiKanaSpannableString;
 
@@ -29,7 +31,7 @@ import static com.gogaworm.easyjlpt.utils.Constants.LOADER_ID_LESSON;
 public class LessonFragment extends RecyclerViewFragment<Lesson, Lesson> {
     private int sectionId;
 
-    public static LessonFragment getInstance(UserSession userSession, int sectionId) {
+    static LessonFragment getInstance(UserSession userSession, int sectionId) {
         LessonFragment lessonFragment = new LessonFragment();
         UserSessionFragment.setArguments(lessonFragment, userSession);
         lessonFragment.getArguments().putInt("sectionId", sectionId);
@@ -53,8 +55,8 @@ public class LessonFragment extends RecyclerViewFragment<Lesson, Lesson> {
     }
 
     @Override
-    protected Loader<List<Lesson>> createLoader(String folder) {
-        return new LessonListLoader(getContext(), folder, sectionId);
+    protected Loader<List<Lesson>> createLoader(JlptSection section, JlptLevel level) {
+        return LoaderFactory.getLessonListLoader(getContext(), section, level, sectionId);
     }
 
     class LessonAdapter extends DynamicDataAdapter {
@@ -107,14 +109,14 @@ public class LessonFragment extends RecyclerViewFragment<Lesson, Lesson> {
             }
 
             @Override
-            protected void bindViewHolder(Context context, final Lesson lesson) {
+            protected void bindViewHolder(Context context, int position, final Lesson lesson) {
                 progressView.setProgress(100);
                 kanjiView.setText(new UnitedKanjiKanaSpannableString(lesson.title.japanese));
                 translationView.setText(lesson.title.translation);
                 viewButton.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        startNextActivity(userSession.mode == UserSession.Mode.GRAMMAR ?
+                        startNextActivity(userSession.section == JlptSection.GRAMMAR ?
                                 ViewGrammarLessonContentActivity.class :
                                 ViewLessonContentActivity.class, lesson);
                     }

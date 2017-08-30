@@ -4,20 +4,23 @@ import android.content.Context;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.content.Loader;
+import android.text.SpannableString;
+import android.text.Spanned;
+import android.text.TextUtils;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 import com.gogaworm.easyjlpt.R;
-import com.gogaworm.easyjlpt.data.Lesson;
-import com.gogaworm.easyjlpt.data.UserSession;
-import com.gogaworm.easyjlpt.data.Word;
-import com.gogaworm.easyjlpt.loaders.WordListLoader;
-import com.gogaworm.easyjlpt.ui.widgets.ArcProgress;
-import com.gogaworm.easyjlpt.ui.widgets.KanjiKanaView;
+import com.gogaworm.easyjlpt.data.*;
+import com.gogaworm.easyjlpt.loaders.LoaderFactory;
+import com.gogaworm.easyjlpt.ui.widgets.rcbs.RoundedCornersBackgroundSpan;
 
 import java.util.ArrayList;
 import java.util.List;
 
+import static android.view.View.GONE;
+import static android.view.View.VISIBLE;
 import static com.gogaworm.easyjlpt.utils.Constants.LOADER_ID_WORD_LIST;
 
 /**
@@ -26,14 +29,21 @@ import static com.gogaworm.easyjlpt.utils.Constants.LOADER_ID_WORD_LIST;
  * @author ikarpova
  */
 public class WordListFragment extends RecyclerViewFragment<Word, Word> {
-
     private Lesson lesson;
 
-    public static WordListFragment getInstance(UserSession userSession, Lesson lesson) {
+    static WordListFragment getInstance(UserSession userSession, Lesson lesson) {
         WordListFragment fragment = new WordListFragment();
         UserSessionFragment.setArguments(fragment, userSession);
         fragment.getArguments().putParcelable("lesson", lesson);
         return fragment;
+    }
+
+    @Nullable
+    @Override
+    public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+        View view = super.onCreateView(inflater, container, savedInstanceState);
+        setDividerVisible(true);
+        return view;
     }
 
     @Override
@@ -43,8 +53,8 @@ public class WordListFragment extends RecyclerViewFragment<Word, Word> {
     }
 
     @Override
-    protected Loader<List<Word>> createLoader(String folder) {
-        return new WordListLoader(getContext(), userSession.getFolder(), lesson.trainId);
+    protected Loader<List<Word>> createLoader(JlptSection section, JlptLevel level) {
+        return LoaderFactory.getViewListLoader(getContext(), section, level, lesson.trainId);
     }
 
     @Override
@@ -80,35 +90,53 @@ public class WordListFragment extends RecyclerViewFragment<Word, Word> {
 
         @Override
         public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-            return new WordListAdapter.WordViewHolder(inflateView(parent, R.layout.list_item_section));
+            return new WordListAdapter.WordViewHolder(inflateView(parent, R.layout.list_item_word_view));
         }
 
         class WordViewHolder extends ViewHolder {
-            private final ArcProgress progressView;
-            private final KanjiKanaView kanjiView;
+            private final TextView kanjiView;
+            private final TextView readingView;
             private final TextView translationView;
-            private final View openButton;
-            // each data item is just a string in this case
-
+            private final TextView positionView;
 
             WordViewHolder(View view) {
                 super(view);
-                progressView = (ArcProgress) view.findViewById(R.id.progress);
-                kanjiView = (KanjiKanaView) view.findViewById(R.id.kanjiView);
+                kanjiView = (TextView) view.findViewById(R.id.kanjiView);
+                readingView = (TextView) view.findViewById(R.id.readingView);
                 translationView = (TextView) view.findViewById(R.id.translation);
-                openButton = view.findViewById(R.id.viewButton);
+                positionView = (TextView) view.findViewById(R.id.position);
             }
 
             @Override
-            protected void bindViewHolder(final Context context, final Word value) {
-                progressView.setProgress(0);
-                kanjiView.setText(value.japanese, value.reading);
-                translationView.setText(value.translation);
-                openButton.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
+            protected void bindViewHolder(final Context context, int position, final Word value) {
+                kanjiView.setText(value.japanese);
+                if (value instanceof Kanji) {
+                    Kanji kanji = (Kanji) value;
+                    SpannableString reading = new SpannableString(kanji.reading);
+                    if (kanji.hasOnReading()) {
+                        setReadingSpans(reading, kanji.onReading, 0, getResources().getColor(R.color.colorAccent), getResources().getColor(R.color.primaryInvertedText));
                     }
-                });
+                    if (kanji.hasKunReading()) {
+                        int startPosition = kanji.hasOnReading() ? (kanji.onReading.length() + 1) : 0;
+                        setReadingSpans(reading, kanji.kunReading, startPosition, getResources().getColor(R.color.colorPrimary), getResources().getColor(R.color.primaryInvertedText));
+                    }
+                    readingView.setText(reading);
+                } else {
+                    readingView.setText(value.reading);
+                }
+                readingView.setVisibility(TextUtils.isEmpty(value.reading) ? GONE : VISIBLE);
+                translationView.setText(value.translation);
+                positionView.setText(String.valueOf(position + 1));
+            }
+
+            private void setReadingSpans(SpannableString spannable, String reading, int startPosition, int backgroundColor, int textColor) {
+                String[] readings = reading.split(" ");
+                int position = startPosition;
+                for (String readingPart : readings) {
+                    spannable.setSpan(new RoundedCornersBackgroundSpan(backgroundColor, textColor),
+                            position, position + readingPart.length(), Spanned.SPAN_INCLUSIVE_INCLUSIVE);
+                    position += readingPart.length() + 1;
+                }
             }
         }
     }

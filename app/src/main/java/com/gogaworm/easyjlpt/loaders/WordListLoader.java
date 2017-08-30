@@ -1,6 +1,8 @@
 package com.gogaworm.easyjlpt.loaders;
 
 import android.content.Context;
+import com.gogaworm.easyjlpt.data.JlptLevel;
+import com.gogaworm.easyjlpt.data.JlptSection;
 import com.gogaworm.easyjlpt.data.Word;
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -16,8 +18,8 @@ import java.util.List;
  */
 public class WordListLoader extends LessonLoader<Word> {
 
-    public WordListLoader(Context context, String folder, int lessonId) {
-        super(context, folder, lessonId);
+    public WordListLoader(Context context, JlptSection section, JlptLevel jlptLevel, int lessonId) {
+        super(context, section, jlptLevel, lessonId);
     }
 
     @Override

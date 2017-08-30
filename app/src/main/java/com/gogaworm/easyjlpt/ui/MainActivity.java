@@ -12,6 +12,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import com.gogaworm.easyjlpt.R;
+import com.gogaworm.easyjlpt.data.JlptLevel;
+import com.gogaworm.easyjlpt.data.JlptSection;
 import com.gogaworm.easyjlpt.data.UserSession;
 
 public class MainActivity extends AppCompatActivity
@@ -95,13 +97,13 @@ public class MainActivity extends AppCompatActivity
 
         switch (resId) {
             case R.id.nav_vocabulary_n2:
-                fragment = UserSessionFragment.setArguments(new SectionFragment(), new UserSession(UserSession.Mode.VOCABULARY, UserSession.Level.N2));
+                fragment = UserSessionFragment.setArguments(new SectionFragment(), new UserSession(JlptSection.VOCABULARY, JlptLevel.N2));
                 break;
             case R.id.nav_kanji_n2:
-                fragment = UserSessionFragment.setArguments(new SectionFragment(), new UserSession(UserSession.Mode.KANJI, UserSession.Level.N2));
+                fragment = UserSessionFragment.setArguments(new SectionFragment(), new UserSession(JlptSection.KANJI, JlptLevel.N2));
                 break;
             case R.id.nav_grammar_n2:
-                fragment = UserSessionFragment.setArguments(new SectionFragment(), new UserSession(UserSession.Mode.GRAMMAR, UserSession.Level.N2));
+                fragment = UserSessionFragment.setArguments(new SectionFragment(), new UserSession(JlptSection.GRAMMAR, JlptLevel.N2));
                 break;
         }
         fragmentManager.beginTransaction().replace(R.id.content, fragment).commit();

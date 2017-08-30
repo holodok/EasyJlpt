@@ -31,10 +31,7 @@ public abstract class RecyclerViewFragment<V, D> extends UserSessionLoaderFragme
 
         // use this setting to improve performance if you know that changes
         // in content do not change the layout size of the RecyclerView
-        //recyclerView.setHasFixedSize(true);
-        DividerItemDecoration divider = new DividerItemDecoration(getActivity(), DividerItemDecoration.VERTICAL);
-        divider.setDrawable(getResources().getDrawable(R.drawable.list_divider));
-        //recyclerView.addItemDecoration(divider);
+        recyclerView.setHasFixedSize(true);
 
         // use a linear layout manager
         recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
@@ -42,6 +39,16 @@ public abstract class RecyclerViewFragment<V, D> extends UserSessionLoaderFragme
         adapter = createAdapter(getActivity());
         recyclerView.setAdapter(adapter);
         return rootView;
+    }
+
+    protected void setDividerVisible(boolean visible) {
+        if (visible) {
+            DividerItemDecoration divider = new DividerItemDecoration(getActivity(), DividerItemDecoration.VERTICAL);
+            divider.setDrawable(getResources().getDrawable(R.drawable.list_divider));
+            recyclerView.addItemDecoration(divider);
+        } else {
+            recyclerView.addItemDecoration(null);
+        }
     }
 
     @Override
@@ -78,7 +85,7 @@ public abstract class RecyclerViewFragment<V, D> extends UserSessionLoaderFragme
         public void onBindViewHolder(ViewHolder holder, int position) {
             // - get element from your dataset at this position
             // - replace the contents of the view with that element
-            holder.bindViewHolder(context, dataset.get(position));
+            holder.bindViewHolder(context, position, dataset.get(position));
         }
 
         public void setData(List<V> values) {
@@ -113,7 +120,7 @@ public abstract class RecyclerViewFragment<V, D> extends UserSessionLoaderFragme
                 super(v);
             }
 
-            protected abstract void bindViewHolder(Context context, D value);
+            protected abstract void bindViewHolder(Context context, int position, D value);
         }
     }
 }

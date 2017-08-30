@@ -2,6 +2,8 @@ package com.gogaworm.easyjlpt.loaders;
 
 import android.content.Context;
 import com.gogaworm.easyjlpt.data.Exam;
+import com.gogaworm.easyjlpt.data.JlptLevel;
+import com.gogaworm.easyjlpt.data.JlptSection;
 import com.gogaworm.easyjlpt.data.Word;
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -18,8 +20,8 @@ import java.util.List;
 public class ExamLoader extends JlptDataLoader<Exam> {
     private int examId;
 
-    public ExamLoader(Context context, String folder, int examId) {
-        super(context, folder);
+    public ExamLoader(Context context, JlptSection section, JlptLevel level, int examId) {
+        super(context, section, level);
         this.examId = examId;
     }
 

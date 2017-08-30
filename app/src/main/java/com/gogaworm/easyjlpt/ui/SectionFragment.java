@@ -7,10 +7,11 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 import com.gogaworm.easyjlpt.R;
+import com.gogaworm.easyjlpt.data.JlptLevel;
+import com.gogaworm.easyjlpt.data.JlptSection;
 import com.gogaworm.easyjlpt.data.Section;
-import com.gogaworm.easyjlpt.loaders.SectionLoader;
+import com.gogaworm.easyjlpt.loaders.LoaderFactory;
 import com.gogaworm.easyjlpt.ui.widgets.ArcProgress;
-import com.gogaworm.easyjlpt.ui.widgets.KanjiKanaView;
 import com.gogaworm.easyjlpt.utils.UnitedKanjiKanaSpannableString;
 
 import java.util.ArrayList;
@@ -36,8 +37,8 @@ public class SectionFragment extends RecyclerViewFragment<Section, Section> {
     }
 
     @Override
-    protected Loader<List<Section>> createLoader(String folder) {
-        return new SectionLoader(getActivity(), folder);
+    protected Loader<List<Section>> createLoader(JlptSection section, JlptLevel level) {
+        return LoaderFactory.getSectionLoader(getActivity(), section, level);
     }
 
     class SectionAdapter extends DynamicDataAdapter {
@@ -82,7 +83,7 @@ public class SectionFragment extends RecyclerViewFragment<Section, Section> {
             }
 
             @Override
-            protected void bindViewHolder(final Context context, final Section value) {
+            protected void bindViewHolder(final Context context, int position, final Section value) {
                 progressView.setProgress(0);
                 kanjiView.setText(new UnitedKanjiKanaSpannableString(value.title.japanese));
                 translationView.setText(value.title.translation);

@@ -1,6 +1,8 @@
 package com.gogaworm.easyjlpt.loaders;
 
 import android.content.Context;
+import com.gogaworm.easyjlpt.data.JlptLevel;
+import com.gogaworm.easyjlpt.data.JlptSection;
 import com.gogaworm.easyjlpt.data.Word;
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -14,11 +16,14 @@ import java.util.List;
  * @author ikarpova
  */
 public abstract class JlptDataLoader<T> extends AbstractJsonDataLoader<T> {
-    private String folder;
 
-    JlptDataLoader(Context context, String folder) {
+    private final JlptSection section;
+    private final JlptLevel jlptLevel;
+
+    JlptDataLoader(Context context, JlptSection section, JlptLevel jlptLevel) {
         super(context);
-        this.folder = folder;
+        this.section = section;
+        this.jlptLevel = jlptLevel;
     }
 
     @Override
@@ -32,7 +37,7 @@ public abstract class JlptDataLoader<T> extends AbstractJsonDataLoader<T> {
 
     @Override
     protected String[] getFiles() {
-        return getFiles(folder);
+        return getFiles(section.name().toLowerCase() + '_' + jlptLevel.name());
     }
 
     protected abstract String[] getFiles(String folder);

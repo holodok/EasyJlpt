@@ -10,6 +10,8 @@ import android.support.v4.content.Loader;
 import android.support.v4.view.ViewPager;
 import com.gogaworm.easyjlpt.R;
 import com.gogaworm.easyjlpt.data.Grammar;
+import com.gogaworm.easyjlpt.data.JlptLevel;
+import com.gogaworm.easyjlpt.data.JlptSection;
 import com.gogaworm.easyjlpt.data.Lesson;
 import com.gogaworm.easyjlpt.loaders.GrammarLoader;
 import com.gogaworm.easyjlpt.utils.Constants;
@@ -52,8 +54,8 @@ public class ViewGrammarLessonContentActivity extends UserSessionLoaderActivity<
     }
 
     @Override
-    protected Loader<List<Grammar>> createLoader(String folder) {
-        return new GrammarLoader(this, userSession.getFolder(), lesson.trainId);
+    protected Loader<List<Grammar>> createLoader(JlptSection section, JlptLevel level) {
+        return new GrammarLoader(this, section, level, lesson.trainId);
     }
 
     @Override

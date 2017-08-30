@@ -2,6 +2,8 @@ package com.gogaworm.easyjlpt.loaders;
 
 import android.content.Context;
 import com.gogaworm.easyjlpt.data.Grammar;
+import com.gogaworm.easyjlpt.data.JlptLevel;
+import com.gogaworm.easyjlpt.data.JlptSection;
 import com.gogaworm.easyjlpt.data.Word;
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -19,8 +21,8 @@ import static com.gogaworm.easyjlpt.loaders.GrammarLoader.parseSentences;
  * @author ikarpova
  */
 public class GrammarWordListLoader extends WordListLoader {
-    public GrammarWordListLoader(Context context, String folder, int lessonId) {
-        super(context, folder, lessonId);
+    public GrammarWordListLoader(Context context, JlptSection section, JlptLevel level, int lessonId) {
+        super(context, section, level, lessonId);
     }
 
     @Override
