@@ -16,38 +16,41 @@
             android:paddingLeft="16dp"
             android:paddingRight="16dp"
             android:background="@color/itemBackground">
-    <TextView
-            android:id="@+id/sentenceJapanese"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="16sp"
-            android:textColor="@color/primaryText"
-            tools:text="Insert word into ____."/>
-    <TextView
-            android:id="@+id/sentenceTranslation"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="16sp"
-            android:layout_marginTop="4dp"
-            android:layout_marginBottom="24dp"
-            android:textColor="@color/secondaryText"
-            tools:text="This is a translation."/>
-    <Button
-            android:id="@+id/answer1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
-    <Button
-            android:id="@+id/answer2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
-    <Button
-            android:id="@+id/answer3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
-    <Button
-            android:id="@+id/answer4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+        <TextView
+                android:id="@+id/sentenceJapanese"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="@color/primaryText"
+                tools:text="Insert word into ____."/>
+        <TextView
+                android:id="@+id/sentenceTranslation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="24dp"
+                android:textColor="@color/secondaryText"
+                tools:text="This is a translation."/>
+        <com.gogaworm.easyjlpt.ui.widgets.AnswerButton
+                android:id="@+id/firstAnswer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"/>
+        <com.gogaworm.easyjlpt.ui.widgets.AnswerButton
+                android:id="@+id/secondAnswer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"/>
+        <com.gogaworm.easyjlpt.ui.widgets.AnswerButton
+                android:id="@+id/thirdAnswer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"/>
+        <com.gogaworm.easyjlpt.ui.widgets.AnswerButton
+                android:id="@+id/forthAnswer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
     </LinearLayout>
     <Button
             android:id="@+id/submitButton"

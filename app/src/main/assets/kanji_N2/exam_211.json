@@ -1,0 +1,95 @@
+﻿{
+  "sentences":[
+  {
+	"id" : 1,
+    "japanese": "「関係者以外立ち入り禁止」＝関係者でない人は＿",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "|入-はい|らなければならない"
+	},
+	{
+		"japanese": "|入-はい|ってはいけない"
+	}],
+	"correct": 2
+  },
+  {
+	"id" : 2,
+    "japanese": "「お静かに」＝＿",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "お|静-しずか|かにしてください"
+	},
+	{
+		"japanese": "お|静-しずか|かにしてはいけない"
+	}],
+	"correct": 1
+  },
+  {
+	"id" : 3,
+    "japanese": "「＿ですから、下がってください。」",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "|危-あや|うい"
+	},
+	{
+		"japanese": "|危-あぶ|ない"
+	}],
+	"correct": 2
+  },
+  {
+	"id" : 4,
+    "japanese": "「スピード落とせ」＝スピードを＿",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "|上-あ|げろ"
+	},
+	{
+		"japanese": "おそくしろ"
+	}],
+	"correct": 2
+  },
+  {
+	"id" : 5,
+    "japanese": "「遊泳禁止」＝＿",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "ここで|遊-あそ|ぶべきだ"
+	},
+	{
+		"japanese": "ここで|泳-およ|いではいけない"
+	}],
+	"correct": 2
+  },
+  {
+	"id" : 6,
+    "japanese": "「落石注意」＝＿",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "|石-いし|が|落-お|ちてくるかもしれない"
+	},
+	{
+		"japanese": "|石-いし|を|落-お|としてはいけない"
+	}],
+	"correct": 1
+  },
+  {
+	"id" : 7,
+    "japanese": "「駐車禁止」＝＿",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "|駐-ちゅう||車-しゃ||場-じょう|がない"
+	},
+	{
+		"japanese": "|車-くるま|を|止-と|めてはいけない"
+	}],
+	"correct": 2
+  }
+  ]
+}

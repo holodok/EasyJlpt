@@ -1,12 +1,15 @@
 package com.gogaworm.easyjlpt.ui.widgets;
 
 import android.content.Context;
+import android.text.TextUtils;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.TextView;
 import com.gogaworm.easyjlpt.R;
+import com.gogaworm.easyjlpt.utils.KanjiKanaSpannableString;
+import com.gogaworm.easyjlpt.utils.UnitedKanjiKanaSpannableString;
 
 /**
  * Created on 03.04.2017.
@@ -41,8 +44,12 @@ public class AnswerButton extends FrameLayout {
         setClickable(true);
     }
 
-    public void setJapanese(String japanese, String reading) {
-        headerView.setText(japanese, reading);
+    public void setJapanese(CharSequence japanese, CharSequence reading) {
+        if (TextUtils.isEmpty(reading)) {
+            headerView.setText(new UnitedKanjiKanaSpannableString(japanese));
+        } else {
+            headerView.setText(new KanjiKanaSpannableString(japanese.toString(), reading.toString()));
+        }
         headerView.setVisibility(VISIBLE);
     }
 

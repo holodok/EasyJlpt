@@ -66,6 +66,7 @@ public class ExamActivity extends UserSessionLoaderActivity<Exam> implements Wor
     private void initExam() {
         if (examIndex >= examList.size()) {
             //show message that exam finished
+            finish();
             return;
         }
         currentFragment.initExam(examList.get(examIndex));

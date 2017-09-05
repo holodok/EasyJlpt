@@ -7,10 +7,10 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.TextView;
 import com.gogaworm.easyjlpt.R;
 import com.gogaworm.easyjlpt.data.Exam;
+import com.gogaworm.easyjlpt.ui.widgets.AnswerButton;
 import com.gogaworm.easyjlpt.utils.UnitedKanjiKanaSpannableString;
 
 /**
@@ -19,13 +19,14 @@ import com.gogaworm.easyjlpt.utils.UnitedKanjiKanaSpannableString;
  * @author ikarpova
  */
 public class WordSelectExamFragment extends Fragment {
-    private Button[] answerButtons;
+    private AnswerButton[] answerButtons;
     private TextView sentenceJapaneseView;
     private TextView sentenceTranslationView;
     private Exam exam;
     private boolean answered;
 
     private ExamListener examListener;
+    private View submitButton;
 
     @Nullable
     @Override
@@ -34,23 +35,28 @@ public class WordSelectExamFragment extends Fragment {
         sentenceJapaneseView = (TextView) parentView.findViewById(R.id.sentenceJapanese);
         sentenceTranslationView = (TextView) parentView.findViewById(R.id.sentenceTranslation);
 
-        answerButtons = new Button[]{
-                (Button) parentView.findViewById(R.id.answer1),
-                (Button) parentView.findViewById(R.id.answer2),
-                (Button) parentView.findViewById(R.id.answer3),
-                (Button) parentView.findViewById(R.id.answer4)
+        answerButtons = new AnswerButton[] {
+                (AnswerButton) parentView.findViewById(R.id.firstAnswer),
+                (AnswerButton) parentView.findViewById(R.id.secondAnswer),
+                (AnswerButton) parentView.findViewById(R.id.thirdAnswer),
+                (AnswerButton) parentView.findViewById(R.id.forthAnswer)
         };
-        makeButtonsVisible(0);
-        for (Button answerButton : answerButtons) {
-            answerButton.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    onAnswerSelected(v.getId());
-                }
-            });
+        View.OnClickListener listener = new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                onAnswerSelected(v.getId());
+                submitButton.setEnabled(true);
+            }
+        };
+        for (AnswerButton button : answerButtons) {
+            button.setOnClickListener(listener);
         }
 
-        parentView.findViewById(R.id.submitButton).setOnClickListener(new View.OnClickListener() {
+        makeButtonsVisible(0);
+
+        submitButton = parentView.findViewById(R.id.submitButton);
+        submitButton.setEnabled(false);
+        submitButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 if (examListener != null) {
@@ -69,8 +75,8 @@ public class WordSelectExamFragment extends Fragment {
         sentenceTranslationView.setVisibility(View.INVISIBLE);
         makeButtonsVisible(exam.answers.length);
         for (int i = 0; i < exam.answers.length; i++) {
-            resetButton(answerButtons[i]);
-            answerButtons[i].setText(new UnitedKanjiKanaSpannableString(exam.answers[i].japanese));
+            answerButtons[i].reset();
+            answerButtons[i].setJapanese(exam.answers[i].japanese, "");
         }
     }
 
@@ -84,16 +90,16 @@ public class WordSelectExamFragment extends Fragment {
         //todo
         int answerIndex = 0;
         switch (id) {
-            case R.id.answer1:
+            case R.id.firstAnswer:
                 answerIndex = 1;
                 break;
-            case R.id.answer2:
+            case R.id.secondAnswer:
                 answerIndex = 2;
                 break;
-            case R.id.answer3:
+            case R.id.thirdAnswer:
                 answerIndex = 3;
                 break;
-            case R.id.answer4:
+            case R.id.forthAnswer:
                 answerIndex = 4;
                 break;
         }
@@ -106,8 +112,8 @@ public class WordSelectExamFragment extends Fragment {
             sentenceJapaneseView.setText(new UnitedKanjiKanaSpannableString(exam.japanese.replace("_", exam.answers[exam.correct - 1].japanese)));
             sentenceTranslationView.setText(exam.translation);
             makeButtonsVisible(1);
-            setCorrect(answerButtons[0], correctAnswer);
-            answerButtons[0].setText(new UnitedKanjiKanaSpannableString(exam.answers[answerIndex - 1].japanese));
+            answerButtons[0].highlightCorrect(correctAnswer);
+            answerButtons[0].setJapanese(exam.answers[answerIndex - 1].japanese, "");
         }
     }
 
@@ -123,14 +129,6 @@ public class WordSelectExamFragment extends Fragment {
     public void onDetach() {
         examListener = null;
         super.onDetach();
-    }
-
-    private void resetButton(Button button) {
-        //todo: reset button
-    }
-
-    private void setCorrect(Button button, boolean isCorrect) {
-        //todo: set correct
     }
 
     public interface ExamListener {
