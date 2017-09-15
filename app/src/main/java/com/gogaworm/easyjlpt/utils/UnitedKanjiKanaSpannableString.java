@@ -1,6 +1,7 @@
 package com.gogaworm.easyjlpt.utils;
 
 import android.graphics.Canvas;
+import android.graphics.Color;
 import android.graphics.Paint;
 import android.text.SpannableString;
 import android.text.style.LineHeightSpan;
@@ -20,7 +21,7 @@ public class UnitedKanjiKanaSpannableString extends SpannableString {
     }
 
     public UnitedKanjiKanaSpannableString(CharSequence text, boolean showReading) {
-        super(getKanjiFromReading(text)); //todo: remove reading from here
+        super(text); //todo: remove reading from here
         if (isEmpty(text)) {
             return;
         }
@@ -28,37 +29,34 @@ public class UnitedKanjiKanaSpannableString extends SpannableString {
         StringBuilder kanji = new StringBuilder();
         StringBuilder kana = new StringBuilder();
         int startPosition = 0;
-        int endPosition = 0;
-        int currentPosition = 0;
         boolean kanjiStart = false;
         boolean readingStart = false;
+        int answerPlaceholderIndex = 1;
 
         for (int i = 0; i < text.length(); i++) {
             char ch = text.charAt(i);
             if (ch == '|') {
                 if (readingStart) {
-                    setSpan(new KanjiSpan(kanji.toString(), kana.toString(), showReading), startPosition, endPosition, 0);
+                    setSpan(new KanjiSpan(kanji.toString(), kana.toString(), showReading), startPosition, i + 1, SPAN_INCLUSIVE_INCLUSIVE);
 
                     readingStart = false;
                     kanji.delete(0, kanji.length());
                     kana.delete(0, kana.length());
                 } else {
                     kanjiStart = true;
-                    startPosition = currentPosition;
+                    startPosition = i;
                 }
             } else if (ch == '-') {
                 //start reading part
                 kanjiStart = false;
                 readingStart = true;
-                endPosition = currentPosition;
+            } else if (ch == '_' || ch == '＿') {
+                setSpan(new AnswerPlaceholderSpan(answerPlaceholderIndex++, Color.BLUE), i, i + 1, SPAN_INCLUSIVE_EXCLUSIVE);
             } else {
                 if (kanjiStart) {
                     kanji.append(ch);
-                    currentPosition++;
                 } else if (readingStart) {
                     kana.append(ch);
-                } else {
-                    currentPosition++;
                 }
             }
         }
@@ -101,7 +99,7 @@ public class UnitedKanjiKanaSpannableString extends SpannableString {
 
         @Override
         public int getSize(Paint paint, CharSequence text, int start, int end, Paint.FontMetricsInt fm) {
-            kanjiWidth = paint.measureText(kanji.toString());
+            kanjiWidth = paint.measureText(kanji, 0, kanji.length());
 
             textSize = paint.getTextSize();
             paint.setTextSize(textSize / 2);
@@ -119,12 +117,12 @@ public class UnitedKanjiKanaSpannableString extends SpannableString {
             if (showReading) {
                 paint.setTextSize(textSize / 2);
                 paint.setAlpha(137);
-                canvas.drawText(kana.toString(), x + width / 2 - kanaWidth / 2, y - textSize, paint);
+                canvas.drawText(kana, 0, kana.length(), x + width / 2 - kanaWidth / 2, y - textSize, paint);
             }
 
             paint.setTextSize(textSize);
             paint.setAlpha(alpha);
-            canvas.drawText(kanji.toString(), x + width / 2 - kanjiWidth / 2, y, paint);
+            canvas.drawText(kanji, 0, kanji.length(), x + width / 2 - kanjiWidth / 2, y, paint);
         }
 
         @Override
@@ -138,6 +136,32 @@ public class UnitedKanjiKanaSpannableString extends SpannableString {
             need = ht - (v + fm.bottom - fm.top - spanstartv);
             if (need > 0)
                 fm.top -= need;
+        }
+    }
+
+    public static class AnswerPlaceholderSpan extends ReplacementSpan {
+        private String index;
+        private int color;
+        private int holderWidth;
+        private int indexWidth;
+
+        AnswerPlaceholderSpan(int index, int color) {
+            this.index = String.valueOf(index);
+            this.color = color;
+        }
+
+        @Override
+        public int getSize(Paint paint, CharSequence text, int start, int end, Paint.FontMetricsInt fm) {
+            holderWidth = (int) paint.measureText(text, start, end);
+            indexWidth = (int) paint.measureText(index);
+            return holderWidth;
+        }
+
+        @Override
+        public void draw(Canvas canvas, CharSequence text, int start, int end, float x, int top, int y, int bottom, Paint paint) {
+            paint.setColor(color);
+            canvas.drawText(text, start, end, x, y, paint);
+            canvas.drawText(index, x + holderWidth / 2 - indexWidth / 2, y, paint);
         }
     }
 }

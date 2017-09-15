@@ -1,0 +1,113 @@
+﻿{
+  "sentences":[
+  {
+	"id" : 1,
+    "japanese": "この|牛-ぎゅう||乳-にゅう|は|水-みず|＿、おいしくない。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "っぽくて"
+	},
+	{
+		"japanese": "|気-ぎ||味-み|で"
+	}],
+	"correct": 1
+  },
+  {
+	"id" : 2,
+    "japanese": "この|時-と||計-けい|は２０|年-ねん||使-つか|っているが、このごろ|遅-おく|れ＿だ。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "っぽい"
+	},
+	{
+		"japanese": "がち"
+	}],
+	"correct": 2
+  },
+  {
+	"id" : 3,
+    "japanese": "|二人-ふたり|は|親-した|し＿に|話-はな|している。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "げ"
+	},
+	{
+		"japanese": "がち"
+	}],
+	"correct": 1
+  },
+  {
+	"id" : 4,
+    "japanese": "|風邪-かぜ|＿、|熱-ねつ|＿。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "|気-ぎ||味-み|で"
+	},
+	{
+		"japanese": "がちで"
+	},
+	{
+		"japanese": "|気-ぎ||味-み|だ"
+	},
+	{
+		"japanese": "っぽい"
+	}],
+	"correct": [1,4]
+  },
+  {
+	"id" : 5,
+    "japanese": "|母-はは|は＿っぽくなった。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "|忘-わす|れ"
+	},
+	{
+		"japanese": "|忘-わす|れる"
+	}],
+	"correct": 1
+  },
+  {
+	"id" : 6,
+    "japanese": "|彼-かれ|は|両-りょう||親-しん|を＿＿＿＿だ。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "|休-やす|みがち"
+	},
+	{
+		"japanese": "|仕-し||事-ごと|も"
+	},
+	{
+		"japanese": "|悲-かな|しげで"
+	},
+	{
+		"japanese": "|亡-な|くしてから"
+	}],
+	"correct": [4,3,2,1]
+  },
+  {
+	"id" : 7,
+    "japanese": "|男-おとこ|は＿＿＿＿。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "|笑-わら|いを"
+	},
+	{
+		"japanese": "ありげな"
+	},
+	{
+		"japanese": "|浮-う|かべた"
+	},
+	{
+		"japanese": "|意-い||味-み|"
+	}],
+	"correct": [4,2,1,3]
+  }
+  ]
+}

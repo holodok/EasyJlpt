@@ -1,0 +1,108 @@
+﻿{
+  "sentences":[
+  {
+	"id" : 1,
+    "japanese": "タバコを|吸-す|う|所-ところ|＝＿",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "|禁-きん||煙-えん||席-せき|"
+	},
+	{
+		"japanese": "|喫-きつ||煙-えん||所-じょ|"
+	}],
+	"correct": 2
+  },
+  {
+	"id" : 2,
+    "japanese": "「この＿に|喫-きっ||茶-さ||店-てん|はありませんか。」",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "|付-ふ||近-きん|"
+	},
+	{
+		"japanese": "|日-ひ||付-づけ|"
+	}],
+	"correct": 1
+  },
+  {
+	"id" : 3,
+    "japanese": "「|日-に||本-ほん||語-ご|は＿|会-かい||話-わ|ならできます。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "|日-にち||常-じょう|"
+	},
+	{
+		"japanese": "|非-ひ||常-じょう|"
+	}],
+	"correct": 1
+  },
+  {
+	"id" : 4,
+    "japanese": "あの|人-ひと|は＿がない。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "|常-じょう||識-しき|"
+	},
+	{
+		"japanese": "|御-おん||中-ちゅう|"
+	}],
+	"correct": 1
+  },
+  {
+	"id" : 5,
+    "japanese": "A「すみません、|化-け||粧-しょう||室-しつ|はどこですか。」\nB「はい、＿は、あちらでございます。」",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "お|手-て||洗-あら|い"
+	},
+	{
+		"japanese": "|案-あん||内-ない||所-じょ|"
+	}],
+	"correct": 1
+  },
+  {
+	"id" : 6,
+    "japanese": "A「|会-かい||議-ぎ||室-しつ|はどこですか。」\nB「＿を|上-もぼ|って、すぐ|右-みぎ|です。」",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "|段-だん||階-かい|"
+	},
+	{
+		"japanese": "|階-かい||段-だん|"
+	}],
+	"correct": 2
+  },
+  {
+	"id" : 7,
+    "japanese": "「このごろ＿|寒-さむ|くなってきましたね。」",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "|一-いち||段-だん|と"
+	},
+	{
+		"japanese": "|石-いし||段-だん|"
+	}],
+	"correct": 1
+  },
+  {
+	"id" : 8,
+    "japanese": "ベストセラーになった|小-しょう||説-せつ|が|映-えい||画-が|＿された。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "|化-か|"
+	},
+	{
+		"japanese": "|案-あん|"
+	}],
+	"correct": 1
+  }
+  ]
+}

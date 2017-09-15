@@ -50,7 +50,8 @@ public class ExamLoader extends JlptDataLoader<Exam> {
                     jsonExam.optString("reading"),
                     jsonExam.getString("translation"),
                     parseAnswers(jsonExam.getJSONArray("answers")),
-                    jsonExam.getInt("correct")));
+                    jsonExam.optInt("correct"),
+                    parseIntegers(jsonExam.optJSONArray("correct"))));
         }
     }
 

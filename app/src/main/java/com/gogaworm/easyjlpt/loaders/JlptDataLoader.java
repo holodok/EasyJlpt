@@ -57,4 +57,14 @@ public abstract class JlptDataLoader<T> extends AbstractJsonDataLoader<T> {
         }
         return values;
     }
+
+    static int[] parseIntegers(JSONArray array) throws JSONException {
+        if (array == null) return null;
+
+        int[] values = new int[array.length()];
+        for (int i = 0; i < array.length(); i++) {
+            values[i] = array.getInt(i);
+        }
+        return values;
+    }
 }

@@ -41,4 +41,10 @@ public class ExampleInstrumentedTest {
     public void testEnterKanaView() {
 
     }
+
+    @Test
+    public void testConvert() {
+        new UnitedKanjiKanaSpannableString("|風邪-かぜ|＿、|熱-ねつ|＿。");
+        new UnitedKanjiKanaSpannableString("|仕-し||事-ごと|は|順-じゅん||調-ちょう|ですか。");
+    }
 }

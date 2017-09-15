@@ -1,5 +1,7 @@
 package com.gogaworm.easyjlpt.ui;
 
+import android.app.ProgressDialog;
+import android.content.DialogInterface;
 import android.os.Bundle;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.content.Loader;
@@ -25,29 +27,31 @@ public class ExamActivity extends UserSessionLoaderActivity<Exam> implements Wor
     private List<Exam> examList = new ArrayList<>();
     private int examIndex;
 
+    private ProgressDialog progressDialog;
     private WordSelectExamFragment currentFragment;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-/*
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                nextSentence();
-            }
-        });
-*/
-
         lesson = getIntent().getParcelableExtra("lesson");
 
-        FragmentManager fragmentManager = getSupportFragmentManager();
-        currentFragment = new WordSelectExamFragment();
-        fragmentManager.beginTransaction().add(R.id.content, currentFragment).commit();
+        //prepare progress Dialog
+        progressDialog = new ProgressDialog(this);
+        progressDialog.setMessage("Wait...");
+        progressDialog.setIndeterminate(true);
+        progressDialog.setOnDismissListener(new DialogInterface.OnDismissListener() {
+
+            @Override
+            public void onDismiss(DialogInterface dialog) {
+                FragmentManager fragmentManager = getSupportFragmentManager();
+                currentFragment = new WordSelectExamFragment();
+                fragmentManager.beginTransaction().add(R.id.content, currentFragment).commit();
+            }
+        });
 
         getSupportLoaderManager().initLoader(LOADER_ID_EXAM, null, this).forceLoad();
+        progressDialog.show();
     }
 
     @Override
@@ -55,7 +59,7 @@ public class ExamActivity extends UserSessionLoaderActivity<Exam> implements Wor
         examList.clear();
         examList.addAll(data);
         examIndex = 0;
-        initExam();
+        progressDialog.dismiss();
     }
 
     @Override
@@ -70,6 +74,11 @@ public class ExamActivity extends UserSessionLoaderActivity<Exam> implements Wor
             return;
         }
         currentFragment.initExam(examList.get(examIndex));
+    }
+
+    @Override
+    public Exam getCurrentExam() {
+        return examList.get(examIndex);
     }
 
     public void nextSentence() {

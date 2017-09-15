@@ -24,6 +24,7 @@ public class WordSelectExamFragment extends Fragment {
     private TextView sentenceTranslationView;
     private Exam exam;
     private boolean answered;
+    private int answerIndex;
 
     private ExamListener examListener;
     private View submitButton;
@@ -55,7 +56,6 @@ public class WordSelectExamFragment extends Fragment {
         makeButtonsVisible(0);
 
         submitButton = parentView.findViewById(R.id.submitButton);
-        submitButton.setEnabled(false);
         submitButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -65,12 +65,20 @@ public class WordSelectExamFragment extends Fragment {
             }
         });
 
+        initExam(examListener.getCurrentExam());
+
         return parentView;
+    }
+
+    @Override
+    public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
     }
 
     void initExam(Exam exam) {
         this.exam = exam;
         answered = false;
+        answerIndex = 0;
         sentenceJapaneseView.setText(new UnitedKanjiKanaSpannableString(exam.japanese, false));
         sentenceTranslationView.setVisibility(View.INVISIBLE);
         makeButtonsVisible(exam.answers.length);
@@ -78,6 +86,7 @@ public class WordSelectExamFragment extends Fragment {
             answerButtons[i].reset();
             answerButtons[i].setJapanese(exam.answers[i].japanese, "");
         }
+        submitButton.setEnabled(false);
     }
 
     private void makeButtonsVisible(int count) {
@@ -88,33 +97,41 @@ public class WordSelectExamFragment extends Fragment {
 
     private void onAnswerSelected(int id) {
         //todo
-        int answerIndex = 0;
+        int buttonIndex = 0;
         switch (id) {
             case R.id.firstAnswer:
-                answerIndex = 1;
+                buttonIndex = 1;
                 break;
             case R.id.secondAnswer:
-                answerIndex = 2;
+                buttonIndex = 2;
                 break;
             case R.id.thirdAnswer:
-                answerIndex = 3;
+                buttonIndex = 3;
                 break;
             case R.id.forthAnswer:
-                answerIndex = 4;
+                buttonIndex = 4;
                 break;
         }
         if (answered) {
             //todo: show translation
         } else {
-            answered = true;
-            boolean correctAnswer = exam.correct == answerIndex;
-            sentenceTranslationView.setVisibility(View.VISIBLE);
-            sentenceJapaneseView.setText(new UnitedKanjiKanaSpannableString(exam.japanese.replace("_", exam.answers[exam.correct - 1].japanese)));
-            sentenceTranslationView.setText(exam.translation);
-            makeButtonsVisible(1);
-            answerButtons[0].highlightCorrect(correctAnswer);
-            answerButtons[0].setJapanese(exam.answers[answerIndex - 1].japanese, "");
+            boolean correctAnswer = exam.isAnswerCorrect(answerIndex, buttonIndex);
+            sentenceJapaneseView.setText(replaceAnswer(sentenceJapaneseView.getText().toString(), exam.getCorrectAnswer(answerIndex).japanese));
+            answerButtons[buttonIndex - 1].highlightCorrect(correctAnswer);
+
+            if (exam.isLastAnswer(answerIndex) || !correctAnswer) {
+                answered = true;
+                sentenceTranslationView.setText(exam.translation);
+                sentenceTranslationView.setVisibility(View.VISIBLE);
+                sentenceJapaneseView.setText(new UnitedKanjiKanaSpannableString(sentenceJapaneseView.getText().toString()));
+                //todo: show full answer in case of multianswers
+            }
+            answerIndex++;
         }
+    }
+
+    private CharSequence replaceAnswer(String japanese, String answer) {
+        return new UnitedKanjiKanaSpannableString(japanese.replaceFirst("＿", answer), false);
     }
 
     @Override
@@ -132,6 +149,7 @@ public class WordSelectExamFragment extends Fragment {
     }
 
     public interface ExamListener {
+        Exam getCurrentExam();
         void nextSentence();
     }
 }
