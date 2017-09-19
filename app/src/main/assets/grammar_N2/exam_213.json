@@ -1,0 +1,107 @@
+﻿{
+  "sentences":[
+  {
+	"id" : 1,
+    "japanese": "この|店-みせ|の|品-しな||物-もの|は、|質-しつ|は＿|種-しゅ||類-るい|は|多-おお|い。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "もとより"
+	},
+	{
+		"japanese": "ともかく"
+	}],
+	"correct": 2
+  },
+  {
+	"id" : 2,
+    "japanese": "|旅-りょ||行-こう|する|時-じ||間-かん|は＿お|金-かね|もない。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "もとより"
+	},
+	{
+		"japanese": "ともかく"
+	}],
+	"correct": 1
+  },
+  {
+	"id" : 3,
+    "japanese": "ハンバーガーはトマト＿お|願-ねが|いします。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "ぬきで"
+	},
+	{
+		"japanese": "ぬきでは"
+	}],
+	"correct": 1
+  },
+  {
+	"id" : 4,
+    "japanese": "この|計-けい||画-かく|は|彼-かれ|を＿しては、|進-すす|められない。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "ぬきで"
+	},
+	{
+		"japanese": "ぬきに"
+	}],
+	"correct": 2
+  },
+  {
+	"id" : 5,
+    "japanese": "|明日-あした|の|天-てん||気-き|はどうだろう。|雨-あめ|は＿|雪-ゆき|は|困-こま|る。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "まだしも"
+	},
+	{
+		"japanese": "ぬきにして"
+	}],
+	"correct": 1
+  },
+  {
+	"id" : 6,
+    "japanese": "この|家-か||具-ぐ|、＿＿＿＿。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "|色-いろ|も"
+	},
+	{
+		"japanese": "もとより"
+	},
+	{
+		"japanese": "|形-かたち|は"
+	},
+	{
+		"japanese": "いい"
+	}],
+	"correct": [3,2,1,4]
+  },
+  {
+	"id" : 7,
+    "japanese": "お|金-かね|をとられるだけ＿＿＿＿ひどい。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "まだしも"
+	},
+	{
+		"japanese": "なんて"
+	},
+	{
+		"japanese": "|殺-ころ|される"
+	},
+	{
+		"japanese": "なら"
+	}],
+	"correct": [4,1,3,2]
+  }
+  ]
+}

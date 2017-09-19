@@ -1,0 +1,107 @@
+﻿{
+  "sentences":[
+  {
+	"id" : 1,
+    "japanese": "「また、|同-おな|じビデオ|見-み|てるの。」「だって、おもしろいんだ＿。」",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "もん"
+	},
+	{
+		"japanese": "もんだから"
+	}],
+	"correct": 1
+  },
+  {
+	"id" : 2,
+    "japanese": "やり|直-なお|せる＿やり|直-なお|したい。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "ものの"
+	},
+	{
+		"japanese": "ものなら"
+	}],
+	"correct": 2
+  },
+  {
+	"id" : 3,
+    "japanese": "|買-か|った＿、|使-つか|い|方-かた|がわからない。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "ものの"
+	},
+	{
+		"japanese": "ものなら"
+	}],
+	"correct": 1
+  },
+  {
+	"id" : 4,
+    "japanese": "|上-うわ||着-ぎ|を|着-き|たままですみません。|寒-さむ|い＿。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "ものですから"
+	},
+	{
+		"japanese": "からですもの"
+	}],
+	"correct": 1
+  },
+  {
+	"id" : 5,
+    "japanese": "|高-たか|いんです＿、|買-か|えません。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "もの"
+	},
+	{
+		"japanese": "ものなら"
+	}],
+	"correct": 1
+  },
+  {
+	"id" : 6,
+    "japanese": "|学-がっ||校-こう|は＿＿＿＿ついていけない。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "|休-やす|まずに"
+	},
+	{
+		"japanese": "|授-じゅ||業-ぎょう|には"
+	},
+	{
+		"japanese": "ものの"
+	},
+	{
+		"japanese": "|行-い|っている"
+	}],
+	"correct": [1,4,3,2]
+  },
+  {
+	"id" : 7,
+    "japanese": "|今日-きょう|は|早-はや|く|帰-かえ|ってきたんです。＿＿＿＿から。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "よくない"
+	},
+	{
+		"japanese": "です"
+	},
+	{
+		"japanese": "もの"
+	},
+	{
+		"japanese": "|体-たい||調-ちょう|が"
+	}],
+	"correct": [4,1,3,2]
+  }
+  ]
+}
