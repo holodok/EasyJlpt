@@ -1,0 +1,108 @@
+﻿{
+  "sentences":[
+  {
+	"id" : 1,
+    "japanese": "「あ、＿だ、まだ|早-はや|いんだね。また|後-あと|で|来-こ|よう。」",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "|準-じゅん||備-び||中-ちゅう|"
+	},
+	{
+		"japanese": "|定-てい||休-きゅう||日-び|"
+	}],
+	"correct": 1
+  },
+  {
+	"id" : 2,
+    "japanese": "「|開-かい||放-ほう||厳-げん||禁-きん|」＝＿",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "|開-あ|けてはいけない"
+	},
+	{
+		"japanese": "|開-あ|けておいてはいけない"
+	}],
+	"correct": 2
+  },
+  {
+	"id" : 3,
+    "japanese": "A「|何-なに|にする？」\nB「|安-やす|くて|早-はや|いから＿がいいよ。」",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "|定-てい||食-しょく|"
+	},
+	{
+		"japanese": "|洋-よう||食-しょく|"
+	}],
+	"correct": 1
+  },
+  {
+	"id" : 4,
+    "japanese": "うちのチームは＿まで|勝-か|ち|進-すす|んだ。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "|準-じゅん||急-きゅう|"
+	},
+	{
+		"japanese": "|準-じゅん||決-けっ||勝-しょう|"
+	}],
+	"correct": 2
+  },
+  {
+	"id" : 5,
+    "japanese": "「|備-そな|え|付-つ|けの|紙-かみ||以-い||外-がい|、|流-なが|さないでください。」＝トイレットペーパー＿|使-つか|えない。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "しか"
+	},
+	{
+		"japanese": "だけ"
+	}],
+	"correct": 1
+  },
+  {
+	"id" : 6,
+    "japanese": "「テストをしますから、|本-ほん|を＿ください。」",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "|閉-し|めて"
+	},
+	{
+		"japanese": "|閉-と|じて"
+	}],
+	"correct": 2
+  },
+  {
+	"id" : 7,
+    "japanese": "「エレベーターは＿ですから、|階-かい||段-だん|を|使-つか|ってください。」",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "|点-てん||検-けん||中-ちゅう|"
+	},
+	{
+		"japanese": "|検-てん||問-もん||中-ちゅう|"
+	}],
+	"correct": 1
+  },
+  {
+	"id" : 8,
+    "japanese": "＿セールを|行-おこな|う。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "|閉-へい||店-てん|"
+	},
+	{
+		"japanese": "|閉-へい||会-かい|"
+	}],
+	"correct": 1
+  }
+  ]
+}

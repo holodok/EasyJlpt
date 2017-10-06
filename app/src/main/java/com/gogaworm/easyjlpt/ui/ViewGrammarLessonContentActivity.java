@@ -15,6 +15,7 @@ import com.gogaworm.easyjlpt.data.JlptSection;
 import com.gogaworm.easyjlpt.data.Lesson;
 import com.gogaworm.easyjlpt.loaders.GrammarLoader;
 import com.gogaworm.easyjlpt.utils.Constants;
+import com.gogaworm.easyjlpt.utils.UnitedKanjiKanaSpannableString;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -34,7 +35,7 @@ public class ViewGrammarLessonContentActivity extends UserSessionLoaderActivity<
 
         lesson = getIntent().getParcelableExtra("lesson");
 
-        getSupportActionBar().setTitle(lesson.title.japanese);
+        getSupportActionBar().setTitle(UnitedKanjiKanaSpannableString.getKanjiFromReading(lesson.title.japanese));
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         // ViewPager and its adapters use support library

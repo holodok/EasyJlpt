@@ -6,6 +6,7 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import com.gogaworm.easyjlpt.R;
 import com.gogaworm.easyjlpt.data.Section;
+import com.gogaworm.easyjlpt.utils.UnitedKanjiKanaSpannableString;
 
 /**
  * Created on 28.03.2017.
@@ -23,7 +24,7 @@ public class LessonListActivity extends UserSessionActivity {
         Fragment fragment = LessonFragment.getInstance(userSession, section.id);
         fragmentManager.beginTransaction().add(R.id.content, fragment).commit();
 
-        getSupportActionBar().setTitle(section.title.japanese);
+        getSupportActionBar().setTitle(UnitedKanjiKanaSpannableString.getKanjiFromReading(section.title.japanese));
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 }

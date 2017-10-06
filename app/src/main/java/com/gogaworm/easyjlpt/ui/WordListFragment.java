@@ -120,7 +120,7 @@ public class WordListFragment extends RecyclerViewFragment<Word, Word> {
                         int startPosition = kanji.hasOnReading() ? (kanji.onReading.length() + 1) : 0;
                         setReadingSpans(reading, kanji.kunReading, startPosition, getResources().getColor(R.color.colorPrimary), getResources().getColor(R.color.primaryInvertedText));
                     }
-                    readingView.setText(reading);
+                    readingView.setText(reading, TextView.BufferType.SPANNABLE);
                 } else {
                     readingView.setText(value.reading);
                 }
@@ -134,7 +134,7 @@ public class WordListFragment extends RecyclerViewFragment<Word, Word> {
                 int position = startPosition;
                 for (String readingPart : readings) {
                     spannable.setSpan(new RoundedCornersBackgroundSpan(backgroundColor, textColor),
-                            position, position + readingPart.length(), Spanned.SPAN_INCLUSIVE_INCLUSIVE);
+                            position, position + readingPart.length(), 0);
                     position += readingPart.length() + 1;
                 }
             }

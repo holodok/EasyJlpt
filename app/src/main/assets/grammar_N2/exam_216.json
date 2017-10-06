@@ -2,27 +2,27 @@
   "sentences":[
   {
 	"id" : 1,
-    "japanese": "",
+    "japanese": "国民はもう少し政治に関心を＿ねばならない。",
 	"translation": "",
 	"answers": [
 	{
-		"japanese": ""
+		"japanese": "持た"
 	},
 	{
-		"japanese": ""
+		"japanese": "持ち"
 	}],
 	"correct": 2
   },
   {
 	"id" : 2,
-    "japanese": "",
+    "japanese": "先輩に＿ばかりはいられない。自分でできるようにならないと。",
 	"translation": "",
 	"answers": [
 	{
-		"japanese": ""
+		"japanese": "聞く"
 	},
 	{
-		"japanese": ""
+		"japanese": "聞いて"
 	}],
 	"correct": 2
   },

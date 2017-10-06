@@ -15,6 +15,7 @@ public final class RoundedCornersBackgroundSpan extends ReplacementSpan {
 
     private int   mBackgroundColor;
     private int   mTextColor;
+    private int width;
 
     /**
      * @param backgroundColor background color
@@ -27,13 +28,13 @@ public final class RoundedCornersBackgroundSpan extends ReplacementSpan {
 
     @Override
     public int getSize(Paint paint, CharSequence text, int start, int end, Paint.FontMetricsInt fm) {
-        return (int) (PADDING_X + paint.measureText(text.subSequence(start, end).toString()) + PADDING_X);
+        width = (int) (PADDING_X + paint.measureText(text, start, end) + PADDING_X);
+        return width;
     }
 
     @Override
     public void draw(Canvas canvas, CharSequence text, int start, int end, float x, int top, int y, int bottom, Paint paint) {
-        float width = paint.measureText(text.subSequence(start, end).toString());
-        RectF rect = new RectF(x, top, x + width + 2 * PADDING_X, bottom);
+        RectF rect = new RectF(x, top, x + width, bottom);
         paint.setColor(mBackgroundColor);
         canvas.drawRoundRect(rect, CORNER_RADIUS, CORNER_RADIUS, paint);
         paint.setColor(mTextColor);

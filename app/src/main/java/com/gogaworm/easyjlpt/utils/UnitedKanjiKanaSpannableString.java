@@ -62,7 +62,7 @@ public class UnitedKanjiKanaSpannableString extends SpannableString {
         }
     }
 
-    static String getKanjiFromReading(CharSequence reading) {
+    public static String getKanjiFromReading(CharSequence reading) {
         StringBuilder buffer = new StringBuilder();
         boolean kanjiStart = false;
         boolean readingStart = false;
