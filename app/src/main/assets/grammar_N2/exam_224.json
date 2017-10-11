@@ -1,0 +1,107 @@
+﻿{
+  "sentences":[
+  {
+	"id" : 1,
+    "japanese": "|出-しゅっ||席-せき|＿こそ、|授-じゅ||業-ぎょう|の|意-い||味-み|があるのです。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "する"
+	},
+	{
+		"japanese": "して"
+	}],
+	"correct": 2
+  },
+  {
+	"id" : 2,
+    "japanese": "|子-こ|どもの|将-しょう||来-らい|を|思-おも|えば＿|一-いち||流-りゅう|の|大-だい||学-がく|に|入-い|れたいのです。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "こそ"
+	},
+	{
+		"japanese": "さえ"
+	}],
+	"correct": 1
+  },
+  {
+	"id" : 3,
+    "japanese": "|根-こん||本-ぽん||的-てき|な|問-もん||題-だい|を|解-かい||決-けつ|しなければ、|財-ざい||政-せい|は|苦-くる|しく＿ばかりだ。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "なる"
+	},
+	{
+		"japanese": "なった"
+	}],
+	"correct": 1
+  },
+  {
+	"id" : 4,
+    "japanese": "この|仕-し||事-ごと|が|好-す|きだ＿つらくても|続-つづ|けられるのだと|思-おも|う。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "からこそ"
+	},
+	{
+		"japanese": "こそから"
+	}],
+	"correct": 1
+  },
+  {
+	"id" : 5,
+    "japanese": "|勉-べん||強-きょう|さえ＿、テストは|難-むずか|しくない。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "にしたら"
+	},
+	{
+		"japanese": "すれば"
+	}],
+	"correct": 2
+  },
+  {
+	"id" : 6,
+    "japanese": "お|互-たが|いに|率-そっ||直-ちょく|に＿＿＿＿し|合-あ|えるのです。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "|理-り||解-かい|"
+	},
+	{
+		"japanese": "|合-あ|って"
+	},
+	{
+		"japanese": "|話-はな|し"
+	},
+	{
+		"japanese": "こそ"
+	}],
+	"correct": [3,2,4,1]
+  },
+  {
+	"id" : 7,
+    "japanese": "この|仕-し||事-ごと|は＿＿＿＿だれにでもできます。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "あり"
+	},
+	{
+		"japanese": "やる|気-き|が"
+	},
+	{
+		"japanese": "すれば"
+	},
+	{
+		"japanese": "さえ"
+	}],
+	"correct": [2,1,4,3]
+  }
+  ]
+}

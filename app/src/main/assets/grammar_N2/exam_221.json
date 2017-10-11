@@ -1,0 +1,107 @@
+﻿{
+  "sentences":[
+  {
+	"id" : 1,
+    "japanese": "|遠-とお|くまで＿かいがあって、さがしていたものが|見-み|つかった。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "|来-く|る"
+	},
+	{
+		"japanese": "|来-き|た"
+	}],
+	"correct": 2
+  },
+  {
+	"id" : 2,
+    "japanese": "|会-かい||社-しゃ|を＿まで、|子-こ|どもの|運-うん||動-どう||会-かい|に|来-く|るなんて、|熱-ぬっ||心-しん|な|親-おや|だ。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "|休-やす|んで"
+	},
+	{
+		"japanese": "|休-やす|んだ"
+	}],
+	"correct": 1
+  },
+  {
+	"id" : 3,
+    "japanese": "おいしいおいしいと|食-た|べてくれると、|料-りょう||理-り|も＿がいがある。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "|作-つく|り"
+	},
+	{
+		"japanese": "|作-つく|った"
+	}],
+	"correct": 1
+  },
+  {
+	"id" : 4,
+    "japanese": "|高-たか|い|薬-くすり|を|飲-の|んだ＿|病-びょう||気-き|は|治-なお|らなかった。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "かいがあって"
+	},
+	{
+		"japanese": "かいもなく"
+	}],
+	"correct": 2
+  },
+  {
+	"id" : 5,
+    "japanese": "|犯-はん||人-にん|は|顔-かお|＿|変-か|えて|逃-に|げ|続-つづ|けた。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "まで"
+	},
+	{
+		"japanese": "までに"
+	}],
+	"correct": 1
+  },
+  {
+	"id" : 6,
+    "japanese": "あきらめずに|勉-べん||強-きょう|を＿＿＿＿|合-ごう||格-かく|した。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "|試-し||験-けん|に"
+	},
+	{
+		"japanese": "かいが"
+	},
+	{
+		"japanese": "あって"
+	},
+	{
+		"japanese": "|続-つづ|けた"
+	}],
+	"correct": [4,2,3,1]
+  },
+  {
+	"id" : 7,
+    "japanese": "いくら|仕-し||事-ごと|だといっても、|体-からだ|をこわして＿＿＿＿ありませんか。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "する"
+	},
+	{
+		"japanese": "まで"
+	},
+	{
+		"japanese": "こと"
+	},
+	{
+		"japanese": "ないんじゃ"
+	}],
+	"correct": [2,1,3,4]
+  }
+  ]
+}
