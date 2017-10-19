@@ -10,7 +10,6 @@ import android.view.ViewGroup;
 import android.widget.ImageButton;
 import android.widget.TextView;
 import com.gogaworm.easyjlpt.R;
-import com.gogaworm.easyjlpt.data.JlptLevel;
 import com.gogaworm.easyjlpt.data.JlptSection;
 import com.gogaworm.easyjlpt.data.Lesson;
 import com.gogaworm.easyjlpt.data.UserSession;
@@ -55,8 +54,9 @@ public class LessonFragment extends RecyclerViewFragment<Lesson, Lesson> {
     }
 
     @Override
-    protected Loader<List<Lesson>> createLoader(JlptSection section, JlptLevel level) {
-        return LoaderFactory.getLessonListLoader(getContext(), section, level, sectionId);
+    protected Loader<List<Lesson>> createLoader(Bundle args) {
+        args.putInt("sectionId", sectionId);
+        return LoaderFactory.getLessonListLoader(getContext(), args);
     }
 
     class LessonAdapter extends DynamicDataAdapter {

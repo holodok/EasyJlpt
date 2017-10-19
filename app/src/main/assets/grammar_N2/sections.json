@@ -67,30 +67,30 @@
     }, {
       "lesson": 2,
       "title": {
-				"japanese": "",
+				"japanese": "ありえない",
 				"reading": "",
-				"translation": ""
+				"translation": "Невозможно."
 			}
     }, {
       "lesson": 3,
       "title": {
-				"japanese": "",
+				"japanese": "|本-ほん||日-じつ||限-かぎ|り",
 				"reading": "",
-				"translation": ""
+				"translation": "Только сегодня."
 			}
     }, {
       "lesson": 4,
       "title": {
-				"japanese": "",
+				"japanese": "|君-きみ|さえいれば",
 				"reading": "",
-				"translation": ""
+				"translation": "Если бы только ты был здесь."
 			}
     }, {
       "lesson": 5,
       "title": {
-				"japanese": "",
+				"japanese": "|外-がい||国-こく|へ|行-い|くとしたら",
 				"reading": "",
-				"translation": ""
+				"translation": "Если бы я ехал заграницу."
 			}
     }, {
       "lesson": 6,

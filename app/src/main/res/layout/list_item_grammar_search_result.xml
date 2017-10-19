@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:orientation="vertical">
+    <TextView
+            android:id="@+id/grammarItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@color/primaryText"
+            tools:text="〜げはな形容詞になる"/>
+    <TextView
+            android:id="@+id/grammarMeaning"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@color/secondaryText"
+            tools:text="Используется с эмоциями.\nОписывает мнение, основанное на том, что ты видишь или видел.\nПохоже на ~そうな/~そうに."/>
+</LinearLayout>

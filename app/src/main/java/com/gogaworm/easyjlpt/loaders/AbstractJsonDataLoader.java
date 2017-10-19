@@ -4,6 +4,8 @@ import android.content.Context;
 import android.support.v4.content.AsyncTaskLoader;
 import android.util.Log;
 import com.gogaworm.easyjlpt.R;
+import com.gogaworm.easyjlpt.data.JlptLevel;
+import com.gogaworm.easyjlpt.data.JlptSection;
 import org.json.JSONException;
 
 import java.io.BufferedReader;
@@ -29,12 +31,7 @@ public abstract class AbstractJsonDataLoader <T> extends AsyncTaskLoader<List<T>
     public List<T> loadInBackground() {
         errorMessage = null;
         try {
-            List<T> results = createEmptyList();
-            for (String file : getFiles()) {
-                String json = loadJSONFromAsset(getContext(), file);
-                parseJson(results, json);
-            }
-            return results;
+            return load();
         } catch (Exception ex) {
             Log.e(getContext().getResources().getString(R.string.app_name), ex.getLocalizedMessage(), ex);
             errorMessage = ex.getLocalizedMessage();
@@ -42,9 +39,24 @@ public abstract class AbstractJsonDataLoader <T> extends AsyncTaskLoader<List<T>
         return null;
     }
 
-    protected abstract String[] getFiles();
+    protected abstract List<T> load() throws IOException, JSONException;
 
-    protected abstract List<T> createEmptyList();
+    protected void loadFromFile(List<T> results, JlptSection section, JlptLevel level, Type type, int id) throws IOException, JSONException {
+        String fileName = section.name().toLowerCase() + '_' + level.name();
+        switch (type) {
+            case SECTION:
+                fileName += "/sections";
+                break;
+            case LESSON:
+                fileName += "/lesson_" + id;
+                break;
+            case EXAM:
+                fileName += "/exam_" + id;
+                break;
+        }
+        String json = loadJSONFromAsset(getContext(), fileName);
+        parseJson(results, json);
+    }
 
     protected abstract void parseJson(List<T> results, String json) throws JSONException;
 

@@ -5,14 +5,16 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.content.Loader;
 import android.text.SpannableString;
-import android.text.Spanned;
 import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 import com.gogaworm.easyjlpt.R;
-import com.gogaworm.easyjlpt.data.*;
+import com.gogaworm.easyjlpt.data.Kanji;
+import com.gogaworm.easyjlpt.data.Lesson;
+import com.gogaworm.easyjlpt.data.UserSession;
+import com.gogaworm.easyjlpt.data.Word;
 import com.gogaworm.easyjlpt.loaders.LoaderFactory;
 import com.gogaworm.easyjlpt.ui.widgets.rcbs.RoundedCornersBackgroundSpan;
 
@@ -53,8 +55,9 @@ public class WordListFragment extends RecyclerViewFragment<Word, Word> {
     }
 
     @Override
-    protected Loader<List<Word>> createLoader(JlptSection section, JlptLevel level) {
-        return LoaderFactory.getViewListLoader(getContext(), section, level, lesson.trainId);
+    protected Loader<List<Word>> createLoader(Bundle args) {
+        args.putInt("lessonId", lesson.trainId);
+        return LoaderFactory.getViewListLoader(getContext(), args);
     }
 
     @Override

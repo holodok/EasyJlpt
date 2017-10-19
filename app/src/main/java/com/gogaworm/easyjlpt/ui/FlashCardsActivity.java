@@ -11,8 +11,6 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
 import com.gogaworm.easyjlpt.R;
-import com.gogaworm.easyjlpt.data.JlptLevel;
-import com.gogaworm.easyjlpt.data.JlptSection;
 import com.gogaworm.easyjlpt.data.Lesson;
 import com.gogaworm.easyjlpt.data.Word;
 import com.gogaworm.easyjlpt.loaders.LoaderFactory;
@@ -89,8 +87,9 @@ public class FlashCardsActivity extends UserSessionLoaderActivity<Word> {
     }
 
     @Override
-    protected Loader<List<Word>> createLoader(JlptSection section, JlptLevel level) {
-        return LoaderFactory.getLearnListLoader(this, section, level, lesson.trainId);
+    protected Loader<List<Word>> createLoader(Bundle args) {
+        args.putInt("lessonId", lesson.trainId);
+        return LoaderFactory.getLearnListLoader(this, args);
     }
 
     @Override

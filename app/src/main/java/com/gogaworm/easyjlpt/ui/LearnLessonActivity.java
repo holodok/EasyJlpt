@@ -6,14 +6,12 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.content.Loader;
 import com.gogaworm.easyjlpt.R;
-import com.gogaworm.easyjlpt.data.JlptLevel;
-import com.gogaworm.easyjlpt.data.JlptSection;
 import com.gogaworm.easyjlpt.data.Lesson;
 import com.gogaworm.easyjlpt.data.Word;
 import com.gogaworm.easyjlpt.game.GameController;
 import com.gogaworm.easyjlpt.game.Task;
 import com.gogaworm.easyjlpt.game.TaskCreator;
-import com.gogaworm.easyjlpt.loaders.WordListLoader;
+import com.gogaworm.easyjlpt.loaders.LoaderFactory;
 import com.gogaworm.easyjlpt.utils.Constants;
 
 import java.util.List;
@@ -49,8 +47,9 @@ public class LearnLessonActivity extends UserSessionLoaderActivity<Word> impleme
     }
 
     @Override
-    protected Loader<List<Word>> createLoader(JlptSection section, JlptLevel level) {
-        return new WordListLoader(this, section, level, lesson.trainId);
+    protected Loader<List<Word>> createLoader(Bundle args) {
+        args.putInt("lessonId", lesson.trainId);
+        return LoaderFactory.getLearnListLoader(this, args);
     }
 
     @Override

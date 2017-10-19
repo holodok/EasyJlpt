@@ -9,6 +9,7 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -26,16 +27,10 @@ public class ExamLoader extends JlptDataLoader<Exam> {
     }
 
     @Override
-    protected void syncWithDataBase(List<Exam> results) {}
-
-    @Override
-    protected String[] getFiles(String folder) {
-        return new String[] { folder + "/exam_" + examId };
-    }
-
-    @Override
-    protected List<Exam> createEmptyList() {
-        return new ArrayList<>();
+    protected List<Exam> load() throws IOException, JSONException {
+        ArrayList<Exam> results = new ArrayList<>();
+        loadFromFile(results, section, level, Type.EXAM, examId);
+        return results;
     }
 
     @Override

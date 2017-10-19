@@ -8,6 +8,7 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -19,24 +20,16 @@ import java.util.List;
 public class LessonListLoader extends JlptDataLoader<Lesson> {
     private int sectionId;
 
-    public LessonListLoader(Context context, JlptSection section, JlptLevel jlptLevel, int sectionId) {
+    LessonListLoader(Context context, JlptSection section, JlptLevel jlptLevel, int sectionId) {
         super(context, section, jlptLevel);
         this.sectionId = sectionId;
     }
 
     @Override
-    protected void syncWithDataBase(List<Lesson> results) {
-        //todo: load user data from db and progress
-    }
-
-    @Override
-    protected String[] getFiles(String folder) {
-        return new String[] { folder + "/sections"};
-    }
-
-    @Override
-    protected List<Lesson> createEmptyList() {
-        return new ArrayList<>();
+    protected List<Lesson> load() throws IOException, JSONException {
+        List<Lesson> results = new ArrayList<>();
+        loadFromFile(results, section, level, Type.SECTION, 0);
+        return results;
     }
 
     @Override

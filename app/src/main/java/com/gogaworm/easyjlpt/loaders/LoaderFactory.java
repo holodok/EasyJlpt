@@ -1,6 +1,7 @@
 package com.gogaworm.easyjlpt.loaders;
 
 import android.content.Context;
+import android.os.Bundle;
 import android.support.v4.content.Loader;
 import com.gogaworm.easyjlpt.data.JlptLevel;
 import com.gogaworm.easyjlpt.data.JlptSection;
@@ -13,15 +14,24 @@ import com.gogaworm.easyjlpt.data.JlptSection;
 public class LoaderFactory {
     private LoaderFactory() {}
 
-    public static SectionLoader getSectionLoader(Context context, JlptSection section, JlptLevel jlptLevel) {
+    public static SectionLoader getSectionLoader(Context context, Bundle bundle) {
+        JlptSection section = JlptSection.valueOf(bundle.getString("section"));
+        JlptLevel jlptLevel = JlptLevel.valueOf(bundle.getString("level"));
+
         return new SectionLoader(context, section, jlptLevel);
     }
 
-    public static LessonListLoader getLessonListLoader(Context context, JlptSection section, JlptLevel jlptLevel, int sectionId) {
+    public static LessonListLoader getLessonListLoader(Context context, Bundle bundle) {
+        JlptSection section = JlptSection.valueOf(bundle.getString("section"));
+        JlptLevel jlptLevel = JlptLevel.valueOf(bundle.getString("level"));
+        int sectionId = bundle.getInt("sectionId");
         return new LessonListLoader(context, section, jlptLevel, sectionId);
     }
 
-    public static LessonLoader getViewListLoader(Context context, JlptSection section, JlptLevel jlptLevel, int lessonId) {
+    public static LessonLoader getViewListLoader(Context context, Bundle bundle) {
+        JlptSection section = JlptSection.valueOf(bundle.getString("section"));
+        JlptLevel jlptLevel = JlptLevel.valueOf(bundle.getString("level"));
+        int lessonId = bundle.getInt("lessonId", 0);
         switch (section) {
             case VOCABULARY:
                 return new WordListLoader(context, section, jlptLevel, lessonId);
@@ -33,7 +43,11 @@ public class LoaderFactory {
         return null;
     }
 
-    public static Loader getLearnListLoader(Context context, JlptSection section, JlptLevel jlptLevel, int lessonId) {
+    public static Loader getLearnListLoader(Context context, Bundle bundle) {
+        JlptSection section = JlptSection.valueOf(bundle.getString("section"));
+        JlptLevel jlptLevel = JlptLevel.valueOf(bundle.getString("level"));
+        int lessonId = bundle.getInt("lessonId", 0);
+
         switch (section) {
             case VOCABULARY:
                 return new WordListLoader(context, section, jlptLevel, lessonId);
@@ -45,11 +59,23 @@ public class LoaderFactory {
         return null;
     }
 
-    public static Loader getExamLoader() {
-        return null;
+    public static Loader getExamLoader(Context context, Bundle bundle) {
+        JlptSection section = JlptSection.valueOf(bundle.getString("section"));
+        JlptLevel level = JlptLevel.valueOf(bundle.getString("level"));
+        int lessonId = bundle.getInt("lessonId", 0);
+        return new ExamLoader(context, section, level, lessonId);
     }
 
-    public static Loader getSearchLoader() {
+    public static Loader getSearchLoader(Context context, Bundle bundle) {
+        JlptSection section = JlptSection.valueOf(bundle.getString("section"));
+        switch (section) {
+            case VOCABULARY:
+                return null;
+            case KANJI:
+                return null;
+            case GRAMMAR:
+                return new GrammarDictionaryLoader(context, section);
+        }
         return null;
     }
 }

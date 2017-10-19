@@ -16,7 +16,10 @@ import java.util.List;
 public abstract class UserSessionLoaderActivity<V> extends UserSessionActivity implements LoaderManager.LoaderCallbacks<List<V>>  {
     @Override
     public Loader<List<V>> onCreateLoader(int id, Bundle args) {
-        return createLoader(userSession.section, userSession.level);
+        if (args == null) args = new Bundle();
+        args.putString("section", userSession.section.name());
+        args.putString("level", userSession.level.name());
+        return createLoader(args);
     }
 
     @Override
@@ -24,5 +27,5 @@ public abstract class UserSessionLoaderActivity<V> extends UserSessionActivity i
 
     }
 
-    protected abstract Loader<List<V>> createLoader(JlptSection section, JlptLevel level);
+    protected abstract Loader<List<V>> createLoader(Bundle args);
 }

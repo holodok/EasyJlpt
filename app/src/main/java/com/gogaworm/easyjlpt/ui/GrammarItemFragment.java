@@ -24,11 +24,11 @@ import static android.view.View.VISIBLE;
  *
  * @author ikarpova
  */
-public class GrammarListFragment extends UserSessionFragment  {
+public class GrammarItemFragment extends UserSessionFragment  {
     private Grammar grammar;
 
-    static GrammarListFragment getInstance(UserSession userSession, Grammar grammar) {
-        GrammarListFragment fragment = new GrammarListFragment();
+    static GrammarItemFragment getInstance(UserSession userSession, Grammar grammar) {
+        GrammarItemFragment fragment = new GrammarItemFragment();
         setArguments(fragment, userSession);
         fragment.grammar = grammar;
         return fragment;

@@ -2,13 +2,12 @@ package com.gogaworm.easyjlpt.ui;
 
 import android.content.Context;
 import android.content.Intent;
+import android.os.Bundle;
 import android.support.v4.content.Loader;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 import com.gogaworm.easyjlpt.R;
-import com.gogaworm.easyjlpt.data.JlptLevel;
-import com.gogaworm.easyjlpt.data.JlptSection;
 import com.gogaworm.easyjlpt.data.Section;
 import com.gogaworm.easyjlpt.loaders.LoaderFactory;
 import com.gogaworm.easyjlpt.ui.widgets.ArcProgress;
@@ -37,8 +36,8 @@ public class SectionFragment extends RecyclerViewFragment<Section, Section> {
     }
 
     @Override
-    protected Loader<List<Section>> createLoader(JlptSection section, JlptLevel level) {
-        return LoaderFactory.getSectionLoader(getActivity(), section, level);
+    protected Loader<List<Section>> createLoader(Bundle args) {
+        return LoaderFactory.getSectionLoader(getActivity(), args);
     }
 
     class SectionAdapter extends DynamicDataAdapter {

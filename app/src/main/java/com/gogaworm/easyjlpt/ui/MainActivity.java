@@ -1,5 +1,6 @@
 package com.gogaworm.easyjlpt.ui;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
@@ -84,8 +85,13 @@ public class MainActivity extends AppCompatActivity
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
-        // Handle navigation view item clicks here.
-        changeFragment(item.getItemId());
+        if (item.getItemId() == R.id.nav_grammar_dictionary) {
+            Intent intent = new Intent(this, GrammarDictionaryActivity.class);
+            intent.putExtra("userSession", new UserSession(JlptSection.VOCABULARY, JlptLevel.ALL));
+            startActivity(intent);
+        } else {
+            changeFragment(item.getItemId());
+        }
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;

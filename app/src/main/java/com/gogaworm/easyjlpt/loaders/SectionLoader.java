@@ -8,6 +8,7 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -23,13 +24,10 @@ class SectionLoader extends JlptDataLoader<Section> {
     }
 
     @Override
-    protected String[] getFiles(String folder) {
-        return new String[] {folder + "/sections"};
-    }
-
-    @Override
-    protected List<Section> createEmptyList() {
-        return new ArrayList<>(20);
+    protected List<Section> load() throws IOException, JSONException {
+        List<Section> results = new ArrayList<>();
+        loadFromFile(results, section, level, Type.SECTION, 0);
+        return results;
     }
 
     @Override
@@ -44,11 +42,5 @@ class SectionLoader extends JlptDataLoader<Section> {
             JSONObject jsonSection = sectionsArray.getJSONObject(i);
             sections.add(new Section(jsonSection.getInt("section"), parseWord(jsonSection.getJSONObject("title"))));
         }
-    }
-
-    @Override
-    protected void syncWithDataBase(List<Section> results) {
-        //todo: load progress
-        //todo: load user defined sections
     }
 }

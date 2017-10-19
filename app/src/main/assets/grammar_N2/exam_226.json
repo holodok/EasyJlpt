@@ -1,0 +1,107 @@
+﻿{
+  "sentences":[
+  {
+	"id" : 1,
+    "japanese": "|温-おん||度-ど|が|上-あ|がる＿、|湿-しつ||度-ど|も|上-あ|がった。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "とともに"
+	},
+	{
+		"japanese": "につれて"
+	}],
+	"correct": [1,2]
+  },
+  {
+	"id" : 2,
+    "japanese": "|引-ひ|っ|越-こ|し＿、|電-でん||話-わ||番-ばん||号-ごう|も|変-か|わりました。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "につれて"
+	},
+	{
+		"japanese": "にともない"
+	}],
+	"correct": 2
+  },
+  {
+	"id" : 3,
+    "japanese": "|外-がい||国-こく||語-ご|は、|上-じょう||達-たつ|する＿|難-むずか|しさもわかってくる。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "とともに"
+	},
+	{
+		"japanese": "にしたがって"
+	}],
+	"correct": [1,2]
+  },
+  {
+	"id" : 4,
+    "japanese": "|社-しゃ||会-かい|が＿のに|伴-ともな|って、|言-こと||葉-ば|も|変-へん||化-か|する。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "|変-へん||化-か|"
+	},
+	{
+		"japanese": "|変-へん||化-か|する"
+	}],
+	"correct": 2
+  },
+  {
+	"id" : 5,
+    "japanese": "この|小-しょう||説-せつ|は、＿につれて、だんだんおもしろくなってきた。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "|読-よ|む"
+	},
+	{
+		"japanese": "|読-よ|み"
+	}],
+	"correct": 1
+  },
+  {
+	"id" : 6,
+    "japanese": "|学-がく||生-せい|＿＿＿＿べきだ。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "|教-きょう||師-し|も"
+	},
+	{
+		"japanese": "|成-せい||長-ちょう|"
+	},
+	{
+		"japanese": "していく"
+	},
+	{
+		"japanese": "とともに"
+	}],
+	"correct": [4,1,2,3]
+  },
+  {
+	"id" : 7,
+    "japanese": "|係-かかり||員-いん|の＿＿＿＿ください。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "|車-くるま|を"
+	},
+	{
+		"japanese": "|指-し||示-じ|に"
+	},
+	{
+		"japanese": "したがって"
+	},
+	{
+		"japanese": "|止-と|める"
+	}],
+	"correct": [2,3,1,4]
+  }
+  ]
+}
