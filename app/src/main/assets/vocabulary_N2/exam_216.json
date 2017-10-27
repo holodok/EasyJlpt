@@ -1,0 +1,120 @@
+﻿{
+  "sentences":[
+  {
+	"id" : 1,
+    "japanese": "|銀-ぎん||行-こう|に＿お|金-かね|が|減-へ|ってきた。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "|預-あず|けてある"
+	},
+	{
+		"japanese": "|振-ふ|り|込-こ|んである"
+	}],
+	"correct": 2
+  },
+  {
+	"id" : 2,
+    "japanese": "|電-でん||気-き||代-だい|を＿するためにエアコンを|止-と|めた。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "|不-ふ||足-そく|"
+	},
+	{
+		"japanese": "|節-せつ||約-やく|"
+	}],
+	"correct": 2
+  },
+  {
+	"id" : 3,
+    "japanese": "|毎-まい||日-にち|レストランへ|行-い|くのは＿と|思-おも|う。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "ぜいたくだ"
+	},
+	{
+		"japanese": "|余-よ||裕-ゆう|がない"
+	}],
+	"correct": 1
+  },
+  {
+	"id" : 4,
+    "japanese": "|今-こん||月-げつ||分-ぶん|の|家-や||賃-ちん|の＿を|済-す|ませた。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "|支-し||払-はら|い"
+	},
+	{
+		"japanese": "|支-し||出-しゅつ|"
+	}],
+	"correct": 2
+  },
+  {
+	"id" : 5,
+    "japanese": "|電-でん||話-わ||代-だい|が|口-こう||座-ざ|から＿。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "|下-くだ|された"
+	},
+	{
+		"japanese": "|引-ひ|き|落-お|とされた"
+	}],
+	"correct": 1
+  },
+  {
+	"id" : 6,
+    "japanese": "|彼-かれ|は＿|考-かんが|え|方-かた|をしている。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "かたよった"
+	},
+	{
+		"japanese": "つりあった"
+	}],
+	"correct": 2
+  },
+  {
+	"id" : 7,
+    "japanese": "|外-がい||食-しょく|は|高-たか|く＿から、できるだけ|自-じ||炊すい-|をしましょう。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "する"
+	},
+	{
+		"japanese": "とる"
+	},
+	{
+		"japanese": "でる"
+	},
+	{
+		"japanese": "つく"
+	}],
+	"correct": 4
+  },
+  {
+	"id" : 8,
+    "japanese": "|今-こん||月-げつ|は|赤-あか||字-じ|だから、コンサートや|映-えい||画-が|に＿|余-よ||裕-ゆう|がない。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "|行-|く"
+	},
+	{
+		"japanese": "|行-|くことの"
+	},
+	{
+		"japanese": "|行-|けば"
+	},
+	{
+		"japanese": "|行-|くという"
+	}],
+	"correct": 2
+  }
+  ]
+}

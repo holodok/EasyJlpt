@@ -1,84 +1,169 @@
 ﻿{
 	"words": [
 	{
-		"japanese": "",
+		"japanese": "プリンター",
 		"reading": "",
-		"translation": ""
+		"translation": "принтер"
 	},
 	{
-		"japanese": "",
+		"japanese": "モニター",
 		"reading": "",
-		"translation": ""
+		"translation": "монитор"
 	},
 	{
-		"japanese": "",
+		"japanese": "ディスプレイ",
 		"reading": "",
-		"translation": ""
+		"translation": "дисплей"
 	},
 	{
-		"japanese": "",
+		"japanese": "ウィンドウ",
 		"reading": "",
-		"translation": ""
+		"translation": "windows"
 	},
 	{
-		"japanese": "",
-		"reading": "",
-		"translation": ""
+		"japanese": "パソコン本体",
+		"reading": "パソコンほんたい",
+		"translation": "корпус компьютера"
 	},
 	{
-		"japanese": "",
+		"japanese": "ポインター",
 		"reading": "",
-		"translation": ""
+		"translation": "указатель мыши"
 	},
 	{
-		"japanese": "",
+		"japanese": "カーソル",
 		"reading": "",
-		"translation": ""
+		"translation": "курсор"
 	},
 	{
-		"japanese": "",
+		"japanese": "キーボード",
 		"reading": "",
-		"translation": ""
+		"translation": "клавиатура"
 	},
 	{
-		"japanese": "",
+		"japanese": "マウス",
 		"reading": "",
-		"translation": ""
+		"translation": "мышь"
 	},
 	{
-		"japanese": "",
-		"reading": "",
-		"translation": ""
+		"japanese": "パソコンを操作する",
+		"reading": "パソコンをそうさする",
+		"translation": "работать на компьютере"
 	},
 	{
-		"japanese": "",
-		"reading": "",
-		"translation": ""
+		"japanese": "基本をマスターする",
+		"reading": "きほんをマスターする",
+		"translation": "освоить основные операции"
 	},
 	{
-		"japanese": "",
-		"reading": "",
-		"translation": ""
+		"japanese": "パソコンを起動する",
+		"reading": "パソコンをきどうする",
+		"translation": "запустить компьютер"
 	},
 	{
-		"japanese": "",
-		"reading": "",
-		"translation": ""
+		"japanese": "パソコンを立ち上がる",
+		"reading": "パソコンをたちあがる",
+		"translation": "запустить компьютер"
 	},
 	{
-		"japanese": "",
-		"reading": "",
-		"translation": ""
+		"japanese": "パソコンを終了する",
+		"reading": "パソコンをしゅうりょうする",
+		"translation": "выключить компьютер"
 	},
 	{
-		"japanese": "",
-		"reading": "",
-		"translation": ""
+		"japanese": "パソコンを再起動する",
+		"reading": "パソコンをさいきどうする",
+		"translation": "перезагрузить компьютер"
 	},
 	{
-		"japanese": "",
-		"reading": "",
-		"translation": ""
+		"japanese": "次の画面を表示する",
+		"reading": "つぎのがめんをひょうじする",
+		"translation": "отобразить следующую страницу"
 	},
+	{
+		"japanese": "プロバイダーと契約する",
+		"reading": "プロバイダーとけいやくする",
+		"translation": "заключить договор с провайдером"
+	},
+	{
+		"japanese": "インターネットに接続する",
+		"reading": "インターネットにせつぞくする",
+		"translation": "подключиться к интернету"
+	},
+	{
+		"japanese": "ネットにつなぐ",
+		"reading": "",
+		"translation": "подключиться к интернету"
+	},
+	{
+		"japanese": "ネットにアクセスする",
+		"reading": "",
+		"translation": "подключиться к интернету"
+	},
+	{
+		"japanese": "ネットがつながる",
+		"reading": "",
+		"translation": "быть подключенным к интернету"
+	},
+	{
+		"japanese": "インターネットで検索する",
+		"reading": "インターネットでけんさくする",
+		"translation": "искать в интернете"
+	},
+	{
+		"japanese": "ホームページで情報を得る",
+		"reading": "ホームページでじょうほうをえる",
+		"translation": "получить информацию на странице (компании)"
+	},
+	{
+		"japanese": "ダウンロードを開始する",
+		"reading": "ダウンロードをかいしする",
+		"translation": "начать загрузку (скачивание)"
+	},
+	{
+		"japanese": "ダウンロードを完了する",
+		"reading": "ダインロードをかんりょうする",
+		"translation": "заканчивать загрузку (скачивание)"
+	},
+	{
+		"japanese": "ソフトをインストールする",
+		"reading": "",
+		"translation": "устанавливать программу"
+	},
+	{
+		"japanese": "スタートボタンをクリックする",
+		"reading": "",
+		"translation": "нажать на кнопку старт"
+	},
+	{
+		"japanese": "フリーズする",
+		"reading": "",
+		"translation": "зависать (о компьютере)"
+	},
+	{
+		"japanese": "パソコンのシステムを更新する",
+		"reading": "パソコンのシステムをこうしんする",
+		"translation": "обновить операционную систему"
+	},
+	{
+		"japanese": "便利な機能",
+		"reading": "べんりなきのう",
+		"translation": "удобные функции"
+	},
+	{
+		"japanese": "メールのやり取りをする",
+		"reading": "メールのやり取りをする",
+		"translation": "обмениваться электронными письмами"
+	},
+	{
+		"japanese": "アドレスを入力する",
+		"reading": "アドレスをにゅうりょくする",
+		"translation": "ввести адрес"
+	},
+	{
+		"japanese": "アドレスを登録する",
+		"reading": "アドレスをとうろくする",
+		"translation": "регистрировать адрес"
+	}
 	]
 }

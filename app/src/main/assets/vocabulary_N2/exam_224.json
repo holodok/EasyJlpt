@@ -1,0 +1,144 @@
+﻿{
+  "sentences":[
+  {
+	"id" : 1,
+    "japanese": "インターネットからそのソフトを＿した。",
+    "reading": "",
+	"translation": "Я скачал эту программу из интернета.",
+	"answers": [
+	{
+		"japanese": "アクセス"
+	},
+	{
+		"japanese": "ダウンロード"
+	}],
+	"correct": 2
+  },
+  {
+	"id" : 2,
+    "japanese": "フリーズしたので、パソコンを＿した。",
+    "reading": "",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "|起-き||動-どう|"
+	},
+	{
+		"japanese": "|再-さい||起-き||動-どう|"
+	}],
+	"correct": 2
+  },
+  {
+	"id" : 3,
+    "japanese": "|家-いえ|でインターネットが|使-つか|えるように、プロバイダーと＿した。",
+    "reading": "",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "|契-けい||約-やく|",
+		"reading": ""
+	},
+	{
+		"japanese": "|接-せつ||続-ぞく|",
+		"reading": ""
+	}],
+	"correct": 1
+  },
+  {
+	"id" : 4,
+    "japanese": "パソコンが＿したのでカーソルが|動-うご|かない。",
+    "reading": "",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "|起-き||動-どう|",
+		"reading": ""
+	},
+	{
+		"japanese": "フリーズ",
+		"reading": ""
+	}],
+	"correct": 2
+  },
+  {
+	"id" : 5,
+    "japanese": "マウスを＿してファイルを|開-ひら|く。",
+    "reading": "",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "クリック",
+		"reading": ""
+	},
+	{
+		"japanese": "カーソル",
+		"reading": ""
+	}],
+	"correct": 1
+  },
+  {
+	"id" : 6,
+    "japanese": "なぜかインターネットに＿。",
+    "reading": "",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "つながらない",
+		"reading": ""
+	},
+	{
+		"japanese": "立ち上がらない",
+		"reading": ""
+	}],
+	"correct": 1
+  },
+  {
+	"id" : 7,
+    "japanese": "パソコンを|初-はじ|めて|使-つか|うので、マウスの＿がうまくできません。",
+    "reading": "",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "|表-ひょう||示-じ|",
+		"reading": ""
+	},
+	{
+		"japanese": "|操-そう||作-さ|",
+		"reading": ""
+	},
+	{
+		"japanese": "|起-き||動-どう|",
+		"reading": ""
+	},
+	{
+		"japanese": "マスター",
+		"reading": ""
+	}],
+	"correct": 2
+  },
+  {
+	"id" : 8,
+    "japanese": "|携-けい||帯-たい||電-でん||話-わ|のメールで|私-わたし|の＿のアドレスを|教-おし|えます。",
+    "reading": "",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "インターネット",
+		"reading": ""
+	},
+	{
+		"japanese": "パソコン",
+		"reading": ""
+	},
+	{
+		"japanese": "システム",
+		"reading": ""
+	},
+	{
+		"japanese": "アクセス",
+		"reading": ""
+	}],
+	"correct": 2
+  }
+  ]
+}

@@ -95,12 +95,55 @@
     }, {
       "lesson": 6,
       "title": {
+				"japanese": "|高-たか|くなるにしたがって",
+				"reading": "",
+				"translation": "Чем выше взбираешься..."
+			}
+    }]
+  }, {
+    "section": 23,
+    "title": {
+				"japanese": "おぼえないわけにはいかない",
+				"reading": "",
+				"translation": "Ты должен запомнить."
+			},
+    "lessons": [{
+      "lesson": 1,
+      "title": {
+				"japanese": "|予-よ||報-ほう|どおり",
+				"reading": "",
+				"translation": "Как и было в прогнозе погоды"
+			}
+    }, {
+      "lesson": 2,
+      "title": {
 				"japanese": "",
 				"reading": "",
 				"translation": ""
 			}
     }, {
-      "lesson": 7,
+      "lesson": 3,
+      "title": {
+				"japanese": "",
+				"reading": "",
+				"translation": ""
+			}
+    }, {
+      "lesson": 4,
+      "title": {
+				"japanese": "",
+				"reading": "",
+				"translation": ""
+			}
+    }, {
+      "lesson": 5,
+      "title": {
+				"japanese": "",
+				"reading": "",
+				"translation": ""
+			}
+    }, {
+      "lesson": 6,
       "title": {
 				"japanese": "",
 				"reading": "",
