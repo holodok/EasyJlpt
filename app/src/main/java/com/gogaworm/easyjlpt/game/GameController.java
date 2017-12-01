@@ -11,11 +11,13 @@ import java.util.List;
  * @author ikarpova
  */
 public class GameController {
+    int MAX_GAME_TYPE = 3;
+
     public enum GameType {
         FLASH_CARD,
         SELECT_TRANSLATION_BY_READING,
-        SELECT_TRANSLATION_BY_KANJI,
         SELECT_READING_BY_KANJI, //todo: add adv version that will find similar kanji
+        SELECT_TRANSLATION_BY_KANJI,
         SELECT_KANJI_BY_READING, //todo: add adv version that will find similiar readings
         SELECT_KANJI_BY_TRANSLATION,
         WRITE_READING,
@@ -34,10 +36,12 @@ public class GameController {
 
     public void setTasks(List<Task> tasks) {
         this.tasks.clear();
-        this.tasks.addAll(tasks);
+        //this.tasks.addAll(tasks); //todo: this is correct
+        this.tasks.add(tasks.get(0));
+
 
         for (Task task : tasks) {
-            task.leftGames = 5;
+            task.leftGames = MAX_GAME_TYPE;
         }
     }
 
@@ -57,7 +61,7 @@ public class GameController {
                 currentIndex++;
             }
         } else {
-            task.gameType = GameType.FLASH_CARD;
+            task.gameType = null;
             task.leftGames++;
         }
         showNextTask();
@@ -88,12 +92,12 @@ public class GameController {
         } else {
             //find next proper gameType
             GameType[] gameTypes = GameType.values();
-            for (int i = task.gameType.ordinal() + 1; i < gameTypes.length; i++) {
+            for (int i = task.gameType.ordinal() + 1; i < MAX_GAME_TYPE; i++) {
                 if (isValidForGame(gameTypes[i], task)) {
                     task.gameType = gameTypes[i];
                     return;
                 }
-                if (i == gameTypes.length - 1) i = 0;
+                if (i == MAX_GAME_TYPE - 1) i = 0;
                 if (i == task.gameType.ordinal()) return;
             }
         }
@@ -102,7 +106,12 @@ public class GameController {
     private void shiftCurrentTaskForward() {
         if (currentIndex < tasks.size()) {
             Task task = tasks.remove(currentIndex);
-            tasks.add(currentIndex + Math.min(2, tasks.size() - currentIndex), task);
+            int index = currentIndex + 1 + (int)Math.round(Math.random() * Math.min(tasks.size() - currentIndex - 1, 5));
+            if (index >= tasks.size()) {
+                tasks.add(task);
+            } else {
+                tasks.add(index, task);
+            }
         }
     }
 
@@ -122,12 +131,17 @@ public class GameController {
         switch (gameType) {
             case FLASH_CARD:
                 return true;
+            case SELECT_KANJI_BY_TRANSLATION:
+                return task instanceof WordTask;
             case SELECT_TRANSLATION_BY_READING:
                 return true;
-            case SELECT_KANJI_BY_TRANSLATION:
-                return false && task instanceof WordTask;
-            case SELECT_TRANSLATION_BY_KANJI:
             case SELECT_READING_BY_KANJI:
+                if (task instanceof WordTask) {
+                    Word word = (Word) task.value;
+                    return word.hasKanji();
+                }
+                return false;
+            case SELECT_TRANSLATION_BY_KANJI:
             case SELECT_KANJI_BY_READING:
             case WRITE_READING:
                 if (task instanceof WordTask) {

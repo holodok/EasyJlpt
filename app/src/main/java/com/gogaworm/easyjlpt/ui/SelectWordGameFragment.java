@@ -108,7 +108,7 @@ public class SelectWordGameFragment extends WordGameFragment {
         switch (task.gameType) {
             case SELECT_TRANSLATION_BY_READING:
                 questionView.setText(R.string.label_can_you_translate);
-                japaneseView.setText(word.reading);
+                japaneseView.setText(word.hasKanji() ? word.reading : word.japanese);
                 new TranslationVariantsGenerator().generateVariants(word);
                 break;
             case SELECT_TRANSLATION_BY_KANJI:

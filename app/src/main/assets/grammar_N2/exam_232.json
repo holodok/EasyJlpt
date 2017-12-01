@@ -1,0 +1,107 @@
+﻿{
+  "sentences":[
+  {
+	"id" : 1,
+    "japanese": "もう１２|時-じ|か。おなかがすくわけ＿。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "だ"
+	},
+	{
+		"japanese": "ではない"
+	}],
+	"correct": 1
+  },
+  {
+	"id" : 2,
+    "japanese": "あの|学-がく||生-せい|はいつも|授-じゅ||業-ぎょう|に|来-こ|ないから、|試-し||験-けん|の|結-けっ||果-か|がいいわけ＿。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "いかない"
+	},
+	{
+		"japanese": "いけない"
+	}],
+	"correct": 2
+  },
+  {
+	"id" : 3,
+    "japanese": "|用-よう||事-じ|があるので、|台-たい||風-ふう|でも|出-で|かけないわけには＿。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "いかない"
+	},
+	{
+		"japanese": "いけない"
+	}],
+	"correct": 1
+  },
+  {
+	"id" : 4,
+    "japanese": "|毎-まい||日-にち||牛-ぎゅう||乳-にゅう|を|飲-の|んでいるのは|体-からだ|にいいからで、|特-とく|にすきなわけ＿。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "ではない"
+	},
+	{
+		"japanese": "がない"
+	}],
+	"correct": 1
+  },
+  {
+	"id" : 5,
+    "japanese": "|電-でん||池-ち|が|入-はい|っていないのだから、|動-うご|くわけ＿。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "ではない"
+	},
+	{
+		"japanese": "がない"
+	}],
+	"correct": 2
+  },
+  {
+	"id" : 6,
+    "japanese": "|仕-し||事-ごと|がこんなにたくさんあるんです。＿＿＿＿。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "わけが"
+	},
+	{
+		"japanese": "|忙-いそが|しく"
+	},
+	{
+		"japanese": "ありません"
+	},
+	{
+		"japanese": "ない"
+	}],
+	"correct": [2,4,1,3]
+  },
+  {
+	"id" : 7,
+    "japanese": "|手-て||紙-がみ|を|出-だ|し|忘-わす|れていたと|父-ちち|は|言-い|った。＿＿＿＿だ。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "いくら"
+	},
+	{
+		"japanese": "わけ"
+	},
+	{
+		"japanese": "|届-とど|かない"
+	},
+	{
+		"japanese": "|待-ま|っても"
+	}],
+	"correct": [1,4,3,2]
+  }
+  ]
+}

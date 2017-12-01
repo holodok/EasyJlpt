@@ -50,7 +50,7 @@ public class FlashCardFragment extends WordGameFragment {
     protected void onUserAnswer(boolean correct) {
         if (!showAnswer) {
             showAnswer = true;
-            showAnswer(correct);
+            super.onUserAnswer(correct);
         } else {
             //then go to next
             gotoNext();

@@ -108,7 +108,7 @@ public class LearnLessonActivity extends UserSessionLoaderActivity<Word> impleme
 
     @Override
     public void onGameOver() {
-
+        finish();
     }
 
     public Task getCurrentTask() {

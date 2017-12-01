@@ -23,8 +23,9 @@
                 tools:text="Can you read?"/>
         <com.gogaworm.easyjlpt.ui.widgets.KanjiKanaView
                 android:id="@+id/japanese"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
                 android:padding="12dp"
                 android:textSize="18sp"
                 android:textColor="@color/primaryText"
