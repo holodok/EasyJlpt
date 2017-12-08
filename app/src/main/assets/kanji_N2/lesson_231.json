@@ -4,7 +4,7 @@
 		"japanese": "様",
 		"on": "ヨウ",
 		"kun": "さま",
-		"translation": "",
+		"translation": "вежливый суффикс, манера, способ",
 		"words": [
 			{
 				"japanese": "様子",
@@ -32,7 +32,7 @@
 		"japanese": "要",
 		"on": "ヨウ",
 		"kun": "い・る",
-		"translation": "",
+		"translation": "потребность, главное, суть",
 		"words": [
 			{
 				"japanese": "重要",
@@ -60,7 +60,7 @@
 		"japanese": "利",
 		"on": "リ",
 		"kun": "",
-		"translation": "",
+		"translation": "выгода",
 		"words": [
 			{
 				"japanese": "利用",
@@ -88,7 +88,7 @@
 		"japanese": "細",
 		"on": "サイ",
 		"kun": "ほそ・い、こま・かい",
-		"translation": "",
+		"translation": "изящный, тонкий, узкий",
 		"words": [
 			{
 				"japanese": "明細",
@@ -116,7 +116,7 @@
 		"japanese": "在",
 		"on": "ザイ",
 		"kun": "",
-		"translation": "",
+		"translation": "существовать",
 		"words": [
 			{
 				"japanese": "在中",
@@ -132,7 +132,7 @@
 				"japanese": "在学",
 				"reading": "ざいがく",
 				"translation": "учиться в школе"
-			}
+			},
 			{
 				"japanese": "不在",
 				"reading": "ふざい",
@@ -144,7 +144,7 @@
 		"japanese": "客",
 		"on": "キャク",
 		"kun": "",
-		"translation": "",
+		"translation": "гость, посетитель, клиент",
 		"words": [
 			{
 				"japanese": "客席",
@@ -167,7 +167,7 @@
 		"japanese": "額",
 		"on": "ガク",
 		"kun": "ひたい",
-		"translation": "",
+		"translation": "лоб, дощещка, пластина, сумма",
 		"words": [
 			{
 				"japanese": "額",
@@ -178,7 +178,7 @@
 				"japanese": "額",
 				"reading": "ひたい",
 				"translation": "лоб"
-			}
+			},
 			{
 				"japanese": "金額",
 				"reading": "きんがく",
@@ -190,7 +190,7 @@
 		"japanese": "込",
 		"on": "",
 		"kun": "こ・む、こ・める",
-		"translation": "",
+		"translation": "переполненный, смесь",
 		"words": [
 			{
 				"japanese": "込む",
@@ -206,12 +206,12 @@
 				"japanese": "飛び込む",
 				"reading": "とびこむ",
 				"translation": "влететь, впрыгивать"
-			}
+			},
 			{
 				"japanese": "申し込む",
 				"reading": "もうしこむ",
 				"translation": "давать заявку на что-то"
-			}
+			},
 			{
 				"japanese": "思い込む",
 				"reading": "おもいこむ",
@@ -223,7 +223,7 @@
 		"japanese": "領",
 		"on": "リョウ",
 		"kun": "",
-		"translation": "",
+		"translation": "юрисдикция, власть, территория",
 		"words": [
 			{
 				"japanese": "領収書",
@@ -234,12 +234,12 @@
 				"japanese": "領事館",
 				"reading": "りょうじかん",
 				"translation": "консульство"
-			}
+			},
 			{
 				"japanese": "～領",
 				"reading": "～りょう",
 				"translation": "террирория"
-			}
+			},
 			{
 				"japanese": "大統領",
 				"reading": "だいとうりょう",
@@ -251,7 +251,7 @@
 		"japanese": "収",
 		"on": "シュウ",
 		"kun": "おさ・める、おさ・まる",
-		"translation": "",
+		"translation": "доход, обретать",
 		"words": [
 			{
 				"japanese": "収入",
@@ -267,12 +267,12 @@
 				"japanese": "収める",
 				"reading": "おさめる",
 				"translation": "уплачивать, поставлять"
-			}
+			},
 			{
 				"japanese": "収集",
 				"reading": "しゅうしゅう",
 				"translation": "сбор"
-			}
+			},
 			{
 				"japanese": "吸収",
 				"reading": "きゅうしゅう",
@@ -284,7 +284,7 @@
 		"japanese": "械",
 		"on": "カイ",
 		"kun": "",
-		"translation": "",
+		"translation": "изобретение, путы, машина",
 		"words": [
 			{
 				"japanese": "機械",
@@ -302,7 +302,7 @@
 		"japanese": "曲",
 		"on": "キョク",
 		"kun": "ま・がる、ま・げる",
-		"translation": "",
+		"translation": "мелодия, музыка, сгибать",
 		"words": [
 			{
 				"japanese": "曲",
@@ -318,7 +318,7 @@
 				"japanese": "曲線",
 				"reading": "きょくせん",
 				"translation": "кривая линия"
-			}
+			},
 			{
 				"japanese": "曲がる",
 				"reading": "まがる",
@@ -330,7 +330,7 @@
 		"japanese": "汚",
 		"on": "オ",
 		"kun": "きたな・い、よご・す、よご・れる",
-		"translation": "",
+		"translation": "грязь, загрязнение",
 		"words": [
 			{
 				"japanese": "汚染",
@@ -358,7 +358,7 @@
 		"japanese": "殿",
 		"on": "",
 		"kun": "との、どの",
-		"translation": "",
+		"translation": "господин, поместье",
 		"words": [
 			{
 				"japanese": "殿様",

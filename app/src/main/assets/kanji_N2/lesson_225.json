@@ -4,7 +4,7 @@
 		"japanese": "帯",
 		"on": "タイ",
 		"kun": "おび",
-		"translation": "",
+		"translation": "пояс",
 		"words": [
 			{
 				"japanese": "地帯",
@@ -32,7 +32,7 @@
 		"japanese": "保",
 		"on": "ホ",
 		"kun": "たも・つ",
-		"translation": "",
+		"translation": "защищать, гарантировать",
 		"words": [
 			{
 				"japanese": "保温",
@@ -60,7 +60,7 @@
 		"japanese": "留",
 		"on": "リュウ、ル",
 		"kun": "と・める",
-		"translation": "",
+		"translation": "задержка, остановка",
 		"words": [
 			{
 				"japanese": "保留",
@@ -88,7 +88,7 @@
 		"japanese": "守",
 		"on": "シュ、ス",
 		"kun": "まも・る",
-		"translation": "",
+		"translation": "стража, защита",
 		"words": [
 			{
 				"japanese": "保守的",
@@ -116,7 +116,7 @@
 		"japanese": "伝",
 		"on": "デン",
 		"kun": "つた・わる、つた・える",
-		"translation": "",
+		"translation": "передавать, транслировать",
 		"words": [
 			{
 				"japanese": "伝言",
@@ -139,7 +139,7 @@
 		"japanese": "済",
 		"on": "サイ",
 		"kun": "す・む、す・ます",
-		"translation": "",
+		"translation": "окончание",
 		"words": [
 			{
 				"japanese": "返済",
@@ -162,7 +162,7 @@
 		"japanese": "件",
 		"on": "ケン",
 		"kun": "",
-		"translation": "",
+		"translation": "дело",
 		"words": [
 			{
 				"japanese": "用件",
@@ -185,7 +185,7 @@
 		"japanese": "信",
 		"on": "シン",
 		"kun": "",
-		"translation": "",
+		"translation": "вера, доверие",
 		"words": [
 			{
 				"japanese": "通信",
@@ -208,7 +208,7 @@
 		"japanese": "歴",
 		"on": "レキ",
 		"kun": "",
-		"translation": "",
+		"translation": "расписание, ход времени",
 		"words": [
 			{
 				"japanese": "着信履歴",
@@ -231,7 +231,7 @@
 		"japanese": "箱",
 		"on": "",
 		"kun": "はこ",
-		"translation": "",
+		"translation": "коробка",
 		"words": [
 			{
 				"japanese": "受信箱",
@@ -254,7 +254,7 @@
 		"japanese": "規",
 		"on": "キ",
 		"kun": "",
-		"translation": "",
+		"translation": "стандарт, измерение",
 		"words": [
 			{
 				"japanese": "新規",
@@ -272,7 +272,7 @@
 		"japanese": "変",
 		"on": "ヘン",
 		"kun": "か・わる、か・える",
-		"translation": "",
+		"translation": "необычный, изменение",
 		"words": [
 			{
 				"japanese": "変換",
@@ -300,7 +300,7 @@
 		"japanese": "選",
 		"on": "セン",
 		"kun": "えら・ぶ",
-		"translation": "",
+		"translation": "выбор, предпочтение",
 		"words": [
 			{
 				"japanese": "選択",
@@ -328,7 +328,7 @@
 		"japanese": "決",
 		"on": "ケツ",
 		"kun": "き・める、き・まる",
-		"translation": "",
+		"translation": "решение",
 		"words": [
 			{
 				"japanese": "決定",

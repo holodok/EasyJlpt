@@ -1,0 +1,120 @@
+﻿{
+  "sentences":[
+  {
+	"id" : 1,
+    "japanese": "ファイルを＿パソコンを|終-しゅう||了-りょう|させた。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "|閉-と|じる"
+	},
+	{
+		"japanese": "|完-かん||了-りょう|して"
+	}],
+	"correct": 1
+  },
+  {
+	"id" : 2,
+    "japanese": "コンピューターウイルスに＿したらしく、|正-ただ|しく|動-うご|かない。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "|感-かん||染-せん|"
+	},
+	{
+		"japanese": "|接-せつ||続-ぞく|"
+	}],
+	"correct": 1
+  },
+  {
+	"id" : 3,
+    "japanese": "１|行-ぎょう|ずつ|入-にゅう||力-りょく|するのは＿。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "|手-て||間-ま|を|省-はぶ|く"
+	},
+	{
+		"japanese": "|手-て||間-ま|がかかる"
+	}],
+	"correct": 2
+  },
+  {
+	"id" : 4,
+    "japanese": "このソフトは|迷-めい||惑-わく|メールの|受-じゅ||信-しん|を＿します。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "|消-しょう||去-きょ|"
+	},
+	{
+		"japanese": "|拒-きょ||否-ひ|"
+	}],
+	"correct": 2
+  },
+  {
+	"id" : 5,
+    "japanese": "|古-ふる|いパソコンを＿で|手-て|に|入-い|れた。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "ネットオークション"
+	},
+	{
+		"japanese": "コミュニケーション"
+	}],
+	"correct": 1
+  },
+  {
+	"id" : 6,
+    "japanese": "インターネットの＿に|書-か|き|込-こ|みをした。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "|掲-けい||示-じ||板-ばん|"
+	},
+	{
+		"japanese": "|余-よ||白-はく|"
+	}],
+	"correct": 1
+  },
+  {
+	"id" : 7,
+    "japanese": "|紙-かみ|が＿しまって、|印-いん||刷-さつ|が|上-じょう||手-ず|にできない。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "かかって"
+	},
+	{
+		"japanese": "ずれて"
+	},
+	{
+		"japanese": "きれて"
+	},
+	{
+		"japanese": "はぶいて"
+	}],
+	"correct": 2
+  },
+  {
+	"id" : 8,
+    "japanese": "|突-とつ||然-ぜん||停-てい||電-でん|して、|入-にゅう||力-りょく||中-ちゅう|の＿が|全-ぜん||部-ぶ||消-き|えてしまった。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "データ"
+	},
+	{
+		"japanese": "チャット"
+	},
+	{
+		"japanese": "プリンター"
+	},
+	{
+		"japanese": "ウイルス"
+	}],
+	"correct": 1
+  }
+  ]
+}

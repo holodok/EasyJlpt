@@ -4,7 +4,7 @@
 		"japanese": "若",
 		"on": "",
 		"kun": "わか・い",
-		"translation": "",
+		"translation": "молодой",
 		"words": [
 			{
 				"japanese": "若い",
@@ -22,7 +22,7 @@
 		"japanese": "反",
 		"on": "ハン",
 		"kun": "",
-		"translation": "",
+		"translation": "анти-",
 		"words": [
 			{
 				"japanese": "反対",
@@ -35,7 +35,7 @@
 		"japanese": "賛",
 		"on": "サン",
 		"kun": "",
-		"translation": "",
+		"translation": "согласие, одобрение",
 		"words": [
 			{
 				"japanese": "賛成",
@@ -48,7 +48,7 @@
 		"japanese": "拾",
 		"on": "",
 		"kun": "ひろ・う",
-		"translation": "",
+		"translation": "поднимать с земли, находить",
 		"words": [
 			{
 				"japanese": "拾う",
@@ -61,7 +61,7 @@
 		"japanese": "鋭",
 		"on": "",
 		"kun": "するど・い",
-		"translation": "",
+		"translation": "острый, острота",
 		"words": [
 			{
 				"japanese": "鋭い",
@@ -74,7 +74,7 @@
 		"japanese": "鈍",
 		"on": "",
 		"kun": "にぶ・い",
-		"translation": "",
+		"translation": "тупой, медленный",
 		"words": [
 			{
 				"japanese": "鈍い",
@@ -87,7 +87,7 @@
 		"japanese": "浮",
 		"on": "",
 		"kun": "う・く、う・かぶ、う・かべる",
-		"translation": "",
+		"translation": "парящий, плавать на поверхности, подниматься на поверхность",
 		"words": [
 			{
 				"japanese": "浮く",
@@ -115,7 +115,7 @@
 		"japanese": "沈",
 		"on": "",
 		"kun": "しず・む",
-		"translation": "",
+		"translation": "тонуть, погружаться",
 		"words": [
 			{
 				"japanese": "沈む",

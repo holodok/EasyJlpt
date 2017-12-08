@@ -11,7 +11,7 @@ import java.util.List;
  * @author ikarpova
  */
 public class GameController {
-    int MAX_GAME_TYPE = 3;
+    int MAX_GAME_TYPE = 5;
 
     public enum GameType {
         FLASH_CARD,
@@ -36,8 +36,8 @@ public class GameController {
 
     public void setTasks(List<Task> tasks) {
         this.tasks.clear();
-        //this.tasks.addAll(tasks); //todo: this is correct
-        this.tasks.add(tasks.get(0));
+        this.tasks.addAll(tasks); //todo: this is correct
+        //this.tasks.add(tasks.get(0));
 
 
         for (Task task : tasks) {
@@ -136,13 +136,13 @@ public class GameController {
             case SELECT_TRANSLATION_BY_READING:
                 return true;
             case SELECT_READING_BY_KANJI:
+            case SELECT_TRANSLATION_BY_KANJI:
+            case SELECT_KANJI_BY_READING:
                 if (task instanceof WordTask) {
                     Word word = (Word) task.value;
                     return word.hasKanji();
                 }
                 return false;
-            case SELECT_TRANSLATION_BY_KANJI:
-            case SELECT_KANJI_BY_READING:
             case WRITE_READING:
                 if (task instanceof WordTask) {
                     Word word = (Word) task.value;

@@ -4,7 +4,7 @@
 		"japanese": "登",
 		"on": "トウ、ト",
 		"kun": "のぼ・る",
-		"translation": "",
+		"translation": "восхождение",
 		"words": [
 			{
 				"japanese": "登録",
@@ -32,7 +32,7 @@
 		"japanese": "編",
 		"on": "編",
 		"kun": "あ・む",
-		"translation": "",
+		"translation": "составление, редактирование, вязание",
 		"words": [
 			{
 				"japanese": "編集",
@@ -60,7 +60,7 @@
 		"japanese": "能",
 		"on": "ノウ",
 		"kun": "",
-		"translation": "",
+		"translation": "способность, возможность",
 		"words": [
 			{
 				"japanese": "機能",
@@ -83,7 +83,7 @@
 		"japanese": "修",
 		"on": "シュウ",
 		"kun": "",
-		"translation": "",
+		"translation": "дисциплина, учеба",
 		"words": [
 			{
 				"japanese": "修正",
@@ -106,7 +106,7 @@
 		"japanese": "完",
 		"on": "カン",
 		"kun": "",
-		"translation": "",
+		"translation": "идеальный, завершение",
 		"words": [
 			{
 				"japanese": "完了",
@@ -129,7 +129,7 @@
 		"japanese": "了",
 		"on": "了",
 		"kun": "",
-		"translation": "",
+		"translation": "окончание",
 		"words": [
 			{
 				"japanese": "終了",
@@ -147,7 +147,7 @@
 		"japanese": "像",
 		"on": "ゾウ",
 		"kun": "",
-		"translation": "",
+		"translation": "статуя, картина",
 		"words": [
 			{
 				"japanese": "画像",
@@ -170,7 +170,7 @@
 		"japanese": "類",
 		"on": "ルイ",
 		"kun": "",
-		"translation": "",
+		"translation": "сорт, вид",
 		"words": [
 			{
 				"japanese": "書類",
@@ -193,7 +193,7 @@
 		"japanese": "式",
 		"on": "シキ",
 		"kun": "",
-		"translation": "",
+		"translation": "стиль, церемония",
 		"words": [
 			{
 				"japanese": "書式",
@@ -221,7 +221,7 @@
 		"japanese": "央",
 		"on": "オウ",
 		"kun": "",
-		"translation": "",
+		"translation": "центр, середина",
 		"words": [
 			{
 				"japanese": "中央",
@@ -234,7 +234,7 @@
 		"japanese": "存",
 		"on": "ゾン、ソン",
 		"kun": "",
-		"translation": "",
+		"translation": "существование",
 		"words": [
 			{
 				"japanese": "保存",
@@ -262,7 +262,7 @@
 		"japanese": "印",
 		"on": "イン",
 		"kun": "しるし",
-		"translation": "",
+		"translation": "штамп, печать",
 		"words": [
 			{
 				"japanese": "認め印",
@@ -285,7 +285,7 @@
 		"japanese": "刷",
 		"on": "サツ",
 		"kun": "",
-		"translation": "",
+		"translation": "печатание, печать",
 		"words": [
 			{
 				"japanese": "印刷",
@@ -298,7 +298,7 @@
 		"japanese": "拡",
 		"on": "カク",
 		"kun": "",
-		"translation": "",
+		"translation": "расширение, увеличение",
 		"words": [
 			{
 				"japanese": "拡大",

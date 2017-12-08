@@ -1,0 +1,120 @@
+﻿{
+  "sentences":[
+  {
+	"id" : 1,
+    "japanese": "フォントを＿ふる。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "|変-へん||更-こう|"
+	},
+	{
+		"japanese": "|移-い||動-どう|"
+	}],
+	"correct": 1
+  },
+  {
+	"id" : 2,
+    "japanese": "|文-も||字-じ|のサイズは１０ポイントに＿してください。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "|設-せっ||定-てい|"
+	},
+	{
+		"japanese": "|選-せん||択-たく|"
+	}],
+	"correct": 1
+  },
+  {
+	"id" : 3,
+    "japanese": "「これよりさっきのほうがよかったから、＿。」",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "|元-もと|に|戻-もど|そう"
+	},
+	{
+		"japanese": "|保-ほ||存-ぞん|しよう"
+	}],
+	"correct": 1
+  },
+  {
+	"id" : 4,
+    "japanese": "この|写-しゃ||真-しん|をクリックすると、＿できます。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "|図-ず||形-けい|"
+	},
+	{
+		"japanese": "|拡-かく||大-だい|"
+	}],
+	"correct": 2
+  },
+  {
+	"id" : 5,
+    "japanese": "|文-も||字-じ|を|中-ちゅう||央-おう|に＿ください。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "そろえて"
+	},
+	{
+		"japanese": "よって"
+	}],
+	"correct": 1
+  },
+  {
+	"id" : 6,
+    "japanese": "|編-へん||集-しゅう|が|完-も||了-じ|した|文-ぶん||書-しょ|は、|忘-わす|れずに＿しましょう。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "|保-ほ||存-ぞん|"
+	},
+	{
+		"japanese": "|拡-かく||大-だい|"
+	}],
+	"correct": 1
+  },
+  {
+	"id" : 7,
+    "japanese": "＿を|取-と|り|込-こ|んで、はがきを|作-さく||成-せい|した。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "|画-が||像-ぞう|"
+	},
+	{
+		"japanese": "|基-き||本-ほん|"
+	},
+	{
+		"japanese": "|画-が||面-めん|"
+	},
+	{
+		"japanese": "|本-ほん||体-たい|"
+	}],
+	"correct": 1
+  },
+  {
+	"id" : 8,
+    "japanese": "|範-はん||囲-い|を|選-せん||択-たく|して＿をつけてください。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "カーソル"
+	},
+	{
+		"japanese": "フォント"
+	},
+	{
+		"japanese": "ペースト"
+	},
+	{
+		"japanese": "アンダーライン"
+	}],
+	"correct": 4
+  }
+  ]
+}

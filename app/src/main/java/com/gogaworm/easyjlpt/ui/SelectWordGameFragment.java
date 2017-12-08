@@ -7,6 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 import com.gogaworm.easyjlpt.R;
+import com.gogaworm.easyjlpt.data.Kanji;
 import com.gogaworm.easyjlpt.data.Word;
 import com.gogaworm.easyjlpt.game.GameController;
 import com.gogaworm.easyjlpt.game.Task;
@@ -124,7 +125,7 @@ public class SelectWordGameFragment extends WordGameFragment {
             case SELECT_KANJI_BY_READING:
                 questionView.setText(R.string.label_do_you_know);
                 japaneseView.setText(word.reading);
-                new ReadingVariantsGenerator().generateVariants(word);
+                new KanjiVariantsGenerator().generateVariants(word);
                 break;
             case SELECT_KANJI_BY_TRANSLATION:
                 questionView.setText(R.string.label_do_you_know);
@@ -153,8 +154,20 @@ public class SelectWordGameFragment extends WordGameFragment {
 
         switch (gameType) {
             case SELECT_TRANSLATION_BY_READING:
+                if (word instanceof Kanji) {
+                    japaneseView.setText(word.reading);
+                    break;
+                }
             case SELECT_TRANSLATION_BY_KANJI:
-                japaneseView.setText(word.japanese, word.reading);
+                if (word instanceof Kanji) {
+                    japaneseView.setText(word.japanese);
+                } else {
+                    japaneseView.setText(word.japanese, word.reading);
+                }
+                break;
+            case SELECT_READING_BY_KANJI:
+                translationView.setVisibility(VISIBLE);
+                translationView.setText(word.translation);
                 break;
         }
     }
@@ -166,7 +179,7 @@ public class SelectWordGameFragment extends WordGameFragment {
 
             for (int i = 0, variantIndex = 0; i < words.size() && variantIndex < variants.length; i++) {
                 Word word = words.get(i);
-                if (!equals(taskWord, word) && Arrays.binarySearch(variants, word, getComparator()) < 0) { //not found
+                if (taskWord.getClass().equals(word.getClass()) && !equals(taskWord, word) && Arrays.binarySearch(variants, word, getComparator()) < 0) { //not found
                     variants[variantIndex++] = word;
                 }
             }

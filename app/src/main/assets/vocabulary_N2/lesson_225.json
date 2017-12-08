@@ -3,112 +3,112 @@
 	{
 		"japanese": "新規作成",
 		"reading": "しんきさくせい",
-		"translation": ""
+		"translation": "создать новый (документ, файл)"
 	},
 	{
 		"japanese": "開く",
 		"reading": "ひらく",
-		"translation": ""
+		"translation": "открыть (файл, папку)"
 	},
 	{
 		"japanese": "閉じる",
 		"reading": "とじる",
-		"translation": ""
+		"translation": "закрыть"
 	},
 	{
 		"japanese": "上書き保存",
 		"reading": "うわがきほぞん",
-		"translation": ""
+		"translation": "сохранить"
 	},
 	{
 		"japanese": "名前をつけて保存",
 		"reading": "なまえをつけてほぞん",
-		"translation": ""
+		"translation": "сохранить как"
 	},
 	{
 		"japanese": "ページ設定",
 		"reading": "ページせってい",
-		"translation": ""
+		"translation": "настройка страницы"
 	},
 	{
 		"japanese": "印刷",
 		"reading": "いんさつ",
-		"translation": ""
+		"translation": "печать"
 	},
 	{
 		"japanese": "元に戻す",
 		"reading": "もとにもどす",
-		"translation": ""
+		"translation": "отменить ввод"
 	},
 	{
 		"japanese": "切り取り",
 		"reading": "きりとり",
-		"translation": ""
+		"translation": "вырезать"
 	},
 	{
 		"japanese": "コピー",
 		"reading": "",
-		"translation": ""
+		"translation": "скопировать"
 	},
 	{
 		"japanese": "貼り付け",
 		"reading": "はりつけ",
-		"translation": ""
+		"translation": "вставить"
 	},
 	{
 		"japanese": "検索",
 		"reading": "けんさく",
-		"translation": ""
+		"translation": "поиск"
 	},
 	{
 		"japanese": "ファイル",
 		"reading": "",
-		"translation": ""
+		"translation": "файл"
 	},
 	{
 		"japanese": "編集",
 		"reading": "へんしゅう",
-		"translation": ""
+		"translation": "правка"
 	},
 	{
 		"japanese": "表示",
 		"reading": "ひょうじ",
-		"translation": ""
+		"translation": "вид"
 	},
 	{
 		"japanese": "挿入",
 		"reading": "そうにゅう",
-		"translation": ""
+		"translation": "вставка"
 	},
 	{
 		"japanese": "書式",
 		"reading": "しょしき",
-		"translation": ""
+		"translation": "форматирование"
 	},
 	{
 		"japanese": "ツール",
 		"reading": "",
-		"translation": ""
+		"translation": "инструменты"
 	},
 	{
 		"japanese": "ウインドウ",
 		"reading": "",
-		"translation": ""
+		"translation": "окна"
 	},
 	{
 		"japanese": "ヘルプ",
 		"reading": "",
-		"translation": ""
+		"translation": "помощь"
 	},
 	{
 		"japanese": "書式設定",
 		"reading": "しょしきせってい",
-		"translation": ""
+		"translation": "настройки форматирования"
 	},
 	{
 		"japanese": "フォント",
 		"reading": "",
-		"translation": ""
+		"translation": "шрифт"
 	},
 	{
 		"japanese": "明朝",
@@ -118,172 +118,172 @@
 	{
 		"japanese": "ゴシック",
 		"reading": "",
-		"translation": ""
+		"translation": "готический (шрифт)"
 	},
 	{
 		"japanese": "下線",
 		"reading": "かせん",
-		"translation": ""
+		"translation": "подчеркнутый (шрифт)"
 	},
 	{
 		"japanese": "太字",
 		"reading": "ふとじ",
-		"translation": ""
+		"translation": "жирный (шрифт)"
 	},
 	{
 		"japanese": "左寄せ",
 		"reading": "ひだりよせ",
-		"translation": ""
+		"translation": "выравнивание по левому краю"
 	},
 	{
 		"japanese": "右寄せ",
 		"reading": "みぎよせ",
-		"translation": ""
+		"translation": "выравнивание по правому краю"
 	},
 	{
 		"japanese": "中央揃え",
 		"reading": "ちゅうおうぞろえ",
-		"translation": ""
+		"translation": "выравнивание по центру"
 	},
 	{
 		"japanese": "両端揃え",
 		"reading": "りょうたんぞろえ",
-		"translation": ""
+		"translation": "выравнивание по ширине"
 	},
 	{
 		"japanese": "書類を作成する",
 		"reading": "しょるいをさくせいする",
-		"translation": ""
+		"translation": "подготовить документ"
 	},
 	{
 		"japanese": "かなを漢字に変換する",
 		"reading": "かなをかんじにへんかんする",
-		"translation": ""
+		"translation": "конвертировать кану в канджи"
 	},
 	{
 		"japanese": "漢字を確定する",
 		"reading": "かんじをかくていする",
-		"translation": ""
+		"translation": "выбрать нужный канджи (из списка)"
 	},
 	{
 		"japanese": "文字を削除する",
 		"reading": "もじをさくじょする",
-		"translation": ""
+		"translation": "удалить буквы"
 	},
 	{
 		"japanese": "改行する",
 		"reading": "かいぎょうする",
-		"translation": ""
+		"translation": "начать новую строку"
 	},
 	{
 		"japanese": "文字のサイズを設定する",
 		"reading": "もじのサイズをせっていする",
-		"translation": ""
+		"translation": "задать шрифт"
 	},
 	{
 		"japanese": "フォントを変更する",
 		"reading": "フォントをへんこうする",
-		"translation": ""
+		"translation": "изменить шрифт"
 	},
 	{
 		"japanese": "カーソルを移動する",
 		"reading": "カーソルをいどうする",
-		"translation": ""
+		"translation": "переместить курсор"
 	},
 	{
 		"japanese": "範囲を選択する",
 		"reading": "はんいをせんたくする",
-		"translation": ""
+		"translation": "выбрать область"
 	},
 	{
 		"japanese": "目的の位置に合わせる",
 		"reading": "もくてきのいちにあわせる",
-		"translation": ""
+		"translation": "настроить расположение"
 	},
 	{
 		"japanese": "文字を中央にそろえる",
 		"reading": "もじをちゅうおうにそろえる",
-		"translation": ""
+		"translation": "выровнять по центру"
 	},
 	{
 		"japanese": "右に寄せる",
 		"reading": "みぎによせる",
-		"translation": ""
+		"translation": "выровнять по правому краю"
 	},
 	{
 		"japanese": "下線をつける",
 		"reading": "かせんをつける",
-		"translation": ""
+		"translation": "применить подчеркивание"
 	},
 	{
 		"japanese": "アンダーラインをつける",
 		"reading": "",
-		"translation": ""
+		"translation": "применить подчеркивание"
 	},
 	{
 		"japanese": "記号を入れる",
 		"reading": "きごうをいれる",
-		"translation": ""
+		"translation": "вставить символ"
 	},
 	{
 		"japanese": "図を挿入する",
 		"reading": "ずをそうにゅうする",
-		"translation": ""
+		"translation": "вставить картинку"
 	},
 	{
 		"japanese": "図を拡大する",
 		"reading": "ずをかくだいする",
-		"translation": ""
+		"translation": "увеличить картинку"
 	},
 	{
 		"japanese": "図を縮小する",
 		"reading": "ずをしゅくしょうする",
-		"translation": ""
+		"translation": "уменьшить картинку"
 	},
 	{
 		"japanese": "内容を修正する",
 		"reading": "ないようをしゅうせいする",
-		"translation": ""
+		"translation": "изменить содержание"
 	},
 	{
 		"japanese": "文書を編集する",
 		"reading": "ぶんしょをへんしゅうする",
-		"translation": ""
+		"translation": "редактирование документа"
 	},
 	{
 		"japanese": "やり直す",
 		"reading": "やりなおす",
-		"translation": ""
+		"translation": "отменить правку"
 	},
 	{
 		"japanese": "図形をコピーする",
 		"reading": "ずけいをコピーする",
-		"translation": ""
+		"translation": "скопировать иллюстрацию, диаграмму"
 	},
 	{
 		"japanese": "カットする",
 		"reading": "",
-		"translation": ""
+		"translation": "вырезать"
 	},
 	{
 		"japanese": "ペーストする",
 		"reading": "",
-		"translation": ""
+		"translation": "вставить"
 	},
 	{
 		"japanese": "画像を取り込む",
 		"reading": "がぞうをとりこむ",
-		"translation": ""
+		"translation": "импортировать изображение"
 	},
 	{
 		"japanese": "文書を保存する",
 		"reading": "ぶんしょをほぞんする",
-		"translation": ""
+		"translation": "сохранить документ"
 	},
 	{
 		"japanese": "ファイルを添付する",
 		"reading": "ファイルをてんぷする",
-		"translation": ""
+		"translation": "прикрепить файл"
 	}
 	]
 }

@@ -4,7 +4,7 @@
 		"japanese": "設",
 		"on": "セツ",
 		"kun": "",
-		"translation": "",
+		"translation": "установление, основание",
 		"words": [
 			{
 				"japanese": "設定",
@@ -24,10 +24,10 @@
 		]
 	},
 	{
-		"japanese": "換気",
+		"japanese": "換",
 		"on": "カン",
 		"kun": "か・える、か・わる",
-		"translation": "",
+		"translation": "замена (одного другим)",
 		"words": [
 			{
 				"japanese": "換気",
@@ -50,7 +50,7 @@
 		"japanese": "向",
 		"on": "コウ",
 		"kun": "む・く、む・ける、む・かう、む・こう",
-		"translation": "",
+		"translation": "вон тот, противоположная сторона",
 		"words": [
 			{
 				"japanese": "風向",
@@ -78,7 +78,7 @@
 		"japanese": "停",
 		"on": "テイ",
 		"kun": "",
-		"translation": "",
+		"translation": "остановка",
 		"words": [
 			{
 				"japanese": "停止",
@@ -101,7 +101,7 @@
 		"japanese": "暖",
 		"on": "ダン",
 		"kun": "あたた・かい、あたた・まる、あたた・める",
-		"translation": "",
+		"translation": "тепло",
 		"words": [
 			{
 				"japanese": "暖房",
@@ -124,7 +124,7 @@
 		"japanese": "除",
 		"on": "ジョ、ジ",
 		"kun": "のぞ・く",
-		"translation": "",
+		"translation": "исключать, удалять",
 		"words": [
 			{
 				"japanese": "除湿",
@@ -147,7 +147,7 @@
 		"japanese": "湿",
 		"on": "シツ",
 		"kun": "しめ・る",
-		"translation": "",
+		"translation": "влажность",
 		"words": [
 			{
 				"japanese": "湿度",
@@ -170,7 +170,7 @@
 		"japanese": "標",
 		"on": "ヒョウ",
 		"kun": "",
-		"translation": "",
+		"translation": "знак, отметка",
 		"words": [
 			{
 				"japanese": "標準",
@@ -193,7 +193,7 @@
 		"japanese": "倍",
 		"on": "バイ",
 		"kun": "",
-		"translation": "",
+		"translation": "двойной",
 		"words": [
 			{
 				"japanese": "倍",
@@ -211,7 +211,7 @@
 		"japanese": "巻",
 		"on": "カン",
 		"kun": "ま・く",
-		"translation": "",
+		"translation": "свертывать, скручивать",
 		"words": [
 			{
 				"japanese": "～巻",
@@ -234,7 +234,7 @@
 		"japanese": "録",
 		"on": "ロク",
 		"kun": "",
-		"translation": "",
+		"translation": "запись",
 		"words": [
 			{
 				"japanese": "録画",
@@ -252,7 +252,7 @@
 		"japanese": "量",
 		"on": "リョウ",
 		"kun": "はか・る",
-		"translation": "",
+		"translation": "количество, измерять",
 		"words": [
 			{
 				"japanese": "音量",
@@ -285,7 +285,7 @@
 		"japanese": "予",
 		"on": "ヨ",
 		"kun": "",
-		"translation": "",
+		"translation": "заранее",
 		"words": [
 			{
 				"japanese": "予定",
@@ -313,7 +313,7 @@
 		"japanese": "約",
 		"on": "ヤク",
 		"kun": "",
-		"translation": "",
+		"translation": "обещать, примерно, усадка (ткани)",
 		"words": [
 			{
 				"japanese": "予約",
