@@ -65,27 +65,25 @@
     }, {
       "lesson": 3,
       "title": {
-				"japanese": "|仕-し||事-ごと|をしています１。",
+				"japanese": "|仕-し||事-ごと|をしています２。",
 				"translation": "Работаю 2"
 			}
     }, {
       "lesson": 4,
       "title": {
-				"japanese": "パソコンを|使-つか|っています",
+				"japanese": "パソコンを|使-つか|っています１。",
 				"translation": "Работа за компьютером 1"
 			}
     }, {
       "lesson": 5,
       "title": {
-				"japanese": "",
-				"reading": "",
+				"japanese": "パソコンを|使-つか|っています２。",
 				"translation": "Работа за компьютером 2"
 			}
     }, {
       "lesson": 6,
       "title": {
-				"japanese": "",
-				"reading": "",
+				"japanese": "パソコンを|使-つか|っています３。",
 				"translation": "Работа за компьютером 3"
 			}
     }]
@@ -93,21 +91,19 @@
   {
     "section": 23,
     "title": {
-				"japanese": "",
-				"reading": "",
+				"japanese": "いろいろ|表-ひょう||現-げん|しましょう",
 				"translation": "Разные выражения"
 			},
     "lessons": [{
       "lesson": 1,
       "title": {
-				"japanese": "",
-				"reading": "",
+				"japanese": "どんな|人-ひと|ですか",
 				"translation": "Какой он человек?"
 			}
     }, {
       "lesson": 2,
       "title": {
-				"japanese": "",
+				"japanese": "どんな|様-よう||子-す|ですか？",
 				"reading": "",
 				"translation": "Как дела с...?"
 			}

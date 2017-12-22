@@ -12,11 +12,12 @@ import com.gogaworm.easyjlpt.R;
 import com.gogaworm.easyjlpt.data.Grammar;
 import com.gogaworm.easyjlpt.data.Lesson;
 import com.gogaworm.easyjlpt.loaders.LoaderFactory;
-import com.gogaworm.easyjlpt.utils.Constants;
 import com.gogaworm.easyjlpt.utils.UnitedKanjiKanaSpannableString;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import static com.gogaworm.easyjlpt.utils.Constants.LOADER_ID_GRAMMAR_LIST;
 
 /**
  * Created on 17.07.2017.
@@ -29,9 +30,8 @@ public class ViewGrammarLessonContentActivity extends UserSessionLoaderActivity<
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-
         lesson = getIntent().getParcelableExtra("lesson");
+        super.onCreate(savedInstanceState);
 
         getSupportActionBar().setTitle(UnitedKanjiKanaSpannableString.getKanjiFromReading(lesson.title.japanese));
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
@@ -43,8 +43,11 @@ public class ViewGrammarLessonContentActivity extends UserSessionLoaderActivity<
         viewPager.setAdapter(adapter);
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tabDots);
         tabLayout.setupWithViewPager(viewPager, true);
+    }
 
-        getSupportLoaderManager().initLoader(Constants.LOADER_ID_GRAMMAR_LIST, null, this).forceLoad();
+    @Override
+    protected int getLoaderId() {
+        return LOADER_ID_GRAMMAR_LIST;
     }
 
     @Override
@@ -59,8 +62,13 @@ public class ViewGrammarLessonContentActivity extends UserSessionLoaderActivity<
     }
 
     @Override
-    public void onLoadFinished(Loader<List<Grammar>> loader, List<Grammar> data) {
+    protected void initData(List<Grammar> data) {
         adapter.updateData(data);
+    }
+
+    @Override
+    protected void showFragment() {
+
     }
 
     // Since this is an object collection, use a FragmentStatePagerAdapter,

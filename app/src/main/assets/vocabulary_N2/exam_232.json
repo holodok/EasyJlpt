@@ -1,0 +1,120 @@
+﻿{
+  "sentences":[
+  {
+	"id" : 1,
+    "japanese": "|子-こ|どものころの|記-き||憶-おく|が＿になっている。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "|豊-ゆた|か"
+	},
+	{
+		"japanese": "あいまい"
+	}],
+	"correct": 2
+  },
+  {
+	"id" : 2,
+    "japanese": "|恥-は|ずかしくて|顔-かお|が＿になった。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "|真-ま|っ|青-さお|"
+	},
+	{
+		"japanese": "|真-ま|っ|赤-か|"
+	}],
+	"correct": 2
+  },
+  {
+	"id" : 3,
+    "japanese": "|私-わたし|だけ|合-ごう||格-かく|できず＿|気-き||持-もち|ちだ。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "みじめな"
+	},
+	{
+		"japanese": "みにくい"
+	}],
+	"correct": 1
+  },
+  {
+	"id" : 4,
+    "japanese": "|冬-ふゆ|の１２|月-がつ|に|桜-さくら|が|咲-さ|くなんて＿ことだ。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "あわただしい"
+	},
+	{
+		"japanese": "めずらしい"
+	}],
+	"correct": 2
+  },
+  {
+	"id" : 5,
+    "japanese": "それをパソコンで|作-さく||成-せい|するのは、とても＿です。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "やっかい"
+	},
+	{
+		"japanese": "|荒-あら|っぽい"
+	}],
+	"correct": 1
+  },
+  {
+	"id" : 6,
+    "japanese": "|兄-きょう||弟-だい|が|多-おお|いので|我-わ|が|家-や|の|朝-あさ|はとても＿。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "はでだ"
+	},
+	{
+		"japanese": "そうぞうしい"
+	}],
+	"correct": 2
+  },
+  {
+	"id" : 7,
+    "japanese": "スピーチであがって、|頭-あたま|の|中-なか|が＿になった。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "|真-ま|っ|白-しろ|"
+	},
+	{
+		"japanese": "|真-ま|っ|青-さお|"
+	},
+	{
+		"japanese": "|真-ま|っ|赤-か|"
+	},
+	{
+		"japanese": "|真-ま|っ|黒-くろ|"
+	}],
+	"correct": 1
+  },
+  {
+	"id" : 8,
+    "japanese": "|孫-まご|が|結-けっ||婚-こん|した。＿ことだ。お|祝-いわ|いは|何-なに|がいいだそうか。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "ありふれた"
+	},
+	{
+		"japanese": "あわただしい"
+	},
+	{
+		"japanese": "めでたい"
+	},
+	{
+		"japanese": "|豊-ゆた|かな"
+	}],
+	"correct": 3
+  }
+  ]
+}

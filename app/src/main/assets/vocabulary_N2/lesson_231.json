@@ -1,0 +1,249 @@
+﻿{
+	"words": [
+	{
+		"japanese": "思いやりがある",
+		"reading": "おもいやりがある",
+		"translation": "чуткий, отзывчивый"
+	},
+	{
+		"japanese": "マナーがいい",
+		"reading": "",
+		"translation": "воспитанный"
+	},
+	{
+		"japanese": "若々しい",
+		"reading": "わかわかしい",
+		"translation": "юный, молодой"
+	},
+	{
+		"japanese": "センスがいい",
+		"reading": "",
+		"translation": "человек со вкусом"
+	},
+	{
+		"japanese": "生き生きとした",
+		"reading": "いきいきとした",
+		"translation": "полный жизни, веселый"
+	},
+	{
+		"japanese": "要領がいい",
+		"reading": "ようりょうがいい",
+		"translation": "эффективно справляться с делами"
+	},
+	{
+		"japanese": "朗らかな",
+		"reading": "ほがらかな",
+		"translation": "бодрый, веселый"
+	},
+	{
+		"japanese": "穏やかな",
+		"reading": "おだやかな",
+		"translation": "тихий, мирный"
+	},
+	{
+		"japanese": "さわやかな",
+		"reading": "",
+		"translation": "свежий, быть глотком свежего воздуха"
+	},
+	{
+		"japanese": "おとなしい",
+		"reading": "",
+		"translation": "тихий, спокойный"
+	},
+	{
+		"japanese": "人懐っこい",
+		"reading": "ひとなつっこい",
+		"translation": "дружелюбный"
+	},
+	{
+		"japanese": "落ち着いている",
+		"reading": "おちついている",
+		"translation": "выдержанный, хладнокровный"
+	},
+	{
+		"japanese": "無邪気な",
+		"reading": "むじゃきな",
+		"translation": "наивный, простодушный"
+	},
+	{
+		"japanese": "頼もしい",
+		"reading": "たのもしい",
+		"translation": "надежный"
+	},
+	{
+		"japanese": "大ざっぱな",
+		"reading": "おおざっぱな",
+		"translation": "грубый"
+	},
+	{
+		"japanese": "そそっかしい",
+		"reading": "",
+		"translation": "торопливый, рассеянный"
+	},
+	{
+		"japanese": "いいかげんな",
+		"reading": "",
+		"translation": "безответственный"
+	},
+	{
+		"japanese": "のんきな",
+		"reading": "",
+		"translation": "беспечный, беззаботный"
+	},
+	{
+		"japanese": "だらしない",
+		"reading": "",
+		"translation": "неряшливый, неопрятный"
+	},
+	{
+		"japanese": "短気な",
+		"reading": "たんきな",
+		"translation": "вспыльчивый"
+	},
+	{
+		"japanese": "不潔な",
+		"reading": "ふけつな",
+		"translation": "нечистый, грязный"
+	},
+	{
+		"japanese": "気が短い",
+		"reading": "きがみじかい",
+		"translation": "вспыльчивый"
+	},
+	{
+		"japanese": "厚かましい",
+		"reading": "あつかましい",
+		"translation": "наглый, нахальный"
+	},
+	{
+		"japanese": "ずうずうしい",
+		"reading": "",
+		"translation": "наглый, нахальный"
+	},
+	{
+		"japanese": "気が小さい",
+		"reading": "きがちいさい",
+		"translation": "робкий, застенчивый"
+	},
+	{
+		"japanese": "あわれな",
+		"reading": "",
+		"translation": "печальный"
+	},
+	{
+		"japanese": "欲張りな",
+		"reading": "よくばりな",
+		"translation": "жадный"
+	},
+	{
+		"japanese": "くどい",
+		"reading": "",
+		"translation": "навязчивый, многословный"
+	},
+	{
+		"japanese": "強引な",
+		"reading": "ごういんな",
+		"translation": "насильственный"
+	},
+	{
+		"japanese": "ひきょうな",
+		"reading": "",
+		"translation": "подлый, низкий"
+	},
+	{
+		"japanese": "乱暴な",
+		"reading": "らんぼうな",
+		"translation": "грубый, буйный"
+	},
+	{
+		"japanese": "ずるい",
+		"reading": "",
+		"translation": "нечестный, жуликоватый"
+	},
+	{
+		"japanese": "生意気な",
+		"reading": "なまいきな",
+		"translation": "самодовольный, наглый"
+	},
+	{
+		"japanese": "わがままな",
+		"reading": "",
+		"translation": "своенравный, эгоистичный"
+	},
+	{
+		"japanese": "プライドが高い",
+		"reading": "プライドがたかい",
+		"translation": "гордый"
+	},
+	{
+		"japanese": "ダサい",
+		"reading": "",
+		"translation": "неприятный, не умеющий себя вести"
+	},
+	{
+		"japanese": "上品な",
+		"reading": "じょうひんな",
+		"translation": "элегантный, со вкусом"
+	},
+	{
+		"japanese": "品がある",
+		"reading": "ひんがある",
+		"translation": "элегантный, со вкусом"
+	},
+	{
+		"japanese": "品がいい",
+		"reading": "ひんがいい",
+		"translation": "элегантный, со вкусом"
+	},
+	{
+		"japanese": "下品な",
+		"reading": "げひんな",
+		"translation": "вульгарный"
+	},
+	{
+		"japanese": "品がない",
+		"reading": "ひんがない",
+		"translation": "вульгарный"
+	},
+	{
+		"japanese": "かっこいい",
+		"reading": "",
+		"translation": "крутой"
+	},
+	{
+		"japanese": "かっこ悪い",
+		"reading": "かっこわるい",
+		"translation": "не крутой"
+	},
+	{
+		"japanese": "気が強い",
+		"reading": "きがつよい",
+		"translation": "агрессивный"
+	},
+	{
+		"japanese": "気が弱い",
+		"reading": "きがよわい",
+		"translation": "робкий"
+	},
+	{
+		"japanese": "器用な",
+		"reading": "きような",
+		"translation": "искусный, умелый"
+	},
+	{
+		"japanese": "不器用な",
+		"reading": "ぶきような",
+		"translation": "неловкий, неумелый"
+	},
+	{
+		"japanese": "まじめな",
+		"reading": "",
+		"translation": "серьезный, добросовестный"
+	},
+	{
+		"japanese": "不まじめな",
+		"reading": "ふまじめな",
+		"translation": "несерьезный, легкомысленный"
+	}
+	]
+}

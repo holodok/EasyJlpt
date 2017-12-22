@@ -1,7 +1,5 @@
 package com.gogaworm.easyjlpt.ui;
 
-import android.app.ProgressDialog;
-import android.content.DialogInterface;
 import android.os.Bundle;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.content.Loader;
@@ -24,40 +22,17 @@ public class ExamActivity extends UserSessionLoaderActivity<Exam> implements Wor
     private Lesson lesson;
     private List<Exam> examList = new ArrayList<>();
     private int examIndex;
-
-    private ProgressDialog progressDialog;
     private WordSelectExamFragment currentFragment;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-
         lesson = getIntent().getParcelableExtra("lesson");
-
-        //prepare progress Dialog
-        progressDialog = new ProgressDialog(this);
-        progressDialog.setMessage("Wait...");
-        progressDialog.setIndeterminate(true);
-        progressDialog.setOnDismissListener(new DialogInterface.OnDismissListener() {
-
-            @Override
-            public void onDismiss(DialogInterface dialog) {
-                FragmentManager fragmentManager = getSupportFragmentManager();
-                currentFragment = new WordSelectExamFragment();
-                fragmentManager.beginTransaction().add(R.id.content, currentFragment).commit();
-            }
-        });
-
-        getSupportLoaderManager().initLoader(LOADER_ID_EXAM, null, this).forceLoad();
-        progressDialog.show();
+        super.onCreate(savedInstanceState);
     }
 
     @Override
-    public void onLoadFinished(Loader<List<Exam>> loader, List<Exam> data) {
-        examList.clear();
-        examList.addAll(data);
-        examIndex = 0;
-        progressDialog.dismiss();
+    protected int getLoaderId() {
+        return LOADER_ID_EXAM;
     }
 
     @Override
@@ -66,13 +41,27 @@ public class ExamActivity extends UserSessionLoaderActivity<Exam> implements Wor
         return LoaderFactory.getExamLoader(this, args);
     }
 
+    @Override
+    protected void initData(List<Exam> data) {
+        examList.clear();
+        examList.addAll(data);
+        examIndex = 0;
+    }
+
+    @Override
+    protected void showFragment() {
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        currentFragment = new WordSelectExamFragment();
+        fragmentManager.beginTransaction().add(R.id.content, currentFragment).commit();
+    }
+
     private void initExam() {
         if (examIndex >= examList.size()) {
-            //show message that exam finished
+            //todo: show message with results that exam finished
             finish();
             return;
         }
-        currentFragment.initExam(examList.get(examIndex));
+        ((WordSelectExamFragment) currentFragment).initExam(examList.get(examIndex));
     }
 
     @Override

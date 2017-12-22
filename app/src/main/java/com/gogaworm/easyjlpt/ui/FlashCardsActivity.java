@@ -14,13 +14,14 @@ import com.gogaworm.easyjlpt.R;
 import com.gogaworm.easyjlpt.data.Lesson;
 import com.gogaworm.easyjlpt.data.Word;
 import com.gogaworm.easyjlpt.loaders.LoaderFactory;
-import com.gogaworm.easyjlpt.utils.Constants;
 import com.gogaworm.easyjlpt.utils.UnitedKanjiKanaSpannableString;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.Random;
+
+import static com.gogaworm.easyjlpt.utils.Constants.LOADER_ID_WORD_LIST;
 
 /**
  * Created on 24.05.2017.
@@ -45,8 +46,8 @@ public class FlashCardsActivity extends UserSessionLoaderActivity<Word> {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
         lesson = getIntent().getParcelableExtra("lesson");
+        super.onCreate(savedInstanceState);
 
         actionBar = getSupportActionBar();
 
@@ -73,7 +74,11 @@ public class FlashCardsActivity extends UserSessionLoaderActivity<Word> {
         });
 
         simpleGameController = new SimpleGameController();
-        getSupportLoaderManager().initLoader(Constants.LOADER_ID_WORD_LIST, null, this).forceLoad();
+    }
+
+    @Override
+    protected int getLoaderId() {
+        return LOADER_ID_WORD_LIST;
     }
 
     private void onUserAnswer(boolean correct) {
@@ -93,10 +98,13 @@ public class FlashCardsActivity extends UserSessionLoaderActivity<Word> {
     }
 
     @Override
-    public void onLoadFinished(Loader<List<Word>> loader, List<Word> data) {
+    protected void initData(List<Word> data) {
         simpleGameController.init(data);
         taskNotAnswered = true;
-        //show first card
+    }
+
+    @Override
+    protected void showFragment() {
         showTask();
     }
 

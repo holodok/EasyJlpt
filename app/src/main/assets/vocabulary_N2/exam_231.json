@@ -1,0 +1,120 @@
+﻿{
+  "sentences":[
+  {
+	"id" : 1,
+    "japanese": "|母-はは|はいつも|同-おな|じことを|言-い|って＿。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "あつかましい"
+	},
+	{
+		"japanese": "くどい"
+	}],
+	"correct": 2
+  },
+  {
+	"id" : 2,
+    "japanese": "|子-こ|どものくせに＿ことを|言-い|うな。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "|無-む||邪-じゃ||気-き|な"
+	},
+	{
+		"japanese": "|生-なま||意-い||気-き|な"
+	}],
+	"correct": 2
+  },
+  {
+	"id" : 3,
+    "japanese": "|田-た||中-なか|さんの|奥-おく|さんはいつも＿|服-ふく|を|着-き|ている。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "|器-き||用-よう|な"
+	},
+	{
+		"japanese": "|上-じょう||品-ひん|な"
+	}],
+	"correct": 2
+  },
+  {
+	"id" : 4,
+    "japanese": "|甘-あま|やかされて|育-そだ|った|子-こ|どもは＿ことが|多-おお|い。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "わがままな"
+	},
+	{
+		"japanese": "あわれな"
+	}],
+	"correct": 1
+  },
+  {
+	"id" : 5,
+    "japanese": "＿|彼-かの||女-じょ|は、いつも|何-なに|か|忘-わす|れ|物-もの|をする。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "そそっかしい"
+	},
+	{
+		"japanese": "|気-き|が|小-ちい|さい"
+	}],
+	"correct": 1
+  },
+  {
+	"id" : 6,
+    "japanese": "セールスマンに、|欲-ほ|しくない|化-け||粧-しょう||品-ひん|を＿|買-か|わされた。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "|下-げ||品-ひん|に"
+	},
+	{
+		"japanese": "|強-ごう||引-いん|に"
+	}],
+	"correct": 2
+  },
+  {
+	"id" : 7,
+    "japanese": "この|子-こ|はとても＿、だれにでも|話-はな|しかけるんですよ。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "さわやかで"
+	},
+	{
+		"japanese": "ひきょうで"
+	},
+	{
+		"japanese": "たのもしくて"
+	},
+	{
+		"japanese": "|人-ひと|なつっこくて"
+	}],
+	"correct": 4
+  },
+  {
+	"id" : 8,
+    "japanese": "|彼-かの||女-じょ|のアイデアはとても＿ですね。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "プライドがいい"
+	},
+	{
+		"japanese": "プライドが|高-たか|い"
+	},
+	{
+		"japanese": "センスがいい"
+	},
+	{
+		"japanese": "センスが|高-たか|い"
+	}],
+	"correct": 3
+  }
+  ]
+}

@@ -43,10 +43,10 @@ public class GameController {
         for (Task task : tasks) {
             task.leftGames = MAX_GAME_TYPE;
         }
+        currentIndex = 0;
     }
 
     public void startGame() {
-        currentIndex = 0;
         showNextTask();
     }
 
