@@ -1,0 +1,120 @@
+﻿{
+  "sentences":[
+  {
+	"id" : 1,
+    "japanese": "「|神-かみ|に＿、うそはついていません。」",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "ちかって"
+	},
+	{
+		"japanese": "いのって"
+	}],
+	"correct": 1
+  },
+  {
+	"id" : 2,
+    "japanese": "|大-おお||阪-さか|まで|車-くるま|で|行-い|くか、|電-でん||車-しゃ|で|行-い|くか、＿。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "ためらう"
+	},
+	{
+		"japanese": "なやむ"
+	}],
+	"correct": 2
+  },
+  {
+	"id" : 3,
+    "japanese": "もうすぐ|受-じゅ||験-けん|だけれど、|気-き||持-も|ちが＿|勉-べん||強-きょう|できない",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "。あさって"
+	},
+	{
+		"japanese": "あわてて"
+	}],
+	"correct": 1
+  },
+  {
+	"id" : 4,
+    "japanese": "こんなに|働-はたら|いているのに|給-きゅう||料-りょう|が|減-へ|らされるのは、＿。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "みっともない"
+	},
+	{
+		"japanese": "|納-なっ||得-とく|がいかない"
+	}],
+	"correct": 2
+  },
+  {
+	"id" : 5,
+    "japanese": "|好-す|きなものでも、|毎-まい||日-にち||食-た|べていると＿。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "あきる"
+	},
+	{
+		"japanese": "あきれる"
+	}],
+	"correct": 1
+  },
+  {
+	"id" : 6,
+    "japanese": "|毎-まい||日-にち||遅-ち||刻-こく|する|彼-かれ|が|会-かい||社-しゃ|を|辞-や|めされられたのは、＿ことだ。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "やむを|得-え|ない"
+	},
+	{
+		"japanese": "おしい"
+	}],
+	"correct": 1
+  },
+  {
+	"id" : 7,
+    "japanese": "|交-こう||際-さい|を|断-ことわ|られたのに、いつもでも|彼-かの||女-じょ|を|追-お|いかけるのは＿。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "みっともない"
+	},
+	{
+		"japanese": "|面-めん||倒-どう|くさい"
+	},
+	{
+		"japanese": "|恋-こい|しい"
+	},
+	{
+		"japanese": "なつかしい"
+	}],
+	"correct": 1
+  },
+  {
+	"id" : 8,
+    "japanese": "１|位-い|になれなくて＿。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "くわしい"
+	},
+	{
+		"japanese": "くやしい"
+	},
+	{
+		"japanese": "ばからしい"
+	},
+	{
+		"japanese": "あこがれる"
+	}],
+	"correct": 2
+  }
+  ]
+}

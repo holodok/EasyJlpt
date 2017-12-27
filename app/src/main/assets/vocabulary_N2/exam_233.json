@@ -1,0 +1,120 @@
+﻿{
+  "sentences":[
+  {
+	"id" : 1,
+    "japanese": "|車-くるま|のドアで|指-ゆび|を＿。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "はさんだ"
+	},
+	{
+		"japanese": "ふれた"
+	}],
+	"correct": 1
+  },
+  {
+	"id" : 2,
+    "japanese": "|変-へん|な|虫-むし|が|床-ゆか|を＿。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "はっている"
+	},
+	{
+		"japanese": "はがしている"
+	}],
+	"correct": 1
+  },
+  {
+	"id" : 3,
+    "japanese": "この|道-みち|はせまくて、|車-くるま|と|車-くるま|が＿のは|大-たい||変-へん|だ。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "すれちがう"
+	},
+	{
+		"japanese": "ぶつかる"
+	}],
+	"correct": 1
+  },
+  {
+	"id" : 4,
+    "japanese": "ひざを＿|伸-の|ばしたりする。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "ついたり"
+	},
+	{
+		"japanese": "|曲-ま|げたり"
+	}],
+	"correct": 2
+  },
+  {
+	"id" : 5,
+    "japanese": "スケートで|後-うし|ろに＿|練-れん||習-しゅう|をした。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "すべる"
+	},
+	{
+		"japanese": "はう"
+	}],
+	"correct": 1
+  },
+  {
+	"id" : 6,
+    "japanese": "|箱-はこ|の|中-なか|に|何-なに|があるか、＿。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "のぞいた"
+	},
+	{
+		"japanese": "にらんだ"
+	}],
+	"correct": 1
+  },
+  {
+	"id" : 7,
+    "japanese": "いらないポスターを＿。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "はがす"
+	},
+	{
+		"japanese": "ねじる"
+	},
+	{
+		"japanese": "ふさぐ"
+	},
+	{
+		"japanese": "|閉-と|じる"
+	}],
+	"correct": 1
+  },
+  {
+	"id" : 8,
+    "japanese": "|大-おお|きな|荷-に||物-もつ|を|肩-かた|に’＿。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "つかむ"
+	},
+	{
+		"japanese": "かつぐ"
+	},
+	{
+		"japanese": "またぐ"
+	},
+	{
+		"japanese": "しゃがむ"
+	}],
+	"correct": 2
+  }
+  ]
+}

@@ -1,0 +1,194 @@
+﻿{
+	"words": [
+	{
+		"japanese": "くやしい",
+		"reading": "",
+		"translation": "досадный, прискорбный"
+	},
+	{
+		"japanese": "くやしむ",
+		"reading": "",
+		"translation": "сожалеть"
+	},
+	{
+		"japanese": "つらい",
+		"reading": "",
+		"translation": "тяжелый, горький"
+	},
+	{
+		"japanese": "情けない",
+		"reading": "なさけない",
+		"translation": "печальный, жалкий"
+	},
+	{
+		"japanese": "申し訳ない",
+		"reading": "もうしわけない",
+		"translation": "позорный"
+	},
+	{
+		"japanese": "残念だ",
+		"reading": "ざんねんだ",
+		"translation": "Какая жалость!"
+	},
+	{
+		"japanese": "仕方がない",
+		"reading": "しかたがない",
+		"translation": "Ничего не поделать."
+	},
+	{
+		"japanese": "しょうがない",
+		"reading": "",
+		"translation": "Ничего не поделать."
+	},
+	{
+		"japanese": "やむを得ない",
+		"reading": "やむをえない",
+		"translation": "Ничего нельзя сделать. (официально)"
+	},
+	{
+		"japanese": "疑問に思う",
+		"reading": "ぎもんにおもう",
+		"translation": "Сомневаюсь."
+	},
+	{
+		"japanese": "不思議だ",
+		"reading": "ふしぎだ",
+		"translation": "Странно (загадочно)."
+	},
+	{
+		"japanese": "納得がいかない",
+		"reading": "たっとくがいかない",
+		"translation": "неприемлемо"
+	},
+	{
+		"japanese": "納得がいく",
+		"reading": "なっとくがいく",
+		"translation": "соглашаться, быть убежденным"
+	},
+	{
+		"japanese": "あきる",
+		"reading": "",
+		"translation": "надоедать, утомлять"
+	},
+	{
+		"japanese": "あきれる",
+		"reading": "",
+		"translation": "быть изумленным"
+	},
+	{
+		"japanese": "あきらめる",
+		"reading": "",
+		"translation": "примириться, отказаться от мысли"
+	},
+	{
+		"japanese": "あわてる",
+		"reading": "",
+		"translation": "волноваться, паниковать"
+	},
+	{
+		"japanese": "あせる",
+		"reading": "",
+		"translation": "торопиться, нервничать"
+	},
+	{
+		"japanese": "ためらう",
+		"reading": "",
+		"translation": "колебаться, не решаться"
+	},
+	{
+		"japanese": "あこがれる",
+		"reading": "",
+		"translation": "чувствовать влечение, стремление"
+	},
+	{
+		"japanese": "落ち込む",
+		"reading": "おちこむ",
+		"translation": "быть в депрессии"
+	},
+	{
+		"japanese": "恋しい",
+		"reading": "こいしい",
+		"translation": "тосковать, скучать"
+	},
+	{
+		"japanese": "なつかしい",
+		"reading": "",
+		"translation": "ностальгический"
+	},
+	{
+		"japanese": "ありがた",
+		"reading": "",
+		"translation": "быть благодарным"
+	},
+	{
+		"japanese": "みっともない",
+		"reading": "",
+		"translation": "неприглядный, неприличный"
+	},
+	{
+		"japanese": "ばからしい",
+		"reading": "",
+		"translation": "глупый"
+	},
+	{
+		"japanese": "おしい",
+		"reading": "",
+		"translation": "почти получилось"
+	},
+	{
+		"japanese": "にくい",
+		"reading": "",
+		"translation": "ненавистный, отвратительный"
+	},
+	{
+		"japanese": "にくらしい",
+		"reading": "",
+		"translation": "противный, раздражаюший"
+	},
+	{
+		"japanese": "面倒くさい",
+		"reading": "めんどうくさい",
+		"translation": "беспокойный, надоедливый"
+	},
+	{
+		"japanese": "面倒な仕事",
+		"reading": "めんどうなしごと",
+		"translation": "обременительная работа"
+	},
+	{
+		"japanese": "夢中になる",
+		"reading": "むちゅうになる",
+		"translation": "потерять голову, быть вне себя"
+	},
+	{
+		"japanese": "退屈する",
+		"reading": "たいくつする",
+		"translation": "скучать, томиться"
+	},
+	{
+		"japanese": "悩む",
+		"reading": "なやむ",
+		"translation": "страдать, мучаться"
+	},
+	{
+		"japanese": "悩み",
+		"reading": "なやみ",
+		"translation": "страдания, муки"
+	},
+	{
+		"japanese": "神に祈る",
+		"reading": "かみにいのる",
+		"translation": "молиться богу"
+	},
+	{
+		"japanese": "神にちかう",
+		"reading": "かみにちかう",
+		"translation": "клясться богом"
+	},
+	{
+		"japanese": "仏をおがむ",
+		"reading": "ほとけをおがむ",
+		"translation": "поклоняться Будде"
+	}
+	]
+}
