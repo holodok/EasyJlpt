@@ -1,119 +1,214 @@
 ﻿{
 	"words": [
 	{
-		"japanese": "",
+		"japanese": "尊敬する",
+		"reading": "そんけいする",
+		"translation": "уважать"
+	},
+	{
+		"japanese": "えらいと思う",
+		"reading": "えらいとおもう",
+		"translation": "восхитительный"
+	},
+	{
+		"japanese": "信用する",
+		"reading": "しんようする",
+		"translation": "доверять"
+	},
+	{
+		"japanese": "いじめる",
+		"reading": "",
+		"translation": "дразнить"
+	},
+	{
+		"japanese": "やっつける",
+		"reading": "",
+		"translation": "бить (атаковать)"
+	},
+	{
+		"japanese": "からかう",
+		"reading": "",
+		"translation": "насмехаться надо кем-то"
+	},
+	{
+		"japanese": "バカにする",
 		"reading": "",
 		"translation": ""
 	},
 	{
-		"japanese": "",
+		"japanese": "責める",
+		"reading": "せめる",
+		"translation": "винить"
+	},
+	{
+		"japanese": "けなる",
 		"reading": "",
+		"translation": "критиковать"
+	},
+	{
+		"japanese": "おどかす",
+		"reading": "",
+		"translation": "удивлять, угрожать"
+	},
+	{
+		"japanese": "頼る",
+		"reading": "たよる",
+		"translation": "зависеть"
+	},
+	{
+		"japanese": "頼りにする",
+		"reading": "たよりにする",
+		"translation": "зависеть от"
+	},
+	{
+		"japanese": "なぐさめる",
+		"reading": "",
+		"translation": "утешать"
+	},
+	{
+		"japanese": "許す",
+		"reading": "ゆるす",
+		"translation": "прощать"
+	},
+	{
+		"japanese": "裏切る",
+		"reading": "うらぎる",
+		"translation": "обманывать"
+	},
+	{
+		"japanese": "だます",
+		"reading": "",
+		"translation": "обманывать"
+	},
+	{
+		"japanese": "傷つける",
+		"reading": "きずつける",
+		"translation": "причинять вред"
+	},
+	{
+		"japanese": "避ける",
+		"reading": "さける",
+		"translation": "избегать"
+	},
+	{
+		"japanese": "放っておく",
+		"reading": "ほうっておく",
+		"translation": "оставлять"
+	},
+	{
+		"japanese": "私のことはほっていて！",
+		"reading": "わたしのことはほっていて！",
+		"translation": "Оставь меня в покое!"
+	},
+	{
+		"japanese": "仕事を任せる",
+		"reading": "しごとをまかせる",
+		"translation": "доверить работу"
+	},
+	{
+		"japanese": "ほほえむ",
+		"reading": "",
+		"translation": "улыбнуться радостно"
+	},
+	{
+		"japanese": "従う",
+		"reading": "したがう",
+		"translation": "следовать"
+	},
+	{
+		"japanese": "逆らう",
+		"reading": "さからう",
+		"translation": "отрицать"
+	},
+	{
+		"japanese": "わびる",
+		"reading": "",
+		"translation": "извиняться"
+	},
+	{
+		"japanese": "感謝する",
+		"reading": "かんしゃする",
+		"translation": "быть благодарным"
+	},
+	{
+		"japanese": "冗談を言う",
+		"reading": "じょうだんをいう",
+		"translation": "рассказывать шутку"
+	},
+	{
+		"japanese": "いやみを言う",
+		"reading": "いやみをいう",
+		"translation": "делать саркастические замечания"
+	},
+	{
+		"japanese": "文句を言う",
+		"reading": "もんくをいう",
+		"translation": "жаловаться"
+	},
+	{
+		"japanese": "うそをつく",
+		"reading": "",
+		"translation": "лгать"
+	},
+	{
+		"japanese": "うそつき",
+		"reading": "",
+		"translation": "врунишка"
+	},
+	{
+		"japanese": "だまる",
+		"reading": "",
+		"translation": "молчать"
+	},
+	{
+		"japanese": "自慢する",
+		"reading": "じまんする",
 		"translation": ""
 	},
 	{
-		"japanese": "",
+		"japanese": "いばる",
 		"reading": "",
+		"translation": "быть невеждой"
+	},
+	{
+		"japanese": "ふざける",
+		"reading": "",
+		"translation": "играть с"
+	},
+	{
+		"japanese": "まねをする",
+		"reading": "",
+		"translation": "копировать, подражать"
+	},
+	{
+		"japanese": "悪口を言う",
+		"reading": "わるくちをいう",
+		"translation": "говорить гадости о"
+	},
+	{
+		"japanese": "友達に恵まれる",
+		"reading": "ともだちにめぐまれる",
+		"translation": "иметь много хороших друзей"
+	},
+	{
+		"japanese": "友達ともめる",
+		"reading": "ともだちともめる",
+		"translation": "иметь неприятности с друзьями"
+	},
+	{
+		"japanese": "いやな態度をとる",
+		"reading": "いやなたいどをとる",
 		"translation": ""
 	},
 	{
-		"japanese": "",
-		"reading": "",
-		"translation": ""
+		"japanese": "態度を改める",
+		"reading": "たいどをあらためる",
+		"translation": "изменить отношение"
 	},
 	{
-		"japanese": "",
-		"reading": "",
-		"translation": ""
-	},
-	{
-		"japanese": "",
-		"reading": "",
-		"translation": ""
-	},
-	{
-		"japanese": "",
-		"reading": "",
-		"translation": ""
-	},
-	{
-		"japanese": "",
-		"reading": "",
-		"translation": ""
-	},
-	{
-		"japanese": "",
-		"reading": "",
-		"translation": ""
-	},
-	{
-		"japanese": "",
-		"reading": "",
-		"translation": ""
-	},
-	{
-		"japanese": "",
-		"reading": "",
-		"translation": ""
-	},
-	{
-		"japanese": "",
-		"reading": "",
-		"translation": ""
-	},
-	{
-		"japanese": "",
-		"reading": "",
-		"translation": ""
-	},
-	{
-		"japanese": "",
-		"reading": "",
-		"translation": ""
-	},
-	{
-		"japanese": "",
-		"reading": "",
-		"translation": ""
-	},
-	{
-		"japanese": "",
-		"reading": "",
-		"translation": ""
-	},
-	{
-		"japanese": "",
-		"reading": "",
-		"translation": ""
-	},
-	{
-		"japanese": "",
-		"reading": "",
-		"translation": ""
-	},
-	{
-		"japanese": "",
-		"reading": "",
-		"translation": ""
-	},
-	{
-		"japanese": "",
-		"reading": "",
-		"translation": ""
-	},
-	{
-		"japanese": "",
-		"reading": "",
-		"translation": ""
-	},
-	{
-		"japanese": "",
-		"reading": "",
-		"translation": ""
-	},
-	{
-		"japanese": "",
-		"reading": "",
-		"translation": ""
-	},
+		"japanese": "失敗を人のせいにする",
+		"reading": "しっぱいをひとのせいにする",
+		"translation": "винить других в своих ошибках"
+	}
 	]
 }
