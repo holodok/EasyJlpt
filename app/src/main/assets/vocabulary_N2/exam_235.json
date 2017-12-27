@@ -1,0 +1,120 @@
+﻿{
+  "sentences":[
+  {
+	"id" : 1,
+    "japanese": "|彼-かれ|は|自-じ||分-ぶん|の|失-しっ||敗-ぱい|をみんなに＿。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "|許-ゆる|した"
+	},
+	{
+		"japanese": "わびた"
+	}],
+	"correct": 2
+  },
+  {
+	"id" : 2,
+    "japanese": "「また、がんばればいいよ」と|親-しん||友-ゆう|に＿。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "からかわれた"
+	},
+	{
+		"japanese": "なぐさめられた"
+	}],
+	"correct": 2
+  },
+  {
+	"id" : 3,
+    "japanese": "「|車-くるま|の|運-うん||転-てん|は、あなたに＿わ。」",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "まかせる"
+	},
+	{
+		"japanese": "まねをする"
+	}],
+	"correct": 1
+  },
+  {
+	"id" : 4,
+    "japanese": "|生-せい||徒-と|を|疑-うたが|うような|先-せん||生-せい|を＿できません。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "|尊-そん||敬-けい|"
+	},
+	{
+		"japanese": "|文-もん||句-く|"
+	}],
+	"correct": 1
+  },
+  {
+	"id" : 5,
+    "japanese": "|客-きゃく|を＿にせ|物-もの|を|買-か|わせた。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "だまして"
+	},
+	{
+		"japanese": "|裏-うら||切-ぎ|って"
+	}],
+	"correct": 1
+  },
+  {
+	"id" : 6,
+    "japanese": "|子-こ|「お|父-とう|さん、|変-へん|な|虫-むし|がいるよ。＿。」\n|父-ちち|「こらこら、|何-なに|も|悪-わる|いことをしてないのに、かわいそうだよ。」",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "いじめて"
+	},
+	{
+		"japanese": "やっつけて"
+	}],
+	"correct": 2
+  },
+  {
+	"id" : 7,
+    "japanese": "|親-おや|に＿、|家-いえ|を|出-で|た。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "いばって"
+	},
+	{
+		"japanese": "ふざけて"
+	},
+	{
+		"japanese": "あらためて"
+	},
+	{
+		"japanese": "さからって"
+	}],
+	"correct": 4
+  },
+  {
+	"id" : 8,
+    "japanese": "|急-きゅう|に|大-おお||声-ごえ|を|出-だ|して、|友-とも||達-だち|を＿。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "ほうっておいた"
+	},
+	{
+		"japanese": "おどかした"
+	},
+	{
+		"japanese": "うたがった"
+	},
+	{
+		"japanese": "なぐさめた"
+	}],
+	"correct": 2
+  }
+  ]
+}
