@@ -24,4 +24,5 @@
     <string name="menu_grammar_n2">Грамматика</string>
     <string name="title_flash_cards">Осталось %d</string>
     <string name="menu_grammar_dictionary">Грамматический справочник</string>
+    <string name="messageLoading">Загрузка...</string>
 </resources>

@@ -53,6 +53,7 @@ public class ExamActivity extends UserSessionLoaderActivity<Exam> implements Wor
         FragmentManager fragmentManager = getSupportFragmentManager();
         currentFragment = new WordSelectExamFragment();
         fragmentManager.beginTransaction().add(R.id.content, currentFragment).commit();
+        initExam();
     }
 
     private void initExam() {
@@ -61,12 +62,8 @@ public class ExamActivity extends UserSessionLoaderActivity<Exam> implements Wor
             finish();
             return;
         }
-        ((WordSelectExamFragment) currentFragment).initExam(examList.get(examIndex));
-    }
-
-    @Override
-    public Exam getCurrentExam() {
-        return examList.get(examIndex);
+        updateLeftCount(examList.size() - examIndex);
+        currentFragment.initExam(examList.get(examIndex));
     }
 
     public void nextSentence() {

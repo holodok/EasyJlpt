@@ -25,6 +25,7 @@ public class EnterReadingGameFragment extends WordGameFragment {
     private EnterKanaView readingView;
     private Word word;
     private KeyboardView keyboardView;
+    private boolean answerShown;
 
     @Nullable
     @Override
@@ -45,7 +46,12 @@ public class EnterReadingGameFragment extends WordGameFragment {
         parentView.findViewById(R.id.submitButton).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                onUserAnswer(word.reading.equals(readingView.getText()));
+                if (!answerShown) {
+                    answerShown = !answerShown;
+                    onUserAnswer(word.reading.equals(readingView.getText()));
+                } else {
+                    gotoNext();
+                }
             }
         });
         return parentView;
@@ -61,10 +67,7 @@ public class EnterReadingGameFragment extends WordGameFragment {
 
     @Override
     protected void showAnswer(boolean correct) {
-        if (!correct) {
-            //show incorrect
-            readingView.showDifference();
-        }
+        readingView.showDifference();
         keyboardView.setVisibility(View.INVISIBLE);
     }
 }

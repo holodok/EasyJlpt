@@ -19,5 +19,6 @@
     <color name="buttonBackgroundPressed">#3F51B5</color>
 
     <color name="correctAnswerBorder">#699D00</color>
-    <color name="wrongAnswer">#FF0000</color>
+    <color name="incorrectAnswer">#FF0000</color>
+    <color name="correctAnswer">#699D00</color>
 </resources>

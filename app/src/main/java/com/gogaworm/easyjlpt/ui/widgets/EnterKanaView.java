@@ -22,10 +22,14 @@ import java.io.IOException;
 public class EnterKanaView extends View implements KeyboardView.OnKeyPressedListener {
     private int maxLength;
 
-    private String text = "";
     private Paint textPaint;
-    private Paint incorrectPaint;
+    private Paint textCorrectPaint;
+    private Paint textIncorrectPaint;
     private Paint linePaint;
+    private Paint lineCorrectPaint;
+    private Paint lineIncorrectPaint;
+
+    private String text = "";
     private int strokeWidth;
     private int strokeGap;
     private char[] drawChar;
@@ -46,6 +50,10 @@ public class EnterKanaView extends View implements KeyboardView.OnKeyPressedList
         super(context, attrs);
 
         final Resources.Theme theme = context.getTheme();
+
+        int correctColor = getResources().getColor(R.color.correctAnswer);
+        int incorrectColor = getResources().getColor(R.color.incorrectAnswer);
+
         textPaint = new TextPaint();
         linePaint = new Paint();
 
@@ -55,13 +63,20 @@ public class EnterKanaView extends View implements KeyboardView.OnKeyPressedList
         textPaint.setAntiAlias(true);
         typedArray.recycle();
 
-        incorrectPaint = new TextPaint(textPaint);
-        incorrectPaint.setColor(getResources().getColor(R.color.wrongAnswer));
+        textCorrectPaint = new TextPaint(textPaint);
+        textCorrectPaint.setColor(correctColor);
+        textIncorrectPaint = new TextPaint(textPaint);
+        textIncorrectPaint.setColor(incorrectColor);
 
         linePaint.setColor(textPaint.getColor());
         strokeWidth = context.getResources().getDimensionPixelSize(R.dimen.enter_kana_stroke_width);
         linePaint.setStrokeWidth(strokeWidth);
         strokeGap = context.getResources().getDimensionPixelSize(R.dimen.enter_kana_stroke_gap);
+
+        lineCorrectPaint = new Paint(linePaint);
+        lineCorrectPaint.setColor(correctColor);
+        lineIncorrectPaint = new Paint(linePaint);
+        lineIncorrectPaint.setColor(incorrectColor);
 
         drawChar = text.toCharArray();
         english2KanaConverter = new English2KanaConverter();
@@ -130,6 +145,16 @@ public class EnterKanaView extends View implements KeyboardView.OnKeyPressedList
     public void draw(Canvas canvas) {
         super.draw(canvas);
 
+        boolean isCorrect = showDifference && drawChar.length == expectedWord.length();
+        if (isCorrect) {
+            for (int i = 0; i < drawChar.length; i++) {
+                if (drawChar[i] != expectedWord.charAt(i)) {
+                    isCorrect = false;
+                    break;
+                }
+            }
+        }
+
         float x = 0;
         float y = textPaint.getTextSize();
 
@@ -138,11 +163,14 @@ public class EnterKanaView extends View implements KeyboardView.OnKeyPressedList
         int drawnPlaceholderCount = maxLength;
         for (int i = 0; i < drawnPlaceholderCount; i++) {
             //draw char if any
-            if (i < text.length()) {
-                canvas.drawText(drawChar, i, 1, x, y, showDifference ? (drawChar[i] == expectedWord.charAt(i) ? textPaint : incorrectPaint) : textPaint);
+            if (i < drawChar.length) {
+                Paint paint = showDifference && isCorrect ? textCorrectPaint : (!showDifference || drawChar[i] == expectedWord.charAt(i)) ? textPaint : textIncorrectPaint;
+                canvas.drawText(drawChar, i, 1, x, y, paint);
             }
 
-            canvas.drawLine(x, y  + strokeWidth * 2, x + placeHolderWidth, y + strokeWidth * 2, linePaint);
+            Paint paint = showDifference && isCorrect ? lineCorrectPaint :
+                    (showDifference && (i >= drawChar.length || drawChar[i] != expectedWord.charAt(i))) ? lineIncorrectPaint : linePaint;
+            canvas.drawLine(x, y  + strokeWidth * 2, x + placeHolderWidth, y + strokeWidth * 2, paint);
             x += placeHolderWidth + strokeGap;
         }
     }

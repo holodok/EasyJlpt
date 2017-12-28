@@ -11,7 +11,7 @@ import java.util.List;
  * @author ikarpova
  */
 public class GameController {
-    int MAX_GAME_TYPE = 5;
+    int MAX_GAME_TYPE = 6;
 
     public enum GameType {
         FLASH_CARD,
@@ -146,7 +146,7 @@ public class GameController {
             case WRITE_READING:
                 if (task instanceof WordTask) {
                     Word word = (Word) task.value;
-                    return false && word.hasKanji();
+                    return word.hasKanji();
                 }
                 return false;
             case MULTYSELECT_KANJI_READING:

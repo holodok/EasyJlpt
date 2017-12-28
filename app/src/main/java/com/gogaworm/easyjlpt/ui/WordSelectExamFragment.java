@@ -65,28 +65,34 @@ public class WordSelectExamFragment extends Fragment {
             }
         });
 
-        initExam(examListener.getCurrentExam());
-
         return parentView;
     }
 
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
+        initExam((Exam) getArguments().getParcelable("exam"));
     }
 
     void initExam(Exam exam) {
-        this.exam = exam;
-        answered = false;
-        answerIndex = 0;
-        sentenceJapaneseView.setText(new UnitedKanjiKanaSpannableString(exam.japanese, false));
-        sentenceTranslationView.setVisibility(View.INVISIBLE);
-        makeButtonsVisible(exam.answers.length);
-        for (int i = 0; i < exam.answers.length; i++) {
-            answerButtons[i].reset();
-            answerButtons[i].setJapanese(exam.answers[i].japanese, "");
+        //todo: if fragment is not inited yet, set arguements, otherwise reinit fragment
+        if (isAdded()) {
+            this.exam = exam;
+            answered = false;
+            answerIndex = 0;
+            sentenceJapaneseView.setText(new UnitedKanjiKanaSpannableString(exam.japanese, false));
+            sentenceTranslationView.setVisibility(View.INVISIBLE);
+            makeButtonsVisible(exam.answers.length);
+            for (int i = 0; i < exam.answers.length; i++) {
+                answerButtons[i].reset();
+                answerButtons[i].setJapanese(exam.answers[i].japanese, "");
+            }
+            submitButton.setEnabled(false);
+        } else {
+            Bundle args = new Bundle();
+            args.putParcelable("exam", exam);
+            setArguments(args);
         }
-        submitButton.setEnabled(false);
     }
 
     private void makeButtonsVisible(int count) {
@@ -149,7 +155,6 @@ public class WordSelectExamFragment extends Fragment {
     }
 
     public interface ExamListener {
-        Exam getCurrentExam();
         void nextSentence();
     }
 }
