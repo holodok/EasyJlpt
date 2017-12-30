@@ -6,7 +6,7 @@
 		"translation": "уважать"
 	},
 	{
-		"japanese": "えらいと思う",
+		"japanese": "偉いと思う",
 		"reading": "えらいとおもう",
 		"translation": "восхитительный"
 	},
@@ -18,52 +18,52 @@
 	{
 		"japanese": "いじめる",
 		"reading": "",
-		"translation": "дразнить"
+		"translation": "мучить, издеваться"
 	},
 	{
 		"japanese": "やっつける",
 		"reading": "",
-		"translation": "бить (атаковать)"
+		"translation": "накинуться, ринуться, побить"
 	},
 	{
 		"japanese": "からかう",
 		"reading": "",
-		"translation": "насмехаться надо кем-то"
+		"translation": "подтрунивать, подшучивать"
 	},
 	{
 		"japanese": "バカにする",
 		"reading": "",
-		"translation": ""
+		"translation": "подшучивать, дразнить"
 	},
 	{
 		"japanese": "責める",
 		"reading": "せめる",
-		"translation": "винить"
+		"translation": "винить, упрекать"
 	},
 	{
-		"japanese": "けなる",
+		"japanese": "けなす",
 		"reading": "",
-		"translation": "критиковать"
+		"translation": "пренебрежительно отзываться, охаивать"
 	},
 	{
 		"japanese": "おどかす",
 		"reading": "",
-		"translation": "удивлять, угрожать"
+		"translation": "пугать, угрожать"
 	},
 	{
 		"japanese": "頼る",
 		"reading": "たよる",
-		"translation": "зависеть"
+		"translation": "полагаться, надеяться, зависеть"
 	},
 	{
 		"japanese": "頼りにする",
 		"reading": "たよりにする",
-		"translation": "зависеть от"
+		"translation": "полагаться на"
 	},
 	{
 		"japanese": "なぐさめる",
 		"reading": "",
-		"translation": "утешать"
+		"translation": "утешать, успокаивать, развлекать"
 	},
 	{
 		"japanese": "許す",
@@ -93,7 +93,7 @@
 	{
 		"japanese": "放っておく",
 		"reading": "ほうっておく",
-		"translation": "оставлять"
+		"translation": "оставлять в покое, игнорировать"
 	},
 	{
 		"japanese": "私のことはほっていて！",
@@ -108,17 +108,17 @@
 	{
 		"japanese": "ほほえむ",
 		"reading": "",
-		"translation": "улыбнуться радостно"
+		"translation": "улыбаться, расцветать"
 	},
 	{
 		"japanese": "従う",
 		"reading": "したがう",
-		"translation": "следовать"
+		"translation": "следовать за кем-то, сопровождать"
 	},
 	{
 		"japanese": "逆らう",
 		"reading": "さからう",
-		"translation": "отрицать"
+		"translation": "идти против чего-то, противоречить"
 	},
 	{
 		"japanese": "わびる",
@@ -128,7 +128,7 @@
 	{
 		"japanese": "感謝する",
 		"reading": "かんしゃする",
-		"translation": "быть благодарным"
+		"translation": "благодарить"
 	},
 	{
 		"japanese": "冗談を言う",
@@ -138,7 +138,7 @@
 	{
 		"japanese": "いやみを言う",
 		"reading": "いやみをいう",
-		"translation": "делать саркастические замечания"
+		"translation": "делать саркастические, колкие замечания"
 	},
 	{
 		"japanese": "文句を言う",
@@ -163,17 +163,17 @@
 	{
 		"japanese": "自慢する",
 		"reading": "じまんする",
-		"translation": ""
+		"translation": "кичиться, хвалиться"
 	},
 	{
 		"japanese": "いばる",
 		"reading": "",
-		"translation": "быть невеждой"
+		"translation": "кичиться, важничать"
 	},
 	{
 		"japanese": "ふざける",
 		"reading": "",
-		"translation": "играть с"
+		"translation": "шутить, балагурить"
 	},
 	{
 		"japanese": "まねをする",
@@ -193,12 +193,12 @@
 	{
 		"japanese": "友達ともめる",
 		"reading": "ともだちともめる",
-		"translation": "иметь неприятности с друзьями"
+		"translation": "быть не в ладах с друзьями"
 	},
 	{
 		"japanese": "いやな態度をとる",
 		"reading": "いやなたいどをとる",
-		"translation": ""
+		"translation": "вести себя... занимать позицию"
 	},
 	{
 		"japanese": "態度を改める",

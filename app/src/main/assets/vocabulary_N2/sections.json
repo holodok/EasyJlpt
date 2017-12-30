@@ -110,28 +110,28 @@
     }, {
       "lesson": 3,
       "title": {
-				"japanese": "",
+				"japanese": "どんな|動-どう||作-さ|ですか？",
 				"reading": "",
-				"translation": "Поведение"
+				"translation": "Что за поведение?"
 			}
     }, {
       "lesson": 4,
       "title": {
-				"japanese": "",
+				"japanese": "どんな|気-き||持-も|ち・|態-たい||度-ど|ですか？１",
 				"reading": "",
 				"translation": "Что ты об этом думаешь? 1"
 			}
     }, {
       "lesson": 5,
       "title": {
-				"japanese": "",
+				"japanese": "どんな|気-き||持-も|ち・|態-たい||度-ど|ですか？２",
 				"reading": "",
 				"translation": "Что ты об этом думаешь? 2"
 			}
     }, {
       "lesson": 6,
       "title": {
-				"japanese": "",
+				"japanese": "|体-からだ|の|具-ぐ||合-あい|はどうですか？",
 				"reading": "",
 				"translation": "Как ты себя чувствуешь?"
 			}
