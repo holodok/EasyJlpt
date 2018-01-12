@@ -64,7 +64,7 @@ public class LearnLessonActivity extends UserSessionLoaderActivity<Word> impleme
         words = data;
         TaskCreator taskCreator = new TaskCreator();
         taskCreator.addWords(data);
-        gameController.setTasks(taskCreator.generateLearnSession());
+        //gameController.setTasks(taskCreator.generateLearnSession());
     }
 
     @Override

@@ -1,15 +1,17 @@
 package com.gogaworm.easyjlpt.ui.widgets;
 
 import android.content.Context;
-import android.text.TextUtils;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.TextView;
 import com.gogaworm.easyjlpt.R;
+import com.gogaworm.easyjlpt.game.GameVariant;
 import com.gogaworm.easyjlpt.utils.KanjiKanaSpannableString;
 import com.gogaworm.easyjlpt.utils.UnitedKanjiKanaSpannableString;
+
+import static android.text.TextUtils.isEmpty;
 
 /**
  * Created on 03.04.2017.
@@ -20,6 +22,8 @@ public class AnswerButton extends FrameLayout {
     private KanjiKanaView headerView;
     private TextView subHeaderView;
     private View parentView;
+
+    private GameVariant gameVariant;
 
     public AnswerButton(Context context) {
         super(context);
@@ -39,23 +43,37 @@ public class AnswerButton extends FrameLayout {
     private void init(Context context) {
         LayoutInflater.from(context).inflate(R.layout.widget_answer_button, this, true);
         parentView = findViewById(R.id.parentPanel);
-        headerView = (KanjiKanaView) findViewById(R.id.answerJapanese);
-        subHeaderView = (TextView) findViewById(R.id.answerReading);
+        headerView = findViewById(R.id.answerJapanese);
+        subHeaderView = findViewById(R.id.answerReading);
         setClickable(true);
     }
 
     public void setJapanese(CharSequence japanese, CharSequence reading) {
-        if (TextUtils.isEmpty(reading)) {
-            headerView.setText(new UnitedKanjiKanaSpannableString(japanese));
+        if (isEmpty(reading) && isEmpty(japanese)) {
+            headerView.setVisibility(GONE);
         } else {
-            headerView.setText(new KanjiKanaSpannableString(japanese.toString(), reading.toString()));
+            if (!isEmpty(reading) && !isEmpty(japanese)) {
+                headerView.setText(new KanjiKanaSpannableString(japanese.toString(), reading.toString()));
+            } else if (!isEmpty(reading)) {
+                headerView.setText(reading);
+            } else if (!isEmpty(japanese)) {
+                headerView.setText(new UnitedKanjiKanaSpannableString(japanese));
+            }
+            headerView.setVisibility(VISIBLE);
         }
-        headerView.setVisibility(VISIBLE);
     }
 
     public void setTranslation(String translation) {
-        subHeaderView.setText(translation);
-        subHeaderView.setVisibility(VISIBLE);
+        if (isEmpty(translation)) {
+            subHeaderView.setVisibility(GONE);
+        } else {
+            subHeaderView.setText(translation);
+            subHeaderView.setVisibility(VISIBLE);
+        }
+    }
+
+    public GameVariant getVariant() {
+        return gameVariant;
     }
 
     public void reset() {
@@ -83,4 +101,9 @@ public class AnswerButton extends FrameLayout {
         parentView.setPadding(paddingLeft, paddingTop, paddingRight, paddingBottom);
     }
 
+    public void setVariant(GameVariant variant) {
+        this.gameVariant = variant;
+        setJapanese(gameVariant.getJapanese(), gameVariant.getReading());
+        setTranslation(gameVariant.getTranslation());
+    }
 }

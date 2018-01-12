@@ -11,10 +11,35 @@ import android.os.Parcelable;
 public class UserSession implements Parcelable {
     public JlptSection section;
     public JlptLevel level;
+    private int lessonId;
+    enum LessonType {LESSON, EXAM, FINAL_EXAM}
+    private LessonType lessonType;
+
+    public UserSession() {
+    }
 
     public UserSession(JlptSection section, JlptLevel level) {
         this.section = section;
         this.level = level;
+    }
+
+    public void setLessonId(int id) {
+        lessonId = id;
+        lessonType = LessonType.LESSON;
+    }
+
+    public void setExamId(int id) {
+        lessonId = id;
+        lessonType = LessonType.EXAM;
+    }
+
+    public void setFinalExamId(int id) {
+        lessonId = id;
+        lessonType = LessonType.FINAL_EXAM;
+    }
+
+    public int getLessonId() {
+        return lessonType == LessonType.LESSON ? lessonId : 0;
     }
 
     public String getFolder() {

@@ -1,0 +1,254 @@
+﻿{
+	"words": [
+	{
+		"japanese": "親指",
+		"reading": "おやゆび",
+		"translation": "большой палец"
+	},
+	{
+		"japanese": "人差し指",
+		"reading": "ひとさしゆび",
+		"translation": "указательный палец"
+	},
+	{
+		"japanese": "中指",
+		"reading": "なかゆび",
+		"translation": "средний палец"
+	},
+	{
+		"japanese": "薬指",
+		"reading": "くすりゆび",
+		"translation": "безымянный палец"
+	},
+	{
+		"japanese": "小指",
+		"reading": "こゆび",
+		"translation": "мизинец"
+	},
+	{
+		"japanese": "手首",
+		"reading": "てくび",
+		"translation": "кисть"
+	},
+	{
+		"japanese": "ひじ",
+		"reading": "",
+		"translation": "локоть"
+	},
+	{
+		"japanese": "ひざ",
+		"reading": "",
+		"translation": "колено"
+	},
+	{
+		"japanese": "かかと",
+		"reading": "",
+		"translation": "пятка, каблук"
+	},
+	{
+		"japanese": "つま先",
+		"reading": "つまさき",
+		"translation": "палец ноги"
+	},
+	{
+		"japanese": "裸足",
+		"reading": "はだし",
+		"translation": "босые ноги"
+	},
+	{
+		"japanese": "医師の診察を受ける",
+		"reading": "いしのしんさつをうける",
+		"translation": "консультироваться у врача"
+	},
+	{
+		"japanese": "早めに医者にかかる",
+		"reading": "はやめにいしゃにかかる",
+		"translation": "идти к врачу пока не стало хуже"
+	},
+	{
+		"japanese": "血圧が高い",
+		"reading": "けつあつがたかい",
+		"translation": "высокое кровяное давление"
+	},
+	{
+		"japanese": "血圧が低い",
+		"reading": "けつあつがひくい",
+		"translation": "низкое кровяное давление"
+	},
+	{
+		"japanese": "病気の症状",
+		"reading": "びょうきのしょうじょう",
+		"translation": "симптомы болезни"
+	},
+	{
+		"japanese": "症状が治まる",
+		"reading": "しょうじょうがおさまる",
+		"translation": "состояние улучшается"
+	},
+	{
+		"japanese": "顔色が悪い",
+		"reading": "かおいろがわるい",
+		"translation": "плохо выглядеть (болезненно)"
+	},
+	{
+		"japanese": "顔が真っ青だ",
+		"reading": "かおがまっさおだ",
+		"translation": "выглядеть очень бледным"
+	},
+	{
+		"japanese": "体の具合が悪い",
+		"reading": "からだのぐあいがわるい",
+		"translation": "чувствовать себя плохо"
+	},
+	{
+		"japanese": "吐き気がする",
+		"reading": "はききがする",
+		"translation": "чувствовать тошноту"
+	},
+	{
+		"japanese": "吐く",
+		"reading": "はく",
+		"translation": "рвать, тошнить"
+	},
+	{
+		"japanese": "頭がぼうっとする",
+		"reading": "あたまがぼうっとする",
+		"translation": "голова кружится"
+	},
+	{
+		"japanese": "熱中症",
+		"reading": "ねっちゅうしょう",
+		"translation": "тепловой удар"
+	},
+	{
+		"japanese": "体に熱がこもる",
+		"reading": "からだにねつがこもる",
+		"translation": "лихорадить"
+	},
+	{
+		"japanese": "家にこもる",
+		"reading": "いえにこもる",
+		"translation": "отказываться выходить из дома"
+	},
+	{
+		"japanese": "体がだるい",
+		"reading": "からだがだるい",
+		"translation": "чувствовать вялость, слабость"
+	},
+	{
+		"japanese": "肩がこる",
+		"reading": "かたがこる",
+		"translation": "плечи сковало"
+	},
+	{
+		"japanese": "肩をもむ",
+		"reading": "かたをもむ",
+		"translation": "массажировать плечи"
+	},
+	{
+		"japanese": "ストレスがたまる",
+		"reading": "",
+		"translation": "быть в стрессе"
+	},
+	{
+		"japanese": "痛みをこらえる",
+		"reading": "いたみをこらえる",
+		"translation": "терпеть боль"
+	},
+	{
+		"japanese": "痛みをがまんする",
+		"reading": "いたみをがまんする",
+		"translation": "терпеть боль"
+	},
+	{
+		"japanese": "痛みに耐える",
+		"reading": "いたみにたえる",
+		"translation": "терпеть боль"
+	},
+	{
+		"japanese": "悲しみをこらえる",
+		"reading": "かなしみをこらえる",
+		"translation": "сдерживать грусть"
+	},
+	{
+		"japanese": "悲しみに耐える",
+		"reading": "かなしみにたえる",
+		"translation": "сдерживать грусть"
+	},
+	{
+		"japanese": "肌が荒れる",
+		"reading": "はだがあれる",
+		"translation": "кожа огрубела"
+	},
+	{
+		"japanese": "肌のつやがいい",
+		"reading": "はだのつやがいい",
+		"translation": "гладкая кожа"
+	},
+	{
+		"japanese": "体がかゆい",
+		"reading": "からだがかゆい",
+		"translation": "тело чешется"
+	},
+	{
+		"japanese": "体をかく",
+		"reading": "からだをかく",
+		"translation": "чесать тело"
+	},
+	{
+		"japanese": "湿疹ができる",
+		"reading": "しっしんができる",
+		"translation": "болеть экземой"
+	},
+	{
+		"japanese": "アレルギーがある",
+		"reading": "",
+		"translation": "иметь аллергию"
+	},
+	{
+		"japanese": "花粉症で鼻がつまる",
+		"reading": "かふんしょうではながつまる",
+		"translation": "нос забит из-за сенной лихорадки"
+	},
+	{
+		"japanese": "虫歯になる",
+		"reading": "むしばになる",
+		"translation": "появился кариес"
+	},
+	{
+		"japanese": "真っ白な歯",
+		"reading": "まっしろなは",
+		"translation": "белые зубы"
+	},
+	{
+		"japanese": "リハビリをする",
+		"reading": "",
+		"translation": "реабилитировать, восстановить"
+	},
+	{
+		"japanese": "リハビリを受ける",
+		"reading": "リハビリをうける",
+		"translation": "проходить реабилитацию"
+	},
+	{
+		"japanese": "傷口がふさがる",
+		"reading": "きずぐちがふさがる",
+		"translation": "раны заживают"
+	},
+	{
+		"japanese": "レントゲンを撮る",
+		"reading": "レントゲンをとる",
+		"translation": "делать рентген"
+	},
+	{
+		"japanese": "手術の傷あとが痛む",
+		"reading": "しゅじゅつのきずあとがいたむ",
+		"translation": "болит шрам после операции"
+	},
+	{
+		"japanese": "癌で死亡する",
+		"reading": "がんでしぼうする",
+		"translation": "умереть от рака"
+	}
+	]
+}

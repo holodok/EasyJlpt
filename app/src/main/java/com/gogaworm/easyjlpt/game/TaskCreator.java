@@ -12,7 +12,7 @@ import java.util.List;
  * @author ikarpova
  */
 public class TaskCreator {
-    private List<Task> tasks = new ArrayList<>();
+    private List<WordTask> tasks = new ArrayList<>();
 
     public void addWords(List<Word> words) {
         for (Word word : words) {
@@ -20,7 +20,7 @@ public class TaskCreator {
         }
     }
 
-    public List<Task> generateLearnSession() {
+    public List<WordTask> generateLearnSession() {
         Collections.shuffle(tasks);
         return tasks;
     }

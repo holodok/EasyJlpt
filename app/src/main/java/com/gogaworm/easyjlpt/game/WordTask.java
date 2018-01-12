@@ -8,6 +8,8 @@ import com.gogaworm.easyjlpt.data.Word;
  * @author ikarpova
  */
 public class WordTask extends Task<Word> {
+    public int currentGame;
+
     public WordTask(Word word) {
         value = word;
     }

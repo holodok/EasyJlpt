@@ -25,4 +25,12 @@
     <string name="title_flash_cards">Осталось %d</string>
     <string name="menu_grammar_dictionary">Грамматический справочник</string>
     <string name="messageLoading">Загрузка...</string>
+    <string name="label_study_time">Время обучения:</string>
+    <string name="label_study_word_count">Выучено слов:</string>
+    <string name="title_done">Готово</string>
+    <string name="title_results">Результаты</string>
+    <string name="label_learn_status_excellent">Отлично!</string>
+    <string name="label_answer_correct">Верно!</string>
+    <string name="label_answer_incorrect">Неверно!</string>
+    <string name="value_study_time">%1$d мин %2$d сек</string>
 </resources>

@@ -1,0 +1,120 @@
+﻿{
+  "sentences":[
+  {
+	"id" : 1,
+    "japanese": "|肩-かた|を＿あげましょう。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "こって"
+	},
+	{
+		"japanese": "もんで"
+	}],
+	"correct": 2
+  },
+  {
+	"id" : 2,
+    "japanese": "|蚊-か|にさされたところが＿。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "かゆい"
+	},
+	{
+		"japanese": "だるい"
+	}],
+	"correct": 1
+  },
+  {
+	"id" : 3,
+    "japanese": "|階-かい||段-だん|を|降-お|りるとき、＿が|痛-いた|む。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "ひざ"
+	},
+	{
+		"japanese": "ひじ"
+	}],
+	"correct": 1
+  },
+  {
+	"id" : 4,
+    "japanese": "＿のせいか、|目-め|がとてもかゆい。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "|熱-ねっ||中-ちゅう||症-しょう|"
+	},
+	{
+		"japanese": "|花-か||粉-ふん||症-しょう|"
+	}],
+	"correct": 2
+  },
+  {
+	"id" : 5,
+    "japanese": "|風-か||邪-ぜ|をひいたのか、＿。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "|鼻-はな|がつまる"
+	},
+	{
+		"japanese": "ストレスがたまる"
+	}],
+	"correct": 1
+  },
+  {
+	"id" : 6,
+    "japanese": "|薬-くすり|が|効-き|いたようで、だんだん|痛-いた|みが＿きた。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "こらえて"
+	},
+	{
+		"japanese": "おさまって"
+	}],
+	"correct": 2
+  },
+  {
+	"id" : 7,
+    "japanese": "|医-い||師-し|にどんな＿なのか|聞-き|かれた。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "|症-しょう||状-じょう|"
+	},
+	{
+		"japanese": "|診-しん||察-さつ|"
+	},
+	{
+		"japanese": "|診-しん||断-だん|"
+	},
+	{
+		"japanese": "|健-けん||康-こう|"
+	}],
+	"correct": 1
+  },
+  {
+	"id" : 8,
+    "japanese": "|手-しゅ||術-じゅつ|をしたところの|傷-きず||口-ぐち|がちゃんと＿いる。",
+	"translation": "",
+	"answers": [
+	{
+		"japanese": "こもって"
+	},
+	{
+		"japanese": "こらえて"
+	},
+	{
+		"japanese": "ふさがって"
+	},
+	{
+		"japanese": "こって"
+	}],
+	"correct": 3
+  }
+  ]
+}
