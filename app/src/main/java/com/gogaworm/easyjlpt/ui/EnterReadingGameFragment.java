@@ -31,10 +31,10 @@ public class EnterReadingGameFragment extends WordGameFragment {
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View parentView = inflater.inflate(R.layout.fragment_enter_reading, container, false);
-        questionView = (TextView) parentView.findViewById(R.id.question);
-        japaneseView = (TextView) parentView.findViewById(R.id.japanese);
-        readingView = (EnterKanaView) parentView.findViewById(R.id.reading);
-        keyboardView = (KeyboardView) parentView.findViewById(R.id.keyboard);
+        questionView = parentView.findViewById(R.id.question);
+        japaneseView = parentView.findViewById(R.id.japanese);
+        readingView = parentView.findViewById(R.id.reading);
+        keyboardView = parentView.findViewById(R.id.keyboard);
         keyboardView.setOnKeyPressedListener(readingView);
 
         try {

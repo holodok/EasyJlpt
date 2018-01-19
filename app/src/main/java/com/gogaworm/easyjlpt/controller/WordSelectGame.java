@@ -25,20 +25,6 @@ public abstract class WordSelectGame extends Game<WordTask> {
         return variantsGenerator.generateVariants(tasks, task, this, variants);
     }
 
-    public abstract String getQuestion(Context context);
-
-    public String getJapanese() {
-        return null;
-    }
-
-    public String  getReading() {
-        return null;
-    }
-
-    public String getTranslation() {
-        return null;
-    }
-
     public GameVariant[] getVariants() {
         return variants;
     }

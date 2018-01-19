@@ -1,5 +1,6 @@
 package com.gogaworm.easyjlpt.controller;
 
+import android.content.Context;
 import com.gogaworm.easyjlpt.game.GameVariant;
 import com.gogaworm.easyjlpt.game.Task;
 
@@ -29,6 +30,20 @@ public abstract class Game<T extends Task> {
         this.task = task;
 
         return true;
+    }
+
+    public abstract String getQuestion(Context context);
+
+    public String getJapanese() {
+        return null;
+    }
+
+    public String  getReading() {
+        return null;
+    }
+
+    public String getTranslation() {
+        return null;
     }
 
     public void userAnswered(GameVariant answer) {

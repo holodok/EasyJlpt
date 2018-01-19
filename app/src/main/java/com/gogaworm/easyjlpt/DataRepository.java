@@ -23,7 +23,7 @@ public class DataRepository {
         this.database = database;
 
         userSession = new UserSession(JlptSection.VOCABULARY, JlptLevel.N2);
-        userSession.setLessonId(211); //todo: this should be set by user //todo: load from previous session
+        userSession.setLessonId(212); //todo: this should be set by user //todo: load from previous session
 /*
         mObservableProducts = new MediatorLiveData<>();
 

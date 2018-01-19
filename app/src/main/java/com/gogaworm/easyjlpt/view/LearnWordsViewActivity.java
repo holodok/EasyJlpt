@@ -14,6 +14,7 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import com.daimajia.numberprogressbar.NumberProgressBar;
 import com.gogaworm.easyjlpt.R;
+import com.gogaworm.easyjlpt.controller.FlashCardGame;
 import com.gogaworm.easyjlpt.controller.Game;
 import com.gogaworm.easyjlpt.controller.StudyResults;
 import com.gogaworm.easyjlpt.controller.WordSelectGame;
@@ -49,13 +50,16 @@ public class LearnWordsViewActivity extends AppCompatActivity {
             @Override
             public void onChanged(@Nullable Game currentGame) {
                 // create proper fragment
-                if (currentGame instanceof WordSelectGame) {
-                    Fragment fragment = new WordSelectGameFragment();
-                    getSupportFragmentManager().beginTransaction().replace(R.id.content, fragment, "GAME").commit();
-                    progressBar.setVisibility(View.GONE);
+                Fragment fragment = null;
+                if (currentGame instanceof FlashCardGame) {
+                    fragment = new FlashCardGameFragment();
+                } else if (currentGame instanceof WordSelectGame) {
+                    fragment = new WordSelectGameFragment();
                 } else {
                     throw new IllegalArgumentException("Game not supported!");
                 }
+                getSupportFragmentManager().beginTransaction().replace(R.id.content, fragment, "GAME").commit();
+                progressBar.setVisibility(View.GONE);
             }
         });
 

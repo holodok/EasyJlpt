@@ -15,10 +15,12 @@ public class WordTaskListViewModel extends UserSessionViewModel {
         super(application);
 
         gameController = new GameController((EasyJlptApplication) getApplication());
-        //gameController.addGame(new SelectTranslationByReadingGame());
-        //gameController.addGame(new SelectTranslationByKanjiGame());
-        //gameController.addGame(new SelectReadingByKanjiGame());
+        gameController.addGame(new FlashCardGame());
+        gameController.addGame(new SelectTranslationByReadingGame());
+        gameController.addGame(new SelectTranslationByKanjiGame());
+        gameController.addGame(new SelectReadingByKanjiGame());
         gameController.addGame(new SelectKanjiByReadingGame());
+        gameController.addGame(new SelectKanjiByTranslationGame());
     }
 
     public void startGame() {
