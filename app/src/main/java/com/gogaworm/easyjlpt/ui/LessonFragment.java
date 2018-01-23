@@ -16,6 +16,7 @@ import com.gogaworm.easyjlpt.data.UserSession;
 import com.gogaworm.easyjlpt.loaders.LoaderFactory;
 import com.gogaworm.easyjlpt.ui.widgets.ArcProgress;
 import com.gogaworm.easyjlpt.utils.UnitedKanjiKanaSpannableString;
+import com.gogaworm.easyjlpt.view.LearnWordsViewActivity;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -99,10 +100,10 @@ public class LessonFragment extends RecyclerViewFragment<Lesson, Lesson> {
 
             LessonViewHolder(View view) {
                 super(view);
-                progressView = (ArcProgress) view.findViewById(R.id.progress);
-                kanjiView = (TextView) view.findViewById(R.id.kanjiView);
-                translationView = (TextView) view.findViewById(R.id.translation);
-                viewButton = (ImageButton) view.findViewById(R.id.viewButton);
+                progressView = view.findViewById(R.id.progress);
+                kanjiView = view.findViewById(R.id.kanjiView);
+                translationView = view.findViewById(R.id.translation);
+                viewButton = view.findViewById(R.id.viewButton);
                 flashCardsButton = view.findViewById(R.id.flashCardButton);
                 learnButton = view.findViewById(R.id.learnButton);
                 examButton = view.findViewById(R.id.examButton);
@@ -130,7 +131,10 @@ public class LessonFragment extends RecyclerViewFragment<Lesson, Lesson> {
                 learnButton.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        startNextActivity(LearnLessonActivity.class, lesson);
+                        Intent intent = new Intent(getContext(), LearnWordsViewActivity.class);
+                        userSession.setLessonId(lesson.trainId);
+                        intent.putExtra("userSession", userSession);
+                        startActivity(intent);
                     }
                 });
                 examButton.setOnClickListener(new View.OnClickListener() {

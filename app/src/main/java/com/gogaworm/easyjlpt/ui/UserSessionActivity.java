@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
+import android.view.View;
 import com.gogaworm.easyjlpt.R;
 import com.gogaworm.easyjlpt.data.UserSession;
 
@@ -21,6 +22,8 @@ public class UserSessionActivity extends AppCompatActivity {
         setContentView(getContentViewResId());
 
         userSession = getIntent().getParcelableExtra("userSession");
+
+        findViewById(R.id.progress).setVisibility(View.GONE);
     }
 
     protected int getContentViewResId() {

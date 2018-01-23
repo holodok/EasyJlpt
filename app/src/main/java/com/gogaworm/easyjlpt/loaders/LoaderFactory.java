@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.v4.content.Loader;
 import com.gogaworm.easyjlpt.data.JlptLevel;
 import com.gogaworm.easyjlpt.data.JlptSection;
+import com.gogaworm.easyjlpt.data.UserSession;
 
 /**
  * Created on 30.08.2017.
@@ -55,6 +56,18 @@ public class LoaderFactory {
                 return new KanjiWordListLoader(context, section, jlptLevel, lessonId);
             case GRAMMAR:
                 return new GrammarWordListLoader(context, section, jlptLevel, lessonId);
+        }
+        return null;
+    }
+
+    public static WordListLoader getLearnListLoader(Context context, UserSession userSession) {
+        switch (userSession.section) {
+            case VOCABULARY:
+                return new WordListLoader(context, userSession.section, userSession.level, userSession.getLessonId());
+            case KANJI:
+                return new KanjiWordListLoader(context, userSession.section, userSession.level, userSession.getLessonId());
+            case GRAMMAR:
+                return new GrammarWordListLoader(context, userSession.section, userSession.level, userSession.getLessonId());
         }
         return null;
     }

@@ -13,9 +13,12 @@ import com.gogaworm.easyjlpt.game.GameVariant;
 import com.gogaworm.easyjlpt.game.Task;
 import com.gogaworm.easyjlpt.game.TaskCreator;
 import com.gogaworm.easyjlpt.game.WordTask;
+import com.gogaworm.easyjlpt.loaders.LoaderFactory;
 import com.gogaworm.easyjlpt.loaders.WordListLoader;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 
 public class GameController {
     private MutableLiveData<Game> currentGame;
@@ -55,9 +58,9 @@ public class GameController {
     }
 
     //background
-    public void createGame(Context context) { //used for reading from the assets, possibly should be changed
-        final UserSession userSession = repository.getUserSession();
-        final WordListLoader loader = new WordListLoader(context, userSession.section, userSession.level, userSession.getLessonId());
+    public void createGame(Context context, UserSession userSession) { //used for reading from the assets, possibly should be changed
+        //final UserSession userSession = repository.getUserSession();
+        final WordListLoader loader = LoaderFactory.getLearnListLoader(context, userSession);
 
         new AsyncTask<Void, Void, List<WordTask>>() {
 

@@ -49,6 +49,11 @@ public class UserSession implements Parcelable {
     private UserSession(Parcel in) {
         section = JlptSection.valueOf(in.readString());
         level = JlptLevel.valueOf(in.readString());
+        lessonId = in.readInt();
+        int lessonTypeIndex = in.readInt();
+        if (lessonTypeIndex >= 0) {
+            lessonType = LessonType.values()[lessonTypeIndex];
+        }
     }
 
     public static final Creator<UserSession> CREATOR = new Creator<UserSession>() {
@@ -72,5 +77,7 @@ public class UserSession implements Parcelable {
     public void writeToParcel(Parcel dest, int flags) {
         dest.writeString(section.toString());
         dest.writeString(level.toString());
+        dest.writeInt(lessonId);
+        dest.writeInt(lessonType == null ? -1 : lessonType.ordinal());
     }
 }

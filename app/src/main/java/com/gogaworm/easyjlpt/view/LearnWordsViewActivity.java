@@ -18,6 +18,7 @@ import com.gogaworm.easyjlpt.controller.FlashCardGame;
 import com.gogaworm.easyjlpt.controller.Game;
 import com.gogaworm.easyjlpt.controller.StudyResults;
 import com.gogaworm.easyjlpt.controller.WordSelectGame;
+import com.gogaworm.easyjlpt.data.UserSession;
 import com.gogaworm.easyjlpt.model.WordTaskListViewModel;
 import com.gogaworm.easyjlpt.ui.WordLearnGameResultsFragment;
 
@@ -43,8 +44,9 @@ public class LearnWordsViewActivity extends AppCompatActivity {
         title = actionBarView.findViewById(R.id.title);
         titleProgress = actionBarView.findViewById(R.id.studyProgress);
 
+        UserSession userSession = getIntent().getParcelableExtra("userSession");
         WordTaskListViewModel wordTaskListViewModel = ViewModelProviders.of(this).get(WordTaskListViewModel.class);
-        wordTaskListViewModel.startGame();
+        wordTaskListViewModel.startGame(userSession);
 
         wordTaskListViewModel.getCurrentGame().observe(this, new Observer<Game>() {
             @Override

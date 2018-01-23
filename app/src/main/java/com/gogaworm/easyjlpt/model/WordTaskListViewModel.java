@@ -23,8 +23,8 @@ public class WordTaskListViewModel extends UserSessionViewModel {
         gameController.addGame(new SelectKanjiByTranslationGame());
     }
 
-    public void startGame() {
-        gameController.createGame(getApplication());
+    public void startGame(UserSession userSession) {
+        gameController.createGame(getApplication(), userSession);
     }
 
     @Override
