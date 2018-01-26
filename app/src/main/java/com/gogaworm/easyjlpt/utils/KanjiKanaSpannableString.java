@@ -68,7 +68,7 @@ public class KanjiKanaSpannableString extends SpannableString {
     }
 
     private boolean isSeparator(char ch) {
-        return Character.isDigit(ch) || Character.isSpaceChar(ch) || Character.isWhitespace(ch) || ch == '・' || ch == 'っ';
+        return Character.isDigit(ch) || Character.isSpaceChar(ch) || Character.isWhitespace(ch) || ch == '・' || ch == 'を';
     }
 
     public static class KanjiSpan extends ReplacementSpan implements LineHeightSpan {
