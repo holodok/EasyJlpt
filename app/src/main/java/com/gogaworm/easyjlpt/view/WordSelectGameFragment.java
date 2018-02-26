@@ -90,7 +90,8 @@ public class WordSelectGameFragment extends Fragment {
 
     private void onGameChanged(WordSelectGame game) {
         questionView.setText(game.getQuestion(getContext()));
-        japaneseView.setText(game.getJapanese(), game.getReading());
+        CharSequence reading = game.getReading(getContext());
+        japaneseView.setText(game.getJapanese(), reading == null ? null : reading.toString());
         translationView.setText(game.getTranslation());
         submitButton.setVisibility(game.isAnswered() ? VISIBLE : GONE);
         separatorView.setVisibility(translationView.getText().length() > 0 ? VISIBLE : GONE);

@@ -2,6 +2,7 @@ package com.gogaworm.easyjlpt.controller;
 
 import android.content.Context;
 import com.gogaworm.easyjlpt.R;
+import com.gogaworm.easyjlpt.data.Kanji;
 import com.gogaworm.easyjlpt.game.GameVariant;
 import com.gogaworm.easyjlpt.game.WordTask;
 
@@ -31,7 +32,9 @@ public class SelectTranslationByKanjiGame extends WordSelectGame {
 
     @Override
     public String getQuestion(Context context) {
-        return context.getString(isAnswered ? (isAnswerCorrect() ? R.string.label_answer_correct : R.string.label_answer_incorrect) : R.string.label_can_you_translate);
+        return context.getString(isAnswered ?
+                (isAnswerCorrect() ? R.string.label_answer_correct : R.string.label_answer_incorrect) :
+                (task.value instanceof Kanji ? R.string.label_do_you_know_kanji :  R.string.label_can_you_translate));
     }
 
     @Override
@@ -40,7 +43,7 @@ public class SelectTranslationByKanjiGame extends WordSelectGame {
     }
 
     @Override
-    public String getReading() {
+    public CharSequence getReading(Context context) {
         return isAnswered ? task.value.reading : null;
     }
 }

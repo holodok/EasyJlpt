@@ -2,6 +2,8 @@ package com.gogaworm.easyjlpt.controller;
 
 import android.content.Context;
 import com.gogaworm.easyjlpt.R;
+import com.gogaworm.easyjlpt.data.Kanji;
+import com.gogaworm.easyjlpt.data.Word;
 import com.gogaworm.easyjlpt.game.GameVariant;
 import com.gogaworm.easyjlpt.game.WordTask;
 
@@ -26,7 +28,7 @@ public class SelectTranslationByReadingGame extends WordSelectGame {
 
     @Override
     public boolean isTaskValidForGame(WordTask wordTask) {
-        return true;
+        return !(wordTask.value instanceof Kanji);
     }
 
     @Override

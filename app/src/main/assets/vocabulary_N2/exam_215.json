@@ -2,145 +2,117 @@
   "sentences":[
   {
 	"id" : 1,
-    "japanese": "この自転車は古いので_と変な音がある。",
-    "reading": "このじてんしゃはふるいので_とへんなおとがある。",
+    "japanese": "この|自-じ||転-てん||車-しゃ|は|古-ふる|いので_と|変-へん|な|音-おと|がある。",
 	"translation": "Этот велосипед уже старый, поэтому когда крутишь педали появляется странный звук.",
 	"answers": [
 	{
-		"japanese": "かく",
-		"reading": ""
+		"japanese": "かく"
 	},
 	{
-		"japanese": "こぐ",
-		"reading": ""
+		"japanese": "こぐ"
 	}],
 	"correct": 2
   },
   {
 	"id" : 2,
-    "japanese": "泥棒が_。",
-    "reading": "どろぼうが_。",
+    "japanese": "|泥-どろ||棒-ぼう|が_。",
 	"translation": "Вор был пойман.",
 	"answers": [
 	{
-		"japanese": "つかまれた",
-		"reading": ""
+		"japanese": "つかまれた"
 	},
 	{
-		"japanese": "つかまえられた",
-		"reading": ""
+		"japanese": "つかまえられた"
 	}],
 	"correct": 2
   },
   {
 	"id" : 3,
-    "japanese": "電気が消えて_になった。",
-    "reading": "でんきがきえて_になった。",
+    "japanese": "|電-でん||気-き|が|消-き|えて_になった。",
 	"translation": "Свет выключился и стало темно.",
 	"answers": [
 	{
-		"japanese": "真っ暗",
-		"reading": "まっくら"
+		"japanese": "|真-ま|っ|暗-くら|"
 	},
 	{
-		"japanese": "真っ黒",
-		"reading": "まっくろ"
+		"japanese": "|真-ま|っ|黒-くろ|"
 	}],
 	"correct": 1
   },
   {
 	"id" : 4,
-    "japanese": "「あ！大変だ！あそこで子どもが_。」",
-    "reading": "「あ！たいへんだ！あそこでこどもが_。」",
+    "japanese": "「あ！|大-たい||変-へん|だ！あそこで|子-こ|どもが_。」",
 	"translation": "А! Какой ужас! Там ребенок тонет.",
 	"answers": [
 	{
-		"japanese": "もぐっている",
-		"reading": ""
+		"japanese": "もぐっている"
 	},
 	{
-		"japanese": "おぼれている",
-		"reading": ""
+		"japanese": "おぼれている"
 	}],
 	"correct": 2
   },
   {
 	"id" : 5,
-    "japanese": "食べてみたら、_。",
-    "reading": "たべてみたら、_。",
+    "japanese": "|食-た|べてみたら、_。",
 	"translation": "Когда я попробовал, было невкусно.",
 	"answers": [
 	{
-		"japanese": "まずかった",
-		"reading": ""
+		"japanese": "まずかった"
 	},
 	{
-		"japanese": "うまそうだった",
-		"reading": ""
+		"japanese": "うまそうだった"
 	}],
 	"correct": 1
   },
   {
 	"id" : 6,
-    "japanese": "祖父が振り込め詐欺に_しまった。",
-    "reading": "そふがふりこめさぎに_しまった。",
+    "japanese": "|祖-そ||父-ふ|が|振-ふ|り|込-こ|め|詐-さ||欺-ぎ|に_しまった。",
 	"translation": "Дедушку развели на денежный перевод.",
 	"answers": [
 	{
-		"japanese": "引っかけて",
-		"reading": "ひっかけて"
+		"japanese": "|引-ひ|っかけて"
 	},
 	{
-		"japanese": "引っかかって",
-		"reading": "ひっかかって"
+		"japanese": "|引-ひ|っかかって"
 	}],
 	"correct": 2
   },
   {
 	"id" : 7,
-    "japanese": "その犬にあまり_とかまれるよ。",
-    "reading": "そのいぬにあまり_とかまれるよ。",
+    "japanese": "その|犬-いぬ|にあまり_とかまれるよ。",
 	"translation": "Если слишком приблизится к собаке, укусит.",
 	"answers": [
 	{
-		"japanese": "近づける",
-		"reading": "ちかづける"
+		"japanese": "|近-ちか|づける"
 	},
 	{
-		"japanese": "近寄る",
-		"reading": "ちかよる"
+		"japanese": "|近-ちか||寄-よ|る"
 	},
 	{
-		"japanese": "あばれる",
-		"reading": ""
+		"japanese": "あばれる"
 	},
 	{
-		"japanese": "つかまる",
-		"reading": ""
+		"japanese": "つかまる"
 	}],
 	"correct": 2
   },
   {
 	"id" : 8,
     "japanese": "コーヒーカップを_しまった。",
-    "reading": "",
 	"translation": "Я перевернул чашку с кофе, блин.",
 	"answers": [
 	{
-		"japanese": "はずして",
-		"reading": ""
+		"japanese": "はずして"
 	},
 	{
-		"japanese": "おぼれて",
-		"reading": ""
+		"japanese": "おぼれて"
 	},
 	{
-		"japanese": "引っかかって",
-		"reading": "ひっかかって"
+		"japanese": "|引-ひ|っかかって"
 	},
 	{
-		"japanese": "ひっくり返して",
-		"reading": "ひっくりかえして"
+		"japanese": "ひっくり|返-かえ|して"
 	}],
 	"correct": 4
   }

@@ -35,7 +35,7 @@ public class SelectKanjiByReadingGame extends WordSelectGame {
     }
 
     @Override
-    public String getReading() {
+    public CharSequence getReading(Context context) {
         return task.value.reading;
     }
 

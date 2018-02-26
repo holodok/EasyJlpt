@@ -39,7 +39,7 @@ public class SelectKanjiByTranslationGame extends WordSelectGame {
     }
 
     @Override
-    public String getReading() {
+    public CharSequence getReading(Context context) {
         return isAnswered ? task.value.reading : null;
     }
 }

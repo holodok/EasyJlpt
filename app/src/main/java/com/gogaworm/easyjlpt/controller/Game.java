@@ -38,7 +38,7 @@ public abstract class Game<T extends Task> {
         return null;
     }
 
-    public String  getReading() {
+    public CharSequence  getReading(Context context) {
         return null;
     }
 

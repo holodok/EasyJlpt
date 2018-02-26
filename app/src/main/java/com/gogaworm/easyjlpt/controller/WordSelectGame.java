@@ -49,7 +49,7 @@ public abstract class WordSelectGame extends Game<WordTask> {
             int variantIndex = 0;
             for (int i = 0; i < cache.size() && variantIndex < variants.length; i++) {
                 WordTask currentTask = cache.get(i);
-                if (game.isTaskValidForGame(currentTask) && !equals(task.value, currentTask.value)
+                if (game.isTaskValidForGame(currentTask) && !equals(task.value, currentTask.value) && task.value.getClass().equals(currentTask.value.getClass())
                         && !hasVariant(variants, variantIndex, currentTask.value)) { //not found
                     variants[variantIndex++].set(currentTask.value.japanese, currentTask.value.reading, currentTask.value.translation);
                 }

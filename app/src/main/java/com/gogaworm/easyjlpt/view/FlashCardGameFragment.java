@@ -15,14 +15,13 @@ import com.gogaworm.easyjlpt.controller.Game;
 import com.gogaworm.easyjlpt.model.WordTaskListViewModel;
 
 public class FlashCardGameFragment extends Fragment {
+    private TextView questionView;
     private TextView japaneseView;
     private TextView readingView;
     private TextView translationView;
+    private View submitButton;
 
     private WordTaskListViewModel wordTaskListViewModel;
-
-    private TextView questionView;
-    private View submitButton;
 
     @Nullable
     @Override
@@ -54,7 +53,7 @@ public class FlashCardGameFragment extends Fragment {
     private void onGameChanged(final FlashCardGame game) {
         questionView.setText(game.getQuestion(getContext()));
         japaneseView.setText(game.getJapanese());
-        readingView.setText(game.getReading());
+        readingView.setText(game.getReading(getContext()), TextView.BufferType.SPANNABLE);
         translationView.setText(game.getTranslation());
 
         submitButton.setOnClickListener(new View.OnClickListener() {

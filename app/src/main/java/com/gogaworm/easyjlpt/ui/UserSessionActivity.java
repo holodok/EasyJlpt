@@ -23,7 +23,8 @@ public class UserSessionActivity extends AppCompatActivity {
 
         userSession = getIntent().getParcelableExtra("userSession");
 
-        findViewById(R.id.progress).setVisibility(View.GONE);
+        View progressBar = findViewById(R.id.progress);
+        if (progressBar!= null) progressBar.setVisibility(View.GONE);
     }
 
     protected int getContentViewResId() {

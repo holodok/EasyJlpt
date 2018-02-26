@@ -4,19 +4,16 @@ import android.content.Context;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.content.Loader;
-import android.text.SpannableString;
 import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 import com.gogaworm.easyjlpt.R;
-import com.gogaworm.easyjlpt.data.Kanji;
 import com.gogaworm.easyjlpt.data.Lesson;
 import com.gogaworm.easyjlpt.data.UserSession;
 import com.gogaworm.easyjlpt.data.Word;
 import com.gogaworm.easyjlpt.loaders.LoaderFactory;
-import com.gogaworm.easyjlpt.ui.widgets.rcbs.RoundedCornersBackgroundSpan;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -24,6 +21,7 @@ import java.util.List;
 import static android.view.View.GONE;
 import static android.view.View.VISIBLE;
 import static com.gogaworm.easyjlpt.utils.Constants.LOADER_ID_WORD_LIST;
+import static com.gogaworm.easyjlpt.utils.KanjiUtils.getReading;
 
 /**
  * Created on 05.07.2017.
@@ -104,42 +102,19 @@ public class WordListFragment extends RecyclerViewFragment<Word, Word> {
 
             WordViewHolder(View view) {
                 super(view);
-                kanjiView = (TextView) view.findViewById(R.id.kanjiView);
-                readingView = (TextView) view.findViewById(R.id.readingView);
-                translationView = (TextView) view.findViewById(R.id.translation);
-                positionView = (TextView) view.findViewById(R.id.position);
+                kanjiView = view.findViewById(R.id.kanjiView);
+                readingView = view.findViewById(R.id.readingView);
+                translationView = view.findViewById(R.id.translation);
+                positionView = view.findViewById(R.id.position);
             }
 
             @Override
             protected void bindViewHolder(final Context context, int position, final Word value) {
                 kanjiView.setText(value.japanese);
-                if (value instanceof Kanji) {
-                    Kanji kanji = (Kanji) value;
-                    SpannableString reading = new SpannableString(kanji.reading);
-                    if (kanji.hasOnReading()) {
-                        setReadingSpans(reading, kanji.onReading, 0, getResources().getColor(R.color.colorAccent), getResources().getColor(R.color.primaryInvertedText));
-                    }
-                    if (kanji.hasKunReading()) {
-                        int startPosition = kanji.hasOnReading() ? (kanji.onReading.length() + 1) : 0;
-                        setReadingSpans(reading, kanji.kunReading, startPosition, getResources().getColor(R.color.colorPrimary), getResources().getColor(R.color.primaryInvertedText));
-                    }
-                    readingView.setText(reading, TextView.BufferType.SPANNABLE);
-                } else {
-                    readingView.setText(value.reading);
-                }
+                readingView.setText(getReading(context, value), TextView.BufferType.SPANNABLE);
                 readingView.setVisibility(TextUtils.isEmpty(value.reading) ? GONE : VISIBLE);
                 translationView.setText(value.translation);
                 positionView.setText(String.valueOf(position + 1));
-            }
-
-            private void setReadingSpans(SpannableString spannable, String reading, int startPosition, int backgroundColor, int textColor) {
-                String[] readings = reading.split(" ");
-                int position = startPosition;
-                for (String readingPart : readings) {
-                    spannable.setSpan(new RoundedCornersBackgroundSpan(backgroundColor, textColor),
-                            position, position + readingPart.length(), 0);
-                    position += readingPart.length() + 1;
-                }
             }
         }
     }
