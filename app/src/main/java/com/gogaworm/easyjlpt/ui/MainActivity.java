@@ -12,9 +12,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import com.gogaworm.easyjlpt.DataRepository;
+import com.gogaworm.easyjlpt.EasyJlptApplication;
 import com.gogaworm.easyjlpt.R;
 import com.gogaworm.easyjlpt.data.JlptLevel;
 import com.gogaworm.easyjlpt.data.JlptSection;
+import com.gogaworm.easyjlpt.data.Section;
 import com.gogaworm.easyjlpt.data.UserSession;
 
 public class MainActivity extends AppCompatActivity
@@ -24,7 +27,7 @@ public class MainActivity extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
 /*
@@ -38,13 +41,13 @@ public class MainActivity extends AppCompatActivity
         });
 */
 
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        DrawerLayout drawer = findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
         drawer.addDrawerListener(toggle);
         toggle.syncState();
 
-        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
+        NavigationView navigationView = findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
         changeFragment(R.id.nav_vocabulary_n2);
@@ -52,7 +55,7 @@ public class MainActivity extends AppCompatActivity
 
     @Override
     public void onBackPressed() {
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        DrawerLayout drawer = findViewById(R.id.drawer_layout);
         if (drawer.isDrawerOpen(GravityCompat.START)) {
             drawer.closeDrawer(GravityCompat.START);
         } else {
@@ -92,7 +95,7 @@ public class MainActivity extends AppCompatActivity
         } else {
             changeFragment(item.getItemId());
         }
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        DrawerLayout drawer = findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
@@ -101,17 +104,31 @@ public class MainActivity extends AppCompatActivity
         FragmentManager fragmentManager = getSupportFragmentManager();
         Fragment fragment = null;
 
+        DataRepository repository = ((EasyJlptApplication) getApplication()).getRepository();
         switch (resId) {
             case R.id.nav_vocabulary_n2:
-                fragment = UserSessionFragment.setArguments(new SectionFragment(), new UserSession(JlptSection.VOCABULARY, JlptLevel.N2));
+                //todo: change user session globally
+                repository.setJlptSection(JlptSection.VOCABULARY);
+                fragment = new SectionFragment(); //Todo: cache fragments
                 break;
             case R.id.nav_kanji_n2:
-                fragment = UserSessionFragment.setArguments(new SectionFragment(), new UserSession(JlptSection.KANJI, JlptLevel.N2));
+                repository.setJlptSection(JlptSection.KANJI);
+                fragment = new SectionFragment(); //Todo: cache fragments
                 break;
             case R.id.nav_grammar_n2:
-                fragment = UserSessionFragment.setArguments(new SectionFragment(), new UserSession(JlptSection.GRAMMAR, JlptLevel.N2));
+                repository.setJlptSection(JlptSection.GRAMMAR);
+                fragment = new SectionFragment(); //Todo: cache fragments
                 break;
         }
         fragmentManager.beginTransaction().replace(R.id.content, fragment).commit();
+    }
+
+    public void showLessonList(Section section) {
+        DataRepository repository = ((EasyJlptApplication) getApplication()).getRepository();
+        UserSession userSession = repository.userSession;
+        Intent intent = new Intent(this, LessonListActivity.class);
+        intent.putExtra("userSession", userSession);
+        intent.putExtra("section", section);
+        startActivityForResult(intent, 100); //todo: update loader to see the progress
     }
 }

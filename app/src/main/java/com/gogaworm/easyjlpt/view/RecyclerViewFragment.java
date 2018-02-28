@@ -1,9 +1,10 @@
-package com.gogaworm.easyjlpt.ui;
+package com.gogaworm.easyjlpt.view;
 
+import android.arch.lifecycle.Observer;
 import android.content.Context;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.support.v4.content.Loader;
+import android.support.v4.app.Fragment;
 import android.support.v7.widget.DividerItemDecoration;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -11,17 +12,15 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import com.gogaworm.easyjlpt.R;
+import com.gogaworm.easyjlpt.model.ListViewModel;
 
 import java.util.List;
 
-/**
- * Created on 27.03.2017.
- *
- * @author ikarpova
- */
-public abstract class RecyclerViewFragment<V, D> extends UserSessionLoaderFragment<V> {
+public abstract class RecyclerViewFragment<D> extends Fragment {
     private RecyclerView recyclerView;
     private DynamicDataAdapter adapter;
+
+    private ListViewModel<D> viewModel;
 
     @Nullable
     @Override
@@ -41,6 +40,21 @@ public abstract class RecyclerViewFragment<V, D> extends UserSessionLoaderFragme
         return rootView;
     }
 
+    @Override
+    public void onActivityCreated(@Nullable Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+        viewModel = initViewModel();
+        viewModel.init(this);
+        viewModel.getData().observe(this, new Observer<List<D>>() {
+            @Override
+            public void onChanged(@Nullable List<D> sections) {
+                adapter.setData(sections);
+            }
+        });
+    }
+
+    protected abstract ListViewModel<D> initViewModel();
+
     protected void setDividerVisible(boolean visible) {
         if (visible) {
             DividerItemDecoration divider = new DividerItemDecoration(getActivity(), DividerItemDecoration.VERTICAL);
@@ -51,29 +65,13 @@ public abstract class RecyclerViewFragment<V, D> extends UserSessionLoaderFragme
         }
     }
 
-    @Override
-    public void onViewCreated(View view, Bundle savedInstanceState) {
-        super.onViewCreated(view, savedInstanceState);
-        getLoaderManager().initLoader(getLoaderId(), null, this).forceLoad();
-    }
+    protected abstract DynamicDataAdapter createAdapter(Context context);
 
-    @Override
-    public void onLoadFinished(Loader<List<V>> loader, List<V> data) {
-        adapter.setData(data);
-    }
-
-    @Override
-    public void onLoaderReset(Loader<List<V>> loader) {}
-
-    protected abstract int getLoaderId();
-
-    abstract DynamicDataAdapter createAdapter(Context context);
-
-    abstract class DynamicDataAdapter extends RecyclerView.Adapter<DynamicDataAdapter.ViewHolder> {
+    protected abstract class DynamicDataAdapter extends RecyclerView.Adapter<DynamicDataAdapter.ViewHolder> {
         private List<D> dataset;
         private Context context;
 
-        DynamicDataAdapter(Context context) {
+        protected DynamicDataAdapter(Context context) {
             this.context = context;
             dataset = createDataset();
         }
@@ -82,28 +80,26 @@ public abstract class RecyclerViewFragment<V, D> extends UserSessionLoaderFragme
 
         // Replace the contents of a view (invoked by the layout manager)
         @Override
-        public void onBindViewHolder(ViewHolder holder, int position) {
+        public void onBindViewHolder(DynamicDataAdapter.ViewHolder holder, int position) {
             // - get element from your dataset at this position
             // - replace the contents of the view with that element
             holder.bindViewHolder(context, position, dataset.get(position));
         }
 
-        public void setData(List<V> values) {
+        public void setData(List<D> values) {
             dataset.clear();
             if (values != null) {
-                setData(dataset, values);
+                dataset.addAll(values);
             }
             notifyDataSetChanged();
         }
-
-        protected abstract void setData(List<D> dataset, List<V> values);
 
         @Override
         public int getItemCount() {
             return dataset != null ? dataset.size() : 0;
         }
 
-        View inflateView(ViewGroup parent, int layoutId) {
+        protected View inflateView(ViewGroup parent, int layoutId) {
             return LayoutInflater.from(context).inflate(layoutId, parent, false);
         }
 
@@ -115,8 +111,8 @@ public abstract class RecyclerViewFragment<V, D> extends UserSessionLoaderFragme
 
         protected abstract int getItemViewType(D value);
 
-        abstract class ViewHolder extends RecyclerView.ViewHolder {
-            ViewHolder(View v) {
+        protected abstract class ViewHolder extends RecyclerView.ViewHolder {
+            protected ViewHolder(View v) {
                 super(v);
             }
 

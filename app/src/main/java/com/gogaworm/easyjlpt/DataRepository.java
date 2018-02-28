@@ -17,13 +17,16 @@ public class DataRepository {
 
     private final AppDatabase database;
 
-    private UserSession userSession;
+    private MutableLiveData<UserSession> userSessionLiveData;
+    public UserSession userSession;
 
     private DataRepository(final AppDatabase database) {
         this.database = database;
 
         userSession = new UserSession(JlptSection.VOCABULARY, JlptLevel.N2);
         userSession.setLessonId(212); //todo: this should be set by user //todo: load from previous session
+        userSessionLiveData = new MutableLiveData<>();
+        userSessionLiveData.setValue(userSession);
 /*
         mObservableProducts = new MediatorLiveData<>();
 
@@ -60,12 +63,13 @@ public class DataRepository {
     }
     //=====================================
 
-    public UserSession getUserSession() {
-        return userSession;
+    public LiveData<UserSession> getUserSession() {
+        return userSessionLiveData;
     }
 
     public void setJlptSection(JlptSection section) {
         userSession.section = section;
+        userSessionLiveData.setValue(userSession);
     }
 
     public void setJlptLevel(JlptLevel level) {

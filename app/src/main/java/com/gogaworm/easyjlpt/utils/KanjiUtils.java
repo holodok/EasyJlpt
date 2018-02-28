@@ -12,7 +12,7 @@ public class KanjiUtils {
         if (word instanceof Kanji) {
             return getKanjiReading(context, (Kanji) word);
         }
-        return !word.japanese.equals(word.reading) ? word.reading : "";
+        return word.hasKanji() ? word.reading : "";
     }
 
     private static SpannableString getKanjiReading(Context context, Kanji kanji) {

@@ -1,6 +1,7 @@
 package com.gogaworm.easyjlpt.model;
 
 import android.app.Application;
+import android.arch.lifecycle.AndroidViewModel;
 import android.arch.lifecycle.LiveData;
 import android.support.annotation.NonNull;
 import com.gogaworm.easyjlpt.EasyJlptApplication;
@@ -8,7 +9,7 @@ import com.gogaworm.easyjlpt.controller.*;
 import com.gogaworm.easyjlpt.data.UserSession;
 import com.gogaworm.easyjlpt.game.GameVariant;
 
-public class WordTaskListViewModel extends UserSessionViewModel {
+public class WordTaskListViewModel extends AndroidViewModel {
     private GameController gameController;
 
     public WordTaskListViewModel(@NonNull Application application) {
@@ -30,10 +31,6 @@ public class WordTaskListViewModel extends UserSessionViewModel {
     @Override
     protected void onCleared() {
         gameController.clear();
-    }
-
-    @Override
-    protected void onUserSessionChanged(UserSession userSession) {
     }
 
     public LiveData<Integer> getProgress() {

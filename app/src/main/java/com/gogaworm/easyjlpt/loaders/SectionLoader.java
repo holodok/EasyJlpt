@@ -17,9 +17,9 @@ import java.util.List;
  *
  * @author ikarpova
  */
-class SectionLoader extends JlptDataLoader<Section> {
+public class SectionLoader extends JlptDataLoader<Section> {
 
-    SectionLoader(Context context, JlptSection section, JlptLevel jlptLevel) {
+    public SectionLoader(Context context, JlptSection section, JlptLevel jlptLevel) {
         super(context, section, jlptLevel);
     }
 

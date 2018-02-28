@@ -52,7 +52,7 @@ public class LearnWordsViewActivity extends AppCompatActivity {
             @Override
             public void onChanged(@Nullable Game currentGame) {
                 // create proper fragment
-                Fragment fragment = null;
+                Fragment fragment;
                 if (currentGame instanceof FlashCardGame) {
                     fragment = new FlashCardGameFragment();
                 } else if (currentGame instanceof WordSelectGame) {
