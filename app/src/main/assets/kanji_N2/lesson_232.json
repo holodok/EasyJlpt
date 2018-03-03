@@ -87,7 +87,7 @@
 	{
 		"japanese": "細",
 		"on": "サイ",
-		"kun": "ほそ・い、こま・かい",
+		"kun": "ほそ・い こま・かい",
 		"translation": "",
 		"words": [
 			{
@@ -132,7 +132,7 @@
 				"japanese": "在学",
 				"reading": "ざいがく",
 				"translation": "учиться в школе"
-			}
+			},
 			{
 				"japanese": "不在",
 				"reading": "ふざい",
@@ -178,7 +178,7 @@
 				"japanese": "額",
 				"reading": "ひたい",
 				"translation": "лоб"
-			}
+			},
 			{
 				"japanese": "金額",
 				"reading": "きんがく",
@@ -189,7 +189,7 @@
 	{
 		"japanese": "込",
 		"on": "",
-		"kun": "こ・む、こ・める",
+		"kun": "こ・む こ・める",
 		"translation": "",
 		"words": [
 			{
@@ -206,12 +206,12 @@
 				"japanese": "飛び込む",
 				"reading": "とびこむ",
 				"translation": "влететь, впрыгивать"
-			}
+			},
 			{
 				"japanese": "申し込む",
 				"reading": "もうしこむ",
 				"translation": "давать заявку на что-то"
-			}
+			},
 			{
 				"japanese": "思い込む",
 				"reading": "おもいこむ",
@@ -234,12 +234,12 @@
 				"japanese": "領事館",
 				"reading": "りょうじかん",
 				"translation": "консульство"
-			}
+			},
 			{
 				"japanese": "～領",
 				"reading": "～りょう",
 				"translation": "террирория"
-			}
+			},
 			{
 				"japanese": "大統領",
 				"reading": "だいとうりょう",
@@ -250,7 +250,7 @@
 	{
 		"japanese": "収",
 		"on": "シュウ",
-		"kun": "おさ・める、おさ・まる",
+		"kun": "おさ・める おさ・まる",
 		"translation": "",
 		"words": [
 			{
@@ -267,12 +267,12 @@
 				"japanese": "収める",
 				"reading": "おさめる",
 				"translation": "уплачивать, поставлять"
-			}
+			},
 			{
 				"japanese": "収集",
 				"reading": "しゅうしゅう",
 				"translation": "сбор"
-			}
+			},
 			{
 				"japanese": "吸収",
 				"reading": "きゅうしゅう",
@@ -301,7 +301,7 @@
 	{
 		"japanese": "曲",
 		"on": "キョク",
-		"kun": "ま・がる、ま・げる",
+		"kun": "ま・がる ま・げる",
 		"translation": "",
 		"words": [
 			{
@@ -318,7 +318,7 @@
 				"japanese": "曲線",
 				"reading": "きょくせん",
 				"translation": "кривая линия"
-			}
+			},
 			{
 				"japanese": "曲がる",
 				"reading": "まがる",
@@ -329,7 +329,7 @@
 	{
 		"japanese": "汚",
 		"on": "オ",
-		"kun": "きたな・い、よご・す、よご・れる",
+		"kun": "きたな・い よご・す よご・れる",
 		"translation": "",
 		"words": [
 			{
