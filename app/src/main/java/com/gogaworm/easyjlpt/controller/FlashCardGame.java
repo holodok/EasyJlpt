@@ -24,7 +24,7 @@ public class FlashCardGame extends Game<WordTask> {
 
     @Override
     public String getJapanese() {
-        return task.value.hasKanji() ? task.value.japanese : task.value.reading;
+        return task.value.japanese;
     }
 
     @Override
