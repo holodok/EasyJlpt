@@ -167,7 +167,7 @@
 		"japanese": "額",
 		"on": "ガク",
 		"kun": "ひたい",
-		"translation": "лоб, дощещка, пластина, сумма",
+		"translation": "лоб, дощечка, пластина, сумма",
 		"words": [
 			{
 				"japanese": "額",
@@ -205,12 +205,12 @@
 			{
 				"japanese": "飛び込む",
 				"reading": "とびこむ",
-				"translation": "влететь, впрыгивать"
+				"translation": "влетать, впрыгивать"
 			},
 			{
 				"japanese": "申し込む",
 				"reading": "もうしこむ",
-				"translation": "давать заявку на что-то"
+				"translation": "подавать заявку на что-то"
 			},
 			{
 				"japanese": "思い込む",
