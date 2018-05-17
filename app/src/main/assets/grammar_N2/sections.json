@@ -101,81 +101,87 @@
 			}
     }]
   }, {
-    "section": 23,
-    "title": {
-				"japanese": "おぼえないわけにはいかない",
-				"reading": "",
-				"translation": "Ты должен запомнить."
-			},
-    "lessons": [{
-      "lesson": 1,
-      "title": {
-				"japanese": "|予-よ||報-ほう|どおり",
-				"reading": "",
-				"translation": "Как и было в прогнозе погоды"
-			}
-    }, {
-      "lesson": 2,
-      "title": {
-				"japanese": "|太-ふと|るわけだ",
-				"reading": "",
-				"translation": "Не удивительно, что толстею."
-			}
-    }, {
-      "lesson": 3,
-      "title": {
-				"japanese": "かじったとたん",
-				"reading": "",
-				"translation": "Как только откусила..."
-			}
-    }, {
-      "lesson": 4,
-      "title": {
-				"japanese": "お|急-いそ|ぎのところ",
-				"reading": "",
-				"translation": "Я знаю, что ты спешишь..."
-			}
-    }, {
-      "lesson": 5,
-      "title": {
-				"japanese": "ほこりだらけ",
-				"reading": "",
-				"translation": "Одна пыль кругом."
-			}
-    }, {
-      "lesson": 6,
-      "title": {
-				"japanese": "|上-あ|がる|一-いっ||方-ぽう|だ",
-				"reading": "",
-				"translation": "Продвигаться все дальше и дальше."
-			}
-    }, {
+		  "section": 23,
+		  "title": {
+			  "japanese": "おぼえないわけにはいかない",
+			  "reading": "",
+			  "translation": "Ты должен запомнить."
+		  },
+		  "lessons": [{
+				  "lesson": 1,
+				  "title": {
+					  "japanese": "|予-よ||報-ほう|どおり",
+					  "reading": "",
+					  "translation": "Как и было в прогнозе погоды"
+				  }
+			  }, {
+				  "lesson": 2,
+				  "title": {
+					  "japanese": "|太-ふと|るわけだ",
+					  "reading": "",
+					  "translation": "Не удивительно, что толстею."
+				  }
+			  },
+			  {
+				  "lesson": 3,
+				  "title": {
+					  "japanese": "かじったとたん",
+					  "reading": "",
+					  "translation": "Как только откусила..."
+				  }
+			  },
+			  {
+				  "lesson": 4,
+				  "title": {
+					  "japanese": "お|急-いそ|ぎのところ",
+					  "reading": "",
+					  "translation": "Я знаю, что ты спешишь..."
+				  }
+			  },
+			  {
+				  "lesson": 5,
+				  "title": {
+					  "japanese": "ほこりだらけ",
+					  "reading": "",
+					  "translation": "Одна пыль кругом."
+				  }
+			  },
+			  {
+				  "lesson": 6,
+				  "title": {
+					  "japanese": "|上-あ|がる|一-いっ||方-ぽう|だ",
+					  "reading": "",
+					  "translation": "Продвигаться все дальше и дальше."
+				  }
+			  }
+		  ]
+	  }, {
     "section": 24,
     "title": {
-				"japanese": "おぼえないわけにはいかない",
+				"japanese": "おぼえざるを",
 				"reading": "",
-				"translation": "Ты должен запомнить."
+				"translation": "Нет выбора кроме как запомнить."
 			},
     "lessons": [{
       "lesson": 1,
-      "title": {
-				"japanese": "|予-よ||報-ほう|どおり",
-				"reading": "",
-				"translation": "Как и было в прогнозе погоды"
-			}
-    }, {
-      "lesson": 2,
-      "title": {
-				"japanese": "おぼえざるをえない",
-				"reading": "",
-				"translation": "Не могу не запомнить."
-			}
-    }, {
-      "lesson": 3,
       "title": {
 				"japanese": "|地-ち||図-ず|の|上-うえ|では",
 				"reading": "",
-				"translation": "На карте"
+				"translation": "На карте."
+			}
+    }, {
+      "lesson": 2,
+      "title": {
+				"japanese": "",
+				"reading": "",
+				"translation": ""
+			}
+    }, {
+      "lesson": 3,
+      "title": {
+				"japanese": "",
+				"reading": "",
+				"translation": ""
 			}
     }, {
       "lesson": 4,
