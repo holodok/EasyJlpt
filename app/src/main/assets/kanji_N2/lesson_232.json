@@ -4,371 +4,341 @@
 		"japanese": "連",
 		"on": "シン",
 		"kun": "つ・れる",
-		"translation": "",
+		"translation": "брать с собой, вести, соединять",
 		"words": [
 			{
 				"japanese": "関連",
 				"reading": "かんれん",
-				"translation": ""
+				"translation": "связь, отношение"
 			},
 			{
 				"japanese": "連休",
 				"reading": "れんきゅう",
-				"translation": ""
+				"translation": "ряд последовательных праздников"
 			},
 			{
 				"japanese": "連続",
 				"reading": "れんぞく",
-				"translation": ""
+				"translation": "последовательность, непрерывность"
 			},
 			{
 				"japanese": "連れる",
 				"reading": "つれる",
+				"translation": "брать с собой кого-либо"
+			}
+		]
+	},
+	{
+		"japanese": "絡",
+		"on": "ラク",
+		"kun": "",
+		"translation": "",
+		"words": [
+			{
+				"japanese": "連絡",
+				"reading": "れんらく",
 				"translation": ""
 			}
 		]
 	},
 	{
-		"japanese": "要",
-		"on": "ヨウ",
-		"kun": "い・る",
+		"japanese": "荷",
+		"on": "カ",
+		"kun": "に",
 		"translation": "",
 		"words": [
 			{
-				"japanese": "重要",
-				"reading": "じゅうよう",
-				"translation": "важный"
+				"japanese": "入荷",
+				"reading": "にゅうか",
+				"translation": ""
 			},
 			{
-				"japanese": "要約",
-				"reading": "ようやく",
-				"translation": "выводы, резюме, основное содержание"
+				"japanese": "荷物",
+				"reading": "にもつ",
+				"translation": ""
 			},
 			{
-				"japanese": "要点",
-				"reading": "ようてん",
-				"translation": "главный пункт, суть"
-			},
-			{
-				"japanese": "要る",
-				"reading": "いる",
-				"translation": "нуждаться"
+				"japanese": "出荷",
+				"reading": "しゅっか",
+				"translation": ""
 			}
 		]
 	},
 	{
-		"japanese": "利",
-		"on": "リ",
-		"kun": "",
-		"translation": "",
-		"words": [
-			{
-				"japanese": "利用",
-				"reading": "りよう",
-				"translation": "использование"
-			},
-			{
-				"japanese": "金利",
-				"reading": "きんり",
-				"translation": "проценты (по вкладу)"
-			},
-			{
-				"japanese": "便利",
-				"reading": "べんり",
-				"translation": "удобный"
-			},
-			{
-				"japanese": "有利",
-				"reading": "ゆうり",
-				"translation": "полезный, выгодный"
-			}
-		]
-	},
-	{
-		"japanese": "細",
-		"on": "サイ",
-		"kun": "ほそ・い こま・かい",
-		"translation": "",
-		"words": [
-			{
-				"japanese": "明細",
-				"reading": "めいさい",
-				"translation": "детали"
-			},
-			{
-				"japanese": "細い",
-				"reading": "ほそい",
-				"translation": "тонкий, узкий"
-			},
-			{
-				"japanese": "細かい",
-				"reading": "こまかい",
-				"translation": "мелкий, подробный"
-			},
-			{
-				"japanese": "心細い",
-				"reading": "こころぼそい",
-				"translation": "одинокий, беспомощный"
-			}
-		]
-	},
-	{
-		"japanese": "在",
-		"on": "ザイ",
-		"kun": "",
-		"translation": "",
-		"words": [
-			{
-				"japanese": "在中",
-				"reading": "ざいちゅう",
-				"translation": "содержит (только)"
-			},
-			{
-				"japanese": "現在",
-				"reading": "げんざい",
-				"translation": "настоящее время, теперь"
-			},
-			{
-				"japanese": "在学",
-				"reading": "ざいがく",
-				"translation": "учиться в школе"
-			},
-			{
-				"japanese": "不在",
-				"reading": "ふざい",
-				"translation": "отсутствие"
-			}
-		]
-	},
-	{
-		"japanese": "客",
-		"on": "キャク",
-		"kun": "",
-		"translation": "",
-		"words": [
-			{
-				"japanese": "客席",
-				"reading": "きゃくせき",
-				"translation": "место (в театре, кино)"
-			},
-			{
-				"japanese": "お客様",
-				"reading": "おきゃくさま",
-				"translation": "гость, посетитель"
-			},
-			{
-				"japanese": "乗客",
-				"reading": "じょうきゃく",
-				"translation": "пассажир"
-			}
-		]
-	},
-	{
-		"japanese": "額",
-		"on": "ガク",
-		"kun": "ひたい",
-		"translation": "",
-		"words": [
-			{
-				"japanese": "額",
-				"reading": "がく",
-				"translation": "рамка"
-			},
-			{
-				"japanese": "額",
-				"reading": "ひたい",
-				"translation": "лоб"
-			},
-			{
-				"japanese": "金額",
-				"reading": "きんがく",
-				"translation": "сумма (денег)"
-			}
-		]
-	},
-	{
-		"japanese": "込",
+		"japanese": "届",
 		"on": "",
-		"kun": "こ・む こ・める",
+		"kun": "とど・ける　とど・く",
 		"translation": "",
 		"words": [
 			{
-				"japanese": "込む",
-				"reading": "こむ",
-				"translation": "быть переполненным"
+				"japanese": "届ける",
+				"reading": "とどける",
+				"translation": ""
 			},
 			{
-				"japanese": "払い込む",
-				"reading": "はらいこむ",
-				"translation": "уплачивать"
+				"japanese": "届く",
+				"reading": "とどく",
+				"translation": ""
 			},
 			{
-				"japanese": "飛び込む",
-				"reading": "とびこむ",
-				"translation": "влететь, впрыгивать"
-			},
-			{
-				"japanese": "申し込む",
-				"reading": "もうしこむ",
-				"translation": "давать заявку на что-то"
-			},
-			{
-				"japanese": "思い込む",
-				"reading": "おもいこむ",
-				"translation": "твердо верить, быть убежденным"
+				"japanese": "届け出",
+				"reading": "とどけで",
+				"translation": ""
 			}
 		]
 	},
 	{
-		"japanese": "領",
-		"on": "リョウ",
+		"japanese": "参",
+		"on": "サン",
+		"kun": "まい・る",
+		"translation": "",
+		"words": [
+			{
+				"japanese": "参考書",
+				"reading": "さんこうしょ",
+				"translation": ""
+			},
+			{
+				"japanese": "参る",
+				"reading": "まいる",
+				"translation": ""
+			},
+			{
+				"japanese": "持参",
+				"reading": "じさん",
+				"translation": ""
+			},
+			{
+				"japanese": "お参り",
+				"reading": "おまいり",
+				"translation": ""
+			}
+		]
+	},
+	{
+		"japanese": "衣",
+		"on": "イ",
 		"kun": "",
 		"translation": "",
 		"words": [
 			{
-				"japanese": "領収書",
-				"reading": "りょうしゅうしょ",
-				"translation": "чек"
+				"japanese": "衣類",
+				"reading": "いるい",
+				"translation": ""
 			},
 			{
-				"japanese": "領事館",
-				"reading": "りょうじかん",
-				"translation": "консульство"
+				"japanese": "衣服",
+				"reading": "いふく",
+				"translation": ""
 			},
 			{
-				"japanese": "～領",
-				"reading": "～りょう",
-				"translation": "террирория"
+				"japanese": "衣料品",
+				"reading": "いりょうひん",
+				"translation": ""
 			},
 			{
-				"japanese": "大統領",
-				"reading": "だいとうりょう",
-				"translation": "президент"
+				"japanese": "衣食住",
+				"reading": "いしょくじゅう",
+				"translation": ""
 			}
 		]
 	},
 	{
-		"japanese": "収",
-		"on": "シュウ",
-		"kun": "おさ・める おさ・まる",
+		"japanese": "他",
+		"on": "タ",
+		"kun": "ほか",
 		"translation": "",
 		"words": [
 			{
-				"japanese": "収入",
-				"reading": "しゅうにゅう",
-				"translation": "доход"
+				"japanese": "その他",
+				"reading": "そのた",
+				"translation": ""
 			},
 			{
-				"japanese": "回収",
-				"reading": "かいしゅう",
-				"translation": "собирать, отбирать назад"
+				"japanese": "他方",
+				"reading": "たほう",
+				"translation": ""
 			},
 			{
-				"japanese": "収める",
-				"reading": "おさめる",
-				"translation": "уплачивать, поставлять"
-			},
-			{
-				"japanese": "収集",
-				"reading": "しゅうしゅう",
-				"translation": "сбор"
-			},
-			{
-				"japanese": "吸収",
-				"reading": "きゅうしゅう",
-				"translation": "всасывание, впитывание"
+				"japanese": "他人",
+				"reading": "たにん",
+				"translation": ""
 			}
 		]
 	},
 	{
-		"japanese": "械",
-		"on": "カイ",
+		"japanese": "蔵",
+		"on": "ゾウ",
 		"kun": "",
 		"translation": "",
 		"words": [
 			{
-				"japanese": "機械",
-				"reading": "きかい",
-				"translation": "машина, механизм"
+				"japanese": "冷蔵",
+				"reading": "れいぞう",
+				"translation": ""
 			},
 			{
-				"japanese": "器械体操",
-				"reading": "きかいたいそう",
-				"translation": "гимнастические упражнения на снарядах"
+				"japanese": "内臓",
+				"reading": "ないぞう",
+				"translation": ""
+			},
+			{
+				"japanese": "貯蔵",
+				"reading": "ちょぞう",
+				"translation": ""
 			}
 		]
 	},
 	{
-		"japanese": "曲",
-		"on": "キョク",
-		"kun": "ま・がる ま・げる",
+		"japanese": "凍",
+		"on": "トウ",
+		"kun": "こお・る　こご・える",
 		"translation": "",
 		"words": [
 			{
-				"japanese": "曲",
-				"reading": "きょく",
-				"translation": "мелодия"
+				"japanese": "冷凍",
+				"reading": "れいとう",
+				"translation": ""
 			},
 			{
-				"japanese": "折り曲げる",
-				"reading": "おりまげる",
-				"translation": "сгибать, загибать"
+				"japanese": "凍る",
+				"reading": "こおる",
+				"translation": ""
 			},
 			{
-				"japanese": "曲線",
-				"reading": "きょくせん",
-				"translation": "кривая линия"
-			},
-			{
-				"japanese": "曲がる",
-				"reading": "まがる",
-				"translation": "поворачивать"
+				"japanese": "凍える",
+				"reading": "こごえる",
+				"translation": ""
 			}
 		]
 	},
 	{
-		"japanese": "汚",
-		"on": "オ",
-		"kun": "きたな・い よご・す よご・れる",
+		"japanese": "等",
+		"on": "トウ",
+		"kun": "ひと・しい　など",
 		"translation": "",
 		"words": [
 			{
-				"japanese": "汚染",
-				"reading": "おせん",
-				"translation": "загрязнение"
+				"japanese": "～等",
+				"reading": "～とう",
+				"translation": ""
 			},
 			{
-				"japanese": "汚す",
-				"reading": "よごす",
-				"translation": "пачкать, загрязнять"
+				"japanese": "～等",
+				"reading": "～など",
+				"translation": ""
 			},
 			{
-				"japanese": "汚い",
-				"reading": "きたない",
-				"translation": "грязный"
+				"japanese": "上等",
+				"reading": "じょうとう",
+				"translation": ""
 			},
 			{
-				"japanese": "汚れる",
-				"reading": "よごれる",
-				"translation": "пачкаться, загрязняться"
+				"japanese": "高等学校",
+				"reading": "こうとうがっこう",
+				"translation": ""
+			},
+			{
+				"japanese": "等しい",
+				"reading": "ひとしい",
+				"translation": ""
 			}
 		]
 	},
 	{
-		"japanese": "殿",
-		"on": "",
-		"kun": "との どの",
+		"japanese": "配",
+		"on": "ハイ",
+		"kun": "くば・る",
 		"translation": "",
 		"words": [
 			{
-				"japanese": "殿様",
-				"reading": "とのさま",
-				"translation": "барин, ваша светлость"
+				"japanese": "配達",
+				"reading": "はいたつ",
+				"translation": ""
 			},
 			{
-				"japanese": "～殿",
-				"reading": "～どの",
-				"translation": "господин (после фамилии, чина, от вышестоящего)"
+				"japanese": "心配",
+				"reading": "しんぱい",
+				"translation": ""
+			},
+			{
+				"japanese": "気配",
+				"reading": "けはい",
+				"translation": ""
+			},
+			{
+				"japanese": "配る",
+				"reading": "くばる",
+				"translation": ""
+			}
+		]
+	},
+	{
+		"japanese": "担",
+		"on": "タン",
+		"kun": "",
+		"translation": "",
+		"words": [
+			{
+				"japanese": "担当",
+				"reading": "たんとう",
+				"translation": ""
+			},
+			{
+				"japanese": "分担",
+				"reading": "ぶんたん",
+				"translation": ""
+			}
+		]
+	},
+	{
+		"japanese": "当",
+		"on": "トウ",
+		"kun": "あ・たる　あ・てる",
+		"translation": "",
+		"words": [
+			{
+				"japanese": "当日",
+				"reading": "とうじつ",
+				"translation": ""
+			},
+			{
+				"japanese": "当～",
+				"reading": "とう～",
+				"translation": ""
+			},
+			{
+				"japanese": "弁当",
+				"reading": "べんとう",
+				"translation": ""
+			},
+			{
+				"japanese": "当たる",
+				"reading": "あたる",
+				"translation": ""
+			}
+		]
+	},
+	{
+		"japanese": "頂",
+		"on": "チョウ",
+		"kun": "いただ・く",
+		"translation": "",
+		"words": [
+			{
+				"japanese": "頂点",
+				"reading": "ちょうてん",
+				"translation": ""
+			},
+			{
+				"japanese": "頂く",
+				"reading": "いただく",
+				"translation": ""
+			},
+			{
+				"japanese": "頂上",
+				"reading": "ちょうじょう",
+				"translation": ""
 			}
 		]
 	}
