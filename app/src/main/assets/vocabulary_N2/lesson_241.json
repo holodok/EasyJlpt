@@ -7,12 +7,12 @@
 	},
 	{
 		"japanese": "お金持ちが必ずしも幸福とは限らない。",
-		"reading": "",
+		"reading": "おかねもちがかならずしもこうふくとはかぎらない。",
 		"translation": "Быть богатым не обязательно значит быть счастливым."
 	},
 	{
 		"japanese": "人間は必ず死ぬ。",
-		"reading": "",
+		"reading": "にんげんはかならずしぬ",
 		"translation": "Рано или поздно мы все умрем."
 	},
 	{
@@ -22,12 +22,12 @@
 	},
 	{
 		"japanese": "いつかアフリカに行きたい。",
-		"reading": "",
+		"reading": "いつかアフリカにいきたい。",
 		"translation": "Когда-нибудь хочу поехать в Африку."
 	},
 	{
 		"japanese": "ここにはいつか来たことがある。",
-		"reading": "",
+		"reading": "ここにはいつかきたことがある。",
 		"translation": "Я уже был тут когда-то."
 	},
 	{
@@ -37,7 +37,7 @@
 	},
 	{
 		"japanese": "いつまでもお元気で。",
-		"reading": "",
+		"reading": "いつまでもおげんきで。",
 		"translation": "Всегда берегите себя."
 	},
 	{
@@ -47,7 +47,7 @@
 	},
 	{
 		"japanese": "いつのまにか夜になった。",
-		"reading": "",
+		"reading": "いつのまにかよるになった。",
 		"translation": "Незаметно пришла ночь."
 	},
 	{
@@ -57,7 +57,7 @@
 	},
 	{
 		"japanese": "ついうそを言ってしまって。",
-		"reading": "",
+		"reading": "ついうそをいってしまって。",
 		"translation": "Я случайно соврал."
 	},
 	{
@@ -67,7 +67,7 @@
 	},
 	{
 		"japanese": "ついに絵が完成した。",
-		"reading": "",
+		"reading": "ついにえがかんせいした。",
 		"translation": "Наконец картина была закончена."
 	},
 	{
@@ -76,74 +76,144 @@
 		"translation": "во что бы то ни стало"
 	},
 	{
-		"japanese": "",
-		"reading": "",
-		"translation": ""
+		"japanese": "用事があってどうしても行けない。",
+		"reading": "ようじがあってどうしてもいけない。",
+		"translation": "Никак не могу пойти, потому что есть дела."
 	},
 	{
-		"japanese": "",
-		"reading": "",
-		"translation": ""
+		"japanese": "どうしても成功させたい。",
+		"reading": "どうしてもせいこうさせたい。",
+		"translation": "Я хочу добиться успеха любыми методами."
 	},
 	{
-		"japanese": "",
+		"japanese": "どうも",
 		"reading": "",
-		"translation": ""
+		"translation": "очень, весьма, действительно, что-то, как-то, спасибо"
 	},
 	{
-		"japanese": "",
-		"reading": "",
-		"translation": ""
+		"japanese": "どうも上手に話せない。",
+		"reading": "どうもじょうずにはなせない。",
+		"translation": "Я не могу это объяснить хорошо."
 	},
 	{
-		"japanese": "",
-		"reading": "",
-		"translation": ""
+		"japanese": "どうも道に迷ったようだ。",
+		"reading": "どうもみちにまよったようだ。",
+		"translation": "Мне кажется я потерялся."
 	},
 	{
-		"japanese": "",
-		"reading": "",
-		"translation": ""
+		"japanese": "どうも失礼しました。",
+		"reading": "どうもしつれいしました。",
+		"translation": "Извините, пожалуйста."
 	},
 	{
-		"japanese": "",
+		"japanese": "昨日はどうも。",
 		"reading": "",
-		"translation": ""
+		"translation": "Приятно было с вами вчера увидиться."
 	},
 	{
-		"japanese": "",
+		"japanese": "なんとか",
 		"reading": "",
-		"translation": ""
+		"translation": "как-то, как-нибудь, что-то, что-нибудь"
 	},
 	{
-		"japanese": "",
-		"reading": "",
-		"translation": ""
+		"japanese": "なんとか会議に間に合った。",
+		"reading": "なんとかかいぎにまにあった。",
+		"translation": "Как-то успел таки на собрание."
 	},
 	{
-		"japanese": "",
+		"japanese": "どうにか",
 		"reading": "",
-		"translation": ""
+		"translation": "как-нибудь, так или иначе"
 	},
 	{
-		"japanese": "",
-		"reading": "",
-		"translation": ""
+		"japanese": "この問題をなんとかしなければならない。",
+		"reading": "このもんだいをなんとかしなければならない。",
+		"translation": "Эту проблему так или иначе нужно решить."
 	},
 	{
-		"japanese": "",
+		"japanese": "なんとなく",
 		"reading": "",
-		"translation": ""
+		"translation": "почему-то, по какой-то причине"
 	},
 	{
-		"japanese": "",
-		"reading": "",
-		"translation": ""
+		"japanese": "これはなんとなくおもしろそうな本だ。",
+		"reading": "これはなんとなくおもしろそうなほんだ。",
+		"translation": "Эта книга в вроде интересная."
 	},
 	{
-		"japanese": "",
+		"japanese": "なんとも～ない",
 		"reading": "",
-		"translation": ""
+		"translation": "ничего, никак, нисколько"
 	},
+	{
+		"japanese": "そんなこと、なんとも思わない。",
+		"reading": "そんなこと、なんともおもわない。",
+		"translation": "Меня это ни капли не заботит."
+	},
+	{
+		"japanese": "もし（も）",
+		"reading": "",
+		"translation": "если"
+	},
+	{
+		"japanese": "もしも１００万円あったら・・・。",
+		"reading": "もしも１００まんえんあったら・・・。",
+		"translation": "Если бы у меня блы миллион йен..."
+	},
+	{
+		"japanese": "もしかしたら",
+		"reading": "",
+		"translation": "может быть"
+	},
+	{
+		"japanese": "もしかすると",
+		"reading": "",
+		"translation": "может быть"
+	},
+	{
+		"japanese": "もしかすると、彼の話はうそかもしれない。",
+		"reading": "もしかすると、かれのはなしはうそかもしれない。",
+		"translation": "Возможно он лжет."
+	},
+	{
+		"japanese": "なるべく",
+		"reading": "",
+		"translation": "насколько возможно"
+	},
+	{
+		"japanese": "なるべく早く来てください。",
+		"reading": "なるべくはやくきてください。",
+		"translation": "Приходи как можно скорей."
+	},
+	{
+		"japanese": "なるほど、おもしろい本だ。",
+		"reading": "なるほど、おもしろいほんだ。",
+		"translation": "Это действительно интересная книга."
+	},
+	{
+		"japanese": "なるほど",
+		"reading": "",
+		"translation": "действительно, в самом деле, все ясно"
+	},
+	{
+		"japanese": "確か",
+		"reading": "たしか",
+		"translation": "достоверный, точный, наверное"
+	},
+	{
+		"japanese": "あの人は、確か林さんのお父さんだと思う。",
+		"reading": "あのひとは、たしかはやしさんのおとうさんだとおもう。",
+		"translation": "Я думаю, что это отец Хаяши."
+	},
+	{
+		"japanese": "確かに",
+		"reading": "たしかに",
+		"translation": "точно"
+	},
+	{
+		"japanese": "あの人は、確かに林さんのお父さんだ。",
+		"reading": "あのひとは、たしかにはやしさんのおとうさんだ。",
+		"translation": "Это точно отец Хаяши."
+	}
 	]
 }
