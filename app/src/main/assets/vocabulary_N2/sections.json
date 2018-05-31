@@ -140,30 +140,26 @@
   {
     "section": 24,
     "title": {
-				"japanese": "",
-				"reading": "",
-				"translation": "Запоминаем наречия"
+				"japanese": "|副-ふく||詞-し|をたっぷりおぼえましょう。",
+				"translation": "Давай запомим как можно больше наречий."
 			},
     "lessons": [{
       "lesson": 1,
       "title": {
-				"japanese": "",
-				"reading": "",
-				"translation": "Попробую выучить"
+				"japanese": "なんとか|覚-おぼ|えましょう！",
+				"translation": "Как-то попробую запомнить!"
 			}
     }, {
       "lesson": 2,
       "title": {
-				"japanese": "",
-				"reading": "",
-				"translation": "В конце концов запомню"
+				"japanese": "いずれ|覚-おぼ|えられる！",
+				"translation": "В конце концов запомнишь!"
 			}
     }, {
       "lesson": 3,
       "title": {
-				"japanese": "",
-				"reading": "",
-				"translation": "Хорошенько выучу"
+				"japanese": "せっせと|覚-おぼ|えよう！",
+				"translation": "Хорошенько выучу!"
 			}
     }, {
       "lesson": 4,
