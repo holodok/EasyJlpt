@@ -164,15 +164,13 @@
     }, {
       "lesson": 4,
       "title": {
-				"japanese": "",
-				"reading": "",
-				"translation": "Попробую запомнить больше"
+				"japanese": "さらに|覚-おぼ|えよう！",
+				"translation": "Попробую запомнить больше!"
 			}
     }, {
       "lesson": 5,
       "title": {
-				"japanese": "",
-				"reading": "",
+				"japanese": "|取-と|りあえず|覚-おぼ|えよう！",
 				"translation": "Выучу на всю жизнь!"
 			}
     }, {

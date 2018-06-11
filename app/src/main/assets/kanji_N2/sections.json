@@ -113,16 +113,14 @@
     }, {
       "lesson": 2,
       "title": {
-				"japanese": "",
-				"reading": "",
-				"translation": ""
+				"japanese": "|不-ふ||在-ざい||通-つう||知-ち|",
+				"translation": "Уведомление об отсутсвии."
 			}
     }, {
       "lesson": 3,
       "title": {
-				"japanese": "",
-				"reading": "",
-				"translation": ""
+				"japanese": "ポイントカード・商品券・クリーニング預かり票",
+				"translation": "Накопительная карточка, подарочный сертификат, квитанция из химчистки."
 			}
     }, {
       "lesson": 4,

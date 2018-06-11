@@ -32,12 +32,12 @@
 		"japanese": "絡",
 		"on": "ラク",
 		"kun": "",
-		"translation": "",
+		"translation": "сплетаться, обвивать",
 		"words": [
 			{
 				"japanese": "連絡",
 				"reading": "れんらく",
-				"translation": ""
+				"translation": "связь, контакт"
 			}
 		]
 	},
@@ -45,22 +45,22 @@
 		"japanese": "荷",
 		"on": "カ",
 		"kun": "に",
-		"translation": "",
+		"translation": "багаж, груз",
 		"words": [
 			{
 				"japanese": "入荷",
 				"reading": "にゅうか",
-				"translation": ""
+				"translation": "поступление товара"
 			},
 			{
 				"japanese": "荷物",
 				"reading": "にもつ",
-				"translation": ""
+				"translation": "багаж"
 			},
 			{
 				"japanese": "出荷",
 				"reading": "しゅっか",
-				"translation": ""
+				"translation": "отправка (пересылка) груза"
 			}
 		]
 	},
@@ -68,22 +68,22 @@
 		"japanese": "届",
 		"on": "",
 		"kun": "とど・ける　とど・く",
-		"translation": "",
+		"translation": "доставлять, достигать",
 		"words": [
 			{
 				"japanese": "届ける",
 				"reading": "とどける",
-				"translation": ""
+				"translation": "доставлять"
 			},
 			{
 				"japanese": "届く",
 				"reading": "とどく",
-				"translation": ""
+				"translation": "доходить (почта)"
 			},
 			{
 				"japanese": "届け出",
 				"reading": "とどけで",
-				"translation": ""
+				"translation": "извещение, заявление"
 			}
 		]
 	},
@@ -91,27 +91,27 @@
 		"japanese": "参",
 		"on": "サン",
 		"kun": "まい・る",
-		"translation": "",
+		"translation": "в замешательстве, три (в документах), приходить, посещать",
 		"words": [
 			{
 				"japanese": "参考書",
 				"reading": "さんこうしょ",
-				"translation": ""
+				"translation": "пособие, справочник"
 			},
 			{
 				"japanese": "参る",
 				"reading": "まいる",
-				"translation": ""
+				"translation": "идти, приходить"
 			},
 			{
 				"japanese": "持参",
 				"reading": "じさん",
-				"translation": ""
+				"translation": "приносить с собой"
 			},
 			{
 				"japanese": "お参り",
 				"reading": "おまいり",
-				"translation": ""
+				"translation": "посещение кладбища"
 			}
 		]
 	},
@@ -119,27 +119,27 @@
 		"japanese": "衣",
 		"on": "イ",
 		"kun": "",
-		"translation": "",
+		"translation": "одежда",
 		"words": [
 			{
 				"japanese": "衣類",
 				"reading": "いるい",
-				"translation": ""
+				"translation": "одежда, вещевое имущество"
 			},
 			{
 				"japanese": "衣服",
 				"reading": "いふく",
-				"translation": ""
+				"translation": "одежда, обмундирование"
 			},
 			{
 				"japanese": "衣料品",
 				"reading": "いりょうひん",
-				"translation": ""
+				"translation": "предметы одежды"
 			},
 			{
 				"japanese": "衣食住",
 				"reading": "いしょくじゅう",
-				"translation": ""
+				"translation": "одежда, пища и жилище"
 			}
 		]
 	},
@@ -147,22 +147,22 @@
 		"japanese": "他",
 		"on": "タ",
 		"kun": "ほか",
-		"translation": "",
+		"translation": "другой, иной",
 		"words": [
 			{
 				"japanese": "その他",
 				"reading": "そのた",
-				"translation": ""
+				"translation": "прочее, и так далее"
 			},
 			{
 				"japanese": "他方",
 				"reading": "たほう",
-				"translation": ""
+				"translation": "другая сторона, другое направление"
 			},
 			{
 				"japanese": "他人",
 				"reading": "たにん",
-				"translation": ""
+				"translation": "чужой, посторонний"
 			}
 		]
 	},
@@ -170,22 +170,22 @@
 		"japanese": "蔵",
 		"on": "ゾウ",
 		"kun": "",
-		"translation": "",
+		"translation": "кладовая, прятать, владеть",
 		"words": [
 			{
 				"japanese": "冷蔵",
 				"reading": "れいぞう",
-				"translation": ""
+				"translation": "хранение на холоде"
 			},
 			{
 				"japanese": "内臓",
 				"reading": "ないぞう",
-				"translation": ""
+				"translation": "внутренний (диск), встроенный"
 			},
 			{
 				"japanese": "貯蔵",
 				"reading": "ちょぞう",
-				"translation": ""
+				"translation": "хранение, содержать в запасе"
 			}
 		]
 	},
@@ -193,22 +193,22 @@
 		"japanese": "凍",
 		"on": "トウ",
 		"kun": "こお・る　こご・える",
-		"translation": "",
+		"translation": "замерзший, окоченеть, застывать",
 		"words": [
 			{
 				"japanese": "冷凍",
 				"reading": "れいとう",
-				"translation": ""
+				"translation": "замораживание"
 			},
 			{
 				"japanese": "凍る",
 				"reading": "こおる",
-				"translation": ""
+				"translation": "замерзать, покрываться льдом"
 			},
 			{
 				"japanese": "凍える",
 				"reading": "こごえる",
-				"translation": ""
+				"translation": "коченеть, неметь от холода"
 			}
 		]
 	},
@@ -216,32 +216,32 @@
 		"japanese": "等",
 		"on": "トウ",
 		"kun": "ひと・しい　など",
-		"translation": "",
+		"translation": "и так далее, класс, равенство",
 		"words": [
 			{
 				"japanese": "～等",
 				"reading": "～とう",
-				"translation": ""
+				"translation": "и так далее"
 			},
 			{
 				"japanese": "～等",
 				"reading": "～など",
-				"translation": ""
+				"translation": "и так далее"
 			},
 			{
 				"japanese": "上等",
 				"reading": "じょうとう",
-				"translation": ""
+				"translation": "первоклассный, отборный"
 			},
 			{
 				"japanese": "高等学校",
 				"reading": "こうとうがっこう",
-				"translation": ""
+				"translation": "старшая школа"
 			},
 			{
 				"japanese": "等しい",
 				"reading": "ひとしい",
-				"translation": ""
+				"translation": "равный"
 			}
 		]
 	},
@@ -249,27 +249,27 @@
 		"japanese": "配",
 		"on": "ハイ",
 		"kun": "くば・る",
-		"translation": "",
+		"translation": "распостранять",
 		"words": [
 			{
 				"japanese": "配達",
 				"reading": "はいたつ",
-				"translation": ""
+				"translation": "доставка"
 			},
 			{
 				"japanese": "心配",
 				"reading": "しんぱい",
-				"translation": ""
+				"translation": "беспокойство (о ком-либо), забота"
 			},
 			{
 				"japanese": "気配",
 				"reading": "けはい",
-				"translation": ""
+				"translation": "признак, индикация"
 			},
 			{
 				"japanese": "配る",
 				"reading": "くばる",
-				"translation": ""
+				"translation": "распостранять"
 			}
 		]
 	},
@@ -277,17 +277,17 @@
 		"japanese": "担",
 		"on": "タン",
 		"kun": "",
-		"translation": "",
+		"translation": "взваливать, брать на себя, нести",
 		"words": [
 			{
 				"japanese": "担当",
 				"reading": "たんとう",
-				"translation": ""
+				"translation": "исполнение обязанностей"
 			},
 			{
 				"japanese": "分担",
 				"reading": "ぶんたん",
-				"translation": ""
+				"translation": "распределение (работы, расходов)"
 			}
 		]
 	},
@@ -295,27 +295,27 @@
 		"japanese": "当",
 		"on": "トウ",
 		"kun": "あ・たる　あ・てる",
-		"translation": "",
+		"translation": "попадание, правильный, подходящий",
 		"words": [
 			{
 				"japanese": "当日",
 				"reading": "とうじつ",
-				"translation": ""
+				"translation": "тот день, назначенный день"
 			},
 			{
 				"japanese": "当～",
 				"reading": "とう～",
-				"translation": ""
+				"translation": "этот"
 			},
 			{
 				"japanese": "弁当",
 				"reading": "べんとう",
-				"translation": ""
+				"translation": "обед в коробочке"
 			},
 			{
 				"japanese": "当たる",
 				"reading": "あたる",
-				"translation": ""
+				"translation": "попадать, оказываться правильным"
 			}
 		]
 	},
@@ -323,22 +323,22 @@
 		"japanese": "頂",
 		"on": "チョウ",
 		"kun": "いただ・く",
-		"translation": "",
+		"translation": "надеть на голову, получать, верхушка",
 		"words": [
 			{
 				"japanese": "頂点",
 				"reading": "ちょうてん",
-				"translation": ""
+				"translation": "высшая точка, апогей"
 			},
 			{
 				"japanese": "頂く",
 				"reading": "いただく",
-				"translation": ""
+				"translation": "получать"
 			},
 			{
 				"japanese": "頂上",
 				"reading": "ちょうじょう",
-				"translation": ""
+				"translation": "вершина"
 			}
 		]
 	}
