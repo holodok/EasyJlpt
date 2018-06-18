@@ -58,7 +58,7 @@
 	},
 	{
 		"japanese": "相",
-		"on": "ソウ　ショウ",
+		"on": "ソウ ショウ",
 		"kun": "あい",
 		"translation": "между, взаимный, министр",
 		"words": [
@@ -181,7 +181,7 @@
 	{
 		"japanese": "全",
 		"on": "ゼン",
-		"kun": "まった・く　すべ・て",
+		"kun": "まった・く すべ・て",
 		"translation": "целый, весь, все",
 		"words": [
 			{
@@ -215,17 +215,17 @@
 		"japanese": "共",
 		"on": "キョウ",
 		"kun": "とも",
-		"translation": "",
+		"translation": "вместе, оба, с",
 		"words": [
 			{
 				"japanese": "共通",
 				"reading": "きょうつう",
-				"translation": ""
+				"translation": "общность, общий"
 			},
 			{
 				"japanese": "～と共に",
 				"reading": "～とともに",
-				"translation": ""
+				"translation": "вместе с"
 			}
 		]
 	},
@@ -233,22 +233,22 @@
 		"japanese": "忘",
 		"on": "ボウ",
 		"kun": "わす・れる",
-		"translation": "",
+		"translation": "забывать",
 		"words": [
 			{
 				"japanese": "忘年会",
 				"reading": "ぼうねんかい",
-				"translation": ""
+				"translation": "вечеринка прощания с прошлым годом"
 			},
 			{
 				"japanese": "忘れる",
 				"reading": "わすれる",
-				"translation": ""
+				"translation": "забывать"
 			},
 			{
 				"japanese": "忘れ物",
 				"reading": "わすれもの",
-				"translation": ""
+				"translation": "забытая вещь"
 			}
 		]
 	},
@@ -256,55 +256,55 @@
 		"japanese": "経",
 		"on": "ケイ",
 		"kun": "",
-		"translation": "",
+		"translation": "сутра, проходить через",
 		"words": [
 			{
 				"japanese": "経過",
 				"reading": "けいか",
-				"translation": ""
+				"translation": "ход, процесс"
 			},
 			{
 				"japanese": "経済",
 				"reading": "けいざい",
-				"translation": ""
+				"translation": "экономика"
 			},
 			{
 				"japanese": "経験",
 				"reading": "けいけん",
-				"translation": ""
+				"translation": "опыт"
 			},
 			{
 				"japanese": "経理",
 				"reading": "けいり",
-				"translation": ""
+				"translation": "управление (предприятием), руководство (финансами)"
 			}
 		]
 	},
 	{
 		"japanese": "過",
 		"on": "カ",
-		"kun": "す・ぎる　す・ごす",
-		"translation": "",
+		"kun": "す・ぎる す・ごす",
+		"translation": "переборщить, перестараться, превысить",
 		"words": [
 			{
 				"japanese": "過去",
 				"reading": "かこ",
-				"translation": ""
+				"translation": "прошлое"
 			},
 			{
 				"japanese": "過ぎる",
 				"reading": "すぎる",
-				"translation": ""
+				"translation": "проходить мимо, превышать"
 			},
 			{
 				"japanese": "通過",
 				"reading": "つうか",
-				"translation": ""
+				"translation": "следовать мимо, транзит"
 			},
 			{
 				"japanese": "過ごす",
 				"reading": "すごす",
-				"translation": ""
+				"translation": "проводить время"
 			}
 		]
 	},
@@ -312,63 +312,63 @@
 		"japanese": "責",
 		"on": "セキ",
 		"kun": "せ・める",
-		"translation": "",
+		"translation": "винить, осуждать, цензура",
 		"words": [
 			{
 				"japanese": "責任",
 				"reading": "せきにん",
-				"translation": ""
+				"translation": "ответственность"
 			},
 			{
 				"japanese": "責める",
 				"reading": "せめる",
-				"translation": ""
+				"translation": "упрекать, укорять"
 			}
 		]
 	},
 	{
 		"japanese": "任",
 		"on": "ニン",
-		"kun": "まか・せる　まか・す",
-		"translation": "",
+		"kun": "まか・せる まか・す",
+		"translation": "ответственность, долг",
 		"words": [
 			{
 				"japanese": "担任",
 				"reading": "たんにん",
-				"translation": ""
+				"translation": "классный руководитель"
 			},
 			{
 				"japanese": "任せる",
 				"reading": "まかせる",
-				"translation": ""
+				"translation": "поручать, доверять, пустить на самотек"
 			},
 			{
 				"japanese": "任す",
 				"reading": "まかす",
-				"translation": ""
+				"translation": "вверить кому-то"
 			}
 		]
 	},
 	{
 		"japanese": "負",
 		"on": "フ",
-		"kun": "ま・ける　お・う",
-		"translation": "",
+		"kun": "ま・ける お・う",
+		"translation": "поражение, негативный, нести",
 		"words": [
 			{
 				"japanese": "負担",
 				"reading": "ふたん",
-				"translation": ""
+				"translation": "нагрузка, бремя"
 			},
 			{
 				"japanese": "負ける",
 				"reading": "まける",
-				"translation": ""
+				"translation": "проигрывать, терпеть поражение"
 			},
 			{
 				"japanese": "負う",
 				"reading": "おう",
-				"translation": ""
+				"translation": "нести на спине, нести (обязанности)"
 			}
 		]
 	}
