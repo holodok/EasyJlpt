@@ -1,0 +1,129 @@
+﻿{
+	"words": [
+	{
+		"japanese": "別に～ない",
+		"reading": "べつに～ない",
+		"translation": "особо ~ не"
+	},
+	{
+		"japanese": "別にほしいものない。",
+		"reading": "べつにほしいものない。",
+		"translation": "Мне ничего особо не нужно."
+	},
+	{
+		"japanese": "そう～ない",
+		"reading": "",
+		"translation": "не так уж, не такой уж"
+	},
+	{
+		"japanese": "この問題はそう難しくない。",
+		"reading": "このもんだいはそうむずかしくない。",
+		"translation": "Это задача не такая и сложная."
+	},
+	{
+		"japanese": "大して～ない",
+		"reading": "たいして～ない",
+		"translation": "не очень, не особенно"
+	},
+	{
+		"japanese": "大して勉強しなかったが、合格できた。",
+		"reading": "たいしてべんきょうしなかったが、ごうかくできた。",
+		"translation": "Я особо не учил, но смог сдать."
+	},
+	{
+		"japanese": "一切～ない",
+		"reading": "いっさい～ない",
+		"translation": "ничего, совершенно не"
+	},
+	{
+		"japanese": "私はその事件とは一切関係ない。",
+		"reading": "わたしはそのじけんとはいっさいかんけいない。",
+		"translation": "Я никак не связан с этим делом."
+	},
+	{
+		"japanese": "とても～ない",
+		"reading": "",
+		"translation": "никак, никоим образом"
+	},
+	{
+		"japanese": "彼はとても５０歳には見えない。",
+		"reading": "かれはとても５０さいにはみえない。",
+		"translation": "Он не выглядит на 50 лет."
+	},
+	{
+		"japanese": "おそらく～だろう",
+		"reading": "",
+		"translation": "возможно, вероятно, боюсь что"
+	},
+	{
+		"japanese": "彼女はおそらく結婚しないだろう。",
+		"reading": "彼女はおそらく結婚しないだろう。",
+		"translation": "Боюсь, что она не выйдет замуж."
+	},
+	{
+		"japanese": "どうやら～そうだ",
+		"reading": "",
+		"translation": "вероятно, видимо"
+	},
+	{
+		"japanese": "どうやら雨が降りそうだ。",
+		"reading": "どうやらあめがふりそうだ。",
+		"translation": "Вероятно пойдет дождь."
+	},
+	{
+		"japanese": "果たして～だろうか",
+		"reading": "はたして～だろうか",
+		"translation": "как и предполагалось, на самом деле"
+	},
+	{
+		"japanese": "彼の話は果たして本当だろうか。",
+		"reading": "かれのはなしははたしてほんとうだろうか。",
+		"translation": "Правдив ли его рассказ на самом деле?"
+	},
+	{
+		"japanese": "どうせ～だろう",
+		"reading": "",
+		"translation": "наверно в любом случае, вообще"
+	},
+	{
+		"japanese": "やってもどうせだめだろう。",
+		"reading": "",
+		"translation": "Даже если попробую, наверное не получится."
+	},
+	{
+		"japanese": "せっかく～のに",
+		"reading": "",
+		"translation": "хотя с большим трудом"
+	},
+	{
+		"japanese": "せっかく覚えたのに、テストに出なかった。",
+		"reading": "",
+		"translation": ""
+	},
+	{
+		"japanese": "",
+		"reading": "",
+		"translation": ""
+	},
+	{
+		"japanese": "",
+		"reading": "",
+		"translation": ""
+	},
+	{
+		"japanese": "",
+		"reading": "",
+		"translation": ""
+	},
+	{
+		"japanese": "",
+		"reading": "",
+		"translation": ""
+	},
+	{
+		"japanese": "",
+		"reading": "",
+		"translation": ""
+	},
+	]
+}
