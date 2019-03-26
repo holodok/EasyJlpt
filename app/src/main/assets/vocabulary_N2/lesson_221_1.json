@@ -1,0 +1,463 @@
+﻿{
+	"words": [
+	{
+		"word": {
+			"japanese": "材料",
+			"reading": "ざいりょう",
+			"translation": "материал, ингредиент, данные"
+		},
+		"expressions":[
+			{
+				"japanese": "判断材料",
+				"reading": "はんだんざいりょう",
+				"translation": "информация для принятия решения"
+			},
+			{
+				"japanese": "不安材料",
+				"reading": "ふあんざいりょう",
+				"translation": "причина для беспокойства"
+			}
+		],
+		"sentences":[
+			{
+				"japanese": "スーパーへ|夕-ゆう||食-しょく|の|材-ざい||料-りょう|を|買-か|いに|行-い|った。",
+				"translation": "Я пошел в супермаркет купить продуктов для приготовления ужина."
+			},
+			{
+				"japanese": "|伝-でん||統-とう||的-てき|な|日-に||本-ほん|の|家-いえ|の|材-ざい||料-りょう|は、|木-き|・|竹-たけ|・|土-つち|など、|自-し||然-ぜん|のものが|多-おお|い。",
+				"translation": "При строительстве традиционных японских домов используется много натуральных материалов: дерево, бамбук, земля и т.д."
+			},
+			{
+				"japanese": "A|案-あん|がいいのかB|案-あん|がいいのか、|判-はん||断-だん|の|材-ざい||料-りょう|が|足-た|りない。",
+				"translation": "Не хватает информации, чтобы решить какой план лучше: А или Б."
+			},
+		],
+		"related":[
+			{
+				"japanese": "原料",
+				"reading": "げんりょう",
+				"translation": "сырье, исходный материал"
+			},
+			{
+				"japanese": "素材",
+				"reading": "そざい",
+				"translation": "сырье, материалы (для статьи, книги)"
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "石",
+			"reading": "いし",
+			"translation": "камень"
+		},
+		"sentences":[
+			{
+				"japanese": "グラウンドに|落-お|ちている|石-いし|を|拾-ひろ|った。",
+				"translation": "Я поднял камень, лежащий на спортплощадке."
+			},
+			{
+				"japanese": "|石-いし|につまずいて|転-ころ|んだ。",
+				"translation": "Я споткнулся о камень и упал."
+			},
+		],
+		"related":[
+			{
+				"japanese": "土",
+				"reading": "つち",
+				"translation": "земля"
+			},
+			{
+				"japanese": "泥",
+				"reading": "どろ",
+				"translation": "грязь"
+			},
+			{
+				"japanese": "砂",
+				"reading": "すな",
+				"translation": "песок"
+			},
+			{
+				"japanese": "岩",
+				"reading": "いわ",
+				"translation": "скала"
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "紐",
+			"reading": "ひも",
+			"translation": "шнурок, веревка"
+		},
+		"expressions":[
+			{
+				"japanese": "ひもを結ぶ",
+				"reading": "ひもをむすぶ",
+				"translation": "завязывать шнурки"
+			},
+			{
+				"japanese": "ひもをほどく",
+				"reading": "ひもをほどく",
+				"translation": "развязывать шнурки"
+			},
+			{
+				"japanese": "ひもで縛る",
+				"reading": "ひもでしばる",
+				"translation": "связывать веревкой"
+			},
+			{
+				"japanese": "ひもでくくる",
+				"reading": "ひもでくくる",
+				"translation": "связывать вместе веревкой"
+			}
+		],
+		"sentences":[
+			{
+				"japanese": "|古-ふる||新-しん||聞-ぶん|をひもで|縛-しば|る。",
+				"translation": "Связывать старые газеты веревкой."
+			},
+			{
+				"japanese": "|靴-くつ|のひもを|結-むす|ぶ。",
+				"translation": "Завязывать шнурки на обуви."
+			},
+		],
+		"related":[
+			{
+				"japanese": "土",
+				"reading": "つち",
+				"translation": "земля"
+			},
+			{
+				"japanese": "泥",
+				"reading": "どろ",
+				"translation": "грязь"
+			},
+			{
+				"japanese": "砂",
+				"reading": "すな",
+				"translation": "песок"
+			},
+			{
+				"japanese": "岩",
+				"reading": "いわ",
+				"translation": "скала"
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "券",
+			"reading": "けん",
+			"translation": "билет"
+		},
+		"expressions":[
+			{
+				"japanese": "入場券",
+				"reading": "にゅうじょうけん",
+				"translation": "входной билет"
+			},
+			{
+				"japanese": "整理券",
+				"reading": "せいりけん",
+				"translation": "талон электронной очереди"
+			},
+			{
+				"japanese": "券売機",
+				"reading": "けんばいき",
+				"translation": "машина для продажи билетов"
+			}
+		],
+		"sentences":[
+			{
+				"japanese": "あの|店-みせ|はいつも|込-こ|んでいて、|入-はい|るのに|整-せい||理-り||券-けん|が|必-ひつ||要-よう|だ。",
+				"translation": "Тот магазин всегда заполнен людьми, когда зашел нужно взять талончик электронной очереди."
+			}
+		],
+		"related":[
+			{
+				"japanese": "チケット",
+				"reading": "チケット",
+				"translation": "билет"
+			},
+			{
+				"japanese": "切符",
+				"reading": "きっぷ",
+				"translation": "билет"
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "名簿",
+			"reading": "めいぼ",
+			"translation": "список"
+		},
+		"expressions":[
+			{
+				"japanese": "同窓会名簿",
+				"reading": "どうそうかいめいぼ",
+				"translation": "список общества бывших соучеников"
+			},
+			{
+				"japanese": "会員名簿",
+				"reading": "かいいんめいぼ",
+				"translation": "список членов"
+			}
+		],
+		"sentences":[
+			{
+				"japanese": "クラスの|名-めい||簿-ぼ|を|作-つく|る。",
+				"translation": "Сделать список класса."
+			}
+		],
+	},
+	{
+		"word": {
+			"japanese": "表",
+			"reading": "ひょう",
+			"translation": "список, таблица"
+		},
+		"expressions":[
+			{
+				"japanese": "表に載る",
+				"reading": "ひょうにのる",
+				"translation": "указано в таблице, списке"
+			},
+			{
+				"japanese": "表に載せる",
+				"reading": "ひょうにのせる",
+				"translation": "вносить в список, таблицу"
+			},
+			{
+				"japanese": "予定表",
+				"reading": "よていひょう",
+				"translation": "план (в виде таблицы)"
+			},
+			{
+				"japanese": "成績表",
+				"reading": "せいせきひょう",
+				"translation": "таблица успеваемости, таблица счета очков"
+			},
+			{
+				"japanese": "統計表",
+				"reading": "とうけいひょう",
+				"translation": "статистическая таблица"
+			},
+			{
+				"japanese": "一覧表",
+				"reading": "いちらんひょう",
+				"translation": "таблица, диаграмма, график"
+			}
+		],
+		"sentences":[
+			{
+				"japanese": "|成-せい||績-せき|を|表-ひょう|にする。",
+				"translation": "Свести с таблицу очки."
+			},
+			{
+				"japanese": "|学-がく||生-せい|の|携-けい||帯-たい|の|番-ばん||号-ごう|がこの|表-ひょう|に|載-の|っている。",
+				"translation": "Номера мобильных телефонов учеников указаны в таблице."
+			}
+		],
+		"related":[
+			{
+				"japanese": "グラフ",
+				"reading": "グラフ",
+				"translation": "график, диаграмма"
+			},
+			{
+				"japanese": "リスト",
+				"reading": "リスト",
+				"translation": "список"
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "針",
+			"reading": "はり",
+			"translation": "иголка, жало"
+		},
+		"expressions":[
+			{
+				"japanese": "時計の針",
+				"reading": "とけいのはり",
+				"translation": "стрелка часов"
+			},
+			{
+				"japanese": "注射の針",
+				"reading": "ちゅうしゃのはり",
+				"translation": "игла шприца"
+			},
+			{
+				"japanese": "ホチキスの針",
+				"reading": "ホチキスのはり",
+				"translation": "скоба скоросшивателя"
+			}
+		],
+		"sentences":[
+			{
+				"japanese": "|針-はり|に|糸-いと|を|通-とお|す。",
+				"translation": "Вдеть нитку в иголку."
+			},
+			{
+				"japanese": "|針-はり|で|縫-ぬ|う。",
+				"translation": "Шить иголкой."
+			},
+			{
+				"japanese": "ハチは|針-はり|で|人-ひと|を|刺-さ|す。",
+				"translation": "Оса ужалила человека."
+			}
+		],
+	},
+	{
+		"word": {
+			"japanese": "栓",
+			"reading": "せん",
+			"translation": "пробка, затычка"
+		},
+		"expressions":[
+			{
+				"japanese": "栓を抜く",
+				"reading": "せんをぬく",
+				"translation": "выдернуть пробку"
+			},
+			{
+				"japanese": "栓をする",
+				"reading": "せんをする",
+				"translation": "затыкать пробкой"
+			},
+			{
+				"japanese": "栓抜き",
+				"reading": "せんぬき",
+				"translation": "открывашка"
+			},
+			{
+				"japanese": "栓を閉める",
+				"reading": "せんをしめる",
+				"translation": "закрывать кран"
+			},
+			{
+				"japanese": "栓を開ける",
+				"reading": "せんをあける",
+				"translation": "открывать кран"
+			},
+			{
+				"japanese": "栓を緩める",
+				"reading": "せんをゆるめる",
+				"translation": "приоткрыть кран"
+			},
+			{
+				"japanese": "水道栓",
+				"reading": "すいどうせん",
+				"translation": "водопроводный кран"
+			},
+			{
+				"japanese": "ガス栓",
+				"reading": "ガスせん",
+				"translation": "газовый вентиль"
+			},
+			{
+				"japanese": "消火栓",
+				"reading": "しょうかせん",
+				"translation": "пожарный кран"
+			},
+			{
+				"japanese": "元栓",
+				"reading": "もとせん",
+				"translation": "запорный кран"
+			}
+		],
+		"sentences":[
+			{
+				"japanese": "ビールの|栓-せん|を|抜-ぬ|く。",
+				"translation": "Откупорить пиво."
+			},
+			{
+				"japanese": "|風-ふ||呂-ろ|に|栓-せん|をする。",
+				"translation": "Заткнуть ванную пробкой."
+			},
+			{
+				"japanese": "|水-すい||道-どう|の|栓-せん|を|閉-し|める。",
+				"translation": "Закрыть водопроводный кран."
+			}
+		],
+		"related":[
+			{
+				"japanese": "レバー",
+				"reading": "レバー",
+				"translation": "рычаг"
+			},
+			{
+				"japanese": "ノブ",
+				"reading": "ノブ",
+				"translation": "шарообразная ручка"
+			},
+			{
+				"japanese": "ハンドル",
+				"reading": "ハンドル",
+				"translation": "рукоятка, руль"
+			},
+			{
+				"japanese": "コック",
+				"reading": "コック",
+				"translation": "кран"
+			},
+			{
+				"japanese": "取っ手",
+				"reading": "とって",
+				"translation": "ручка"
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "湯気",
+			"reading": "ゆげ",
+			"translation": "пар"
+		},
+		"expressions":[
+			{
+				"japanese": "湯気が立つ",
+				"reading": "ゆげがたつ",
+				"translation": "идет (стоит) пар"
+			}
+		],
+		"sentences":[
+			{
+				"japanese": "うどんの|湯-ゆ||気-げ|で|眼-め||鏡-がね|が|曇-くも|ってしまった。",
+				"translation": "Очки запотели от пара от лапши."
+			},
+			{
+				"japanese": "|大-だい||浴-よく||場-じょう|は|湯-ゆ||気-げ|で|向-む|こうの|方-ほう|が|見-み|えなかった。",
+				"translation": "В общественной бане из-за пара ничего не видно впереди."
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "日当たり",
+			"reading": "ひあたり",
+			"translation": "освещенный солнцем"
+		},
+		"expressions":[
+			{
+				"japanese": "日当たりがいい",
+				"reading": "ひあたりがいい",
+				"translation": "солнечный, хорошо освещенный"
+			},
+			{
+				"japanese": "日当たりが悪い",
+				"reading": "ひあたりがわるい",
+				"translation": "несолнечный, плохо освещенный"
+			}
+		],
+		"sentences":[
+			{
+				"japanese": "私の部屋は南向きで日当たりがいい。",
+				"translation": "Моя комната выходит на юг, поэтому солнечная."
+			}
+		]
+	}
+}
