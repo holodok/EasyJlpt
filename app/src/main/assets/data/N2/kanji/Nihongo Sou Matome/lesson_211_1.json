@@ -1,0 +1,341 @@
+{
+  "title": "Неделя 1. День 1.",
+  "kanji": [
+    {
+      "id": "1AClSUjlq7##",
+      "japanese": "禁",
+      "on": "キン",
+      "kun": "",
+      "translation": "запрет",
+      "words": [
+        {
+          "id": "lDP9zSoig9##",
+          "japanese": "禁止",
+          "reading": "きんし",
+          "translation": "запрет"
+        }
+      ]
+    },
+    {
+      "id": "kmsxnqIleT##",
+      "japanese": "煙",
+      "on": "エン",
+      "kun": "けむり",
+      "translation": "дым",
+      "words": [
+        {
+          "id": "CCR1rNV0Yj##",
+          "japanese": "禁煙",
+          "reading": "きんえん",
+          "translation": "не курить"
+        },
+        {
+          "id": "8eUVAjyVSr##",
+          "japanese": "煙",
+          "reading": "けむり",
+          "translation": "дым"
+        }
+      ]
+    },
+    {
+      "id": "SBNUintGrK##",
+      "japanese": "静",
+      "on": "セイ",
+      "kun": "しず・か しず・まる",
+      "translation": "тихий, спокойный",
+      "words": [
+        {
+          "id": "N2yW4TqWOH##",
+          "japanese": "安静な",
+          "reading": "あんせいな",
+          "translation": "покой, отдых"
+        },
+        {
+          "id": "qfiC4tpiky##",
+          "japanese": "静かな",
+          "reading": "しずかな",
+          "translation": "тихий, спокойный"
+        },
+        {
+          "id": "bhGmXsml2f##",
+          "japanese": "静まる",
+          "reading": "しずまる",
+          "translation": "утихать, успокаиваться"
+        }
+      ]
+    },
+    {
+      "id": "bo1z81Ts3c##",
+      "japanese": "危",
+      "on": "キ",
+      "kun": "あぶ・ない あや・うい",
+      "translation": "опасный",
+      "words": [
+        {
+          "id": "YiGd6biMUU##",
+          "japanese": "危機",
+          "reading": "きき",
+          "translation": "кризис"
+        },
+        {
+          "id": "WO3bJXjsy3##",
+          "japanese": "危ない",
+          "reading": "あぶない",
+          "translation": "опасный (разг)"
+        },
+        {
+          "id": "1ug0Emt0Qp##",
+          "japanese": "危うい",
+          "reading": "あやうい",
+          "translation": "опасный (книж)"
+        }
+      ]
+    },
+    {
+      "id": "l8faYiHrCC##",
+      "japanese": "険",
+      "on": "ケン",
+      "kun": "けわ・しい",
+      "translation": "крутой, обрывистый",
+      "words": [
+        {
+          "id": "J8M6ftbMkg##",
+          "japanese": "危険",
+          "reading": "きけん",
+          "translation": "опасность"
+        },
+        {
+          "id": "yDbaE86Obs##",
+          "japanese": "険しい",
+          "reading": "けわしい",
+          "translation": "крутой, обрывистый"
+        }
+      ]
+    },
+    {
+      "id": "oudyYd7YNT##",
+      "japanese": "関",
+      "on": "カン",
+      "kun": "かか・わる",
+      "translation": "связь",
+      "words": [
+        {
+          "id": "KORjZZlrIn##",
+          "japanese": "関心",
+          "reading": "かんしん",
+          "translation": "интерес"
+        },
+        {
+          "id": "x4i2H7f4M4##",
+          "japanese": "関わる",
+          "reading": "かかわる",
+          "translation": "иметь отношение"
+        },
+        {
+          "id": "MxHLJQhROI##",
+          "japanese": "〜に関する",
+          "reading": "〜にかんする",
+          "translation": "относится к чему-то"
+        }
+      ]
+    },
+    {
+      "id": "BBH40DZtCt##",
+      "japanese": "係",
+      "on": "ケイ",
+      "kun": "かかり",
+      "translation": "ответственный, обязанность",
+      "words": [
+        {
+          "id": "2V3Px0eXCM##",
+          "japanese": "関係",
+          "reading": "かんけい",
+          "translation": "отношение, связь"
+        },
+        {
+          "id": "zIsaFRXEJ8##",
+          "japanese": "係",
+          "reading": "かかり",
+          "translation": "служащий, ответственный за"
+        },
+        {
+          "id": "uWPcxeaIbo##",
+          "japanese": "係員",
+          "reading": "かかりいん",
+          "translation": "заведующий, служащий"
+        }
+      ]
+    },
+    {
+      "id": "aCKZlsDWd6##",
+      "japanese": "落",
+      "on": "ラク",
+      "kun": "お・ちる お・とす",
+      "translation": "падать, ронять",
+      "words": [
+        {
+          "id": "LiCtVNhBNH##",
+          "japanese": "転落",
+          "reading": "てんらく",
+          "translation": "падение"
+        },
+        {
+          "id": "72i894hDDF##",
+          "japanese": "落ちる",
+          "reading": "おちる",
+          "translation": "падать"
+        },
+        {
+          "id": "7dubnr5uIe##",
+          "japanese": "落第",
+          "reading": "らくだい",
+          "translation": "провал (на экзамене), заново проходить курс"
+        },
+        {
+          "id": "d9mclkA68S##",
+          "japanese": "落とす",
+          "reading": "おとす",
+          "translation": "ронять, терять"
+        }
+      ]
+    },
+    {
+      "id": "fRBebfNClP##",
+      "japanese": "石",
+      "on": "セキ シャク",
+      "kun": "いし",
+      "translation": "камень",
+      "words": [
+        {
+          "id": "4aFT2RLNrE##",
+          "japanese": "落石",
+          "reading": "らくせき",
+          "translation": "падающие камни"
+        },
+        {
+          "id": "2NNj8sNQW9##",
+          "japanese": "石",
+          "reading": "いし",
+          "translation": "камень"
+        },
+        {
+          "id": "gHRBXOAhn0##",
+          "japanese": "磁石",
+          "reading": "じしゃく",
+          "translation": "магнит, компас"
+        }
+      ]
+    },
+    {
+      "id": "SrX2C79QyA##",
+      "japanese": "飛",
+      "on": "ヒ",
+      "kun": "と・ぶ と・ばす",
+      "translation": "летать",
+      "words": [
+        {
+          "id": "vYAJqfms0F##",
+          "japanese": "飛行場",
+          "reading": "ひこうじょう",
+          "translation": "аэропорт"
+        },
+        {
+          "id": "iFbxlvfxWh##",
+          "japanese": "飛ぶ",
+          "reading": "とぶ",
+          "translation": "летать, прыгать"
+        },
+        {
+          "id": "48As9LuNji##",
+          "japanese": "飛び出す",
+          "reading": "とびだす",
+          "translation": "выскочить, вылететь"
+        }
+      ]
+    },
+    {
+      "id": "4c2ZPuQ2Wk##",
+      "japanese": "駐",
+      "on": "チュウ",
+      "kun": "",
+      "translation": "остановка в пути",
+      "words": [
+        {
+          "id": "WpEBbVEeE8##",
+          "japanese": "駐車場",
+          "reading": "ちゅうしゃじょう",
+          "translation": "парковочное место"
+        },
+        {
+          "id": "SoYGKxXyzG##",
+          "japanese": "駐車",
+          "reading": "ちゅうしゃ",
+          "translation": "парковать"
+        }
+      ]
+    },
+    {
+      "id": "z7mOlhZ4my##",
+      "japanese": "捨",
+      "on": "シャ",
+      "kun": "す・てる",
+      "translation": "выбрасывать",
+      "words": [
+        {
+          "id": "mpqHN2Un1x##",
+          "japanese": "四捨五入",
+          "reading": "ししゃごにゅう",
+          "translation": "округление"
+        },
+        {
+          "id": "uWfgExuF4u##",
+          "japanese": "捨てる",
+          "reading": "すてる",
+          "translation": "выбрасывать"
+        }
+      ]
+    },
+    {
+      "id": "4q6SzADdgr##",
+      "japanese": "遊",
+      "on": "ユウ",
+      "kun": "あそ・ぶ",
+      "translation": "игра",
+      "words": [
+        {
+          "id": "OTfbtpRdam##",
+          "japanese": "遊泳",
+          "reading": "ゆうえい",
+          "translation": "плавание, купание"
+        },
+        {
+          "id": "zEDPLL5uhe##",
+          "japanese": "遊ぶ",
+          "reading": "あそぶ",
+          "translation": "играть, развлекаться"
+        }
+      ]
+    },
+    {
+      "id": "80UHj3mfiT##",
+      "japanese": "泳",
+      "on": "エイ",
+      "kun": "およ・ぐ",
+      "translation": "плавание",
+      "words": [
+        {
+          "id": "uxnhP9MoUS##",
+          "japanese": "水泳",
+          "reading": "すいえい",
+          "translation": "плавание"
+        },
+        {
+          "id": "WJSW1eAKOa##",
+          "japanese": "泳ぐ",
+          "reading": "およぐ",
+          "translation": "плавать"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView
+            android:id="@+id/lessonTitleView"
+            style="@style/TextAppearance.MaterialComponents.Headline5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_margin="16dp"
+            tools:text="Lesson Title"/>
+    <TextView
+            android:id="@+id/timestampView"
+            style="@style/TextAppearance.MaterialComponents.Body2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="@id/lessonTitleView"
+            app:layout_constraintTop_toBottomOf="@id/lessonTitleView"
+            tools:text="April 4, 2019"/>
+
+    <Button
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:id="@+id/viewButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:textColor="#DEFF4081"
+            android:text="@string/button_view"
+            app:layout_constraintStart_toStartOf="@id/lessonTitleView"
+            app:layout_constraintTop_toBottomOf="@id/timestampView"/>
+
+    <Button
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:id="@+id/learnButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:textColor="#DEFF4081"
+            android:text="@string/button_learn"
+            app:layout_constraintTop_toTopOf="@+id/viewButton"
+            app:layout_constraintStart_toEndOf="@+id/viewButton"/>
+
+    <Button
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:id="@+id/reviewButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:textColor="#DEFF4081"
+            android:text="@string/button_review"
+            app:layout_constraintTop_toTopOf="@+id/viewButton"
+            app:layout_constraintStart_toEndOf="@+id/learnButton"/>
+
+    <ImageButton
+            android:id="@+id/openMenuButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/three_dots"
+            android:padding="8dp"
+            android:layout_marginEnd="8dp"
+            android:tint="#DEFF4081"
+            android:background="?android:attr/selectableItemBackground"
+            app:layout_constraintTop_toTopOf="@+id/viewButton"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

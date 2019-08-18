@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="courseListRecyclerView" type="id"/>
+    <item name="kanjiLessonListRecyclerView" type="id"/>
+    <item name="kanjiLessonRecyclerView" type="id"/>
+    <item name="kanjiViewRecyclerView" type="id"/>
+    <item name="wordLessonListRecyclerView" type="id"/>
+    <item name="wordLessonViewRecyclerView" type="id"/>
+</resources>

@@ -1,0 +1,240 @@
+﻿{
+	"title": "Неделя 3. День 2.",
+	"words": [
+	{
+		"japanese": "豊かな",
+		"reading": "ゆたかな",
+		"translation": "богатый"
+	},
+	{
+		"japanese": "豊かな国",
+		"reading": "ゆたかなくに",
+		"translation": "богатая страна"
+	},
+	{
+		"japanese": "貧しい",
+		"reading": "まずしい",
+		"translation": "бедный"
+	},
+	{
+		"japanese": "快適な",
+		"reading": "かいてきな",
+		"translation": "приятный, удобный"
+	},
+	{
+		"japanese": "快適な暮らし",
+		"reading": "かいてきなくらし",
+		"translation": "комфортная жизнь"
+	},
+	{
+		"japanese": "楽な",
+		"reading": "らくな",
+		"translation": "удобный, приятный"
+	},
+	{
+		"japanese": "楽な方法",
+		"reading": "らくなほうほう",
+		"translation": "простой способ"
+	},
+	{
+		"japanese": "派手な",
+		"reading": "はでな",
+		"translation": "яркий, шикарный"
+	},
+	{
+		"japanese": "派手なシャツ",
+		"reading": "はでなシャツ",
+		"translation": "модная рубашка"
+	},
+	{
+		"japanese": "地味な",
+		"reading": "じみな",
+		"translation": "простой, скромный"
+	},
+	{
+		"japanese": "粗末な",
+		"reading": "そまつな",
+		"translation": "простой, грубый"
+	},
+	{
+		"japanese": "粗末な食事",
+		"reading": "そまつなしょくじ",
+		"translation": "простая еда"
+	},
+	{
+		"japanese": "みじめな",
+		"reading": "",
+		"translation": "жалкий, бедный"
+	},
+	{
+		"japanese": "みじめな暮らし",
+		"reading": "みじめなくらし",
+		"translation": "бедная жизнь"
+	},
+	{
+		"japanese": "やっかいな",
+		"reading": "",
+		"translation": "обременительный, хлопотный"
+	},
+	{
+		"japanese": "やっかいな問題",
+		"reading": "やっかいなもんだい",
+		"translation": "трудная проблема"
+	},
+	{
+		"japanese": "あいまいな",
+		"reading": "",
+		"translation": "неясный, неопределенный"
+	},
+	{
+		"japanese": "あいまいな返事",
+		"reading": "あいまいなへんじ",
+		"translation": "неясный ответ"
+	},
+	{
+		"japanese": "ありふれた",
+		"reading": "",
+		"translation": "обычный"
+	},
+	{
+		"japanese": "ありふれた話",
+		"reading": "ありふれたはなし",
+		"translation": "обычная история"
+	},
+	{
+		"japanese": "あわただしい",
+		"reading": "",
+		"translation": "торопливый, суетливый"
+	},
+	{
+		"japanese": "あわただしい一日",
+		"reading": "あわただしいいちにち",
+		"translation": "занятой день"
+	},
+	{
+		"japanese": "さわがしい",
+		"reading": "",
+		"translation": "шумный"
+	},
+	{
+		"japanese": "そうぞうしい",
+		"reading": "",
+		"translation": "шумный"
+	},
+	{
+		"japanese": "さわがしい通り",
+		"reading": "さわがしいとおり",
+		"translation": "шумная улица"
+	},
+	{
+		"japanese": "やかましい",
+		"reading": "",
+		"translation": "шумный, надоедливый"
+	},
+	{
+		"japanese": "スピーカーの音がやかましい",
+		"reading": "スピーカーのおとがやかましい",
+		"translation": "Репродуктор очень громкий."
+	},
+	{
+		"japanese": "彼はファッションにやかましい",
+		"reading": "かれはファッションにやかましい",
+		"translation": "Он придирчив к моде."
+	},
+	{
+		"japanese": "めでたい",
+		"reading": "",
+		"translation": "радостный, счастливый"
+	},
+	{
+		"japanese": "おめでたい日",
+		"reading": "おめでたいひ",
+		"translation": "радостный день"
+	},
+	{
+		"japanese": "等しい",
+		"reading": "ひとしい",
+		"translation": "равный, одинаковый"
+	},
+	{
+		"japanese": "長さが等しい",
+		"reading": "ながさがひとしい",
+		"translation": "одинаковая длина"
+	},
+	{
+		"japanese": "みにくい",
+		"reading": "",
+		"translation": "безобразный, уродливый"
+	},
+	{
+		"japanese": "みにくい争い",
+		"reading": "みにくいあらそい",
+		"translation": "некрасивая ссора"
+	},
+	{
+		"japanese": "荒っぽい",
+		"reading": "あらっぽい",
+		"translation": "грубый"
+	},
+	{
+		"japanese": "荒っぽい言葉",
+		"reading": "あらっぽいことば",
+		"translation": "грубый язык"
+	},
+	{
+		"japanese": "空っぽ",
+		"reading": "からっぽ",
+		"translation": "пустой"
+	},
+	{
+		"japanese": "空っぽの財布",
+		"reading": "からっぽのさいふ",
+		"translation": "пустой кошелек"
+	},
+	{
+		"japanese": "真っ黒な",
+		"reading": "まっくろな",
+		"translation": "абсолютно черный"
+	},
+	{
+		"japanese": "焼きすぎて魚が真っ黒になる",
+		"reading": "やきすぎてさかながまっくろになる",
+		"translation": "Рыба подгорела и почернела."
+	},
+	{
+		"japanese": "真っ青な",
+		"reading": "まっさおな",
+		"translation": "бледный"
+	},
+	{
+		"japanese": "顔が真っ青になる",
+		"reading": "かおがまっさおになる",
+		"translation": "лицо побледнело"
+	},
+	{
+		"japanese": "真っ赤な",
+		"reading": "まっかな",
+		"translation": "ярко красный"
+	},
+	{
+		"japanese": "顔が真っ赤なになる",
+		"reading": "かおがまっかなになる",
+		"translation": "лицо покраснело"
+	},
+	{
+		"japanese": "真っ白な",
+		"reading": "まっしろな",
+		"translation": "белоснежный"
+	},
+	{
+		"japanese": "頭が真っ白になる",
+		"reading": "あたまがまっしろになる",
+		"translation": "волосы седеют"
+	},
+	{
+		"japanese": "頭の中が真っ白になる",
+		"reading": "あたまのなかがまっしろになる",
+		"translation": "в голове пусто"
+	}
+	]
+}

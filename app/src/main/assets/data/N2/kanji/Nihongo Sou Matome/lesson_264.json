@@ -1,0 +1,337 @@
+{
+	"title": "Неделя 6. День 4.",
+	"kanji":[
+	{
+		"japanese": "辺",
+		"on": "ヘン",
+		"kun": "あた・り　べ",
+		"translation": "окрестности",
+		"words": [
+			{
+				"japanese": "この辺",
+				"reading": "このへん",
+				"translation": "в этой местности"
+			},
+			{
+				"japanese": "辺り",
+				"reading": "あたり",
+				"translation": "окрестности, вблизи"
+			},
+			{
+				"japanese": "周辺",
+				"reading": "しゅうへん",
+				"translation": "окружность, окрестности"
+			},
+			{
+				"japanese": "海辺",
+				"reading": "うみべ",
+				"translation": "берег моря, побережье"
+			}
+		]
+	},
+	{
+		"japanese": "察",
+		"on": "サツ",
+		"kun": "",
+		"translation": "догадка, предположение, суждение",
+		"words": [
+			{
+				"japanese": "警察",
+				"reading": "けいさつ",
+				"translation": "полиция"
+			},
+			{
+				"japanese": "診察",
+				"reading": "しんさつ",
+				"translation": "медицинский осмотр"
+			}
+		]
+	},
+	{
+		"japanese": "役",
+		"on": "ヤク　エキ",
+		"kun": "",
+		"translation": "долг, война",
+		"words": [
+			{
+				"japanese": "役所",
+				"reading": "やくしょ",
+				"translation": "госучереждение"
+			},
+			{
+				"japanese": "役者",
+				"reading": "やくしゃ",
+				"translation": "актер, актриса"
+			},
+			{
+				"japanese": "役目",
+				"reading": "やくめ",
+				"translation": "обязанности, функции"
+			},
+			{
+				"japanese": "現役",
+				"reading": "現役",
+				"translation": "действительная (военная) служба"
+			}
+		]
+	},
+	{
+		"japanese": "美",
+		"on": "ビ",
+		"kun": "うつく・しい",
+		"translation": "красота",
+		"words": [
+			{
+				"japanese": "美人",
+				"reading": "びじん",
+				"translation": "красавица"
+			},
+			{
+				"japanese": "美しい",
+				"reading": "うつくしい",
+				"translation": "красивый"
+			},
+			{
+				"japanese": "美容",
+				"reading": "びよう",
+				"translation": "парикмахерское искусство и косметика"
+			}
+		]
+	},
+	{
+		"japanese": "術",
+		"on": "ジュツ",
+		"kun": "",
+		"translation": "искусство, мастерство",
+		"words": [
+			{
+				"japanese": "美術",
+				"reading": "びじゅつ",
+				"translation": "искусство"
+			},
+			{
+				"japanese": "手術",
+				"reading": "しゅじゅつ",
+				"translation": "хирургическая операция"
+			},
+			{
+				"japanese": "技術",
+				"reading": "ぎじゅつ",
+				"translation": "техника выполнения, мастерство"
+			},
+			{
+				"japanese": "芸術",
+				"reading": "げいじゅつ",
+				"translation": "искусство"
+			}
+		]
+	},
+	{
+		"japanese": "坂",
+		"on": "",
+		"kun": "さか",
+		"translation": "склон, холм",
+		"words": [
+			{
+				"japanese": "坂",
+				"reading": "さか",
+				"translation": "склон (горы)"
+			},
+			{
+				"japanese": "～坂",
+				"reading": "さか",
+				"translation": "холм~"
+			}
+		]
+	},
+	{
+		"japanese": "寺",
+		"on": "ジ",
+		"kun": "てら",
+		"translation": "буддистский храм",
+		"words": [
+			{
+				"japanese": "～寺",
+				"reading": "てら",
+				"translation": "храм~"
+			},
+			{
+				"japanese": "寺",
+				"reading": "てら",
+				"translation": "буддистский храм"
+			},
+			{
+				"japanese": "寺院",
+				"reading": "じいん",
+				"translation": "храм"
+			}
+		]
+	},
+	{
+		"japanese": "湾",
+		"on": "ワン",
+		"kun": "",
+		"translation": "залив, бухта",
+		"words": [
+			{
+				"japanese": "湾",
+				"reading": "わん",
+				"translation": "залив"
+			},
+			{
+				"japanese": "～湾",
+				"reading": "わん",
+				"translation": "залив~"
+			}
+		]
+	},
+	{
+		"japanese": "島",
+		"on": "トウ",
+		"kun": "しま",
+		"translation": "остров",
+		"words": [
+			{
+				"japanese": "～島",
+				"reading": "～とう",
+				"translation": "остров~"
+			},
+			{
+				"japanese": "列島",
+				"reading": "れっとう",
+				"translation": "архипелаг"
+			},
+			{
+				"japanese": "半島",
+				"reading": "はんとう",
+				"translation": "полуостров"
+			},
+			{
+				"japanese": "島",
+				"reading": "しま",
+				"translation": "остров"
+			}
+		]
+	},
+	{
+		"japanese": "岸",
+		"on": "ガン",
+		"kun": "きし",
+		"translation": "пляж",
+		"words": [
+			{
+				"japanese": "海岸",
+				"reading": "かいがん",
+				"translation": "морской берег"
+			},
+			{
+				"japanese": "岸",
+				"reading": "きし",
+				"translation": "берег"
+			},
+			{
+				"japanese": "湾岸",
+				"reading": "わんがん",
+				"translation": "побережье залива"
+			},
+			{
+				"japanese": "川岸",
+				"reading": "かわぎし",
+				"translation": "берег реки"
+			}
+		]
+	},
+	{
+		"japanese": "園",
+		"on": "エン",
+		"kun": "",
+		"translation": "парк, сад",
+		"words": [
+			{
+				"japanese": "公園",
+				"reading": "こうえん",
+				"translation": "парк"
+			},
+			{
+				"japanese": "遊園地",
+				"reading": "ゆうえんち",
+				"translation": "парк развлечений"
+			},
+			{
+				"japanese": "動物園",
+				"reading": "どうぶつえん",
+				"translation": "зоопарк"
+			},
+			{
+				"japanese": "～園",
+				"reading": "えん",
+				"translation": "парк~"
+			}
+		]
+	},
+	{
+		"japanese": "湖",
+		"on": "コ",
+		"kun": "みず・うみ",
+		"translation": "озеро",
+		"words": [
+			{
+				"japanese": "～湖",
+				"reading": "こ",
+				"translation": "озеро~"
+			},
+			{
+				"japanese": "湖",
+				"reading": "みずうみ",
+				"translation": "озеро"
+			}
+		]
+	},
+	{
+		"japanese": "城",
+		"on": "ジョウ",
+		"kun": "しろ",
+		"translation": "замок",
+		"words": [
+			{
+				"japanese": "～城",
+				"reading": "じょう",
+				"translation": "замок~"
+			},
+			{
+				"japanese": "城",
+				"reading": "しろ",
+				"translation": "замок"
+			}
+		]
+	},
+	{
+		"japanese": "谷",
+		"on": "コク",
+		"kun": "たに",
+		"translation": "долина",
+		"words": [
+			{
+				"japanese": "渓谷",
+				"reading": "けいこく",
+				"translation": "ущелье, каньон"
+			},
+			{
+				"japanese": "谷間",
+				"reading": "たにま",
+				"translation": "долина, лощина"
+			},
+			{
+				"japanese": "谷",
+				"reading": "たに",
+				"translation": "долина, лощина"
+			},
+			{
+				"japanese": "谷川",
+				"reading": "たにがわ",
+				"translation": "горная река"
+			}
+		]
+	}
+	]
+}

@@ -1,37 +1,24 @@
 <resources>
     <string name="app_name">EasyJlpt</string>
-
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
-
-    <string name="action_settings">Settings</string>
-    <string name="open_section">Open section</string>
-    <string name="button_flash_card">Карточки</string>
+    <string name="button_view">Просмотреть</string>
     <string name="button_learn">Учить</string>
-    <string name="button_exam">Проверить</string>
-    <string name="label_can_you_read">Как читается?</string>
-    <string name="button_submit">Дальше</string>
+    <string name="timestamp_never">Новый</string>
     <string name="label_do_you_know_word">Знаешь это слово?</string>
-    <string name="label_do_you_know_kanji">Знаешь этот иероглиф?</string>
-    <string name="label_is_it_correct">Верно?</string>
-    <string name="label_can_you_translate">Как это перевести?</string>
-    <string name="label_do_you_know">Знаешь слово?</string>
+    <string name="button_submit">Дальше</string>
+    <string name="label_learn_status_excellent">Отлично!</string>
+    <string name="label_study_word_count">Выучено слов:</string>
+    <string name="label_study_time">Время обучения:</string>
+    <string name="value_study_time">%1$d мин %2$d сек</string>
+    <string name="inputAnswerHint">Осталось %1$d</string>
+    <string name="inputAnswerHintCorrect">Верно</string>
+    <string name="inputAnswerHintWrong">Ошибка</string>
+    <string name="question_write_reading">Напиши как читается</string>
+    <string name="title_done">Обучение завершено</string>
+    <string name="button_kanji">Кандзи</string>
+    <string name="button_word">Слова</string>
+    <string name="course_list_title">Выбери курс</string>
+    <string name="button_review">Повторить</string>
     <string name="button_no">Нет</string>
     <string name="button_yes">Да</string>
-    <string name="button_check">Ответ</string>
-    <string name="menu_vocabulary_n2">Слова</string>
-    <string name="menu_kanji_n2">Канджи</string>
-    <string name="messageLeaveFlashCards">Выйти из режима карточек?</string>
-    <string name="menu_grammar_n2">Грамматика</string>
-    <string name="title_flash_cards">Осталось %d</string>
-    <string name="menu_grammar_dictionary">Грамматический справочник</string>
-    <string name="messageLoading">Загрузка...</string>
-    <string name="label_study_time">Время обучения:</string>
-    <string name="label_study_word_count">Выучено слов:</string>
-    <string name="title_done">Готово</string>
-    <string name="title_results">Результаты</string>
-    <string name="label_learn_status_excellent">Отлично!</string>
-    <string name="label_answer_correct">Верно!</string>
-    <string name="label_answer_incorrect">Неверно!</string>
-    <string name="value_study_time">%1$d мин %2$d сек</string>
+    <string name="button_exam">Экзамен</string>
 </resources>

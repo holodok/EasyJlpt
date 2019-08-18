@@ -1,0 +1,342 @@
+{
+	"title": "Неделя 5. День 3.",
+	"kanji":[
+	{
+		"japanese": "途",
+		"on": "ト",
+		"kun": "",
+		"translation": "маршрут, путь, дорога",
+		"words": [
+			{
+				"japanese": "用途",
+				"reading": "ようと",
+				"translation": "применение, использование"
+			},
+			{
+				"japanese": "中途",
+				"reading": "ちゅうと",
+				"translation": "полпути, незаконченый"
+			},
+			{
+				"japanese": "途中",
+				"reading": "とちゅう",
+				"translation": "по пути"
+			},
+			{
+				"japanese": "途端",
+				"reading": "とたん",
+				"translation": "в тот самый момент когда"
+			}
+		]
+	},
+	{
+		"japanese": "具",
+		"on": "グ",
+		"kun": "",
+		"translation": "инструмент",
+		"words": [
+			{
+				"japanese": "道具",
+				"reading": "どうぐ",
+				"translation": "инструмент, орудие"
+			},
+			{
+				"japanese": "家具",
+				"reading": "かぐ",
+				"translation": "мебель"
+			},
+			{
+				"japanese": "具合",
+				"reading": "ぐあい",
+				"translation": "состояние, положение, условия"
+			},
+			{
+				"japanese": "雨具",
+				"reading": "あまぐ",
+				"translation": "дождевик и зонтик"
+			}
+		]
+	},
+	{
+		"japanese": "床",
+		"on": "ショウ",
+		"kun": "ゆか　とこ",
+		"translation": "кровать, пол",
+		"words": [
+			{
+				"japanese": "起床",
+				"reading": "きしょう",
+				"translation": "утренний подъем"
+			},
+			{
+				"japanese": "床屋",
+				"reading": "とこや",
+				"translation": "парикмахерская"
+			},
+			{
+				"japanese": "床の間",
+				"reading": "とこのま",
+				"translation": "токонома (стенная ниша с приподнятым полом и полочками для картин и украшений)"
+			},
+			{
+				"japanese": "床",
+				"reading": "ゆか",
+				"translation": "пол"
+			}
+		]
+	},
+	{
+		"japanese": "壁",
+		"on": "",
+		"kun": "かべ",
+		"translation": "стена",
+		"words": [
+			{
+				"japanese": "壁",
+				"reading": "かべ",
+				"translation": "стена"
+			}
+		]
+	},
+	{
+		"japanese": "乾",
+		"on": "カン",
+		"kun": "かわ・く　かわ・かす",
+		"translation": "сухой, сушить",
+		"words": [
+			{
+				"japanese": "乾電池",
+				"reading": "かんでんち",
+				"translation": "сухая батарея"
+			},
+			{
+				"japanese": "乾く",
+				"reading": "かわく",
+				"translation": "сохнуть, высыхать"
+			},
+			{
+				"japanese": "乾かす",
+				"reading": "かわかす",
+				"translation": "сушить, высушивать"
+			}
+		]
+	},
+	{
+		"japanese": "布",
+		"on": "チュウ",
+		"kun": "ぬの",
+		"translation": "ткань, рапостраняться",
+		"words": [
+			{
+				"japanese": "毛布",
+				"reading": "もうふ",
+				"translation": "шерстяное одеяло"
+			},
+			{
+				"japanese": "座布団",
+				"reading": "ざぶとん",
+				"translation": "подушечка для сидения"
+			},
+			{
+				"japanese": "布",
+				"reading": "ぬの",
+				"translation": "ткань"
+			},
+			{
+				"japanese": "分布",
+				"reading": "ぶんぷ",
+				"translation": "распределение, распостранение"
+			}
+		]
+	},
+	{
+		"japanese": "柱",
+		"on": "チュウ",
+		"kun": "はしら",
+		"translation": "столб, колонна",
+		"words": [
+			{
+				"japanese": "電柱",
+				"reading": "でんちゅう",
+				"translation": "телеграфный столб"
+			},
+			{
+				"japanese": "柱",
+				"reading": "はしら",
+				"translation": "столб, колонна"
+			}
+		]
+	},
+	{
+		"japanese": "虫",
+		"on": "チュウ",
+		"kun": "むし",
+		"translation": "насекомое",
+		"words": [
+			{
+				"japanese": "防虫剤",
+				"reading": "ぼうちゅうざい",
+				"translation": "репеллент от насекомых"
+			},
+			{
+				"japanese": "虫",
+				"reading": "むし",
+				"translation": "насекомое"
+			},
+			{
+				"japanese": "殺虫剤",
+				"reading": "さっちゅうざい",
+				"translation": "инсектицид"
+			},
+			{
+				"japanese": "虫歯",
+				"reading": "むしば",
+				"translation": "испорченный зуб, кариоз"
+			}
+		]
+	},
+	{
+		"japanese": "歯",
+		"on": "シ",
+		"kun": "は",
+		"translation": "зуб",
+		"words": [
+			{
+				"japanese": "歯科",
+				"reading": "しか",
+				"translation": "зубоврачебное дело, одонтология"
+			},
+			{
+				"japanese": "歯医者",
+				"reading": "はいしゃ",
+				"translation": "зубной врач"
+			},
+			{
+				"japanese": "歯周病",
+				"reading": "ししゅうびょう",
+				"translation": "периодонтальное заболевания (оклозубной ткани)"
+			},
+			{
+				"japanese": "歯車",
+				"reading": "はぐるま",
+				"translation": "зубчатое колесо, шестерня"
+			}
+		]
+	},
+	{
+		"japanese": "防",
+		"on": "ボウ",
+		"kun": "ふせ・ぐ",
+		"translation": "отогнать, защищать",
+		"words": [
+			{
+				"japanese": "予防",
+				"reading": "よぼう",
+				"translation": "предупреждение, предовращение"
+			},
+			{
+				"japanese": "防止",
+				"reading": "ぼうし",
+				"translation": "предотвращение"
+			},
+			{
+				"japanese": "消防",
+				"reading": "しょうぼう",
+				"translation": "пожарная охрана"
+			},
+			{
+				"japanese": "防ぐ",
+				"reading": "ふせぐ",
+				"translation": "обороняться, предотвращать"
+			}
+		]
+	},
+	{
+		"japanese": "磨",
+		"on": "",
+		"kun": "みが・く",
+		"translation": "шлифовать, полировать",
+		"words": [
+			{
+				"japanese": "磨く",
+				"reading": "みがく",
+				"translation": "чистить"
+			},
+			{
+				"japanese": "歯磨き",
+				"reading": "はみがき",
+				"translation": "чистить зубы"
+			}
+		]
+	},
+	{
+		"japanese": "抜",
+		"on": "バツ",
+		"kun": "ぬ・く　ぬ・ける",
+		"translation": "выскользнуть, извлекать",
+		"words": [
+			{
+				"japanese": "抜群",
+				"reading": "ばつぐん",
+				"translation": "выдающийся"
+			},
+			{
+				"japanese": "抜く",
+				"reading": "ぬく",
+				"translation": "выдергивать, отключать"
+			},
+			{
+				"japanese": "抜ける",
+				"reading": "ぬける",
+				"translation": "выпадать, быть пропущенным"
+			},
+			{
+				"japanese": "追い抜く",
+				"reading": "おいぬく",
+				"translation": "оставлять позади, опережать"
+			}
+		]
+	},
+	{
+		"japanese": "悩む",
+		"on": "",
+		"kun": "なや・む",
+		"translation": "страдать, мучиться",
+		"words": [
+			{
+				"japanese": "悩む",
+				"reading": "なやむ",
+				"translation": "мучиться, изнывать"
+			},
+			{
+				"japanese": "悩み",
+				"reading": "なやみ",
+				"translation": "страдания, муки"
+			}
+		]
+	},
+	{
+		"japanese": "髪",
+		"on": "",
+		"kun": "かみ",
+		"translation": "волосы",
+		"words": [
+			{
+				"japanese": "髪",
+				"reading": "かみ",
+				"translation": "волосы"
+			},
+			{
+				"japanese": "白髪",
+				"reading": "しらが",
+				"translation": "седые волосы"
+			},
+			{
+				"japanese": "髪の毛",
+				"reading": "かみのけ",
+				"translation": "волосинка"
+			}
+		]
+	}
+	]
+}

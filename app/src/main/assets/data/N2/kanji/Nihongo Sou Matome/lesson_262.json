@@ -1,0 +1,372 @@
+{
+	"title": "Неделя 6. День 2.",
+	"kanji":[
+	{
+		"japanese": "詰",
+		"on": "",
+		"kun": "つ・める　つ・まる",
+		"translation": "набивать, наполнять, прессовать",
+		"words": [
+			{
+				"japanese": "詰める",
+				"reading": "つめる",
+				"translation": "набивать, наполнять, упаковывать"
+			},
+			{
+				"japanese": "箱詰め",
+				"reading": "はこづめ",
+				"translation": "упакованный в ящики, коробки"
+			},
+			{
+				"japanese": "缶詰",
+				"reading": "かんづめ",
+				"translation": "консервы"
+			}
+		]
+	},
+	{
+		"japanese": "麦",
+		"on": "",
+		"kun": "むぎ",
+		"translation": "ячмень, пшеница",
+		"words": [
+			{
+				"japanese": "小麦粉",
+				"reading": "こむぎこ",
+				"translation": "пшеничная мука"
+			},
+			{
+				"japanese": "麦畑",
+				"reading": "むぎばたけ",
+				"translation": "поле пшеницы"
+			}
+		]
+	},
+	{
+		"japanese": "純",
+		"on": "ジュン",
+		"kun": "",
+		"translation": "подлинный, чистота, невинность",
+		"words": [
+			{
+				"japanese": "純粋な",
+				"reading": "じゅんすいな",
+				"translation": "чистый, без примеси"
+			},
+			{
+				"japanese": "単純な",
+				"reading": "たんじゅんな",
+				"translation": "простой, простодушный"
+			},
+			{
+				"japanese": "純情な",
+				"reading": "じゅんじょうな",
+				"translation": "чистое (бескорыстное) чувство"
+			},
+			{
+				"japanese": "純米酢",
+				"reading": "じゅんまいす",
+				"translation": "чистый рисовый уксус"
+			}
+		]
+	},
+	{
+		"japanese": "草",
+		"on": "ソウ",
+		"kun": "くさ",
+		"translation": "трава, сорняки",
+		"words": [
+			{
+				"japanese": "雑草",
+				"reading": "ざっそう",
+				"translation": "сорняки, бурьян"
+			},
+			{
+				"japanese": "草",
+				"reading": "くさ",
+				"translation": "трава"
+			},
+			{
+				"japanese": "除草",
+				"reading": "じょそう",
+				"translation": "прополка"
+			},
+			{
+				"japanese": "草花",
+				"reading": "くさばな",
+				"translation": "цветы растения (кроме кустов и деревьев)"
+			}
+		]
+	},
+	{
+		"japanese": "塩",
+		"on": "エン",
+		"kun": "しお",
+		"translation": "поваренная соль",
+		"words": [
+			{
+				"japanese": "食塩",
+				"reading": "しょくえん",
+				"translation": "столовая соль"
+			},
+			{
+				"japanese": "塩",
+				"reading": "しお",
+				"translation": "соль"
+			}
+		]
+	},
+	{
+		"japanese": "固",
+		"on": "コ",
+		"kun": "かた・い　かた・まる",
+		"translation": "твердый, крепкий, застывать",
+		"words": [
+			{
+				"japanese": "固定",
+				"reading": "こてい",
+				"translation": "фиксирование, установление"
+			},
+			{
+				"japanese": "固形",
+				"reading": "こけい",
+				"translation": "твердое состояние"
+			},
+			{
+				"japanese": "固い",
+				"reading": "かたい",
+				"translation": "твердый"
+			},
+			{
+				"japanese": "固体",
+				"reading": "こたい",
+				"translation": "физ. твердое тело"
+			},
+			{
+				"japanese": "固まる",
+				"reading": "かたまる",
+				"translation": "твердеть, крепнуть, застывать"
+			}
+		]
+	},
+	{
+		"japanese": "演",
+		"on": "エン",
+		"kun": "",
+		"translation": "выступление, играть",
+		"words": [
+			{
+				"japanese": "実演",
+				"reading": "じつえん",
+				"translation": "представление не сцене, публичная демонстрация"
+			},
+			{
+				"japanese": "演習",
+				"reading": "えんしゅう",
+				"translation": "упражнение, воен. маневры"
+			},
+			{
+				"japanese": "演技",
+				"reading": "えんぎ",
+				"translation": "театральное искусство, исполнение"
+			},
+			{
+				"japanese": "演説",
+				"reading": "えんぜつ",
+				"translation": "речь, обращение"
+			}
+		]
+	},
+	{
+		"japanese": "菓",
+		"on": "カ",
+		"kun": "",
+		"translation": "сладости",
+		"words": [
+			{
+				"japanese": "菓子",
+				"reading": "かし",
+				"translation": "сладости"
+			},
+			{
+				"japanese": "和菓子",
+				"reading": "わがし",
+				"translation": "японские сладости"
+			},
+			{
+				"japanese": "洋菓子",
+				"reading": "ようがし",
+				"translation": "европейские сладости"
+			}
+		]
+	},
+	{
+		"japanese": "贈",
+		"on": "",
+		"kun": "おく・る",
+		"translation": "подарок, преподносить",
+		"words": [
+			{
+				"japanese": "贈り物",
+				"reading": "おくりもの",
+				"translation": "подарок"
+			},
+			{
+				"japanese": "贈る",
+				"reading": "おくる",
+				"translation": "преподносить, дарить"
+			}
+		]
+	},
+	{
+		"japanese": "省",
+		"on": "セイ　ショウ",
+		"kun": "はぶ・く",
+		"translation": "фокусироваться, министерство",
+		"words": [
+			{
+				"japanese": "帰省",
+				"reading": "きせい",
+				"translation": "возвращение домой"
+			},
+			{
+				"japanese": "～省",
+				"reading": "しょう",
+				"translation": "министерство"
+			},
+			{
+				"japanese": "省く",
+				"reading": "はぶく",
+				"translation": "исключать, сокращать, устранять"
+			},
+			{
+				"japanese": "反省",
+				"reading": "はんせい",
+				"translation": "самопроверка, самоанализ"
+			},
+			{
+				"japanese": "省エネ",
+				"reading": "しょうエネ",
+				"translation": "энергосбережение"
+			},
+			{
+				"japanese": "省略",
+				"reading": "しょうりゃく",
+				"translation": "сокращение, пропуск"
+			}
+		]
+	},
+	{
+		"japanese": "承",
+		"on": "ショウ",
+		"kun": "うけたまわ・る",
+		"translation": "согласиться, слышать, слушать",
+		"words": [
+			{
+				"japanese": "了承",
+				"reading": "りょうしょう",
+				"translation": "согласие, принятие"
+			},
+			{
+				"japanese": "承知",
+				"reading": "しょうち",
+				"translation": "согласие, дозволение, осведомленность"
+			},
+			{
+				"japanese": "承認",
+				"reading": "しょうにん",
+				"translation": "признание, согласие, одобрение"
+			},
+			{
+				"japanese": "承る",
+				"reading": "うけたまわる",
+				"translation": "вежл. слышать, слушать, служить, посещать"
+			}
+		]
+	},
+	{
+		"japanese": "展",
+		"on": "テン",
+		"kun": "",
+		"translation": "разворачиваться, расширяться",
+		"words": [
+			{
+				"japanese": "展覧会",
+				"reading": "てんらんかい",
+				"translation": "выставка"
+			},
+			{
+				"japanese": "～展",
+				"reading": "てん",
+				"translation": "выставка"
+			},
+			{
+				"japanese": "展示",
+				"reading": "てんじ",
+				"translation": "экспонирование, показ"
+			},
+			{
+				"japanese": "発展",
+				"reading": "はってん",
+				"translation": "развитие, рост"
+			}
+		]
+	},
+	{
+		"japanese": "破",
+		"on": "ハ",
+		"kun": "やぶ・れる　やぶ・る",
+		"translation": "рвать, разбивать, ломать",
+		"words": [
+			{
+				"japanese": "破格",
+				"reading": "はかく",
+				"translation": "исключение (из правил)"
+			},
+			{
+				"japanese": "破片",
+				"reading": "はへん",
+				"translation": "фрагмент"
+			},
+			{
+				"japanese": "破れる",
+				"reading": "やぶれる",
+				"translation": "рваться, разбиваться"
+			},
+			{
+				"japanese": "破産",
+				"reading": "はさん",
+				"translation": "банкротство"
+			},
+			{
+				"japanese": "破る",
+				"reading": "やぶる",
+				"translation": "рвать, разбивать"
+			}
+		]
+	},
+	{
+		"japanese": "処",
+		"on": "ショ",
+		"kun": "",
+		"translation": "распоряжаться, управлять",
+		"words": [
+			{
+				"japanese": "処理",
+				"reading": "しょり",
+				"translation": "распоряжение чем-л, управление чем-л"
+			},
+			{
+				"japanese": "処分",
+				"reading": "しょぶん",
+				"translation": "распоряжение, меры, наказание"
+			},
+			{
+				"japanese": "処置",
+				"reading": "しょち",
+				"translation": "меры, мероприятия, распоряжения"
+			}
+		]
+	}
+	]
+}

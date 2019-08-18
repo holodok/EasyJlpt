@@ -1,0 +1,342 @@
+{
+	"title": "Неделя 3. День 6.",
+	"kanji":[
+	{
+		"japanese": "結",
+		"on": "ケツ",
+		"kun": "むす・ぶ",
+		"translation": "связь, контракт",
+		"words": [
+			{
+				"japanese": "結果",
+				"reading": "けっか",
+				"translation": "результат"
+			},
+			{
+				"japanese": "結ぶ",
+				"reading": "むすぶ",
+				"translation": "связывать, заключать (договор)"
+			},
+			{
+				"japanese": "結局",
+				"reading": "けっきょく",
+				"translation": "в конце концов"
+			}
+		]
+	},
+	{
+		"japanese": "果",
+		"on": "カ",
+		"kun": "は・たす",
+		"translation": "фрукты, награда, достигать, завершение",
+		"words": [
+			{
+				"japanese": "効果",
+				"reading": "こうか",
+				"translation": "эффект"
+			},
+			{
+				"japanese": "果物",
+				"reading": "くだもの",
+				"translation": "фрукты"
+			},
+			{
+				"japanese": "果実",
+				"reading": "かじつ",
+				"translation": "плоды, урожай"
+			},
+			{
+				"japanese": "果たす",
+				"reading": "はたす",
+				"translation": "выполнять, осуществлять"
+			}
+		]
+	},
+	{
+		"japanese": "封",
+		"on": "フウ",
+		"kun": "",
+		"translation": "печать, закрытие",
+		"words": [
+			{
+				"japanese": "開封",
+				"reading": "かいふう",
+				"translation": "вскрывать (конверт), распечатывать"
+			},
+			{
+				"japanese": "同封",
+				"reading": "どうふう",
+				"translation": "прилагать к письму"
+			},
+			{
+				"japanese": "封書",
+				"reading": "ふうしょ",
+				"translation": "запечатанное письмо"
+			}
+		]
+	},
+	{
+		"japanese": "法",
+		"on": "ホウ",
+		"kun": "",
+		"translation": "метод, закон, система",
+		"words": [
+			{
+				"japanese": "方法",
+				"reading": "ほうほう",
+				"translation": "метод, способ"
+			},
+			{
+				"japanese": "作法",
+				"reading": "さほう",
+				"translation": "способ изготовления, приемы написания"
+			},
+			{
+				"japanese": "文法",
+				"reading": "ぶんぽう",
+				"translation": "грамматика"
+			},
+			{
+				"japanese": "法人",
+				"reading": "ほうじん",
+				"translation": "юридическое лицо"
+			}
+		]
+	},
+	{
+		"japanese": "各",
+		"on": "カク",
+		"kun": "",
+		"translation": "каждый",
+		"words": [
+			{
+				"japanese": "各～",
+				"reading": "かく～",
+				"translation": "каждый"
+			},
+			{
+				"japanese": "各地",
+				"reading": "かくち",
+				"translation": "повсеместно"
+			},
+			{
+				"japanese": "各自",
+				"reading": "かくじ",
+				"translation": "каждый (индивидуально)"
+			}
+		]
+	},
+	{
+		"japanese": "位",
+		"on": "イ",
+		"kun": "くらい",
+		"translation": "ранг, класс, примерно",
+		"words": [
+			{
+				"japanese": "～各位",
+				"reading": "～かくい",
+				"translation": "дамы и господа"
+			},
+			{
+				"japanese": "～位",
+				"reading": "～い",
+				"translation": "номер места, положение в ряду, ранг"
+			},
+			{
+				"japanese": "地位",
+				"reading": "ちい",
+				"translation": "статус"
+			},
+			{
+				"japanese": "位",
+				"reading": "くらい",
+				"translation": "ранг, в такой степени, около"
+			}
+		]
+	},
+	{
+		"japanese": "異",
+		"on": "イ",
+		"kun": "こと",
+		"translation": "необычный, странный, чудесный",
+		"words": [
+			{
+				"japanese": "異常な",
+				"reading": "いじょうな",
+				"translation": "необыкновенный, ненормальный"
+			},
+			{
+				"japanese": "異変",
+				"reading": "いへん",
+				"translation": "неприятное проишествие, необычное явление"
+			},
+			{
+				"japanese": "同音異義語",
+				"reading": "どうおんいぎご",
+				"translation": "омоним"
+			},
+			{
+				"japanese": "異なる",
+				"reading": "ことなる",
+				"translation": "отличаться"
+			}
+		]
+	},
+	{
+		"japanese": "移",
+		"on": "イ",
+		"kun": "うつ・る　うつ・す",
+		"translation": "сдвиг, передвигаться, двигать, заражение",
+		"words": [
+			{
+				"japanese": "移転",
+				"reading": "いてん",
+				"translation": "переезд, переселение, передача (имущества)"
+			},
+			{
+				"japanese": "移る",
+				"reading": "うつる",
+				"translation": "переезжать, перемещаться, быть заразным"
+			},
+			{
+				"japanese": "移動",
+				"reading": "いどう",
+				"translation": "передвижение, миграция, дрейф"
+			},
+			{
+				"japanese": "移す",
+				"reading": "うつす",
+				"translation": "перемещать, переводить (куда-либо), пересаживать, заражать"
+			}
+		]
+	},
+	{
+		"japanese": "務",
+		"on": "ム",
+		"kun": "つと・める",
+		"translation": "долг, служебные обязанности, служить",
+		"words": [
+			{
+				"japanese": "事務",
+				"reading": "じむ",
+				"translation": "дело, занятие, офисная работа"
+			},
+			{
+				"japanese": "任務",
+				"reading": "にんむ",
+				"translation": "долг, обязанности, задача"
+			},
+			{
+				"japanese": "事務所",
+				"reading": "じむしょ",
+				"translation": "офис"
+			},
+			{
+				"japanese": "務める",
+				"reading": "つとめる",
+				"translation": "работать, служить"
+			}
+		]
+	},
+	{
+		"japanese": "更",
+		"on": "コウ",
+		"kun": "",
+		"translation": "темнеть, засиживаться, обновить",
+		"words": [
+			{
+				"japanese": "変更",
+				"reading": "へんこう",
+				"translation": "перемена, изменение"
+			},
+			{
+				"japanese": "更衣室",
+				"reading": "こういしつ",
+				"translation": "примерочная"
+			},
+			{
+				"japanese": "更新",
+				"reading": "こうしん",
+				"translation": "обновление"
+			}
+		]
+	},
+	{
+		"japanese": "越",
+		"on": "",
+		"kun": "こ・す　こ・える",
+		"translation": "превзойти, превысить, пересечь",
+		"words": [
+			{
+				"japanese": "引っ越す",
+				"reading": "ひっこす",
+				"translation": "переселиться"
+			},
+			{
+				"japanese": "お越しの際",
+				"reading": "おこしのさい",
+				"translation": "когда ты пришел"
+			},
+			{
+				"japanese": "乗り越す",
+				"reading": "のりこす",
+				"translation": "проезжать свою станцию"
+			}
+		]
+	},
+	{
+		"japanese": "郊",
+		"on": "コウ",
+		"kun": "",
+		"translation": "окраина, пригород",
+		"words": [
+			{
+				"japanese": "郊外",
+				"reading": "こうがい",
+				"translation": "окрестности города"
+			},
+			{
+				"japanese": "近郊",
+				"reading": "きんこう",
+				"translation": "загородная местность"
+			}
+		]
+	},
+	{
+		"japanese": "周",
+		"on": "シュウ",
+		"kun": "まわ・り",
+		"translation": "окружность, цикл",
+		"words": [
+			{
+				"japanese": "円周",
+				"reading": "えんしゅう",
+				"translation": "окружность"
+			},
+			{
+				"japanese": "周り",
+				"reading": "まわり",
+				"translation": "окрестности, вокруг"
+			}
+		]
+	},
+	{
+		"japanese": "畑",
+		"on": "",
+		"kun": "はたけ",
+		"translation": "поле (суходольное)",
+		"words": [
+			{
+				"japanese": "畑",
+				"reading": "はたけ",
+				"translation": "поле (суходольное), огород"
+			},
+			{
+				"japanese": "花畑",
+				"reading": "はなばたけ",
+				"translation": "цветник"
+			}
+		]
+	}
+	]
+}

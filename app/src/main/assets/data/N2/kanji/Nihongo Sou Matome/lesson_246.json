@@ -1,0 +1,455 @@
+{
+	"title": "Неделя 4. День 6.",
+	"kanji":[
+	{
+		"japanese": "夢",
+		"on": "ム",
+		"kun": "ゆめ",
+		"translation": "сон, мечта",
+		"words": [
+			{
+				"japanese": "夢中になる",
+				"reading": "むちゅうになる",
+				"translation": "не помнить себя, потерять голову"
+			},
+			{
+				"japanese": "夢中で",
+				"reading": "むちゅうで",
+				"translation": "рассеянно, как во сне"
+			},
+			{
+				"japanese": "夢",
+				"reading": "ゆめ",
+				"translation": "мечта, сон"
+			}
+		]
+	},
+	{
+		"japanese": "専",
+		"on": "セン",
+		"kun": "",
+		"translation": "специальность, главным образом",
+		"words": [
+			{
+				"japanese": "専門",
+				"reading": "せんもん",
+				"translation": "специальность"
+			},
+			{
+				"japanese": "専攻",
+				"reading": "せんこう",
+				"translation": "специализация, главный предмет в учебе"
+			},
+			{
+				"japanese": "専用",
+				"reading": "せんよう",
+				"translation": "для личного пользования"
+			}
+		]
+	},
+	{
+		"japanese": "史",
+		"on": "シ",
+		"kun": "",
+		"translation": "история",
+		"words": [
+			{
+				"japanese": "歴史",
+				"reading": "れきし",
+				"translation": "история"
+			},
+			{
+				"japanese": "～史",
+				"reading": "し",
+				"translation": "история (страны)"
+			}
+		]
+	},
+	{
+		"japanese": "域",
+		"on": "サイ",
+		"kun": "",
+		"translation": "район, область",
+		"words": [
+			{
+				"japanese": "区域",
+				"reading": "くいき",
+				"translation": "район, зона"
+			},
+			{
+				"japanese": "地域",
+				"reading": "ちいき",
+				"translation": "территория, местность"
+			}
+		]
+	},
+	{
+		"japanese": "祭",
+		"on": "サイ",
+		"kun": "まつ・り",
+		"translation": "праздник, ритуал",
+		"words": [
+			{
+				"japanese": "祭日",
+				"reading": "さいじつ",
+				"translation": "прадничный день"
+			},
+			{
+				"japanese": "お祭り",
+				"reading": "おまつり",
+				"translation": "фестиваль, праздник"
+			},
+			{
+				"japanese": "～祭",
+				"reading": "さい",
+				"translation": "торжество, праздник"
+			},
+			{
+				"japanese": "五十年祭",
+				"reading": "ごじゅうねんさい",
+				"translation": "пятидесятилетний юбилей"
+			}
+		]
+	},
+	{
+		"japanese": "査",
+		"on": "サ",
+		"kun": "",
+		"translation": "исследовать, проверять",
+		"words": [
+			{
+				"japanese": "検査",
+				"reading": "けんさ",
+				"translation": "проверка, досмотр, мед. анализ"
+			},
+			{
+				"japanese": "審査",
+				"reading": "しんさ",
+				"translation": "проверка, оценка"
+			},
+			{
+				"japanese": "調査",
+				"reading": "ちょうさ",
+				"translation": "расследование, изучение"
+			}
+		]
+	},
+	{
+		"japanese": "戦",
+		"on": "セン",
+		"kun": "たたか・う",
+		"translation": "война, бой, турнир",
+		"words": [
+			{
+				"japanese": "～戦",
+				"reading": "せん",
+				"translation": "битва, турнир"
+			},
+			{
+				"japanese": "戦争",
+				"reading": "せんそう",
+				"translation": "война"
+			},
+			{
+				"japanese": "大戦",
+				"reading": "たいせん",
+				"translation": "мировая война"
+			},
+			{
+				"japanese": "戦う",
+				"reading": "たたかう",
+				"translation": "бороться, сражаться"
+			}
+		]
+	},
+	{
+		"japanese": "争",
+		"on": "ソウ",
+		"kun": "あらそ・う",
+		"translation": "конфликт, конкуренция",
+		"words": [
+			{
+				"japanese": "競争",
+				"reading": "きょうそう",
+				"translation": "соревнование, конкуренция"
+			},
+			{
+				"japanese": "争う",
+				"reading": "あらそう",
+				"translation": "спорить, ссориться"
+			}
+		]
+	},
+	{
+		"japanese": "将",
+		"on": "ショウ",
+		"kun": "",
+		"translation": "лидер, командир, сёги, ближайшее время",
+		"words": [
+			{
+				"japanese": "将来",
+				"reading": "しょうらい",
+				"translation": "будущее"
+			},
+			{
+				"japanese": "将棋",
+				"reading": "しょうぎ",
+				"translation": "сёги"
+			}
+		]
+	},
+	{
+		"japanese": "橋",
+		"on": "キョウ",
+		"kun": "はし",
+		"translation": "мост",
+		"words": [
+			{
+				"japanese": "歩道橋",
+				"reading": "ほどうきょう",
+				"translation": "пешеходный мост"
+			},
+			{
+				"japanese": "橋",
+				"reading": "はし",
+				"translation": "мост"
+			},
+			{
+				"japanese": "鉄橋",
+				"reading": "てっきょう",
+				"translation": "ж/д мост"
+			},
+			{
+				"japanese": "架け橋",
+				"reading": "かけはし",
+				"translation": "временный мост, посредник"
+			}
+		]
+	},
+	{
+		"japanese": "憎",
+		"on": "",
+		"kun": "にく・い　にく・む　にく・しみ　にく・らしい",
+		"translation": "ненависть, отвращение",
+		"words": [
+			{
+				"japanese": "憎い",
+				"reading": "にくい",
+				"translation": "отвратительный"
+			},
+			{
+				"japanese": "憎しみ",
+				"reading": "にくしみ",
+				"translation": "ненависть, враждебность"
+			},
+			{
+				"japanese": "憎む",
+				"reading": "にくむ",
+				"translation": "ненавидеть"
+			},
+			{
+				"japanese": "憎らしい",
+				"reading": "にくらしい",
+				"translation": "противный, раздражающий"
+			}
+		]
+	},
+	{
+		"japanese": "殺",
+		"on": "サツ",
+		"kun": "ころ・す",
+		"translation": "убивать",
+		"words": [
+			{
+				"japanese": "自殺",
+				"reading": "じさつ",
+				"translation": "самоубийство"
+			},
+			{
+				"japanese": "殺す",
+				"reading": "ころす",
+				"translation": "убивать"
+			}
+		]
+	},
+	{
+		"japanese": "悲",
+		"on": "ヒ",
+		"kun": "かな・しい　かな・しむ",
+		"translation": "грусть, сожаление",
+		"words": [
+			{
+				"japanese": "悲観",
+				"reading": "ひかん",
+				"translation": "пессимизм"
+			},
+			{
+				"japanese": "悲しい",
+				"reading": "かなしい",
+				"translation": "печальный, грустный"
+			},
+			{
+				"japanese": "悲しむ",
+				"reading": "かなしむ",
+				"translation": "печалиться, горевать"
+			}
+		]
+	},
+	{
+		"japanese": "恥",
+		"on": "",
+		"kun": "はじ　は・ずかしい",
+		"translation": "позор",
+		"words": [
+			{
+				"japanese": "恥",
+				"reading": "はじ",
+				"translation": "позор, стыд, унижение"
+			},
+			{
+				"japanese": "恥ずかしい",
+				"reading": "はずかしい",
+				"translation": "стыдно, неловко"
+			}
+		]
+	},
+	{
+		"japanese": "感",
+		"on": "カン",
+		"kun": "",
+		"translation": "эмоция, чувство, ощущение",
+		"words": [
+			{
+				"japanese": "感じる",
+				"reading": "かんじる",
+				"translation": "чувствовать, испытывать"
+			},
+			{
+				"japanese": "感心な",
+				"reading": "かんしんな",
+				"translation": "восхитительный, замечательный"
+			},
+			{
+				"japanese": "感情",
+				"reading": "かんじょう",
+				"translation": "эмоция, страсть"
+			},
+			{
+				"japanese": "感動",
+				"reading": "かんどう",
+				"translation": "быть тронутым, впечатление"
+			}
+		]
+	},
+	{
+		"japanese": "球",
+		"on": "キュウ",
+		"kun": "たま",
+		"translation": "шар, сфера",
+		"words": [
+			{
+				"japanese": "地球",
+				"reading": "ちきゅう",
+				"translation": "земля"
+			},
+			{
+				"japanese": "野球",
+				"reading": "やきゅう",
+				"translation": "бейсбол"
+			},
+			{
+				"japanese": "電球",
+				"reading": "でんきゅう",
+				"translation": "лампочка"
+			},
+			{
+				"japanese": "球",
+				"reading": "たま",
+				"translation": "шар, сфера"
+			}
+		]
+	},
+	{
+		"japanese": "和",
+		"on": "ワ",
+		"kun": "",
+		"translation": "гармония, мир, Японский стиль",
+		"words": [
+			{
+				"japanese": "平和",
+				"reading": "へいわ",
+				"translation": "мир, гармония"
+			},
+			{
+				"japanese": "和式",
+				"reading": "わしき",
+				"translation": "японский стиль"
+			}
+		]
+	},
+	{
+		"japanese": "愛",
+		"on": "アイ",
+		"kun": "",
+		"translation": "любовь, привязанность",
+		"words": [
+			{
+				"japanese": "愛",
+				"reading": "あい",
+				"translation": "любовь"
+			},
+			{
+				"japanese": "愛情",
+				"reading": "あいじょう",
+				"translation": "любовь, привязанность"
+			},
+			{
+				"japanese": "愛する",
+				"reading": "あいする",
+				"translation": "любить"
+			},
+			{
+				"japanese": "恋愛",
+				"reading": "れんあい",
+				"translation": "любовь"
+			}
+		]
+	},
+	{
+		"japanese": "仲",
+		"on": "",
+		"kun": "なか",
+		"translation": "посредник, отношения",
+		"words": [
+			{
+				"japanese": "仲",
+				"reading": "なか",
+				"translation": "отношения"
+			},
+			{
+				"japanese": "仲間",
+				"reading": "なかま",
+				"translation": "товарищ, круг друзей"
+			}
+		]
+	},
+	{
+		"japanese": "良",
+		"on": "リョウ",
+		"kun": "よ・い",
+		"translation": "хороший, умелый",
+		"words": [
+			{
+				"japanese": "改良",
+				"reading": "かいりょう",
+				"translation": "улучшение, усовершенствование"
+			},
+			{
+				"japanese": "良い",
+				"reading": "よい",
+				"translation": "хороший, приятный"
+			}
+		]
+	}
+	]
+}

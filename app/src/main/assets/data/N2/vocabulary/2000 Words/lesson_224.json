@@ -1,0 +1,435 @@
+﻿{
+	"title": "Слова 81-90",
+	"words": [
+		{
+			"word": {
+				"japanese": "費用",
+				"reading": "ひよう",
+				"translation": ""
+			},
+			"expressions":[
+				{
+					"japanese": "費用がかかる",
+					"reading": "ひようがかかる",
+					"translation": ""
+				},
+				{
+					"japanese": "費用をかける",
+					"reading": "ひようをかける",
+					"translation": ""
+				},
+				{
+					"japanese": "費用が嵩む",
+					"reading": "ひようがかさむ",
+					"translation": ""
+				},
+				{
+					"japanese": "費用を負担する",
+					"reading": "ひようをふたんする",
+					"translation": ""
+				}
+			],
+			"sentences":[
+				{
+					"japanese": "旅行の費用をためる。",
+					"translation": "."
+				},
+				{
+					"japanese": "子どもを育てるのには費用がかかる。",
+					"translation": "."
+				},
+				{
+					"japanese": "新学期はいろいろと費用が嵩む。",
+					"translation": "."
+				},
+				{
+					"japanese": "親が留学の費用を負担してくれる。",
+					"translation": "."
+				}
+			],
+			"related":[
+				{
+					"japanese": "～費",
+					"reading": "～ひ",
+					"translation": ""
+				},
+				{
+					"japanese": "～金",
+					"reading": "～きん",
+					"translation": ""
+				},
+				{
+					"japanese": "～経費",
+					"reading": "～ひ",
+					"translation": ""
+				}
+			]
+		},
+		{
+			"word": {
+				"japanese": "定価",
+				"reading": "ていか",
+				"translation": ""
+			},
+			"sentences":[
+				{
+					"japanese": "本はどこでも定価で売られている。",
+					"translation": "."
+				},
+				{
+					"japanese": "日本のデパートは定価販売をしている。",
+					"translation": "."
+				}
+			]
+		},
+		{
+			"word": {
+				"japanese": "割引",
+				"reading": "わりびき",
+				"translation": ""
+			},
+			"expressions":[
+				{
+					"japanese": "割引を負ける",
+					"reading": "わりびきをまける",
+					"translation": "уступать, сбавлять цену"
+				},
+				{
+					"japanese": "割り引く",
+					"reading": "わりびく",
+					"translation": ""
+				}
+			],
+			"sentences":[
+				{
+					"japanese": "「まとめて買うから、少し割引してください。」",
+					"translation": ""
+				},
+				{
+					"japanese": "「セール期間中は、全商品を３０％割引します」",
+					"translation": ""
+				}
+			],
+			"related":[
+				{
+					"japanese": "値引する",
+					"reading": "ねびきする",
+					"translation": ""
+				}
+			]
+		},
+		{
+			"word": {
+				"japanese": "おまけ",
+				"reading": "おまけ",
+				"translation": ""
+			},
+			"expressions":[
+				{
+					"japanese": "おまけが付く",
+					"reading": "おまけがつく",
+					"translation": ""
+				},
+				{
+					"japanese": "おまけを付ける",
+					"reading": "おまけをつける",
+					"translation": ""
+				}
+			],
+
+			"sentences":[
+				{
+					"japanese": "４個５５０円のりんごを、おまけしてもらって５００円で買った。",
+					"translation": "."
+				},
+				{
+					"japanese": "子ども向けのお菓子には、よくおまけが付いている。",
+					"translation": "."
+				}
+			],
+			"related":[
+				{
+					"japanese": "値引する",
+					"reading": "ねびきする",
+					"translation": ""
+				},
+				{
+					"japanese": "サービスする",
+					"reading": "サービスする",
+					"translation": ""
+				},
+				{
+					"japanese": "景品",
+					"reading": "けいひん",
+					"translation": ""
+				}
+			]
+		},
+		{
+			"word": {
+				"japanese": "無料",
+				"reading": "むりょう",
+				"translation": "бесплатный"
+			},
+			"sentences":[
+				{
+					"japanese": "「ただ今、無料で試供品を差し上げております。」",
+					"translation": "."
+				},
+				{
+					"japanese": "６歳未満の子どもは入場無料だ。",
+					"translation": "."
+				}
+			],
+			"related":[
+				{
+					"japanese": "ただ",
+					"reading": "ただ",
+					"translation": ""
+				}
+				
+			],
+			"opposite":[
+				{
+					"japanese": "有料",
+					"reading": "ゆうりょう",
+					"translation": ""
+				}
+			]
+		},
+		{
+			"word": {
+				"japanese": "現金",
+				"reading": "げんきん",
+				"translation": ""
+			},
+			"expressions":[
+				{
+					"japanese": "現金払い",
+					"reading": "げんきんばらい",
+					"translation": ""
+				},
+				{
+					"japanese": "現金自動支払機",
+					"reading": "げんきんじどうしはらいき",
+					"translation": ""
+				}
+			],
+			"sentences":[
+				{
+					"japanese": "彼は新車を買って、なんと現金で支払ったそうだ。",
+					"translation": "."
+				}
+			],
+			"related":[
+				{
+					"japanese": "キャッシュ",
+					"reading": "キャッシュ",
+					"translation": ""
+				}
+			]
+		},
+		{
+			"word": {
+				"japanese": "合計",
+				"reading": "ごうけい",
+				"translation": ""
+			},
+			"expressions":[
+				{
+					"japanese": "合計する",
+					"reading": "ごうけいする",
+					"translation": ""
+				},
+				{
+					"japanese": "合計額",
+					"reading": "ごうけいがく",
+					"translation": ""
+				}
+			],
+			"sentences":[
+				{
+					"japanese": "東京２３区の面積を合計すると、２１８７㎢になる。",
+					"translation": "."
+				},
+				{
+					"japanese": "食事代は、３人で合計１万円だった。",
+					"translation": "."
+				}
+			],
+			"related":[
+				{
+					"japanese": "計",
+					"reading": "けい",
+					"translation": ""
+				}
+			]
+		},
+		{
+			"word": {
+				"japanese": "収入",
+				"reading": "しゅうにゅう",
+				"translation": ""
+			},
+			"expressions":[
+				{
+					"japanese": "収入がある",
+					"reading": "しゅうにゅうがある",
+					"translation": ""
+				},
+				{
+					"japanese": "収入がない",
+					"reading": "しゅうにゅうがない",
+					"translation": ""
+				},
+				{
+					"japanese": "収入が高い",
+					"reading": "しゅうにゅうがたかい",
+					"translation": ""
+				},
+				{
+					"japanese": "収入が低い",
+					"reading": "しゅうにゅうがひくい",
+					"translation": ""
+				},
+				{
+					"japanese": "収入が上がる",
+					"reading": "しゅうにゅうがあがる",
+					"translation": ""
+				},
+				{
+					"japanese": "収入を上げる",
+					"reading": "しゅうにゅうをあげる",
+					"translation": ""
+				},
+				{
+					"japanese": "収入が下がる",
+					"reading": "しゅうにゅうがさがる",
+					"translation": ""
+				},
+				{
+					"japanese": "収入を得る",
+					"reading": "しゅうにゅうをえる",
+					"translation": ""
+				},
+				{
+					"japanese": "臨時収入",
+					"reading": "りんじしゅうにゅう",
+					"translation": ""
+				},
+				{
+					"japanese": "収入源",
+					"reading": "しゅうにゅうげん",
+					"translation": ""
+				},
+				{
+					"japanese": "高収入",
+					"reading": "たかしゅうにゅう",
+					"translation": ""
+				}
+			],
+			"sentences":[
+				{
+					"japanese": "彼は喫茶店を経営して収入を得ている。",
+					"translation": "."
+				}
+			],
+			"related":[
+				{
+					"japanese": "年収",
+					"reading": "ねんしゅう",
+					"translation": ""
+				},
+				{
+					"japanese": "月収",
+					"reading": "げっしゅう",
+					"translation": ""
+				},
+				{
+					"japanese": "所得",
+					"reading": "しょとく",
+					"translation": ""
+				}
+			],
+			"opposite":[
+				{
+					"japanese": "支出",
+					"reading": "ししゅつ",
+					"translation": ""
+				}
+			]
+		},
+		{
+			"word": {
+				"japanese": "支出",
+				"reading": "ししゅつ",
+				"translation": ""
+			},
+			"expressions":[
+				{
+					"japanese": "支出を抑える",
+					"reading": "ししゅつをおさえる",
+					"translation": ""
+				},
+				{
+					"japanese": "支出を削る",
+					"reading": "ししゅつをけずる",
+					"translation": ""
+				}
+			],
+			"sentences":[
+				{
+					"japanese": "今年は支出収入を上回って赤字になった。",
+					"translation": ""
+				},
+				{
+					"japanese": "予算オーバーだ。少し支出を減らそう。",
+					"translation": ""
+				}
+			],
+			"opposite":[
+				{
+					"japanese": "収入",
+					"reading": "しゅうにゅう",
+					"translation": ""
+				}
+			]
+		},
+		{
+			"word": {
+				"japanese": "予算",
+				"reading": "よさん",
+				"translation": ""
+			},
+			"expressions":[
+				{
+					"japanese": "予算を立てる",
+					"reading": "よさんをたてる",
+					"translation": ""
+				},
+				{
+					"japanese": "予算案",
+					"reading": "よさんあん",
+					"translation": ""
+				}
+			],
+			"sentences":[
+				{
+					"japanese": "来年度の予算を立てる。",
+					"translation": ""
+				},
+				{
+					"japanese": "車を買い変えたいのだが、予算が足りない。",
+					"translation": ""
+				}
+			],
+			"related":[
+				{
+					"japanese": "決算",
+					"reading": "けっさん",
+					"translation": ""
+				}
+			]
+		}
+	]
+}

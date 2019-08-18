@@ -1,0 +1,337 @@
+{
+	"title": "Неделя 4. День 2.",
+	"kanji":[
+	{
+		"japanese": "婚",
+		"on": "コン",
+		"kun": "",
+		"translation": "брак, создание семьи",
+		"words": [
+			{
+				"japanese": "結婚",
+				"reading": "けっこん",
+				"translation": "женитьба"
+			},
+			{
+				"japanese": "未婚",
+				"reading": "みこん",
+				"translation": "холостой, незамужняя"
+			},
+			{
+				"japanese": "婚約",
+				"reading": "こんやく",
+				"translation": "помолвка, обручение"
+			},
+			{
+				"japanese": "新婚",
+				"reading": "しんこん",
+				"translation": "молодожены"
+			}
+		]
+	},
+	{
+		"japanese": "招",
+		"on": "ショウ",
+		"kun": "まね・く",
+		"translation": "приглашать, звать, манить",
+		"words": [
+			{
+				"japanese": "招待",
+				"reading": "しょうたい",
+				"translation": "приглашение"
+			},
+			{
+				"japanese": "招く",
+				"reading": "まねく",
+				"translation": "приглашать"
+			}
+		]
+	},
+	{
+		"japanese": "状",
+		"on": "ジョウ",
+		"kun": "",
+		"translation": "условия, обстоятельства, форма, внещний вид",
+		"words": [
+			{
+				"japanese": "～状",
+				"reading": "～じょう",
+				"translation": "письмо (приглашение, угрозы)"
+			},
+			{
+				"japanese": "状態",
+				"reading": "じょうたい",
+				"translation": "ситуация"
+			},
+			{
+				"japanese": "現状",
+				"reading": "げんじょう",
+				"translation": "текущая ситуация"
+			},
+			{
+				"japanese": "年賀状",
+				"reading": "ねんがじょう",
+				"translation": "новогодняя открытка"
+			}
+		]
+	},
+	{
+		"japanese": "欠",
+		"on": "ケツ",
+		"kun": "か・ける",
+		"translation": "нехватка, дефицит, неудача",
+		"words": [
+			{
+				"japanese": "欠席",
+				"reading": "けっせき",
+				"translation": "неявка, отсутствие"
+			},
+			{
+				"japanese": "欠点",
+				"reading": "けってん",
+				"translation": "недостаток, изъян, слабое место"
+			},
+			{
+				"japanese": "出欠",
+				"reading": "しゅっけつ",
+				"translation": "присутствие или отсутствие"
+			},
+			{
+				"japanese": "欠けている点",
+				"reading": "かけているてん",
+				"translation": "недостаток, изъян, слабое место"
+			}
+		]
+	},
+	{
+		"japanese": "喜",
+		"on": "",
+		"kun": "よろこ・ぶ",
+		"translation": "радоваться, получать удовольствие",
+		"words": [
+			{
+				"japanese": "喜ぶ",
+				"reading": "よろこぶ",
+				"translation": "радоваться чему-либо"
+			},
+			{
+				"japanese": "喜んで",
+				"reading": "よろこんで",
+				"translation": "охотно, с удовольствим"
+			}
+		]
+	},
+	{
+		"japanese": "治",
+		"on": "ジ　チ",
+		"kun": "なお・る　なお・す",
+		"translation": "править, лечить",
+		"words": [
+			{
+				"japanese": "政治",
+				"reading": "せいじ",
+				"translation": "политика"
+			},
+			{
+				"japanese": "自治会",
+				"reading": "じちかい",
+				"translation": "коммитет самоуправления"
+			},
+			{
+				"japanese": "自治体",
+				"reading": "じちたい",
+				"translation": "органы самоуправления"
+			},
+			{
+				"japanese": "治す",
+				"reading": "なおす",
+				"translation": "лечить"
+			},
+			{
+				"japanese": "治る",
+				"reading": "なおる",
+				"translation": "поправляться, выздоравливать"
+			}
+		]
+	},
+	{
+		"japanese": "委",
+		"on": "イ",
+		"kun": "",
+		"translation": "комитет, вверять",
+		"words": [
+			{
+				"japanese": "委員",
+				"reading": "いいん",
+				"translation": "член коммитета"
+			},
+			{
+				"japanese": "委任状",
+				"reading": "いにんじょう",
+				"translation": "доверенность, мандат"
+			},
+			{
+				"japanese": "委員会",
+				"reading": "いいんかい",
+				"translation": "комитет"
+			}
+		]
+	},
+	{
+		"japanese": "祝",
+		"on": "シュク",
+		"kun": "いわ・う",
+		"translation": "праздновать, поздравлять",
+		"words": [
+			{
+				"japanese": "祝日",
+				"reading": "しゅくじつ",
+				"translation": "праздничный день"
+			},
+			{
+				"japanese": "祝う",
+				"reading": "いわう",
+				"translation": "праздновать, поздравлять"
+			},
+			{
+				"japanese": "お祝い",
+				"reading": "おいわい",
+				"translation": "поздравление, празднование"
+			}
+		]
+	},
+	{
+		"japanese": "舞",
+		"on": "ブ",
+		"kun": "ま・う　ま・い",
+		"translation": "танец, порхать, круг",
+		"words": [
+			{
+				"japanese": "舞台",
+				"reading": "ぶたい",
+				"translation": "сцена (театра)"
+			},
+			{
+				"japanese": "舞う",
+				"reading": "まう",
+				"translation": "танцевать, порхать"
+			},
+			{
+				"japanese": "お見舞い",
+				"reading": "おみまい",
+				"translation": "навещать больного"
+			}
+		]
+	},
+	{
+		"japanese": "礼",
+		"on": "レイ",
+		"kun": "",
+		"translation": "приветствие, поклон, благодарность",
+		"words": [
+			{
+				"japanese": "お礼",
+				"reading": "おれい",
+				"translation": "благодарность"
+			},
+			{
+				"japanese": "礼儀",
+				"reading": "れいぎ",
+				"translation": "этикет"
+			},
+			{
+				"japanese": "失礼",
+				"reading": "しつれい",
+				"translation": "грубый"
+			}
+		]
+	},
+	{
+		"japanese": "忙",
+		"on": "ボウ",
+		"kun": "いそが・しい",
+		"translation": "занятой",
+		"words": [
+			{
+				"japanese": "多方な",
+				"reading": "たほうな",
+				"translation": "завален разными делами"
+			},
+			{
+				"japanese": "忙しい",
+				"reading": "いそがしい",
+				"translation": "занятой"
+			}
+		]
+	},
+	{
+		"japanese": "妻",
+		"on": "サイ",
+		"kun": "つま",
+		"translation": "жена",
+		"words": [
+			{
+				"japanese": "夫妻",
+				"reading": "ふさい",
+				"translation": "муж и жена"
+			},
+			{
+				"japanese": "妻",
+				"reading": "つま",
+				"translation": "жена"
+			}
+		]
+	},
+	{
+		"japanese": "張",
+		"on": "チョウ",
+		"kun": "は・る",
+		"translation": "удлинять",
+		"words": [
+			{
+				"japanese": "主張",
+				"reading": "しゅちょう",
+				"translation": "утверждение, настояние"
+			},
+			{
+				"japanese": "出張",
+				"reading": "しゅっちょう",
+				"translation": "командировка"
+			},
+			{
+				"japanese": "頑張る",
+				"reading": "がんばる",
+				"translation": "стараться, быть упорным"
+			},
+			{
+				"japanese": "引っ張る",
+				"reading": "ひっぱる",
+				"translation": "тянуть, тащить"
+			},
+			{
+				"japanese": "張る",
+				"reading": "はる",
+				"translation": "наклеивать, натягивать"
+			}
+		]
+	},
+	{
+		"japanese": "奥",
+		"on": "",
+		"kun": "おく",
+		"translation": "внутренняя часть, интерьер",
+		"words": [
+			{
+				"japanese": "奥様",
+				"reading": "おくさま",
+				"translation": "жена (вежливо), госпожа"
+			},
+			{
+				"japanese": "奥",
+				"reading": "おく",
+				"translation": "внутренняя часть, глубь"
+			}
+		]
+	}
+	]
+}

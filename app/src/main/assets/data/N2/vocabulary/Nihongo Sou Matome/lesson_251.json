@@ -1,0 +1,411 @@
+﻿{
+	"title": "Неделя 5. День 1.",
+	"words": [
+	{
+		"word": {
+			"japanese": "物事",
+			"reading": "ものごと",
+			"translation": "дела, вещи"
+		},
+		"expressions":[
+			{
+				"japanese": "学校で多くの物事を学ぶ",
+				"reading": "がっこうでおおくのものごとをまなぶ",
+				"translation": "изучать в школе много всего"
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "人物",
+			"reading": "じんぶつ",
+			"translation": "человек, личность, персонаж"
+		},
+		"expressions":[
+			{
+				"japanese": "有名な人物",
+				"reading": "ゆうめいなじんぶつ",
+				"translation": "знаменитый человек"
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "物理",
+			"reading": "ぶつり",
+			"translation": "физика"
+		},
+		"expressions":[
+			{
+				"japanese": "物理の試験",
+				"reading": "ぶつりのしけん",
+				"translation": "экзамен по физике"
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "食物",
+			"reading": "しょくもつ",
+			"translation": "пища, продукты питания"
+		},
+		"expressions":[
+			{
+				"japanese": "カロリーの高い食物",
+				"reading": "カロリーのたかいしょくもつ",
+				"translation": "высококалорийная пиша"
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "作物",
+			"reading": "さくもつ",
+			"translation": "посевы, с/х культуры"
+		},
+		"expressions":[
+			{
+				"japanese": "この地域の主要な作物は米です。",
+				"reading": "このちいきのしゅようなさくもつはこめです。",
+				"translation": "Главная с/х культура этого района - рис."
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "書物",
+			"reading": "しょもつ",
+			"translation": "книга"
+		},
+		"expressions":[
+			{
+				"japanese": "古い書物を読む",
+				"reading": "ふるいしょもつをよむ",
+				"translation": "читать старые книги"
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "生き物",
+			"reading": "いきもの",
+			"translation": "живое существо, животное"
+		},
+		"expressions":[
+			{
+				"japanese": "生き物の世話をする",
+				"reading": "いきもののせわをする",
+				"translation": "заботится о братьях меньших"
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "生物",
+			"reading": "せいぶつ",
+			"translation": "живое существо, организм"
+		}
+	},
+	{
+		"word": {
+			"japanese": "入れ物",
+			"reading": "いれもの",
+			"translation": "контейнер, вместилище (для переноски и хранения)"
+		},
+		"expressions":[
+			{
+				"japanese": "プラスチックの入れ物",
+				"reading": "プラスチックのいれもの",
+				"translation": "пластиковый контейнер"
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "物音",
+			"reading": "ものおと",
+			"translation": "шум, звук"
+		},
+		"expressions":[
+			{
+				"japanese": "物音が聞こえる",
+				"reading": "ものおとがきこえる",
+				"translation": "слышиться звук"
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "物置",
+			"reading": "ものおき",
+			"translation": "кладовая, амбар"
+		},
+		"expressions":[
+			{
+				"japanese": "物置にしまう",
+				"reading": "ものおきにしまう",
+				"translation": "прятать в чулан"
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "物語",
+			"reading": "ものがたり",
+			"translation": "история, рассказ"
+		},
+		"expressions":[
+			{
+				"japanese": "物語を読む",
+				"reading": "ものがたりをよむ",
+				"translation": "читать рассказ"
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "生年月日",
+			"reading": "せいねんがっぴ",
+			"translation": "дата рождения"
+		},
+		"expressions":[
+			{
+				"japanese": "生年月日を聞く",
+				"reading": "せいねんがっぴをきく",
+				"translation": "спрашивать дату рождения"
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "月日",
+			"reading": "つきひ",
+			"translation": "дата (число и месяц)"
+		},
+		"expressions":[
+			{
+				"japanese": "月日が流れる",
+				"reading": "つきひがながれる",
+				"translation": "время течет"
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "元日",
+			"reading": "がんじつ",
+			"translation": "Новый Год"
+		}
+	},
+	{
+		"word": {
+			"japanese": "後日",
+			"reading": "ごじつ",
+			"translation": "в будущем, потом"
+		},
+		"expressions":[
+			{
+				"japanese": "後日、また連絡します。",
+				"reading": "ごじつ、またれんらくします。",
+				"translation": "Потом еще свяжемся."
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "日時",
+			"reading": "にちじ",
+			"translation": "время (день и час)"
+		},
+		"expressions":[
+			{
+				"japanese": "パーティーの日時を決める",
+				"reading": "パーティーのにちじをきめる",
+				"translation": "решать, когда провести вечеринку"
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "今日",
+			"reading": "こんにち",
+			"translation": "сегодня, нынешний день"
+		},
+		"expressions":[
+			{
+				"japanese": "今日の日本の社会を考える",
+				"reading": "こんにちのにほんのしゃかいをかんがえる",
+				"translation": "рассматривать современное японское общество"
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "日中",
+			"reading": "にっちゅう",
+			"translation": "днем, на протяжении дня"
+		},
+		"expressions":[
+			{
+				"japanese": "今日の日中は家にいません。",
+				"reading": "こんにちのにっちゅうはいえにいません。",
+				"translation": "Завтра днем меня не будет дома."
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "日光",
+			"reading": "にっこう",
+			"translation": "солнечный свет, лучи солнца"
+		},
+		"expressions":[
+			{
+				"japanese": "日光を浴びる",
+				"reading": "にっこうをあびる",
+				"translation": "принимать солнечные ванные"
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "日の出",
+			"reading": "ひので",
+			"translation": "восход солнца"
+		}
+	},
+	{
+		"word": {
+			"japanese": "日の入り",
+			"reading": "ひのいり",
+			"translation": "закат"
+		}
+	},
+	{
+		"word": {
+			"japanese": "来日",
+			"reading": "らいにち",
+			"translation": "приехать в Японию"
+		},
+		"expressions":[
+			{
+				"japanese": "先月、来日しました。",
+				"reading": "せんげつ、らいにちしました。",
+				"translation": "В прошлом месяце он приехал в Японию."
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "年間",
+			"reading": "ねんかん",
+			"translation": "год (период)"
+		},
+		"expressions":[
+			{
+				"japanese": "年間の予定を立てる",
+				"reading": "ねんかんのよていをたてる",
+				"translation": "составить план на год"
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "年月",
+			"reading": "ねんげつ",
+			"translation": "годы, время"
+		},
+		"expressions":[
+			{
+				"japanese": "長い年月がたつ",
+				"reading": "ながいねんげつがたつ",
+				"translation": "прошло много времени"
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "年中",
+			"reading": "ねんじゅう",
+			"translation": "круглый год"
+		},
+		"expressions":[
+			{
+				"japanese": "年中暑い場所",
+				"reading": "ねんじゅうあついばしょ",
+				"translation": "место, где жарко круглый год"
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "年度",
+			"reading": "ねんど",
+			"translation": "отчетный (финансовый) год"
+		},
+		"expressions":[
+			{
+				"japanese": "来年度の予算",
+				"reading": "らいねんどのよさん",
+				"translation": "бюджет на следующий год"
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "少年",
+			"reading": "しょうねん",
+			"translation": "мальчик, подросток"
+		},
+		"expressions":[
+			{
+				"japanese": "青少年",
+				"reading": "せいしょうねん",
+				"translation": "молодежь"
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "青年",
+			"reading": "せいねん",
+			"translation": "юноша, молодой человек"
+		},
+		"expressions":[
+			{
+				"japanese": "背の高い青年",
+				"reading": "せのたかいせいねん",
+				"translation": "высокий молодой человек"
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "中年",
+			"reading": "ちゅうねん",
+			"translation": "средний возраст"
+		},
+		"expressions":[
+			{
+				"japanese": "中年女性",
+				"reading": "ちゅうねんじょせい",
+				"translation": "женщина средних лет"
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "年代",
+			"reading": "ねんだい",
+			"translation": "эпоха, годы, период"
+		},
+		"expressions":[
+			{
+				"japanese": "同じ年代",
+				"reading": "おなじねんだい",
+				"translation": "одно поколение"
+			}
+		]
+	}
+	]
+}

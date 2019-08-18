@@ -1,0 +1,357 @@
+{
+	"title": "Неделя 3. День 4.",
+	"kanji":[
+	{
+		"japanese": "必",
+		"on": "ヒツ",
+		"kun": "かなら・ず",
+		"translation": "неизменный, обязательно",
+		"words": [
+			{
+				"japanese": "必要",
+				"reading": "ひつよう",
+				"translation": "необходимость, надобность"
+			},
+			{
+				"japanese": "必要な",
+				"reading": "ひつような",
+				"translation": "необходимый, нужный"
+			},
+			{
+				"japanese": "必ず",
+				"reading": "かならず",
+				"translation": "обязательно, непременно"
+			},
+			{
+				"japanese": "必死",
+				"reading": "ひっし",
+				"translation": "отчаяние, неизбежная смерть"
+			}
+		]
+	},
+	{
+		"japanese": "袋",
+		"on": "",
+		"kun": "ふくろ",
+		"translation": "мешок",
+		"words": [
+			{
+				"japanese": "袋",
+				"reading": "ふくろ",
+				"translation": "мешок, сумка"
+			},
+			{
+				"japanese": "レジ袋",
+				"reading": "れじぶくろ",
+				"translation": "пакет-майка"
+			},
+			{
+				"japanese": "足袋",
+				"reading": "たび",
+				"translation": "таби (носки с разделением большого пальца)"
+			},
+			{
+				"japanese": "手袋",
+				"reading": "てぶくろ",
+				"translation": "перчатки"
+			}
+		]
+	},
+	{
+		"japanese": "積",
+		"on": "セキ",
+		"kun": "つ・もる　つ・む",
+		"translation": "площадь, мат. произведение, накапливаться, нагромождать",
+		"words": [
+			{
+				"japanese": "ゴミ集積場",
+				"reading": "ごみしゅうせきじょ",
+				"translation": "место сбора мусора"
+			},
+			{
+				"japanese": "積もる",
+				"reading": "つもる",
+				"translation": "нагромождаться, накапливаться"
+			},
+			{
+				"japanese": "面積",
+				"reading": "めんせき",
+				"translation": "площадь, повехность"
+			},
+			{
+				"japanese": "積む",
+				"reading": "つむ",
+				"translation": "грузить, нагромождать"
+			}
+		]
+	},
+	{
+		"japanese": "燃",
+		"on": "ネン",
+		"kun": "も・える　も・やす",
+		"translation": "гореть, жечь",
+		"words": [
+			{
+				"japanese": "燃料",
+				"reading": "ねんりょう",
+				"translation": "горючее, топливо"
+			},
+			{
+				"japanese": "不燃",
+				"reading": "ふねん",
+				"translation": "негорючий, невоспламеняющийся"
+			},
+			{
+				"japanese": "可燃",
+				"reading": "かねん",
+				"translation": "огнеопасный, горючий"
+			},
+			{
+				"japanese": "燃やせる",
+				"reading": "もやせる",
+				"translation": "можно сжечь"
+			}
+		]
+	},
+	{
+		"japanese": "枝",
+		"on": "",
+		"kun": "えだ",
+		"translation": "ветка",
+		"words": [
+			{
+				"japanese": "枝",
+				"reading": "えだ",
+				"translation": "ветка, ветвь"
+			},
+			{
+				"japanese": "小枝",
+				"reading": "こえだ",
+				"translation": "веточка, хворостинка"
+			}
+		]
+	},
+	{
+		"japanese": "葉",
+		"on": "ヨウ",
+		"kun": "は",
+		"translation": "листик",
+		"words": [
+			{
+				"japanese": "紅葉",
+				"reading": "こうよう",
+				"translation": "осенние листья"
+			},
+			{
+				"japanese": "葉",
+				"reading": "は",
+				"translation": "листик дерева"
+			},
+			{
+				"japanese": "言葉",
+				"reading": "ことば",
+				"translation": "слово, язык"
+			},
+			{
+				"japanese": "紅葉",
+				"reading": "もみじ",
+				"translation": "алый клен (осенью)"
+			},
+			{
+				"japanese": "落ち葉",
+				"reading": "おちば",
+				"translation": "опавшие листья"
+			}
+		]
+	},
+	{
+		"japanese": "埋",
+		"on": "",
+		"kun": "う・める　う・まる",
+		"translation": "закапывать, засыпанный",
+		"words": [
+			{
+				"japanese": "埋める",
+				"reading": "うめる",
+				"translation": "закапывать, закрывать (лицо руками), заполнять"
+			},
+			{
+				"japanese": "埋まる",
+				"reading": "うまる",
+				"translation": "быть зарытым, быть заполненным"
+			},
+			{
+				"japanese": "埋め立てる",
+				"reading": "うめたてる",
+				"translation": "засыпать (болото, пруд), поднимать грунт"
+			}
+		]
+	},
+	{
+		"japanese": "製",
+		"on": "セイ",
+		"kun": "",
+		"translation": "сделано, мастерская",
+		"words": [
+			{
+				"japanese": "製品",
+				"reading": "せいひん",
+				"translation": "готовые изделия, продукция"
+			},
+			{
+				"japanese": "～製",
+				"reading": "～せい",
+				"translation": "сделано в~"
+			}
+		]
+	},
+	{
+		"japanese": "容",
+		"on": "ヨウ",
+		"kun": "",
+		"translation": "содержать, форма, вид",
+		"words": [
+			{
+				"japanese": "内容",
+				"reading": "ないよう",
+				"translation": "содержание, состав (напр. лекарства)"
+			},
+			{
+				"japanese": "美容",
+				"reading": "びよう",
+				"translation": "косметический уход"
+			},
+			{
+				"japanese": "容器",
+				"reading": "ようき",
+				"translation": "контейнер"
+			}
+		]
+	},
+	{
+		"japanese": "器",
+		"on": "キ",
+		"kun": "うつわ",
+		"translation": "сосуд, инструмент, способности",
+		"words": [
+			{
+				"japanese": "食器",
+				"reading": "しょっき",
+				"translation": "посуда"
+			},
+			{
+				"japanese": "受話器",
+				"reading": "じゅわき",
+				"translation": "телефонна трубка"
+			},
+			{
+				"japanese": "楽器",
+				"reading": "がっき",
+				"translation": "музыкальный инструмент"
+			},
+			{
+				"japanese": "器",
+				"reading": "うつわ",
+				"translation": "контейнер, инструмент, способности"
+			}
+		]
+	},
+	{
+		"japanese": "装",
+		"on": "ソウ　ショウ",
+		"kun": "",
+		"translation": "наряд, одеяние",
+		"words": [
+			{
+				"japanese": "包装",
+				"reading": "ほうそう",
+				"translation": "упаковка, обертка"
+			},
+			{
+				"japanese": "服装",
+				"reading": "ふくそう",
+				"translation": "костюм, форма одежды"
+			},
+			{
+				"japanese": "新装開店",
+				"reading": "しんそうかいてん",
+				"translation": "открытие магазина после обновления"
+			},
+			{
+				"japanese": "衣装",
+				"reading": "いしょう",
+				"translation": "костюм (напр. театральный)"
+			}
+		]
+	},
+	{
+		"japanese": "雑",
+		"on": "ザツ",
+		"kun": "",
+		"translation": "смешанный, неоднородный",
+		"words": [
+			{
+				"japanese": "雑音",
+				"reading": "ざつおん",
+				"translation": "фон, шум"
+			},
+			{
+				"japanese": "雑な",
+				"reading": "ざつな",
+				"translation": "различный, всяческий"
+			},
+			{
+				"japanese": "雑用",
+				"reading": "ざつよう",
+				"translation": "всякие дела"
+			},
+			{
+				"japanese": "雑貨",
+				"reading": "ざっか",
+				"translation": "различные товары, бакалея"
+			}
+		]
+	},
+	{
+		"japanese": "誌",
+		"on": "シ",
+		"kun": "",
+		"translation": "документ, записи",
+		"words": [
+			{
+				"japanese": "雑誌",
+				"reading": "ざっし",
+				"translation": "журнал"
+			},
+			{
+				"japanese": "日誌",
+				"reading": "にっし",
+				"translation": "дневник, ежедневник"
+			}
+		]
+	},
+	{
+		"japanese": "資",
+		"on": "シ",
+		"kun": "",
+		"translation": "активы, ресурсы, данные",
+		"words": [
+			{
+				"japanese": "資源",
+				"reading": "しげん",
+				"translation": "ресурсы, естественные богатсва"
+			},
+			{
+				"japanese": "資金",
+				"reading": "しきん",
+				"translation": "капитал, средства"
+			},
+			{
+				"japanese": "資料",
+				"reading": "しりょう",
+				"translation": "материалы, данные"
+			}
+		]
+	}
+	]
+}

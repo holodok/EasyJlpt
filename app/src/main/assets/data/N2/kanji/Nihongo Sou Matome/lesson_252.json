@@ -1,0 +1,274 @@
+{
+	"title": "Неделя 5. День 2.",
+	"kanji":[
+	{
+		"japanese": "毛",
+		"on": "モウ",
+		"kun": "け",
+		"translation": "мех, волосы перо",
+		"words": [
+			{
+				"japanese": "羊毛",
+				"reading": "ようもう",
+				"translation": "шерсть"
+			},
+			{
+				"japanese": "毛",
+				"reading": "け",
+				"translation": "шерсть, волосы, мех"
+			},
+			{
+				"japanese": "毛皮",
+				"reading": "けがわ",
+				"translation": "мех"
+			}
+		]
+	},
+	{
+		"japanese": "糸",
+		"on": "",
+		"kun": "いと",
+		"translation": "нить",
+		"words": [
+			{
+				"japanese": "糸",
+				"reading": "いと",
+				"translation": "нить"
+			},
+			{
+				"japanese": "毛糸",
+				"reading": "けいと",
+				"translation": "шерстяная нить"
+			}
+		]
+	},
+	{
+		"japanese": "肌",
+		"on": "",
+		"kun": "はだ",
+		"translation": "строение, текстура, кожа",
+		"words": [
+			{
+				"japanese": "肌",
+				"reading": "はだ",
+				"translation": "кожа"
+			},
+			{
+				"japanese": "肌着",
+				"reading": "はだぎ",
+				"translation": "нательное белье"
+			}
+		]
+	},
+	{
+		"japanese": "柔",
+		"on": "ジュウ",
+		"kun": "やわ・らかい",
+		"translation": "нежность, мягкость",
+		"words": [
+			{
+				"japanese": "柔軟な",
+				"reading": "じゅうなんな",
+				"translation": "эластичный, гибкий"
+			},
+			{
+				"japanese": "柔道",
+				"reading": "じゅうどう",
+				"translation": "дзюдо"
+			},
+			{
+				"japanese": "柔らかい",
+				"reading": "やわらかい",
+				"translation": "мягкий, нежный"
+			}
+		]
+	},
+	{
+		"japanese": "香",
+		"on": "コウ",
+		"kun": "かお・り　かお・る",
+		"translation": "запах, аромат",
+		"words": [
+			{
+				"japanese": "香水",
+				"reading": "こうすい",
+				"translation": "духи, парфюмерия"
+			},
+			{
+				"japanese": "無香料",
+				"reading": "むこうりょう",
+				"translation": "без запаха"
+			},
+			{
+				"japanese": "香辛料",
+				"reading": "こうしんりょう",
+				"translation": "специи, пряности"
+			},
+			{
+				"japanese": "香り",
+				"reading": "かおり",
+				"translation": "запах, аромат"
+			}
+		]
+	},
+	{
+		"japanese": "軟",
+		"on": "ナン",
+		"kun": "やわ・らかい",
+		"translation": "мягкий",
+		"words": [
+			{
+				"japanese": "軟弱な",
+				"reading": "なんじゃくな",
+				"translation": "слабый, изнеженный"
+			},
+			{
+				"japanese": "柔軟体操",
+				"reading": "じゅうなんたいそう",
+				"translation": "разминка"
+			},
+			{
+				"japanese": "軟らかい",
+				"reading": "やわらかい",
+				"translation": "мягкий, нежный"
+			}
+		]
+	},
+	{
+		"japanese": "溶",
+		"on": "ヨウ",
+		"kun": "と・ける　と・かる",
+		"translation": "растворять, таять, плавиться",
+		"words": [
+			{
+				"japanese": "溶岩",
+				"reading": "ようがん",
+				"translation": "лава (вулканическая)"
+			},
+			{
+				"japanese": "溶ける",
+				"reading": "とける",
+				"translation": "таять, плавиться"
+			},
+			{
+				"japanese": "溶かす",
+				"reading": "とかす",
+				"translation": "растворять, растапливать"
+			}
+		]
+	},
+	{
+		"japanese": "濯",
+		"on": "タク",
+		"kun": "",
+		"translation": "стирка, мытье",
+		"words": [
+			{
+				"japanese": "洗濯",
+				"reading": "せんたく",
+				"translation": "стирка"
+			},
+			{
+				"japanese": "洗濯機",
+				"reading": "せんたくき",
+				"translation": "стиральная машина"
+			}
+		]
+	},
+	{
+		"japanese": "接",
+		"on": "セツ",
+		"kun": "",
+		"translation": "соединять, прикосновение",
+		"words": [
+			{
+				"japanese": "直接",
+				"reading": "ちょくせつ",
+				"translation": "прямой, непосредственно"
+			},
+			{
+				"japanese": "面接",
+				"reading": "めんせつ",
+				"translation": "собеседование"
+			},
+			{
+				"japanese": "間接",
+				"reading": "かんせつ",
+				"translation": "косвенный, непрямой"
+			},
+			{
+				"japanese": "接近",
+				"reading": "せっきん",
+				"translation": "приближение, примыкание"
+			}
+		]
+	},
+	{
+		"japanese": "塗",
+		"on": "",
+		"kun": "ぬ・る",
+		"translation": "красить, намазывать",
+		"words": [
+			{
+				"japanese": "塗る",
+				"reading": "ぬる",
+				"translation": "красить, намазывать"
+			}
+		]
+	},
+	{
+		"japanese": "緒",
+		"on": "ショ",
+		"kun": "",
+		"translation": "плеть, начало, конец",
+		"words": [
+			{
+				"japanese": "一緒",
+				"reading": "いっしょ",
+				"translation": "вместе"
+			}
+		]
+	},
+	{
+		"japanese": "泥",
+		"on": "",
+		"kun": "どろ",
+		"translation": "грязь",
+		"words": [
+			{
+				"japanese": "泥",
+				"reading": "どろ",
+				"translation": "грязь"
+			},
+			{
+				"japanese": "泥棒",
+				"reading": "どろぼう",
+				"translation": "вор"
+			}
+		]
+	},
+	{
+		"japanese": "黄",
+		"on": "オウ",
+		"kun": "き",
+		"translation": "желтый",
+		"words": [
+			{
+				"japanese": "卵黄",
+				"reading": "らんおう",
+				"translation": "желток"
+			},
+			{
+				"japanese": "黄身",
+				"reading": "きみ",
+				"translation": "желток"
+			},
+			{
+				"japanese": "黄色",
+				"reading": "きいろ",
+				"translation": "желтый цвет"
+			}
+		]
+	}
+	]
+}

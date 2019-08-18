@@ -1,0 +1,349 @@
+{
+	"title": "Неделя 4. День 5.",
+	"kanji":[
+	{
+		"japanese": "次",
+		"on": "ジ　シ",
+		"kun": "つぎ",
+		"translation": "следующий, очередность",
+		"words": [
+			{
+				"japanese": "一次試験",
+				"reading": "いちじしけん",
+				"translation": "первый этап экзаменов (вступительных)"
+			},
+			{
+				"japanese": "次第",
+				"reading": "しだい",
+				"translation": "(гл) сразу же после, (сущ) в зависимости от"
+			},
+			{
+				"japanese": "次",
+				"reading": "つぎ",
+				"translation": "следующий"
+			}
+		]
+	},
+	{
+		"japanese": "章",
+		"on": "ショウ",
+		"kun": "",
+		"translation": "глава, сочинение, значок",
+		"words": [
+			{
+				"japanese": "文章",
+				"reading": "ぶんしょう",
+				"translation": "предложение, сочинение"
+			},
+			{
+				"japanese": "章",
+				"reading": "しょう",
+				"translation": "глава"
+			}
+		]
+	},
+	{
+		"japanese": "対",
+		"on": "タイ　ツイ",
+		"kun": "",
+		"translation": "противоположный, пара",
+		"words": [
+			{
+				"japanese": "対する",
+				"reading": "たいする",
+				"translation": "направляться, быть обращенным на что-л"
+			},
+			{
+				"japanese": "～対～",
+				"reading": "たい",
+				"translation": "против"
+			},
+			{
+				"japanese": "対",
+				"reading": "つい",
+				"translation": "пара"
+			},
+			{
+				"japanese": "反対",
+				"reading": "はんたい",
+				"translation": "оппозиция, возражение"
+			},
+			{
+				"japanese": "対照的な",
+				"reading": "たいしょうてきな",
+				"translation": "контрастный"
+			}
+		]
+	},
+	{
+		"japanese": "最",
+		"on": "サイ",
+		"kun": "もっと・も",
+		"translation": "самый, крайность",
+		"words": [
+			{
+				"japanese": "最初",
+				"reading": "さいしょ",
+				"translation": "вначале, сначала"
+			},
+			{
+				"japanese": "最近",
+				"reading": "さいきん",
+				"translation": "в последнее время, недавно"
+			},
+			{
+				"japanese": "最後",
+				"reading": "さいご",
+				"translation": "последний, конечный"
+			},
+			{
+				"japanese": "もともも",
+				"reading": "もっとも",
+				"translation": "самый, наиболее"
+			}
+		]
+	},
+	{
+		"japanese": "適",
+		"on": "テキ",
+		"kun": "",
+		"translation": "подходящий",
+		"words": [
+			{
+				"japanese": "適当な",
+				"reading": "てきとうな",
+				"translation": "подходящий, уместный"
+			},
+			{
+				"japanese": "適する",
+				"reading": "てきする",
+				"translation": "быть пригодным для чего-л, подходить к чему-л"
+			},
+			{
+				"japanese": "適切な",
+				"reading": "てきせつな",
+				"translation": "подходящий, своевременный"
+			},
+			{
+				"japanese": "適度な",
+				"reading": "てきどな",
+				"translation": "умеренный"
+			}
+		]
+	},
+	{
+		"japanese": "誤",
+		"on": "ゴ",
+		"kun": "あやま・る",
+		"translation": "ошибка, вводить в заблуждение",
+		"words": [
+			{
+				"japanese": "誤解",
+				"reading": "ごかい",
+				"translation": "заблуждение, неверное понимание"
+			},
+			{
+				"japanese": "誤る",
+				"reading": "あやまる",
+				"translation": "ошибаться, вводить в заблуждение"
+			},
+			{
+				"japanese": "誤り",
+				"reading": "あやまり",
+				"translation": "ошибка, оплошность"
+			}
+		]
+	},
+	{
+		"japanese": "直",
+		"on": "チョク　ジキ",
+		"kun": "なお・す　なお・る　ただ・ちに",
+		"translation": "честность, прямолинейность, чинить",
+		"words": [
+			{
+				"japanese": "直線",
+				"reading": "ちょくせん",
+				"translation": "прямая линия"
+			},
+			{
+				"japanese": "直す",
+				"reading": "なおす",
+				"translation": "иправлять, чинить"
+			},
+			{
+				"japanese": "直ちに",
+				"reading": "ただちに",
+				"translation": "сразу же, немедленно"
+			},
+			{
+				"japanese": "正直な",
+				"reading": "しょうじきな",
+				"translation": "честный, добросовестный"
+			},
+			{
+				"japanese": "素直な",
+				"reading": "すなおな",
+				"translation": "послушный, покорный"
+			}
+		]
+	},
+	{
+		"japanese": "例",
+		"on": "レイ",
+		"kun": "たと・える",
+		"translation": "пример",
+		"words": [
+			{
+				"japanese": "例",
+				"reading": "れい",
+				"translation": "пример"
+			},
+			{
+				"japanese": "実例",
+				"reading": "じつれい",
+				"translation": "живой пример, пример из жизни"
+			},
+			{
+				"japanese": "例えば",
+				"reading": "たとえば",
+				"translation": "на пример"
+			},
+			{
+				"japanese": "例外",
+				"reading": "れいがい",
+				"translation": "исключение (из правила)"
+			},
+			{
+				"japanese": "例える",
+				"reading": "たとえる",
+				"translation": "уподоблять, сравнивать"
+			}
+		]
+	},
+	{
+		"japanese": "詞",
+		"on": "シ",
+		"kun": "",
+		"translation": "часть речи, слова",
+		"words": [
+			{
+				"japanese": "名詞",
+				"reading": "めいし",
+				"translation": "существительное"
+			},
+			{
+				"japanese": "自動詞",
+				"reading": "じどうし",
+				"translation": "непереходный глагол"
+			},
+			{
+				"japanese": "動詞",
+				"reading": "どうし",
+				"translation": "глагол"
+			},
+			{
+				"japanese": "他動詞",
+				"reading": "たどうし",
+				"translation": "переходный глагол"
+			}
+		]
+	},
+	{
+		"japanese": "形",
+		"on": "ケイ　ギョウ",
+		"kun": "かたち",
+		"translation": "форма, стиль",
+		"words": [
+			{
+				"japanese": "形式",
+				"reading": "けいしき",
+				"translation": "форма, формальность"
+			},
+			{
+				"japanese": "図形",
+				"reading": "ずけい",
+				"translation": "чертеж, диаграмма"
+			},
+			{
+				"japanese": "形",
+				"reading": "かたち",
+				"translation": "форма, фигура"
+			},
+			{
+				"japanese": "形容詞",
+				"reading": "けいようし",
+				"translation": "прилагательное"
+			},
+			{
+				"japanese": "人形",
+				"reading": "にんぎょう",
+				"translation": "кукла"
+			}
+		]
+	},
+	{
+		"japanese": "助",
+		"on": "ジョ",
+		"kun": "たす・かる　たす・ける",
+		"translation": "помощь, спасение",
+		"words": [
+			{
+				"japanese": "救助",
+				"reading": "きゅうじょ",
+				"translation": "спасение, помощь"
+			},
+			{
+				"japanese": "助手",
+				"reading": "じょしゅ",
+				"translation": "помощник, ассестент"
+			},
+			{
+				"japanese": "助かる",
+				"reading": "たすかる",
+				"translation": "спастись, быть подмогой"
+			},
+			{
+				"japanese": "助詞",
+				"reading": "じょし",
+				"translation": "частица (грамматическая)"
+			}
+		]
+	},
+	{
+		"japanese": "副",
+		"on": "フク",
+		"kun": "",
+		"translation": "заместитель, дубликат",
+		"words": [
+			{
+				"japanese": "副詞",
+				"reading": "ふくし",
+				"translation": "наречие"
+			},
+			{
+				"japanese": "副～",
+				"reading": "ふく",
+				"translation": "вице, заместитель"
+			}
+		]
+	},
+	{
+		"japanese": "囲",
+		"on": "イ",
+		"kun": "かこ・む",
+		"translation": "окружать, огораживать, опоясывать",
+		"words": [
+			{
+				"japanese": "周囲",
+				"reading": "しゅうい",
+				"translation": "окрестность, периметр, вокруг"
+			},
+			{
+				"japanese": "囲む",
+				"reading": "かこむ",
+				"translation": "окружать, собираться вокруг"
+			}
+		]
+	}
+	]
+}

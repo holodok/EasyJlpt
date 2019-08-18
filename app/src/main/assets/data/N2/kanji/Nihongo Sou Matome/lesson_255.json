@@ -1,0 +1,314 @@
+{
+	"title": "Неделя 5. День 5.",
+	"kanji":[
+	{
+		"japanese": "賞",
+		"on": "ショウ",
+		"kun": "",
+		"translation": "приз, награда",
+		"words": [
+			{
+				"japanese": "賞",
+				"reading": "しょう",
+				"translation": "награда, приз"
+			},
+			{
+				"japanese": "賞品",
+				"reading": "しょうひん",
+				"translation": "приз (товары)"
+			},
+			{
+				"japanese": "賞金",
+				"reading": "しょうきん",
+				"translation": "приз (денежный)"
+			},
+			{
+				"japanese": "賞味期限",
+				"reading": "しょうみきげん",
+				"translation": "употребить до"
+			}
+		]
+	},
+	{
+		"japanese": "庫",
+		"on": "コ",
+		"kun": "",
+		"translation": "склад, кладовая",
+		"words": [
+			{
+				"japanese": "金庫",
+				"reading": "きんこ",
+				"translation": "сейф"
+			},
+			{
+				"japanese": "冷蔵庫",
+				"reading": "れいぞうこ",
+				"translation": "холодильник"
+			},
+			{
+				"japanese": "車庫",
+				"reading": "しゃこ",
+				"translation": "гараж"
+			}
+		]
+	},
+	{
+		"japanese": "造",
+		"on": "ゾウ",
+		"kun": "つく・る",
+		"translation": "создавать, строить",
+		"words": [
+			{
+				"japanese": "製造",
+				"reading": "せいぞう",
+				"translation": "производство, изготовление"
+			},
+			{
+				"japanese": "造る",
+				"reading": "つくる",
+				"translation": "изготовлять, строить"
+			},
+			{
+				"japanese": "改造",
+				"reading": "かいぞう",
+				"translation": "реконструкция, реорганизация"
+			}
+		]
+	},
+	{
+		"japanese": "費",
+		"on": "ヒ",
+		"kun": "",
+		"translation": "расходы, стоить",
+		"words": [
+			{
+				"japanese": "費用",
+				"reading": "ひよう",
+				"translation": "расход, затраты"
+			},
+			{
+				"japanese": "消費",
+				"reading": "しょうひ",
+				"translation": "расходование, потребление"
+			},
+			{
+				"japanese": "～費",
+				"reading": "ひ",
+				"translation": "расход, трата"
+			}
+		]
+	},
+	{
+		"japanese": "可",
+		"on": "カ",
+		"kun": "",
+		"translation": "возможность чего-то, допустимый",
+		"words": [
+			{
+				"japanese": "可",
+				"reading": "か",
+				"translation": "удовлетворительно, возможно"
+			},
+			{
+				"japanese": "可能な",
+				"reading": "かのうな",
+				"translation": "возможный"
+			},
+			{
+				"japanese": "不可",
+				"reading": "ふか",
+				"translation": "неправильный, непозволительный"
+			},
+			{
+				"japanese": "可決",
+				"reading": "かけつ",
+				"translation": "принятие, одобрение"
+			}
+		]
+	},
+	{
+		"japanese": "秒",
+		"on": "ビョウ",
+		"kun": "",
+		"translation": "секунда",
+		"words": [
+			{
+				"japanese": "秒",
+				"reading": "びょう",
+				"translation": "секунда"
+			}
+		]
+	},
+	{
+		"japanese": "身",
+		"on": "シン",
+		"kun": "み",
+		"translation": "кто-то, человек",
+		"words": [
+			{
+				"japanese": "自身",
+				"reading": "じしん",
+				"translation": "свой, личный"
+			},
+			{
+				"japanese": "身体",
+				"reading": "しんたい",
+				"translation": "тело"
+			},
+			{
+				"japanese": "中身",
+				"reading": "なかみ",
+				"translation": "содержание, содержимое"
+			},
+			{
+				"japanese": "出身",
+				"reading": "しゅっしん",
+				"translation": "родом из"
+			},
+			{
+				"japanese": "身長",
+				"reading": "しんちょう",
+				"translation": "рост (человека)"
+			},
+			{
+				"japanese": "刺身",
+				"reading": "さしみ",
+				"translation": "сашими"
+			}
+		]
+	},
+	{
+		"japanese": "召",
+		"on": "",
+		"kun": "め・す",
+		"translation": "соблазнять, звать",
+		"words": [
+			{
+				"japanese": "召し上がる",
+				"reading": "めしあがる",
+				"translation": "есть, пить (вежливо)"
+			}
+		]
+	},
+	{
+		"japanese": "杯",
+		"on": "ハイ",
+		"kun": "さかずき",
+		"translation": "бокал, рюмка",
+		"words": [
+			{
+				"japanese": "～杯",
+				"reading": "はい",
+				"translation": "наполненых бокалов"
+			},
+			{
+				"japanese": "杯",
+				"reading": "さかずき",
+				"translation": "чашка сакэ"
+			},
+			{
+				"japanese": "乾杯",
+				"reading": "かんぱい",
+				"translation": "вздрогнем!"
+			}
+		]
+	},
+	{
+		"japanese": "沸",
+		"on": "フツ",
+		"kun": "わ・く　わ・かす",
+		"translation": "кипеть, волновать",
+		"words": [
+			{
+				"japanese": "沸騰",
+				"reading": "ふっとう",
+				"translation": "кипение, бурление"
+			},
+			{
+				"japanese": "沸く",
+				"reading": "わく",
+				"translation": "кипеть, бурлить"
+			},
+			{
+				"japanese": "沸かす",
+				"reading": "わかす",
+				"translation": "кипятить"
+			}
+		]
+	},
+	{
+		"japanese": "粉",
+		"on": "フン",
+		"kun": "こ　こな",
+		"translation": "мука, порошок",
+		"words": [
+			{
+				"japanese": "粉末",
+				"reading": "ふんまつ",
+				"translation": "порошок, пыль"
+			},
+			{
+				"japanese": "小麦粉",
+				"reading": "こむぎこ",
+				"translation": "пшеничная мука"
+			},
+			{
+				"japanese": "花粉",
+				"reading": "かふん",
+				"translation": "пыльца"
+			},
+			{
+				"japanese": "粉",
+				"reading": "こな",
+				"translation": "порошок, мука"
+			}
+		]
+	},
+	{
+		"japanese": "末",
+		"on": "マツ",
+		"kun": "すえ",
+		"translation": "конец, закрытие",
+		"words": [
+			{
+				"japanese": "月末",
+				"reading": "げつまつ",
+				"translation": "конец месяца"
+			},
+			{
+				"japanese": "末",
+				"reading": "すえ",
+				"translation": "конец, окончание"
+			},
+			{
+				"japanese": "末っ子",
+				"reading": "すえっこ",
+				"translation": "младший ребенок в семье"
+			}
+		]
+	},
+	{
+		"japanese": "栄",
+		"on": "エイ",
+		"kun": "さか・える",
+		"translation": "процветание, слава",
+		"words": [
+			{
+				"japanese": "栄養",
+				"reading": "えいよう",
+				"translation": "питание"
+			},
+			{
+				"japanese": "栄える",
+				"reading": "さかえる",
+				"translation": "процветать"
+			},
+			{
+				"japanese": "繁栄",
+				"reading": "はんえい",
+				"translation": "процветание"
+			}
+		]
+	}
+	]
+}

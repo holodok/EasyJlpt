@@ -1,0 +1,342 @@
+{
+	"title": "Неделя 4. День 3.",
+	"kanji":[
+	{
+		"japanese": "浅",
+		"on": "",
+		"kun": "あさ・い",
+		"translation": "мелкий (неглубокий), поверхностный, позорный",
+		"words": [
+			{
+				"japanese": "浅い",
+				"reading": "あさい",
+				"translation": "мелкий (неглубокий), поверхностный"
+			},
+			{
+				"japanese": "浅ましい",
+				"reading": "あさましい",
+				"translation": "позорный, подлый, низкий"
+			},
+			{
+				"japanese": "浅草",
+				"reading": "あさくさ",
+				"translation": "Асакуса"
+			}
+		]
+	},
+	{
+		"japanese": "君",
+		"on": "クン",
+		"kun": "きみ",
+		"translation": "господин, ты",
+		"words": [
+			{
+				"japanese": "～君",
+				"reading": "～くん",
+				"translation": "префикс для мужчин ниже статусом"
+			},
+			{
+				"japanese": "君",
+				"reading": "きみ",
+				"translation": "ты"
+			}
+		]
+	},
+	{
+		"japanese": "久",
+		"on": "キュウ",
+		"kun": "ひさ・しい",
+		"translation": "долгое время спустя",
+		"words": [
+			{
+				"japanese": "永久",
+				"reading": "えいきゅう",
+				"translation": "вечность"
+			},
+			{
+				"japanese": "久しい",
+				"reading": "ひさしい",
+				"translation": "долгий, продолжительный"
+			},
+			{
+				"japanese": "久しぶり",
+				"reading": "ひさしぶり",
+				"translation": "давно не виделись, прошло много времени с тех пор"
+			}
+		]
+	},
+	{
+		"japanese": "互",
+		"on": "ゴ",
+		"kun": "たが・い",
+		"translation": "взаимный, друг друга",
+		"words": [
+			{
+				"japanese": "相互",
+				"reading": "そうご",
+				"translation": "взаимный"
+			},
+			{
+				"japanese": "お互いに",
+				"reading": "おたがいに",
+				"translation": "взаимно, друг друга"
+			},
+			{
+				"japanese": "交互",
+				"reading": "こうご",
+				"translation": "чередование"
+			}
+		]
+	},
+	{
+		"japanese": "追",
+		"on": "ツイ",
+		"kun": "お・う",
+		"translation": "следовать за, преследовать, гнаться",
+		"words": [
+			{
+				"japanese": "追加",
+				"reading": "ついか",
+				"translation": "добавление, дополнение"
+			},
+			{
+				"japanese": "追う",
+				"reading": "おう",
+				"translation": "гнаться за кем-то, преследовать"
+			},
+			{
+				"japanese": "追い越す",
+				"reading": "おいこす",
+				"translation": "перегонять, обгонять"
+			},
+			{
+				"japanese": "追い付く",
+				"reading": "おいつく",
+				"translation": "нагонять, догонять"
+			}
+		]
+	},
+	{
+		"japanese": "伸",
+		"on": "シン",
+		"kun": "の・びる　の・ばす",
+		"translation": "растянуть, удлинить",
+		"words": [
+			{
+				"japanese": "追伸",
+				"reading": "ついしん",
+				"translation": "постскриптум"
+			},
+			{
+				"japanese": "伸ばす",
+				"reading": "のばす",
+				"translation": "растягивать, удлинять"
+			},
+			{
+				"japanese": "伸びる",
+				"reading": "のびる",
+				"translation": "растягиваться, удлиняться"
+			},
+			{
+				"japanese": "伸びをする",
+				"reading": "のびをする",
+				"translation": "потянуться"
+			}
+		]
+	},
+	{
+		"japanese": "皆",
+		"on": "",
+		"kun": "みな",
+		"translation": "все",
+		"words": [
+			{
+				"japanese": "皆",
+				"reading": "みな",
+				"translation": "все"
+			},
+			{
+				"japanese": "皆さん",
+				"reading": "みなさん",
+				"translation": "каждый"
+			}
+		]
+	},
+	{
+		"japanese": "暮",
+		"on": "ボ",
+		"kun": "く・れる　く・らす",
+		"translation": "сумерки, подходить к концу, жить",
+		"words": [
+			{
+				"japanese": "お歳暮",
+				"reading": "おせいぼ",
+				"translation": "подарок по случаю конца года"
+			},
+			{
+				"japanese": "暮らす",
+				"reading": "くらす",
+				"translation": "жить, существовать"
+			},
+			{
+				"japanese": "暮れ",
+				"reading": "くれ",
+				"translation": "сумерки, конец года, конец сезона"
+			},
+			{
+				"japanese": "暮れる",
+				"reading": "くれる",
+				"translation": "подходить к концу"
+			},
+			{
+				"japanese": "夕暮れ",
+				"reading": "ゆうぐれ",
+				"translation": "сумерки, вечер"
+			}
+		]
+	},
+	{
+		"japanese": "慣",
+		"on": "カン",
+		"kun": "な・れる　な・らす",
+		"translation": "обычай, привыкать, приучаться",
+		"words": [
+			{
+				"japanese": "習慣",
+				"reading": "しゅうかん",
+				"translation": "обычай, привычка"
+			},
+			{
+				"japanese": "慣れる",
+				"reading": "なれる",
+				"translation": "привыкать, приручаться"
+			},
+			{
+				"japanese": "慣らす",
+				"reading": "ならす",
+				"translation": "приучать, приручать, дрессировать"
+			}
+		]
+	},
+	{
+		"japanese": "活",
+		"on": "カツ",
+		"kun": "",
+		"translation": "активность, деятельность, живой",
+		"words": [
+			{
+				"japanese": "生活",
+				"reading": "せいかつ",
+				"translation": "жизнь, быт"
+			},
+			{
+				"japanese": "活用",
+				"reading": "かつよう",
+				"translation": "практическое применение"
+			},
+			{
+				"japanese": "活字",
+				"reading": "かつじ",
+				"translation": "шрифт"
+			},
+			{
+				"japanese": "活発な",
+				"reading": "かっぱつな",
+				"translation": "живой, энергичный"
+			}
+		]
+	},
+	{
+		"japanese": "恋",
+		"on": "レン",
+		"kun": "こい　こい・しい",
+		"translation": "романтика, влюбляться",
+		"words": [
+			{
+				"japanese": "恋愛",
+				"reading": "れんあい",
+				"translation": "любовь"
+			},
+			{
+				"japanese": "恋",
+				"reading": "こい",
+				"translation": "любовь"
+			},
+			{
+				"japanese": "恋人",
+				"reading": "こいびと",
+				"translation": "возлюбленный"
+			},
+			{
+				"japanese": "恋しい",
+				"reading": "こいしい",
+				"translation": "любимый"
+			}
+		]
+	},
+	{
+		"japanese": "健",
+		"on": "ケン",
+		"kun": "すこ・やか",
+		"translation": "здоровье",
+		"words": [
+			{
+				"japanese": "健在",
+				"reading": "けんざい",
+				"translation": "в здравии"
+			},
+			{
+				"japanese": "健全な",
+				"reading": "けんぜんな",
+				"translation": "здоровый (прямой и переносный)"
+			},
+			{
+				"japanese": "健やかな",
+				"reading": "すこやかな",
+				"translation": "здоровый, бодрый"
+			}
+		]
+	},
+	{
+		"japanese": "康",
+		"on": "コウ",
+		"kun": "",
+		"translation": "легкость, покой",
+		"words": [
+			{
+				"japanese": "健康",
+				"reading": "けんこう",
+				"translation": "здоровье"
+			},
+			{
+				"japanese": "健康保険証",
+				"reading": "けんこうほけんしょう",
+				"translation": "медицинская страховка"
+			}
+		]
+	},
+	{
+		"japanese": "祈",
+		"on": "キ",
+		"kun": "いの・る",
+		"translation": "молитва, желание",
+		"words": [
+			{
+				"japanese": "祈願",
+				"reading": "きがん",
+				"translation": "молитва, мольба"
+			},
+			{
+				"japanese": "祈る",
+				"reading": "いのる",
+				"translation": "молиться"
+			},
+			{
+				"japanese": "祈り",
+				"reading": "いのり",
+				"translation": "молитва"
+			}
+		]
+	}
+	]
+}

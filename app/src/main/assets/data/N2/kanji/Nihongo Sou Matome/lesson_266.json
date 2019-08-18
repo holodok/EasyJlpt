@@ -1,0 +1,339 @@
+{
+	"title": "Неделя 6. День 6.",
+	"kanji":[
+	{
+		"japanese": "層",
+		"on": "ソウ",
+		"kun": "",
+		"translation": "пласт, слой, уровень",
+		"words": [
+			{
+				"japanese": "高層",
+				"reading": "こうそう",
+				"translation": "верхние слои (атмосферы), высотный (здание)"
+			},
+			{
+				"japanese": "一層",
+				"reading": "いっそう",
+				"translation": "еще больше, более"
+			},
+			{
+				"japanese": "低層",
+				"reading": "ていそう",
+				"translation": "нижние слои, нижнеуровневый"
+			}
+		]
+	},
+	{
+		"japanese": "束",
+		"on": "ソク",
+		"kun": "たば",
+		"translation": "пучок, связка, связывать в пучок, управлять",
+		"words": [
+			{
+				"japanese": "約束",
+				"reading": "やくそく",
+				"translation": "обещание, договоренность"
+			},
+			{
+				"japanese": "花束",
+				"reading": "はなたば",
+				"translation": "букет"
+			},
+			{
+				"japanese": "束",
+				"reading": "たば",
+				"translation": "связка, охапка, пучок (сч. суффикс)"
+			},
+			{
+				"japanese": "束ねる",
+				"reading": "たばねる",
+				"translation": "связывать в пучок, вязать в снопы, управлять"
+			}
+		]
+	},
+	{
+		"japanese": "甘",
+		"on": "",
+		"kun": "あま・い　あま・やかす",
+		"translation": "сладкий, баловать, льстивый",
+		"words": [
+			{
+				"japanese": "甘い",
+				"reading": "あまい",
+				"translation": "сладкий"
+			},
+			{
+				"japanese": "甘やかす",
+				"reading": "あまやかす",
+				"translation": "баловать"
+			},
+			{
+				"japanese": "甘口",
+				"reading": "あまくち",
+				"translation": "сладкий, сластена, сладкие речи"
+			}
+		]
+	},
+	{
+		"japanese": "辛",
+		"on": "",
+		"kun": "から・い",
+		"translation": "острый, пряный",
+		"words": [
+			{
+				"japanese": "辛い",
+				"reading": "からい",
+				"translation": "острый (о пище)"
+			},
+			{
+				"japanese": "辛口",
+				"reading": "からくち",
+				"translation": "сухой (о вине), острый (на вкус), соленый"
+			}
+		]
+	},
+	{
+		"japanese": "皿",
+		"on": "",
+		"kun": "さら",
+		"translation": "блюдо, тарелка",
+		"words": [
+			{
+				"japanese": "皿",
+				"reading": "さら",
+				"translation": "тарелка"
+			},
+			{
+				"japanese": "大皿",
+				"reading": "おおざら",
+				"translation": "блюдо, большая тарелка"
+			},
+			{
+				"japanese": "～皿",
+				"reading": "さら",
+				"translation": "сч. суффикс тарелок"
+			},
+			{
+				"japanese": "小皿",
+				"reading": "こざら",
+				"translation": "блюдце, тарелочка"
+			}
+		]
+	},
+	{
+		"japanese": "綿",
+		"on": "メン",
+		"kun": "わた",
+		"translation": "хлопок",
+		"words": [
+			{
+				"japanese": "綿",
+				"reading": "めん",
+				"translation": "хлопок"
+			},
+			{
+				"japanese": "綿",
+				"reading": "わた",
+				"translation": "вата, хлопчатник"
+			},
+			{
+				"japanese": "木綿",
+				"reading": "もめん",
+				"translation": "хлопчатобумажная ткань"
+			}
+		]
+	},
+	{
+		"japanese": "旧",
+		"on": "キュウ",
+		"kun": "",
+		"translation": "старые времена, старые вещи, старый друг",
+		"words": [
+			{
+				"japanese": "旧館",
+				"reading": "きゅうかん",
+				"translation": "старое здание, старинная постройка"
+			},
+			{
+				"japanese": "復旧",
+				"reading": "ふっきゅう",
+				"translation": "восстановление, возвращение в прежднее состояние"
+			},
+			{
+				"japanese": "旧姓",
+				"reading": "きゅうせい",
+				"translation": "девичья фамилия"
+			}
+		]
+	},
+	{
+		"japanese": "厚",
+		"on": "コウ",
+		"kun": "あつ・い",
+		"translation": "жаркий, душный",
+		"words": [
+			{
+				"japanese": "厚生労働省",
+				"reading": "こうせいろうどうしょう",
+				"translation": "Министерство здоровья, труда и благосостояния"
+			},
+			{
+				"japanese": "厚い",
+				"reading": "あつい",
+				"translation": "жаркий, горячий"
+			},
+			{
+				"japanese": "厚かましい",
+				"reading": "あつかましい",
+				"translation": "наглый, бесстыдный"
+			},
+			{
+				"japanese": "厚切り",
+				"reading": "あつぎり",
+				"translation": "толстый ломоть"
+			},
+			{
+				"japanese": "厚手",
+				"reading": "あつで",
+				"translation": "толстый (о бумаге, ткани)"
+			}
+		]
+	},
+	{
+		"japanese": "薄",
+		"on": "",
+		"kun": "うす・い　うす・める",
+		"translation": "разбавленный, тонкий, слабый (раствор)",
+		"words": [
+			{
+				"japanese": "薄い",
+				"reading": "うすい",
+				"translation": "тонкий, слабый (раствор), скудный"
+			},
+			{
+				"japanese": "薄手",
+				"reading": "うすで",
+				"translation": "тонкий (о бумаге, фарфоре)"
+			},
+			{
+				"japanese": "薄切り",
+				"reading": "うすぎり",
+				"translation": "тонкий ломтик"
+			},
+			{
+				"japanese": "薄める",
+				"reading": "うすめる",
+				"translation": ""
+			}
+		]
+	},
+	{
+		"japanese": "粒",
+		"on": "",
+		"kun": "つぶ",
+		"translation": "",
+		"words": [
+			{
+				"japanese": "粒",
+				"reading": "つぶ",
+				"translation": ""
+			},
+			{
+				"japanese": "～粒",
+				"reading": "つぶ",
+				"translation": ""
+			}
+		]
+	},
+	{
+		"japanese": "極",
+		"on": "キョク　ゴク",
+		"kun": "",
+		"translation": "",
+		"words": [
+			{
+				"japanese": "北極",
+				"reading": "ほっきょく",
+				"translation": ""
+			},
+			{
+				"japanese": "積極的",
+				"reading": "せっきょくてき",
+				"translation": ""
+			},
+			{
+				"japanese": "極",
+				"reading": "ごく",
+				"translation": ""
+			},
+			{
+				"japanese": "南極",
+				"reading": "なんきょく",
+				"translation": ""
+			},
+			{
+				"japanese": "消極的",
+				"reading": "しょうきょくてき",
+				"translation": ""
+			}
+		]
+	},
+	{
+		"japanese": "革",
+		"on": "カク",
+		"kun": "かわ",
+		"translation": "",
+		"words": [
+			{
+				"japanese": "改革",
+				"reading": "かいかく",
+				"translation": ""
+			},
+			{
+				"japanese": "革",
+				"reading": "かわ",
+				"translation": ""
+			},
+			{
+				"japanese": "革命",
+				"reading": "かくめい",
+				"translation": ""
+			},
+			{
+				"japanese": "革製",
+				"reading": "かわせい",
+				"translation": ""
+			}
+		]
+	},
+	{
+		"japanese": "苦",
+		"on": "ク",
+		"kun": "くる・しい　くる・しむ　にが・い",
+		"translation": "",
+		"words": [
+			{
+				"japanese": "苦痛",
+				"reading": "くつう",
+				"translation": ""
+			},
+			{
+				"japanese": "苦しい",
+				"reading": "くるしい",
+				"translation": ""
+			},
+			{
+				"japanese": "苦い",
+				"reading": "にがい",
+				"translation": ""
+			},
+			{
+				"japanese": "苦しむ",
+				"reading": "くるしむ",
+				"translation": ""
+			}
+		]
+	}
+	]
+}

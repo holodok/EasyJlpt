@@ -1,0 +1,367 @@
+{
+	"title": "Неделя 6. День 5.",
+	"kanji":[
+	{
+		"japanese": "財",
+		"on": "ザイ　サイ",
+		"kun": "",
+		"translation": "имущество, деньги",
+		"words": [
+			{
+				"japanese": "財産",
+				"reading": "ざいさん",
+				"translation": "имущество, состояние"
+			},
+			{
+				"japanese": "財布",
+				"reading": "さいふ",
+				"translation": "кошелек"
+			},
+			{
+				"japanese": "文化財",
+				"reading": "ぶかざい",
+				"translation": "культурные ценности"
+			}
+		]
+	},
+	{
+		"japanese": "観",
+		"on": "カン",
+		"kun": "",
+		"translation": "внешний вид, взгляд",
+		"words": [
+			{
+				"japanese": "観光",
+				"reading": "かんこう",
+				"translation": "туризм, осмотр достопримечательностей"
+			},
+			{
+				"japanese": "観察",
+				"reading": "かんさつ",
+				"translation": "наблюдение"
+			},
+			{
+				"japanese": "観客",
+				"reading": "かんきゃく",
+				"translation": "зритель"
+			},
+			{
+				"japanese": "観音",
+				"reading": "かんのん",
+				"translation": "Каннон (богиня милосердия)"
+			}
+		]
+	},
+	{
+		"japanese": "宝",
+		"on": "ホウ",
+		"kun": "たから",
+		"translation": "сокровище, богатство",
+		"words": [
+			{
+				"japanese": "宝石",
+				"reading": "ほうせき",
+				"translation": "драгоценный камень"
+			},
+			{
+				"japanese": "国宝",
+				"reading": "こくほう",
+				"translation": "национальные сокровище (достояние)"
+			},
+			{
+				"japanese": "宝物館",
+				"reading": "ほうもつかん",
+				"translation": "музей сокровищ"
+			},
+			{
+				"japanese": "宝物",
+				"reading": "たからもの",
+				"translation": "сокровище"
+			}
+		]
+	},
+	{
+		"japanese": "仏",
+		"on": "ブツ",
+		"kun": "ほとけ",
+		"translation": "Будда, Франция",
+		"words": [
+			{
+				"japanese": "仏教",
+				"reading": "ぶっきょう",
+				"translation": "буддизм"
+			},
+			{
+				"japanese": "仏",
+				"reading": "ほとけ",
+				"translation": "будда, покойник"
+			},
+			{
+				"japanese": "仏像",
+				"reading": "ぶつぞう",
+				"translation": "статуя Будды"
+			},
+			{
+				"japanese": "日仏",
+				"reading": "にちふつ",
+				"translation": "Япония и Франция"
+			}
+		]
+	},
+	{
+		"japanese": "王",
+		"on": "オウ",
+		"kun": "",
+		"translation": "король, правитель",
+		"words": [
+			{
+				"japanese": "国王",
+				"reading": "こくおう",
+				"translation": "король"
+			},
+			{
+				"japanese": "王女",
+				"reading": "おうじょ",
+				"translation": "принцесса"
+			},
+			{
+				"japanese": "王子",
+				"reading": "おうじ",
+				"translation": "принц"
+			},
+			{
+				"japanese": "女王",
+				"reading": "じょおう",
+				"translation": "королева"
+			}
+		]
+	},
+	{
+		"japanese": "銅",
+		"on": "ドウ",
+		"kun": "",
+		"translation": "медь",
+		"words": [
+			{
+				"japanese": "銅",
+				"reading": "どう",
+				"translation": "медь, бронза"
+			},
+			{
+				"japanese": "銅像",
+				"reading": "どうぞう",
+				"translation": "бронзовая статуя"
+			}
+		]
+	},
+	{
+		"japanese": "塔",
+		"on": "トウ",
+		"kun": "",
+		"translation": "пагода, башня",
+		"words": [
+			{
+				"japanese": "塔",
+				"reading": "とう",
+				"translation": "башня, пагода"
+			},
+			{
+				"japanese": "～塔",
+				"reading": "とう",
+				"translation": "~пагода"
+			},
+			{
+				"japanese": "五重の塔",
+				"reading": "ごじゅうのとう",
+				"translation": "пятиэтажная пагода"
+			}
+		]
+	},
+	{
+		"japanese": "絵",
+		"on": "エ",
+		"kun": "カイ",
+		"translation": "изображение, рисунок",
+		"words": [
+			{
+				"japanese": "絵",
+				"reading": "え",
+				"translation": "картинка"
+			},
+			{
+				"japanese": "絵画",
+				"reading": "かいが",
+				"translation": "картина"
+			},
+			{
+				"japanese": "絵の具",
+				"reading": "えのぐ",
+				"translation": "краски, цвета"
+			}
+		]
+	},
+	{
+		"japanese": "略",
+		"on": "リャク",
+		"kun": "",
+		"translation": "сокращение, пропуск",
+		"words": [
+			{
+				"japanese": "略",
+				"reading": "りゃく",
+				"translation": "аббревиатура"
+			},
+			{
+				"japanese": "省略",
+				"reading": "しょうりゃく",
+				"translation": "аббревиатура, соращение"
+			},
+			{
+				"japanese": "略す",
+				"reading": "りゃくす",
+				"translation": "сокращать, опускать"
+			},
+			{
+				"japanese": "略歴",
+				"reading": "りゃくれき",
+				"translation": "краткая биография"
+			}
+		]
+	},
+	{
+		"japanese": "順",
+		"on": "ジュン",
+		"kun": "",
+		"translation": "порядок, очередь",
+		"words": [
+			{
+				"japanese": "順",
+				"reading": "じゅん",
+				"translation": "порядок, последовательность, очередность"
+			},
+			{
+				"japanese": "順番",
+				"reading": "じゅんばん",
+				"translation": "очередь, порядок"
+			},
+			{
+				"japanese": "順路",
+				"reading": "じゅんろ",
+				"translation": "обычный путь, постоянный маршрут"
+			},
+			{
+				"japanese": "順調",
+				"reading": "じゅんちょう",
+				"translation": "благоприятный ход, благоприятное течение"
+			}
+		]
+	},
+	{
+		"japanese": "版",
+		"on": "ハン",
+		"kun": "",
+		"translation": "печатная форма, клише",
+		"words": [
+			{
+				"japanese": "出版",
+				"reading": "しゅっぱん",
+				"translation": "издание, публикация"
+			},
+			{
+				"japanese": "版画",
+				"reading": "はんが",
+				"translation": "гравюра"
+			},
+			{
+				"japanese": "出版社",
+				"reading": "しゅっぱんしゃ",
+				"translation": "издательство"
+			}
+		]
+	},
+	{
+		"japanese": "芸",
+		"on": "ゲイ",
+		"kun": "",
+		"translation": "техника, искусство",
+		"words": [
+			{
+				"japanese": "芸術",
+				"reading": "げいじゅつ",
+				"translation": "искусство"
+			},
+			{
+				"japanese": "芸能",
+				"reading": "げいのう",
+				"translation": "спектакль, публичные развлечения"
+			},
+			{
+				"japanese": "工芸",
+				"reading": "こうげい",
+				"translation": "прикладное искусство, ремесла"
+			},
+			{
+				"japanese": "園芸",
+				"reading": "えんげい",
+				"translation": "садоводство"
+			}
+		]
+	},
+	{
+		"japanese": "複",
+		"on": "フク",
+		"kun": "",
+		"translation": "дубликат, сложный",
+		"words": [
+			{
+				"japanese": "複製",
+				"reading": "ふくせい",
+				"translation": "перепечатка, репродукция"
+			},
+			{
+				"japanese": "複写",
+				"reading": "ふくしゃ",
+				"translation": "репродукция, копия"
+			},
+			{
+				"japanese": "複雑な",
+				"reading": "ふくざつな",
+				"translation": "сложный, запутанный"
+			},
+			{
+				"japanese": "複数",
+				"reading": "ふくすう",
+				"translation": "множественное число"
+			}
+		]
+	},
+	{
+		"japanese": "刊",
+		"on": "カン",
+		"kun": "",
+		"translation": "публиковать, издавать",
+		"words": [
+			{
+				"japanese": "刊行物",
+				"reading": "かんこうぶつ",
+				"translation": "печатное издание"
+			},
+			{
+				"japanese": "週刊",
+				"reading": "しゅうかん",
+				"translation": "еженедельное издание"
+			},
+			{
+				"japanese": "朝刊",
+				"reading": "ちょうかん",
+				"translation": "утренний выпуск"
+			},
+			{
+				"japanese": "月刊",
+				"reading": "げっかん",
+				"translation": "ежемесячное издание"
+			}
+		]
+	}
+	]
+}

@@ -1,0 +1,354 @@
+{
+	"title": "Неделя 5. День 6.",
+	"kanji":[
+	{
+		"japanese": "鳴",
+		"on": "",
+		"kun": "な・る　な・らす　な・く",
+		"translation": "звуки животных, щебет",
+		"words": [
+			{
+				"japanese": "鳴る",
+				"reading": "なる",
+				"translation": "звучать, раздаваться (звонок, телефон, часы)"
+			},
+			{
+				"japanese": "怒鳴る",
+				"reading": "どなる",
+				"translation": "закричать, заорать"
+			},
+			{
+				"japanese": "鳴らす",
+				"reading": "ならす",
+				"translation": "производить звук, звонить в колокол"
+			},
+			{
+				"japanese": "鳴く",
+				"reading": "なく",
+				"translation": "чирикать, мычать (звуки, производимые животными)"
+			}
+		]
+	},
+	{
+		"japanese": "訪",
+		"on": "ホウ",
+		"kun": "おとず・れる　たず・ねる",
+		"translation": "навещать, посещать",
+		"words": [
+			{
+				"japanese": "訪問",
+				"reading": "ほうもん",
+				"translation": "посещение, визит"
+			},
+			{
+				"japanese": "訪れる",
+				"reading": "おとずれる",
+				"translation": "посещать, навещать, приходить"
+			},
+			{
+				"japanese": "訪ねる",
+				"reading": "たずねる",
+				"translation": "посещать, навещать, заходить к кому-то"
+			}
+		]
+	},
+	{
+		"japanese": "呼",
+		"on": "コ",
+		"kun": "よ・ぶ",
+		"translation": "звать, называть",
+		"words": [
+			{
+				"japanese": "呼吸",
+				"reading": "こきゅう",
+				"translation": "дыхание, знание дела, темп"
+			},
+			{
+				"japanese": "呼ぶ",
+				"reading": "よぶ",
+				"translation": "называть, звать"
+			},
+			{
+				"japanese": "呼び出す",
+				"reading": "よびだす",
+				"translation": "звать, вызывать"
+			}
+		]
+	},
+	{
+		"japanese": "警",
+		"on": "ケイ",
+		"kun": "",
+		"translation": "наставлять, заповедь",
+		"words": [
+			{
+				"japanese": "警官",
+				"reading": "けいかん",
+				"translation": "полицейский, полиция"
+			},
+			{
+				"japanese": "警察",
+				"reading": "けいさつ",
+				"translation": "полиция"
+			},
+			{
+				"japanese": "警備",
+				"reading": "けいび",
+				"translation": "охрана, караул"
+			}
+		]
+	},
+	{
+		"japanese": "報",
+		"on": "ホウ",
+		"kun": "",
+		"translation": "сообщение, информация",
+		"words": [
+			{
+				"japanese": "警報",
+				"reading": "けいほう",
+				"translation": "тревога, сигнал тревоги"
+			},
+			{
+				"japanese": "情報",
+				"reading": "じょうほう",
+				"translation": "информация"
+			},
+			{
+				"japanese": "予報",
+				"reading": "よほう",
+				"translation": "предсказание, прогноз"
+			},
+			{
+				"japanese": "電報",
+				"reading": "でんぽう",
+				"translation": "телеграмма"
+			}
+		]
+	},
+	{
+		"japanese": "裏",
+		"on": "",
+		"kun": "うら",
+		"translation": "обратный, внутри, изнанка",
+		"words": [
+			{
+				"japanese": "裏",
+				"reading": "うら",
+				"translation": "изнанка, оборотная сторона, черный ход"
+			},
+			{
+				"japanese": "裏切る",
+				"reading": "うらぎる",
+				"translation": "предавать"
+			},
+			{
+				"japanese": "裏口",
+				"reading": "うらぐち",
+				"translation": "черный ход"
+			},
+			{
+				"japanese": "裏表",
+				"reading": "うらおもて",
+				"translation": "изнанка и лицо, обе стороны"
+			}
+		]
+	},
+	{
+		"japanese": "差",
+		"on": "サ",
+		"kun": "さ・す",
+		"translation": "различия, разница",
+		"words": [
+			{
+				"japanese": "交差点",
+				"reading": "こうさてん",
+				"translation": "перекресток"
+			},
+			{
+				"japanese": "差",
+				"reading": "さ",
+				"translation": "разница, различие"
+			},
+			{
+				"japanese": "差別",
+				"reading": "さべつ",
+				"translation": "различие, дифференциация"
+			},
+			{
+				"japanese": "差出人",
+				"reading": "さしだしにん",
+				"translation": "отправитель"
+			},
+			{
+				"japanese": "人差し指",
+				"reading": "ひとさしゆび",
+				"translation": "указательный палец"
+			}
+		]
+	},
+	{
+		"japanese": "続",
+		"on": "ゾク",
+		"kun": "つづ・く　つづ・ける",
+		"translation": "продолжение, сиквел",
+		"words": [
+			{
+				"japanese": "接続",
+				"reading": "せつぞく",
+				"translation": "соединение, связь"
+			},
+			{
+				"japanese": "続く",
+				"reading": "つづく",
+				"translation": "продолжаться, длиться"
+			},
+			{
+				"japanese": "継続",
+				"reading": "けいぞく",
+				"translation": "продолжение, продление"
+			},
+			{
+				"japanese": "手続き",
+				"reading": "てつづき",
+				"translation": "формальности, процедура"
+			}
+		]
+	},
+	{
+		"japanese": "辞",
+		"on": "ジ",
+		"kun": "や・める",
+		"translation": "уйти в отставку, слово, выражение",
+		"words": [
+			{
+				"japanese": "辞書",
+				"reading": "じしょ",
+				"translation": "словарь"
+			},
+			{
+				"japanese": "辞表",
+				"reading": "じひょう",
+				"translation": "заявление об оставке (письменное)"
+			},
+			{
+				"japanese": "辞典",
+				"reading": "じてん",
+				"translation": "словарь"
+			},
+			{
+				"japanese": "辞める",
+				"reading": "やめる",
+				"translation": "уходить в отставку, увольняться"
+			}
+		]
+	},
+	{
+		"japanese": "面",
+		"on": "メン",
+		"kun": "",
+		"translation": "лицо, маска, поверхность",
+		"words": [
+			{
+				"japanese": "画面",
+				"reading": "がめん",
+				"translation": "экран"
+			},
+			{
+				"japanese": "正面",
+				"reading": "しょうめん",
+				"translation": "перед, передняя часть, лицевая сторона"
+			},
+			{
+				"japanese": "方面",
+				"reading": "ほうめん",
+				"translation": "сторона, направление, область, сфера"
+			},
+			{
+				"japanese": "面積",
+				"reading": "めんせき",
+				"translation": "площадь, поверхность"
+			}
+		]
+	},
+	{
+		"japanese": "操",
+		"on": "ソウ",
+		"kun": "",
+		"translation": "маневрировать, манипулировать",
+		"words": [
+			{
+				"japanese": "操作",
+				"reading": "そうさ",
+				"translation": "манипуляция, управление (компьютером)"
+			},
+			{
+				"japanese": "体操",
+				"reading": "たいそう",
+				"translation": "зарядка, гимнастика"
+			}
+		]
+	},
+	{
+		"japanese": "実",
+		"on": "ジツ",
+		"kun": "み　みの・る",
+		"translation": "реальность, истина",
+		"words": [
+			{
+				"japanese": "実行",
+				"reading": "じっこう",
+				"translation": "осуществление на практике"
+			},
+			{
+				"japanese": "事実",
+				"reading": "じじつ",
+				"translation": "факт, реальность"
+			},
+			{
+				"japanese": "実",
+				"reading": "み",
+				"translation": "семя, плод"
+			},
+			{
+				"japanese": "実験",
+				"reading": "じっけん",
+				"translation": "эксперимент"
+			},
+			{
+				"japanese": "実る",
+				"reading": "みのる",
+				"translation": "уродиться, приносить плоды"
+			}
+		]
+	},
+	{
+		"japanese": "列",
+		"on": "レツ",
+		"kun": "",
+		"translation": "шеренга, ряд",
+		"words": [
+			{
+				"japanese": "列",
+				"reading": "れつ",
+				"translation": "ряд, очередь"
+			},
+			{
+				"japanese": "列車",
+				"reading": "れっしゃ",
+				"translation": "поезд"
+			},
+			{
+				"japanese": "行列",
+				"reading": "ぎょうれつ",
+				"translation": "шествие, процессия"
+			},
+			{
+				"japanese": "列島",
+				"reading": "れっとう",
+				"translation": "архипелаг, острова"
+			}
+		]
+	}
+	]
+}

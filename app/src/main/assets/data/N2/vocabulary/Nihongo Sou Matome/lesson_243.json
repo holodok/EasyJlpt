@@ -1,0 +1,400 @@
+﻿{
+	"title": "Неделя 4. День 3.",
+	"words": [
+	{
+		"word": {
+			"japanese": "たびたび",
+			"reading": "",
+			"translation": "часто, неоднократно"
+		},
+		"sentences":[
+			{
+				"japanese": "「たびたびお|電-でん||話-わ|してすみません。」",
+				"translation": "Извините, что так часто звоню."
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "しばしば",
+			"reading": "",
+			"translation": "часто, неоднократно"
+		}
+	},
+	{
+		"word": {
+			"japanese": "いよいよ",
+			"reading": "",
+			"translation": "наконец, больше и больше"
+		},
+		"sentences":[
+			{
+				"japanese": "いよいよ|明日-あした||出-しゅっ||発-ぱつ|します。",
+				"translation": "Наконец завтра уезжаю."
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "いちいち",
+			"reading": "",
+			"translation": "один за другим, всё, без исключения"
+		},
+		"sentences":[
+			{
+				"japanese": "いちいち|文-もん||句-く|を|言-い|う",
+				"translation": "жаловаться по каждому пустяку"
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "ふわふわ",
+			"reading": "",
+			"translation": "мягко, нежно"
+		},
+		"sentences":[
+			{
+				"japanese": "このタオルはふわふわしている。",
+				"translation": "Это полотенце очень мягкое."
+			},
+			{
+				"japanese": "ふわふわと|浮-う|かぶ|雲-くも|",
+				"translation": "парящие облака"
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "まごまご",
+			"reading": "",
+			"translation": "смущенный"
+		},
+		"expressions":[
+			{
+				"japanese": "わからなくまごまごする",
+				"reading": "",
+				"translation": "растеряться"
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "それぞれ",
+			"reading": "",
+			"translation": "все, каждый"
+		},
+		"expressions":[
+			{
+				"japanese": "それぞれ意見を述べる",
+				"reading": "それぞれいけんをのべる",
+				"translation": "каждый выражает свое мнение"
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "めいめい",
+			"reading": "",
+			"translation": "все, каждый"
+		}
+	},
+	{
+		"word": {
+			"japanese": "ひとりひとり",
+			"reading": "",
+			"translation": "все, каждый"
+		}
+	},
+	{
+		"word": {
+			"japanese": "各々",
+			"reading": "おのおの",
+			"translation": "все, каждый"
+		}
+	},
+	{
+		"word": {
+			"japanese": "ばったり",
+			"reading": "",
+			"translation": "внезапно, неожиданно"
+		},
+		"expressions":[
+			{
+				"japanese": "友達にばったり会う",
+				"reading": "ともだちにばったりあう",
+				"translation": "неожиданно встретить друга"
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "こっそり",
+			"reading": "",
+			"translation": "украдкой, тайком"
+		},
+		"expressions":[
+			{
+				"japanese": "こっそり逃げる",
+				"reading": "",
+				"translation": "улизнуть"
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "ぴったり",
+			"reading": "",
+			"translation": "точно, вплотную"
+		},
+		"expressions":[
+			{
+				"japanese": "計算がぴったり合う",
+				"reading": "けいさんがぴったりあう",
+				"translation": "расчеты совпали"
+			},
+			{
+				"japanese": "ぴったりくっつく",
+				"reading": "",
+				"translation": "плотно прилегать"
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "ぎっしり",
+			"reading": "",
+			"translation": "плотно, тесно"
+		},
+		"sentences":[
+			{
+				"japanese": "みかんがぎっしりつまっている。",
+				"reading": "",
+				"translation": "Плотно набито мандаринами."
+			},
+			{
+				"japanese": "予定がぎっしり入っている。",
+				"reading": "よていがぎっしりはいっている。",
+				"translation": "У нас плотное расписание."
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "じっくり",
+			"reading": "",
+			"translation": "неспеша, спокойно"
+		},
+		"expressions":[
+			{
+				"japanese": "じっくり読む",
+				"reading": "じっくりよむ",
+				"translation": "читать вдумчиво"
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "ちらっと",
+			"reading": "",
+			"translation": "мельком"
+		},
+		"expressions":[
+			{
+				"japanese": "ちらっと見る",
+				"reading": "ちらっとみる",
+				"translation": "взглянуть мельком"
+			},
+			{
+				"japanese": "ちらりと",
+				"reading": "",
+				"translation": "мельком"
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "うんざり",
+			"reading": "",
+			"translation": "утомительный, наводящий тоску"
+		},
+		"expressions":[
+			{
+				"japanese": "親の説教にうんざりする",
+				"reading": "おやのせっきょうにうんざりする",
+				"translation": "устать от нравоучений родителей"
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "びっしょり",
+			"reading": "",
+			"translation": "промокнуть до нитки"
+		},
+		"sentences":[
+			{
+				"japanese": "|急-きゅう|に|雨-あめ|が|降-ふ|ってびっしょりぬれた。",
+				"translation": "Внезапно пошел дождь, вымок до нитки."
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "びしょびしょ",
+			"reading": "",
+			"translation": "промокший, пропитанный влагой"
+		},
+		"expressions":[
+			{
+				"japanese": "びしょねれになった",
+				"reading": "",
+				"translation": "намокнуть"
+			},
+			{
+				"japanese": "びしょびしょになった",
+				"reading": "",
+				"translation": "намокнуть"
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "しいんと",
+			"reading": "",
+			"translation": "мертвая тишина"
+		},
+		"expressions":[
+			{
+				"japanese": "しいんと静かになる",
+				"reading": "しいんとしずかになる",
+				"translation": "стало тихо как в могиле"
+			},
+			{
+				"japanese": "シーンと静かになる",
+				"reading": "シーンとしずかになる",
+				"translation": "стало тихо как в могиле"
+			},
+			{
+				"japanese": "しいんとする",
+				"reading": "",
+				"translation": "быть тихим"
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "ずらりと",
+			"reading": "",
+			"translation": "в ряд, в линию"
+		},
+		"expressions":[
+			{
+				"japanese": "ずらっと",
+				"reading": "",
+				"translation": "в ряд, в линию"
+			}
+		],
+		"sentences":[
+			{
+				"japanese": "|本-ほん|がずらりと|並-なら|んでいます。",
+				"translation": "Книги стоят в ряд."
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "さっさと",
+			"reading": "",
+			"translation": "быстро, живо"
+		},
+		"expressions":[
+			{
+				"japanese": "さっさと帰る",
+				"reading": "",
+				"translation": "быстро уйти домой"
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "せっせと",
+			"reading": "",
+			"translation": "усердно, старательно"
+		},
+		"expressions":[
+			{
+				"japanese": "せっせと働く",
+				"reading": "",
+				"translation": "усердно работать"
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "どっと",
+			"reading": "",
+			"translation": "вдруг, сразу"
+		},
+		"expressions":[
+			{
+				"japanese": "客がどっと来る",
+				"reading": "きゃくがどっとくる",
+				"translation": "хлынули покупатели"
+			},
+			{
+				"japanese": "どっと疲れる",
+				"reading": "どっとつかれる",
+				"translation": "внезапно устал"
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "すっと",
+			"reading": "",
+			"translation": "быстро, мгновенно"
+		},
+		"expressions":[
+			{
+				"japanese": "すっと立ち上がる",
+				"reading": "すっとたちあがる",
+				"translation": "резко встать"
+			},
+			{
+				"japanese": "気分がすっとする",
+				"reading": "きぶんがすっとする",
+				"translation": "чувствовать себя освеженным"
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "ひとりでに",
+			"reading": "",
+			"translation": "само, автоматически"
+		},
+		"expressions":[
+			{
+				"japanese": "ドアがひとりでに開く",
+				"reading": "ドアがひとりでにあく",
+				"translation": "двери открываются автоматически"
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "いっせいに",
+			"reading": "",
+			"translation": "одновременно"
+		},
+		"expressions":[
+			{
+				"japanese": "いっせいに立ち上がる",
+				"reading": "いっせいにたちあがる",
+				"translation": "встать всем вместе"
+			}
+		]
+	}
+	]
+}

@@ -1,0 +1,337 @@
+{
+	"title": "Неделя 4. День 1.",
+	"kanji":[
+	{
+		"japanese": "署",
+		"on": "ショ",
+		"kun": "",
+		"translation": "подпись, госучереждение, полицейский участок",
+		"words": [
+			{
+				"japanese": "署名",
+				"reading": "しょめい",
+				"translation": "подпись"
+			},
+			{
+				"japanese": "消防署",
+				"reading": "しょうぼうしょ",
+				"translation": "пожарное депо"
+			},
+			{
+				"japanese": "部署",
+				"reading": "ぶしょ",
+				"translation": "пост (служебный), станция"
+			},
+			{
+				"japanese": "税務署",
+				"reading": "ぜいむしょ",
+				"translation": "налоговое управление"
+			}
+		]
+	},
+	{
+		"japanese": "依",
+		"on": "イ",
+		"kun": "",
+		"translation": "зависимый, следовательно",
+		"words": [
+			{
+				"japanese": "依頼",
+				"reading": "いらい",
+				"translation": "просьба, поручение"
+			}
+		]
+	},
+	{
+		"japanese": "頼",
+		"on": "ライ",
+		"kun": "たの・む たの・もしい たよ・る",
+		"translation": "доверять, просить",
+		"words": [
+			{
+				"japanese": "信頼",
+				"reading": "しんらい",
+				"translation": "доверие"
+			},
+			{
+				"japanese": "頼む",
+				"reading": "たのむ",
+				"translation": "просить"
+			},
+			{
+				"japanese": "頼る",
+				"reading": "たよる",
+				"translation": "полагаться на кого-то, зависеть от кого-то"
+			},
+			{
+				"japanese": "頼もしい",
+				"reading": "たのもしい",
+				"translation": "надежный"
+			},
+			{
+				"japanese": "頼りない",
+				"reading": "たよりない",
+				"translation": "беспомощный, ненадежный"
+			}
+		]
+	},
+	{
+		"japanese": "府",
+		"on": "フ",
+		"kun": "",
+		"translation": "населенный пункт, городская префектура",
+		"words": [
+			{
+				"japanese": "都道府県",
+				"reading": "とどうふけん",
+				"translation": "столица, области и префектуры"
+			},
+			{
+				"japanese": "京都府",
+				"reading": "きょうとふ",
+				"translation": "префектура Киото"
+			}
+		]
+	},
+	{
+		"japanese": "到",
+		"on": "トウ",
+		"kun": "",
+		"translation": "прибытие, достигать, кончаться чем-то",
+		"words": [
+			{
+				"japanese": "到着",
+				"reading": "とうちゃく",
+				"translation": "прибытие"
+			}
+		]
+	},
+	{
+		"japanese": "希",
+		"on": "キ",
+		"kun": "",
+		"translation": "надежда, мольба, редкий",
+		"words": [
+			{
+				"japanese": "希望",
+				"reading": "きぼう",
+				"translation": "надежда"
+			}
+		]
+	},
+	{
+		"japanese": "望",
+		"on": "ボウ",
+		"kun": "のぞ・む",
+		"translation": "честолюбие, надежда, желание, стремление, полная луна",
+		"words": [
+			{
+				"japanese": "失望",
+				"reading": "しつぼう",
+				"translation": "отчаяние, разочарование"
+			},
+			{
+				"japanese": "望む",
+				"reading": "のぞむ",
+				"translation": "желать, надеяться"
+			},
+			{
+				"japanese": "望遠鏡",
+				"reading": "ぼうえんきょう",
+				"translation": "телескоп"
+			}
+		]
+	},
+	{
+		"japanese": "申",
+		"on": "シン",
+		"kun": "もう・す",
+		"translation": "иметь честь сделать что-то",
+		"words": [
+			{
+				"japanese": "申請",
+				"reading": "しんせい",
+				"translation": "прошение, ходатайство"
+			},
+			{
+				"japanese": "申し込み",
+				"reading": "もうしこみ",
+				"translation": "заявление, предложение"
+			},
+			{
+				"japanese": "申す",
+				"reading": "もうす",
+				"translation": "говорить (скромно), называть"
+			},
+			{
+				"japanese": "申し上げる",
+				"reading": "もうしあげる",
+				"translation": "говорить (очень скромно)"
+			}
+		]
+	},
+	{
+		"japanese": "姓",
+		"on": "セイ",
+		"kun": "",
+		"translation": "фамилия",
+		"words": [
+			{
+				"japanese": "姓",
+				"reading": "せい",
+				"translation": "фамилия"
+			},
+			{
+				"japanese": "姓名",
+				"reading": "せいめい",
+				"translation": "полное имя"
+			}
+		]
+	},
+	{
+		"japanese": "齢",
+		"on": "レイ",
+		"kun": "",
+		"translation": "возраст",
+		"words": [
+			{
+				"japanese": "年齢",
+				"reading": "ねんれい",
+				"translation": "возраст"
+			},
+			{
+				"japanese": "高齢",
+				"reading": "こうれい",
+				"translation": "преклонный возраст"
+			}
+		]
+	},
+	{
+		"japanese": "性",
+		"on": "セイ",
+		"kun": "",
+		"translation": "пол (женский, мужской), сущность",
+		"words": [
+			{
+				"japanese": "男性",
+				"reading": "だんせい",
+				"translation": "мужчина"
+			},
+			{
+				"japanese": "女性",
+				"reading": "じょせい",
+				"translation": "женщина"
+			},
+			{
+				"japanese": "安全性",
+				"reading": "あんぜんせい",
+				"translation": "безопасность, стабильность"
+			},
+			{
+				"japanese": "可能性",
+				"reading": "かのうせい",
+				"translation": "возможность, потенциал"
+			},
+			{
+				"japanese": "性別",
+				"reading": "せいべつ",
+				"translation": "пол (мужской, женский)"
+			},
+			{
+				"japanese": "性質",
+				"reading": "せいしつ",
+				"translation": "характер, натура, свойство"
+			}
+		]
+	},
+	{
+		"japanese": "宅",
+		"on": "タク",
+		"kun": "",
+		"translation": "дом",
+		"words": [
+			{
+				"japanese": "お宅",
+				"reading": "おたく",
+				"translation": "ваш дом"
+			},
+			{
+				"japanese": "自宅",
+				"reading": "じたく",
+				"translation": "свой дом"
+			},
+			{
+				"japanese": "住宅",
+				"reading": "じゅうたく",
+				"translation": "квартира, жилой дом"
+			},
+			{
+				"japanese": "帰宅",
+				"reading": "きたく",
+				"translation": "возвращение домой"
+			}
+		]
+	},
+	{
+		"japanese": "勤",
+		"on": "キン",
+		"kun": "つと・める",
+		"translation": "трудолюбие, служить",
+		"words": [
+			{
+				"japanese": "勤務",
+				"reading": "きんむ",
+				"translation": "служба, служебные обязанности"
+			},
+			{
+				"japanese": "出勤",
+				"reading": "しゅっきん",
+				"translation": "явка на службу, выход на работу"
+			},
+			{
+				"japanese": "通勤",
+				"reading": "つうきん",
+				"translation": "поездка до места работы"
+			},
+			{
+				"japanese": "勤める",
+				"reading": "つとめる",
+				"translation": "работать, служить, исполнять обязанности"
+			}
+		]
+	},
+	{
+		"japanese": "部",
+		"on": "ブ",
+		"kun": "",
+		"translation": "раздел, бюро, отдел, копия",
+		"words": [
+			{
+				"japanese": "部分",
+				"reading": "ぶぶん",
+				"translation": "часть"
+			},
+			{
+				"japanese": "全部",
+				"reading": "ぜんぶ",
+				"translation": "все, полностью"
+			},
+			{
+				"japanese": "部屋",
+				"reading": "へや",
+				"translation": "комната"
+			},
+			{
+				"japanese": "部長",
+				"reading": "ぶちょう",
+				"translation": "начальник отдела"
+			},
+			{
+				"japanese": "学部",
+				"reading": "がくぶ",
+				"translation": "факультет"
+			}
+		]
+	}
+	]
+}

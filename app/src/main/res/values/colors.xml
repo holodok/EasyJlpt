@@ -4,21 +4,8 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
 
-    <color name="gridBackground">#FAFAFA</color>
-    <color name="itemBackground">#FFFFFF</color>
     <color name="divider">#1E000000</color>
-
-    <color name="primaryText">#DD000000</color>
-    <color name="secondaryText">#89000000</color>
-    <color name="primaryInvertedText">#DDFFFFFF</color>
-    <color name="secondaryInvertedText">#89FFFFFF</color>
-
-    <color name="colorPrimarySecondaryText">#893F51B5</color>
-
-    <color name="buttonBackground">#893F51B5</color>
-    <color name="buttonBackgroundPressed">#3F51B5</color>
-
-    <color name="correctAnswerBorder">#699D00</color>
-    <color name="incorrectAnswer">#FF0000</color>
     <color name="correctAnswer">#699D00</color>
+    <color name="incorrectAnswer">#FF0000</color>
+    <color name="primaryTextInverted">#FFFFFF</color>
 </resources>

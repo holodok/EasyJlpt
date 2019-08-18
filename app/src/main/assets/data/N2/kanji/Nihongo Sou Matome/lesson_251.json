@@ -1,0 +1,367 @@
+{
+	"title": "Неделя 5. День 1.",
+	"kanji":[
+	{
+		"japanese": "傾",
+		"on": "ケイ",
+		"kun": "かたむ・く　かたむ・ける",
+		"translation": "наклон, тенденция",
+		"words": [
+			{
+				"japanese": "傾向",
+				"reading": "けいこう",
+				"translation": "склонность, тенденция"
+			},
+			{
+				"japanese": "傾く",
+				"reading": "かたむく",
+				"translation": "крениться, покоситься, склоняться"
+			},
+			{
+				"japanese": "傾ける",
+				"reading": "かたむける",
+				"translation": "наклонять, склонять"
+			}
+		]
+	},
+	{
+		"japanese": "横",
+		"on": "オウ",
+		"kun": "よこ",
+		"translation": "бок, ширина",
+		"words": [
+			{
+				"japanese": "横転",
+				"reading": "おうてん",
+				"translation": "поперечное вращение"
+			},
+			{
+				"japanese": "横",
+				"reading": "よこ",
+				"translation": "бок, поперечник"
+			},
+			{
+				"japanese": "横断歩道",
+				"reading": "おうだんほどう",
+				"translation": "пешеходный переход"
+			}
+		]
+	},
+	{
+		"japanese": "湯",
+		"on": "トウ",
+		"kun": "ゆ",
+		"translation": "горячая вода, баня",
+		"words": [
+			{
+				"japanese": "熱湯",
+				"reading": "ねっとう",
+				"translation": "кипяток"
+			},
+			{
+				"japanese": "湯飲み",
+				"reading": "ゆのみ",
+				"translation": "чайная чашка"
+			},
+			{
+				"japanese": "湯",
+				"reading": "ゆ",
+				"translation": "горячая вода, горячая ванна, баня"
+			},
+			{
+				"japanese": "湯気",
+				"reading": "ゆげ",
+				"translation": "пар"
+			}
+		]
+	},
+	{
+		"japanese": "恐",
+		"on": "キョウ",
+		"kun": "おそ・れる　おそ・ろしい",
+		"translation": "страх, боязнь",
+		"words": [
+			{
+				"japanese": "恐怖",
+				"reading": "きょうふ",
+				"translation": "испуг, страх"
+			},
+			{
+				"japanese": "恐れ",
+				"reading": "おそれ",
+				"translation": "страх, боязнь, угроза чего-л"
+			},
+			{
+				"japanese": "恐ろしい",
+				"reading": "おそろしい",
+				"translation": "ужасный, страшный"
+			},
+			{
+				"japanese": "恐れ入りますが",
+				"reading": "おそれいりますが",
+				"translation": "извините, но..."
+			}
+		]
+	},
+	{
+		"japanese": "原",
+		"on": "ゲン",
+		"kun": "はら",
+		"translation": "начало, поле",
+		"words": [
+			{
+				"japanese": "原料",
+				"reading": "げんりょう",
+				"translation": "сырье, сырьевые ресурсы"
+			},
+			{
+				"japanese": "野原",
+				"reading": "のはら",
+				"translation": "поле, равнина"
+			},
+			{
+				"japanese": "原産",
+				"reading": "げんさん",
+				"translation": "место происхождения"
+			}
+		]
+	},
+	{
+		"japanese": "因",
+		"on": "イン",
+		"kun": "",
+		"translation": "причина",
+		"words": [
+			{
+				"japanese": "原因",
+				"reading": "げんいん",
+				"translation": "причина"
+			},
+			{
+				"japanese": "要因",
+				"reading": "よういん",
+				"translation": "основной фактор"
+			}
+		]
+	},
+	{
+		"japanese": "置",
+		"on": "チ",
+		"kun": "お・く",
+		"translation": "размещение, класть",
+		"words": [
+			{
+				"japanese": "位置",
+				"reading": "いち",
+				"translation": "расположение, место"
+			},
+			{
+				"japanese": "置く",
+				"reading": "おく",
+				"translation": "класть, ставить"
+			},
+			{
+				"japanese": "装置",
+				"reading": "そうち",
+				"translation": "оборудование, оснащение (действие)"
+			},
+			{
+				"japanese": "物置",
+				"reading": "ものおき",
+				"translation": "кладовая, склад"
+			}
+		]
+	},
+	{
+		"japanese": "寝",
+		"on": "シン",
+		"kun": "ね・る",
+		"translation": "лечь, сон",
+		"words": [
+			{
+				"japanese": "寝室",
+				"reading": "しんしつ",
+				"translation": "спальня"
+			},
+			{
+				"japanese": "寝る",
+				"reading": "ねる",
+				"translation": "спать"
+			},
+			{
+				"japanese": "寝坊",
+				"reading": "ねぼう",
+				"translation": "соня, поздно вставать"
+			},
+			{
+				"japanese": "昼寝",
+				"reading": "ひるね",
+				"translation": "дневной сон"
+			}
+		]
+	},
+	{
+		"japanese": "熱",
+		"on": "ネツ",
+		"kun": "あつ・い",
+		"translation": "жара, температура, лихорадка",
+		"words": [
+			{
+				"japanese": "熱",
+				"reading": "ねつ",
+				"translation": "высокая температура, лихорадка"
+			},
+			{
+				"japanese": "熱中",
+				"reading": "ねっちゅう",
+				"translation": "мания, страсть, энтузиазм"
+			},
+			{
+				"japanese": "熱心な",
+				"reading": "ねっしんな",
+				"translation": "ревностный, пылкий"
+			},
+			{
+				"japanese": "熱い",
+				"reading": "あつい",
+				"translation": "горячий"
+			}
+		]
+	},
+	{
+		"japanese": "焼",
+		"on": "ショウ",
+		"kun": "や・く　や・ける",
+		"translation": "печь, горение",
+		"words": [
+			{
+				"japanese": "燃焼",
+				"reading": "ねんしょう",
+				"translation": "горение, сгорание"
+			},
+			{
+				"japanese": "焼く",
+				"reading": "やく",
+				"translation": "жарить"
+			},
+			{
+				"japanese": "焼ける",
+				"reading": "やける",
+				"translation": "жариться, сгорать"
+			}
+		]
+	},
+	{
+		"japanese": "触",
+		"on": "ショク",
+		"kun": "ふ・れる　さわ・る",
+		"translation": "контакт, прикосновение",
+		"words": [
+			{
+				"japanese": "接触",
+				"reading": "せっしょく",
+				"translation": "контакт, прикосновение"
+			},
+			{
+				"japanese": "触れる",
+				"reading": "ふれる",
+				"translation": "касаться, упоминать"
+			},
+			{
+				"japanese": "感触",
+				"reading": "かんしょく",
+				"translation": "осязание"
+			},
+			{
+				"japanese": "触る",
+				"reading": "さわる",
+				"translation": "касаться, дотрагиваться"
+			}
+		]
+	},
+	{
+		"japanese": "灯",
+		"on": "トウ",
+		"kun": "",
+		"translation": "лампа, светить",
+		"words": [
+			{
+				"japanese": "灯油",
+				"reading": "とうゆ",
+				"translation": "керосин"
+			},
+			{
+				"japanese": "蛍光灯",
+				"reading": "けいこうとう",
+				"translation": "флюорисцентная лампочка"
+			},
+			{
+				"japanese": "灯台",
+				"reading": "とうだい",
+				"translation": "маяк"
+			},
+			{
+				"japanese": "電灯",
+				"reading": "でんとう",
+				"translation": "электрическая лампочка"
+			}
+		]
+	},
+	{
+		"japanese": "油",
+		"on": "ユ",
+		"kun": "あぶら",
+		"translation": "масло, жир",
+		"words": [
+			{
+				"japanese": "石油",
+				"reading": "せきゆ",
+				"translation": "нефть"
+			},
+			{
+				"japanese": "油断",
+				"reading": "ゆだん",
+				"translation": "неосмотрительность, небрежность"
+			},
+			{
+				"japanese": "原油",
+				"reading": "げんゆ",
+				"translation": "сырая нефть"
+			},
+			{
+				"japanese": "油",
+				"reading": "あぶら",
+				"translation": "масло"
+			}
+		]
+	},
+	{
+		"japanese": "余",
+		"on": "ヨ",
+		"kun": "あま・る",
+		"translation": "слишком много, избыток, остаток",
+		"words": [
+			{
+				"japanese": "余分な",
+				"reading": "よぶんな",
+				"translation": "излишний, добавочный"
+			},
+			{
+				"japanese": "余裕",
+				"reading": "よゆう",
+				"translation": "свобода распоряжения чем-л"
+			},
+			{
+				"japanese": "余計な",
+				"reading": "よけいな",
+				"translation": "лишний, ненужный"
+			},
+			{
+				"japanese": "余る",
+				"reading": "あまる",
+				"translation": "оставаться в излишке, иметься в избытке"
+			}
+		]
+	}
+	]
+}

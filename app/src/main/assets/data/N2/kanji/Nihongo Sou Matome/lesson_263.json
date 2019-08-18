@@ -1,0 +1,347 @@
+{
+	"title": "Неделя 6. День 3.",
+	"kanji":[
+	{
+		"japanese": "泉",
+		"on": "セン",
+		"kun": "いずみ",
+		"translation": "источник, родник",
+		"words": [
+			{
+				"japanese": "温泉",
+				"reading": "おんせん",
+				"translation": "горячие источники"
+			},
+			{
+				"japanese": "泉",
+				"reading": "いずみ",
+				"translation": "источник, родник"
+			}
+		]
+	},
+	{
+		"japanese": "宿",
+		"on": "シュク",
+		"kun": "やど",
+		"translation": "гостиница, жилье",
+		"words": [
+			{
+				"japanese": "宿題",
+				"reading": "しゅくだい",
+				"translation": "домашнее задание"
+			},
+			{
+				"japanese": "宿",
+				"reading": "やど",
+				"translation": "дом, квартира, ночлег"
+			},
+			{
+				"japanese": "下宿",
+				"reading": "げしゅく",
+				"translation": "снимать жилье с питанием"
+			}
+		]
+	},
+	{
+		"japanese": "季",
+		"on": "キ",
+		"kun": "",
+		"translation": "времена года",
+		"words": [
+			{
+				"japanese": "季節",
+				"reading": "きせつ",
+				"translation": "пора года"
+			},
+			{
+				"japanese": "冬季",
+				"reading": "とうき",
+				"translation": "зима, зимняя пора"
+			},
+			{
+				"japanese": "四季",
+				"reading": "しき",
+				"translation": "четыре поры года"
+			}
+		]
+	},
+	{
+		"japanese": "豊",
+		"on": "ホウ",
+		"kun": "ゆた・か",
+		"translation": "обильный, богатый",
+		"words": [
+			{
+				"japanese": "豊作",
+				"reading": "ほうさく",
+				"translation": "богатый урожай"
+			},
+			{
+				"japanese": "豊かな",
+				"reading": "ゆたかな",
+				"translation": "обильный, богатый"
+			}
+		]
+	},
+	{
+		"japanese": "富",
+		"on": "フ",
+		"kun": "と・む　とみ",
+		"translation": "богатство, обильный",
+		"words": [
+			{
+				"japanese": "豊富な",
+				"reading": "ほうふな",
+				"translation": "обильный, богатый"
+			},
+			{
+				"japanese": "富む",
+				"reading": "とむ",
+				"translation": "быть богатым чем-л, изобиловать"
+			},
+			{
+				"japanese": "富士山",
+				"reading": "ふじさん",
+				"translation": "гора Фудзи"
+			},
+			{
+				"japanese": "富",
+				"reading": "とみ",
+				"translation": "богатство"
+			}
+		]
+	},
+	{
+		"japanese": "迎",
+		"on": "ゲイ",
+		"kun": "むか・える",
+		"translation": "приветствовать, выходить на встречу",
+		"words": [
+			{
+				"japanese": "送迎",
+				"reading": "そうげい",
+				"translation": "встреча и проводы"
+			},
+			{
+				"japanese": "迎える",
+				"reading": "むかえる",
+				"translation": "встречать кого-л, выходить на встречу"
+			},
+			{
+				"japanese": "歓迎",
+				"reading": "かんげい",
+				"translation": "радушный прием"
+			},
+			{
+				"japanese": "出迎え",
+				"reading": "でむかえ",
+				"translation": "идти встречать приезжающего"
+			}
+		]
+	},
+	{
+		"japanese": "泊",
+		"on": "ハク",
+		"kun": "と・まる　と・める",
+		"translation": "остановка в пути, ночевка",
+		"words": [
+			{
+				"japanese": "～泊",
+				"reading": "はく",
+				"translation": "~ночей"
+			},
+			{
+				"japanese": "泊まる",
+				"reading": "とまる",
+				"translation": "останавливаться на ночь"
+			},
+			{
+				"japanese": "宿泊",
+				"reading": "しゅくはく",
+				"translation": "ночевка, остановка на ночь"
+			}
+		]
+	},
+	{
+		"japanese": "居",
+		"on": "キョ",
+		"kun": "い・る",
+		"translation": "проживать, быть",
+		"words": [
+			{
+				"japanese": "入居",
+				"reading": "にゅうきょ",
+				"translation": "въезжать в дом, селиться"
+			},
+			{
+				"japanese": "居眠り",
+				"reading": "いねむり",
+				"translation": "дремота"
+			},
+			{
+				"japanese": "居間",
+				"reading": "いま",
+				"translation": "зал, общая комната"
+			},
+			{
+				"japanese": "居る",
+				"reading": "いる",
+				"translation": "быть, находиться (о людях)"
+			}
+		]
+	},
+	{
+		"japanese": "築",
+		"on": "チク",
+		"kun": "",
+		"translation": "строить, сооружать",
+		"words": [
+			{
+				"japanese": "築～年",
+				"reading": "ちく～ねん",
+				"translation": "построен ~лет назад"
+			},
+			{
+				"japanese": "建築",
+				"reading": "けんちく",
+				"translation": "архитектура"
+			}
+		]
+	},
+	{
+		"japanese": "角",
+		"on": "カク",
+		"kun": "かど",
+		"translation": "угол",
+		"words": [
+			{
+				"japanese": "三角",
+				"reading": "さんかく",
+				"translation": "треугольник"
+			},
+			{
+				"japanese": "方角",
+				"reading": "ほうがく",
+				"translation": "направление"
+			},
+			{
+				"japanese": "角度",
+				"reading": "かくど",
+				"translation": "геом. угол"
+			},
+			{
+				"japanese": "角",
+				"reading": "かど",
+				"translation": "угол (внешний)"
+			}
+		]
+	},
+	{
+		"japanese": "徒",
+		"on": "ト",
+		"kun": "",
+		"translation": "идти пешком, ученик",
+		"words": [
+			{
+				"japanese": "生徒",
+				"reading": "せいと",
+				"translation": "ученик"
+			},
+			{
+				"japanese": "徒歩",
+				"reading": "とほ",
+				"translation": "пешком"
+			}
+		]
+	},
+	{
+		"japanese": "畳",
+		"on": "ジョウ",
+		"kun": "たた・む　たたみ",
+		"translation": "татами",
+		"words": [
+			{
+				"japanese": "畳",
+				"reading": "たたみ",
+				"translation": "японский матрац"
+			},
+			{
+				"japanese": "～畳",
+				"reading": "じょう",
+				"translation": "~татами (площадь)"
+			},
+			{
+				"japanese": "畳む",
+				"reading": "たたむ",
+				"translation": "складывать (одеяло, палатку), сгибать"
+			}
+		]
+	},
+	{
+		"japanese": "米",
+		"on": "ベイ　マイ",
+		"kun": "こめ",
+		"translation": "рис, США, метр",
+		"words": [
+			{
+				"japanese": "欧米",
+				"reading": "おうべい",
+				"translation": "Европа и Америка, Запад"
+			},
+			{
+				"japanese": "新米",
+				"reading": "しんまい",
+				"translation": "рис нового урожая, новичок"
+			},
+			{
+				"japanese": "平米",
+				"reading": "へいべい",
+				"translation": "квадратный метр"
+			},
+			{
+				"japanese": "米",
+				"reading": "こめ",
+				"translation": "рис"
+			}
+		]
+	},
+	{
+		"japanese": "解",
+		"on": "カイ",
+		"kun": "と・く",
+		"translation": "развязывать, разгадывать, объяснение",
+		"words": [
+			{
+				"japanese": "解説",
+				"reading": "かいせつ",
+				"translation": "пояснение, разъяснение, комментарии"
+			},
+			{
+				"japanese": "解放",
+				"reading": "かいほう",
+				"translation": "освобождение"
+			},
+			{
+				"japanese": "解約",
+				"reading": "かいやく",
+				"translation": "расторжение (контракта)"
+			},
+			{
+				"japanese": "解決",
+				"reading": "かいけつ",
+				"translation": "разрешение (вопроса), уладиться (о конфликте)"
+			},
+			{
+				"japanese": "解散",
+				"reading": "かいさん",
+				"translation": "роспуск, расформирование"
+			},
+			{
+				"japanese": "解く",
+				"reading": "とく",
+				"translation": "развязывать, распускать, разгадывать"
+			}
+		]
+	}
+	]
+}

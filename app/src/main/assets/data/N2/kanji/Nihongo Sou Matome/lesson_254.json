@@ -1,0 +1,324 @@
+{
+	"title": "Неделя 5. День 4.",
+	"kanji":[
+	{
+		"japanese": "刺",
+		"on": "シ",
+		"kun": "さ・す　さ・さる",
+		"translation": "вонзать, колоть, жалить",
+		"words": [
+			{
+				"japanese": "名刺",
+				"reading": "めいし",
+				"translation": "визитная карта"
+			},
+			{
+				"japanese": "刺す",
+				"reading": "さす",
+				"translation": "колоть, вонзать, жалить"
+			},
+			{
+				"japanese": "刺激",
+				"reading": "しげき",
+				"translation": "стимул, импульс"
+			},
+			{
+				"japanese": "刺さる",
+				"reading": "ささる",
+				"translation": "вонзиться, застрять"
+			}
+		]
+	},
+	{
+		"japanese": "肩",
+		"on": "",
+		"kun": "かた",
+		"translation": "плечо",
+		"words": [
+			{
+				"japanese": "肩",
+				"reading": "かた",
+				"translation": "плечо"
+			},
+			{
+				"japanese": "肩書き",
+				"reading": "かたがき",
+				"translation": "звание, ранг"
+			}
+		]
+	},
+	{
+		"japanese": "腰",
+		"on": "ヨウ",
+		"kun": "こし",
+		"translation": "поясница",
+		"words": [
+			{
+				"japanese": "腰痛",
+				"reading": "ようつう",
+				"translation": "прострел, боль в пояснице"
+			},
+			{
+				"japanese": "腰掛ける",
+				"reading": "こしかける",
+				"translation": "садиться (на стул)"
+			},
+			{
+				"japanese": "腰",
+				"reading": "こし",
+				"translation": "поясница, талия"
+			},
+			{
+				"japanese": "腰掛け",
+				"reading": "こしかけ",
+				"translation": "сиденье"
+			}
+		]
+	},
+	{
+		"japanese": "節",
+		"on": "セツ",
+		"kun": "ふし",
+		"translation": "узел, сустав, настройка",
+		"words": [
+			{
+				"japanese": "関節",
+				"reading": "かんせつ",
+				"translation": "сустав"
+			},
+			{
+				"japanese": "節約",
+				"reading": "せつやく",
+				"translation": "экономия, сокращение"
+			},
+			{
+				"japanese": "調節",
+				"reading": "ちょうせつ",
+				"translation": "регулирование, настройка"
+			},
+			{
+				"japanese": "節",
+				"reading": "ふし",
+				"translation": "сустав, утолщение (на дереве)"
+			}
+		]
+	},
+	{
+		"japanese": "神",
+		"on": "シン　ジン",
+		"kun": "かみ",
+		"translation": "боги, разум",
+		"words": [
+			{
+				"japanese": "神話",
+				"reading": "しんわ",
+				"translation": "миф"
+			},
+			{
+				"japanese": "神経",
+				"reading": "しんけい",
+				"translation": "нервы"
+			},
+			{
+				"japanese": "神様",
+				"reading": "かみさま",
+				"translation": "бог"
+			},
+			{
+				"japanese": "神道",
+				"reading": "しんとう",
+				"translation": "Синтоизм"
+			},
+			{
+				"japanese": "神社",
+				"reading": "じんじゃ",
+				"translation": "синтоистский храм"
+			}
+		]
+	},
+	{
+		"japanese": "痛",
+		"on": "ツウ",
+		"kun": "いた・い　いた・む",
+		"translation": "боль, повреждение",
+		"words": [
+			{
+				"japanese": "頭痛",
+				"reading": "ずつう",
+				"translation": "головная боль"
+			},
+			{
+				"japanese": "痛い",
+				"reading": "いたい",
+				"translation": "больно, болит"
+			},
+			{
+				"japanese": "苦痛",
+				"reading": "くつう",
+				"translation": "боль, мука"
+			},
+			{
+				"japanese": "痛む",
+				"reading": "いたむ",
+				"translation": "болеть, чувствовать боль"
+			}
+		]
+	},
+	{
+		"japanese": "浴",
+		"on": "ヨク",
+		"kun": "あ・びる",
+		"translation": "купаться, греться",
+		"words": [
+			{
+				"japanese": "入浴",
+				"reading": "にゅうよく",
+				"translation": "купание, ванна"
+			},
+			{
+				"japanese": "海水浴",
+				"reading": "かいすいよく",
+				"translation": "морские купания"
+			},
+			{
+				"japanese": "浴衣",
+				"reading": "ゆかた",
+				"translation": "юката (летнее кимоно)"
+			},
+			{
+				"japanese": "浴室",
+				"reading": "よくしつ",
+				"translation": "ванная комната"
+			},
+			{
+				"japanese": "浴びる",
+				"reading": "あびる",
+				"translation": "обливаться чем-то, принимать ванну"
+			}
+		]
+	},
+	{
+		"japanese": "的",
+		"on": "テキ",
+		"kun": "",
+		"translation": "метка, цель",
+		"words": [
+			{
+				"japanese": "目的",
+				"reading": "もくてき",
+				"translation": "цель, назначение"
+			},
+			{
+				"japanese": "～的",
+				"reading": "てき",
+				"translation": "как будто, суффикс делающий прил. из сущ."
+			},
+			{
+				"japanese": "具体的な",
+				"reading": "ぐたいてきな",
+				"translation": "конкретный, определенный"
+			},
+			{
+				"japanese": "的確な",
+				"reading": "てきかくな",
+				"translation": "точный, аккуратный"
+			}
+		]
+	},
+	{
+		"japanese": "汗",
+		"on": "",
+		"kun": "あせ",
+		"translation": "пот",
+		"words": [
+			{
+				"japanese": "汗",
+				"reading": "あせ",
+				"translation": "пот"
+			}
+		]
+	},
+	{
+		"japanese": "師",
+		"on": "シ",
+		"kun": "",
+		"translation": "эксперт, преподаватель",
+		"words": [
+			{
+				"japanese": "医師",
+				"reading": "いし",
+				"translation": "доктор"
+			},
+			{
+				"japanese": "技師",
+				"reading": "ぎし",
+				"translation": "инженер"
+			},
+			{
+				"japanese": "教師",
+				"reading": "きょうし",
+				"translation": "учитель (профессия)"
+			}
+		]
+	},
+	{
+		"japanese": "談",
+		"on": "ダン",
+		"kun": "",
+		"translation": "обсудить, поговорить",
+		"words": [
+			{
+				"japanese": "相談",
+				"reading": "そうだん",
+				"translation": "совет, консультация"
+			},
+			{
+				"japanese": "冗談",
+				"reading": "じょうだん",
+				"translation": "шутка"
+			},
+			{
+				"japanese": "会談",
+				"reading": "かいだん",
+				"translation": "беседа, разговор"
+			}
+		]
+	},
+	{
+		"japanese": "燥",
+		"on": "ソウ",
+		"kun": "",
+		"translation": "сухость, высушивание",
+		"words": [
+			{
+				"japanese": "乾燥",
+				"reading": "かんそう",
+				"translation": "сухость, сушка"
+			}
+		]
+	},
+	{
+		"japanese": "折",
+		"on": "セツ",
+		"kun": "お・れる　お・る",
+		"translation": "складывать, гнуть, ломать",
+		"words": [
+			{
+				"japanese": "骨折",
+				"reading": "こっせつ",
+				"translation": "перелом кости"
+			},
+			{
+				"japanese": "折れる",
+				"reading": "おれる",
+				"translation": "ломаться, сгибаться"
+			},
+			{
+				"japanese": "折る",
+				"reading": "おる",
+				"translation": "ломать, складывать"
+			}
+		]
+	}
+	]
+}

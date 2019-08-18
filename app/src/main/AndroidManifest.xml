@@ -6,27 +6,22 @@
             android:allowBackup="true"
             android:icon="@mipmap/ic_launcher"
             android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme"
             android:name=".EasyJlptApplication">
-        <activity android:name=".view.LearnWordsViewActivity">
-        </activity>
-        <activity
-                android:name=".ui.MainActivity"
-                android:label="@string/app_name"
-                android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
+
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".ui.LessonListActivity"/>
-        <activity android:name=".ui.LearnLessonActivity"/>
-        <activity android:name=".ui.FlashCardsActivity"/>
-        <activity android:name=".ui.ViewLessonContentActivity"/>
-        <activity android:name=".ui.ViewGrammarLessonContentActivity"/>
-        <activity android:name=".ui.ExamActivity"/>
-        <activity android:name=".ui.GrammarDictionaryActivity"/>
+        <activity android:name=".ui.LessonLearnWordsActivity"/>
+        <activity android:name=".ui.LessonLearnKanjiActivity"/>
+        <activity android:name=".ui.LessonLearnKanjiWordsActivity"/>
+        <activity android:name=".ui.LessonReviewWordsActivity"/>
+        <activity android:name=".ui.ExamWordsActivity"/>
     </application>
 
 </manifest>

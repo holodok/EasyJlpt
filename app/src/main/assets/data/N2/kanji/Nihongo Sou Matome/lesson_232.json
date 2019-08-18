@@ -1,0 +1,347 @@
+{
+	"title": "Неделя 3. День 2.",
+	"kanji":[
+	{
+		"japanese": "連",
+		"on": "シン",
+		"kun": "つ・れる",
+		"translation": "брать с собой, вести, соединять",
+		"words": [
+			{
+				"japanese": "関連",
+				"reading": "かんれん",
+				"translation": "связь, отношение"
+			},
+			{
+				"japanese": "連休",
+				"reading": "れんきゅう",
+				"translation": "ряд последовательных праздников"
+			},
+			{
+				"japanese": "連続",
+				"reading": "れんぞく",
+				"translation": "последовательность, непрерывность"
+			},
+			{
+				"japanese": "連れる",
+				"reading": "つれる",
+				"translation": "брать с собой кого-либо"
+			}
+		]
+	},
+	{
+		"japanese": "絡",
+		"on": "ラク",
+		"kun": "",
+		"translation": "сплетаться, обвивать",
+		"words": [
+			{
+				"japanese": "連絡",
+				"reading": "れんらく",
+				"translation": "связь, контакт"
+			}
+		]
+	},
+	{
+		"japanese": "荷",
+		"on": "カ",
+		"kun": "に",
+		"translation": "багаж, груз",
+		"words": [
+			{
+				"japanese": "入荷",
+				"reading": "にゅうか",
+				"translation": "поступление товара"
+			},
+			{
+				"japanese": "荷物",
+				"reading": "にもつ",
+				"translation": "багаж"
+			},
+			{
+				"japanese": "出荷",
+				"reading": "しゅっか",
+				"translation": "отправка (пересылка) груза"
+			}
+		]
+	},
+	{
+		"japanese": "届",
+		"on": "",
+		"kun": "とど・ける とど・く",
+		"translation": "доставлять, достигать",
+		"words": [
+			{
+				"japanese": "届ける",
+				"reading": "とどける",
+				"translation": "доставлять"
+			},
+			{
+				"japanese": "届く",
+				"reading": "とどく",
+				"translation": "доходить (почта)"
+			},
+			{
+				"japanese": "届け出",
+				"reading": "とどけで",
+				"translation": "извещение, заявление"
+			}
+		]
+	},
+	{
+		"japanese": "参",
+		"on": "サン",
+		"kun": "まい・る",
+		"translation": "в замешательстве, три (в документах), приходить, посещать",
+		"words": [
+			{
+				"japanese": "参考書",
+				"reading": "さんこうしょ",
+				"translation": "пособие, справочник"
+			},
+			{
+				"japanese": "参る",
+				"reading": "まいる",
+				"translation": "идти, приходить"
+			},
+			{
+				"japanese": "持参",
+				"reading": "じさん",
+				"translation": "приносить с собой"
+			},
+			{
+				"japanese": "お参り",
+				"reading": "おまいり",
+				"translation": "посещение кладбища"
+			}
+		]
+	},
+	{
+		"japanese": "衣",
+		"on": "イ",
+		"kun": "",
+		"translation": "одежда",
+		"words": [
+			{
+				"japanese": "衣類",
+				"reading": "いるい",
+				"translation": "одежда, вещевое имущество"
+			},
+			{
+				"japanese": "衣服",
+				"reading": "いふく",
+				"translation": "одежда, обмундирование"
+			},
+			{
+				"japanese": "衣料品",
+				"reading": "いりょうひん",
+				"translation": "предметы одежды"
+			},
+			{
+				"japanese": "衣食住",
+				"reading": "いしょくじゅう",
+				"translation": "одежда, пища и жилище"
+			}
+		]
+	},
+	{
+		"japanese": "他",
+		"on": "タ",
+		"kun": "ほか",
+		"translation": "другой, иной",
+		"words": [
+			{
+				"japanese": "その他",
+				"reading": "そのた",
+				"translation": "прочее, и так далее"
+			},
+			{
+				"japanese": "他方",
+				"reading": "たほう",
+				"translation": "другая сторона, другое направление"
+			},
+			{
+				"japanese": "他人",
+				"reading": "たにん",
+				"translation": "чужой, посторонний"
+			}
+		]
+	},
+	{
+		"japanese": "蔵",
+		"on": "ゾウ",
+		"kun": "",
+		"translation": "кладовая, прятать, владеть",
+		"words": [
+			{
+				"japanese": "冷蔵",
+				"reading": "れいぞう",
+				"translation": "хранение на холоде"
+			},
+			{
+				"japanese": "内臓",
+				"reading": "ないぞう",
+				"translation": "внутренний (диск), встроенный"
+			},
+			{
+				"japanese": "貯蔵",
+				"reading": "ちょぞう",
+				"translation": "хранение, содержать в запасе"
+			}
+		]
+	},
+	{
+		"japanese": "凍",
+		"on": "トウ",
+		"kun": "こお・る こご・える",
+		"translation": "замерзший, окоченеть, застывать",
+		"words": [
+			{
+				"japanese": "冷凍",
+				"reading": "れいとう",
+				"translation": "замораживание"
+			},
+			{
+				"japanese": "凍る",
+				"reading": "こおる",
+				"translation": "замерзать, покрываться льдом"
+			},
+			{
+				"japanese": "凍える",
+				"reading": "こごえる",
+				"translation": "коченеть, неметь от холода"
+			}
+		]
+	},
+	{
+		"japanese": "等",
+		"on": "トウ",
+		"kun": "ひと・しい など",
+		"translation": "и так далее, класс, равенство",
+		"words": [
+			{
+				"japanese": "～等",
+				"reading": "～とう",
+				"translation": "и так далее"
+			},
+			{
+				"japanese": "～等",
+				"reading": "～など",
+				"translation": "и так далее"
+			},
+			{
+				"japanese": "上等",
+				"reading": "じょうとう",
+				"translation": "первоклассный, отборный"
+			},
+			{
+				"japanese": "高等学校",
+				"reading": "こうとうがっこう",
+				"translation": "старшая школа"
+			},
+			{
+				"japanese": "等しい",
+				"reading": "ひとしい",
+				"translation": "равный"
+			}
+		]
+	},
+	{
+		"japanese": "配",
+		"on": "ハイ",
+		"kun": "くば・る",
+		"translation": "распостранять",
+		"words": [
+			{
+				"japanese": "配達",
+				"reading": "はいたつ",
+				"translation": "доставка"
+			},
+			{
+				"japanese": "心配",
+				"reading": "しんぱい",
+				"translation": "беспокойство (о ком-либо), забота"
+			},
+			{
+				"japanese": "気配",
+				"reading": "けはい",
+				"translation": "признак, индикация"
+			},
+			{
+				"japanese": "配る",
+				"reading": "くばる",
+				"translation": "распостранять"
+			}
+		]
+	},
+	{
+		"japanese": "担",
+		"on": "タン",
+		"kun": "",
+		"translation": "взваливать, брать на себя, нести",
+		"words": [
+			{
+				"japanese": "担当",
+				"reading": "たんとう",
+				"translation": "исполнение обязанностей"
+			},
+			{
+				"japanese": "分担",
+				"reading": "ぶんたん",
+				"translation": "распределение (работы, расходов)"
+			}
+		]
+	},
+	{
+		"japanese": "当",
+		"on": "トウ",
+		"kun": "あ・たる あ・てる",
+		"translation": "попадание, правильный, подходящий",
+		"words": [
+			{
+				"japanese": "当日",
+				"reading": "とうじつ",
+				"translation": "тот день, назначенный день"
+			},
+			{
+				"japanese": "当～",
+				"reading": "とう～",
+				"translation": "этот"
+			},
+			{
+				"japanese": "弁当",
+				"reading": "べんとう",
+				"translation": "обед в коробочке"
+			},
+			{
+				"japanese": "当たる",
+				"reading": "あたる",
+				"translation": "попадать, оказываться правильным"
+			}
+		]
+	},
+	{
+		"japanese": "頂",
+		"on": "チョウ",
+		"kun": "いただ・く",
+		"translation": "надеть на голову, получать, верхушка",
+		"words": [
+			{
+				"japanese": "頂点",
+				"reading": "ちょうてん",
+				"translation": "высшая точка, апогей"
+			},
+			{
+				"japanese": "頂く",
+				"reading": "いただく",
+				"translation": "получать"
+			},
+			{
+				"japanese": "頂上",
+				"reading": "ちょうじょう",
+				"translation": "вершина"
+			}
+		]
+	}
+	]
+}

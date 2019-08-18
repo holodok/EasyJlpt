@@ -1,0 +1,362 @@
+{
+	"title": "Неделя 6. День 1.",
+	"kanji":[
+	{
+		"japanese": "得",
+		"on": "トク",
+		"kun": "え・る　う・る",
+		"translation": "выгода, получать, мочь",
+		"words": [
+			{
+				"japanese": "得",
+				"reading": "とく",
+				"translation": "выгода, прибыль"
+			},
+			{
+				"japanese": "得る",
+				"reading": "える",
+				"translation": "получать, мочь"
+			},
+			{
+				"japanese": "納得",
+				"reading": "なっとく",
+				"translation": "согласие, понимание"
+			},
+			{
+				"japanese": "心得る",
+				"reading": "こころえる",
+				"translation": "понимать, быть сведующим, разбираться"
+			}
+		]
+	},
+	{
+		"japanese": "告",
+		"on": "コク",
+		"kun": "つ・げる",
+		"translation": "откровение, сказать, сообщить",
+		"words": [
+			{
+				"japanese": "広告",
+				"reading": "こうこく",
+				"translation": "реклама"
+			},
+			{
+				"japanese": "警告",
+				"reading": "けいこく",
+				"translation": "предупреждение, предостережение"
+			},
+			{
+				"japanese": "報告",
+				"reading": "ほうこく",
+				"translation": "доклад, отчет, сообщение"
+			},
+			{
+				"japanese": "告げる",
+				"reading": "つげる",
+				"translation": "сообщать, говорить"
+			}
+		]
+	},
+	{
+		"japanese": "税",
+		"on": "ゼイ",
+		"kun": "",
+		"translation": "налог, пошлина",
+		"words": [
+			{
+				"japanese": "税金",
+				"reading": "ぜいきん",
+				"translation": "налог"
+			},
+			{
+				"japanese": "税関",
+				"reading": "ぜいかん",
+				"translation": "таможня"
+			},
+			{
+				"japanese": "消費税",
+				"reading": "しょうひぜい",
+				"translation": "налог на потребление"
+			},
+			{
+				"japanese": "課税",
+				"reading": "かぜい",
+				"translation": "налогообложение"
+			}
+		]
+	},
+	{
+		"japanese": "価",
+		"on": "カ",
+		"kun": "",
+		"translation": "стоимость, цена",
+		"words": [
+			{
+				"japanese": "定価",
+				"reading": "ていか",
+				"translation": "фиксированная цена"
+			},
+			{
+				"japanese": "物価",
+				"reading": "ぶっか",
+				"translation": "цены, стоимость проживания"
+			}
+		]
+	},
+	{
+		"japanese": "格",
+		"on": "カク",
+		"kun": "",
+		"translation": "статус, ранг, характер",
+		"words": [
+			{
+				"japanese": "価格",
+				"reading": "かかく",
+				"translation": "цена, стоимость"
+			},
+			{
+				"japanese": "性格",
+				"reading": "せいかく",
+				"translation": "характер"
+			}
+		]
+	},
+	{
+		"japanese": "超",
+		"on": "チョウ",
+		"kun": "こ・える　こ・す",
+		"translation": "выходить за рамки, супер-",
+		"words": [
+			{
+				"japanese": "超～",
+				"reading": "ちょう",
+				"translation": "супер-, ультра-"
+			},
+			{
+				"japanese": "超える",
+				"reading": "こえる",
+				"translation": "переходить, перебираться, превышать"
+			},
+			{
+				"japanese": "超過",
+				"reading": "ちょうか",
+				"translation": "превышение"
+			},
+			{
+				"japanese": "越す",
+				"reading": "こす",
+				"translation": "переправляться, пересекать, превышать"
+			}
+		]
+	},
+	{
+		"japanese": "均",
+		"on": "キン",
+		"kun": "",
+		"translation": "выравнивать, среднее",
+		"words": [
+			{
+				"japanese": "平均",
+				"reading": "へいきん",
+				"translation": "в среднем"
+			},
+			{
+				"japanese": "均一",
+				"reading": "きんいつ",
+				"translation": "единобразие, уравнивание"
+			},
+			{
+				"japanese": "均等",
+				"reading": "きんとう",
+				"translation": "равенство, одинаковый"
+			}
+		]
+	},
+	{
+		"japanese": "靴",
+		"on": "",
+		"kun": "くつ",
+		"translation": "обувь",
+		"words": [
+			{
+				"japanese": "靴",
+				"reading": "くつ",
+				"translation": "обувь"
+			},
+			{
+				"japanese": "長靴",
+				"reading": "ながぐつ",
+				"translation": "сапоги"
+			},
+			{
+				"japanese": "靴下",
+				"reading": "くつした",
+				"translation": "носки"
+			},
+			{
+				"japanese": "雨靴",
+				"reading": "あまぐつ",
+				"translation": "галоши, резиновые ботинки"
+			}
+		]
+	},
+	{
+		"japanese": "供",
+		"on": "キョウ",
+		"kun": "とも",
+		"translation": "представлять, предлагать",
+		"words": [
+			{
+				"japanese": "提供",
+				"reading": "ていきょう",
+				"translation": "предложение, представление"
+			},
+			{
+				"japanese": "子供",
+				"reading": "こども",
+				"translation": "ребенок"
+			}
+		]
+	},
+	{
+		"japanese": "象",
+		"on": "ショウ　ゾウ",
+		"kun": "",
+		"translation": "слон, шаблон, подражать",
+		"words": [
+			{
+				"japanese": "印象",
+				"reading": "いんしょう",
+				"translation": "впечатление"
+			},
+			{
+				"japanese": "対象",
+				"reading": "たいしょう",
+				"translation": "объект (изучения, критики)"
+			},
+			{
+				"japanese": "現象",
+				"reading": "げんしょう",
+				"translation": "феномен, явление"
+			},
+			{
+				"japanese": "象",
+				"reading": "ぞう",
+				"translation": "слон"
+			}
+		]
+	},
+	{
+		"japanese": "組",
+		"on": "ソ",
+		"kun": "く・む　くみ",
+		"translation": "ассоциация, собираться, группа",
+		"words": [
+			{
+				"japanese": "組織",
+				"reading": "そしき",
+				"translation": "организация"
+			},
+			{
+				"japanese": "組み合わせ",
+				"reading": "くみあわせ",
+				"translation": "сочетание, комбинация"
+			},
+			{
+				"japanese": "番組",
+				"reading": "ばんぐみ",
+				"translation": "(ТВ) программа"
+			},
+			{
+				"japanese": "組合",
+				"reading": "くみあい",
+				"translation": "ассоциация, союз"
+			}
+		]
+	},
+	{
+		"japanese": "値",
+		"on": "チ",
+		"kun": "ね　あたい",
+		"translation": "стоимость, цена",
+		"words": [
+			{
+				"japanese": "価値",
+				"reading": "かち",
+				"translation": "ценность"
+			},
+			{
+				"japanese": "値段",
+				"reading": "ねだん",
+				"translation": "цена"
+			},
+			{
+				"japanese": "数値",
+				"reading": "すうち",
+				"translation": "численный"
+			},
+			{
+				"japanese": "値",
+				"reading": "あたい",
+				"translation": "цена, ценность, мат. значение"
+			}
+		]
+	},
+	{
+		"japanese": "募",
+		"on": "ボ",
+		"kun": "つの・る",
+		"translation": "набор, вербовка",
+		"words": [
+			{
+				"japanese": "募集",
+				"reading": "ぼしゅう",
+				"translation": "вербовка, набор, призыв"
+			},
+			{
+				"japanese": "募金",
+				"reading": "ぼきん",
+				"translation": "денежный сбор"
+			},
+			{
+				"japanese": "応募",
+				"reading": "おうぼ",
+				"translation": "подача заявления о поступлении (по вербовке)"
+			},
+			{
+				"japanese": "募る",
+				"reading": "つのる",
+				"translation": "собирать пожертвования, набирать людей, усиливаться"
+			}
+		]
+	},
+	{
+		"japanese": "無",
+		"on": "ム　ブ",
+		"kun": "な・い",
+		"translation": "не, ничего",
+		"words": [
+			{
+				"japanese": "無料",
+				"reading": "むりょう",
+				"translation": "бесплатный"
+			},
+			{
+				"japanese": "無事な",
+				"reading": "ぶじな",
+				"translation": "благополучный, мирный"
+			},
+			{
+				"japanese": "有無",
+				"reading": "うむ",
+				"translation": "бытие и небытие"
+			},
+			{
+				"japanese": "～無し",
+				"reading": "なし",
+				"translation": "без"
+			}
+		]
+	}
+	]
+}

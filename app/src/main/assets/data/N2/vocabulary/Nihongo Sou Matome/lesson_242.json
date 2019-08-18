@@ -1,0 +1,348 @@
+﻿{
+	"title": "Неделя 4. День 2.",
+	"words": [
+	{
+		"word": {
+			"japanese": "まもなく",
+			"reading": "",
+			"translation": "вскоре, скоро"
+		},
+		"sentences":[
+			{
+				"japanese": "コンサートがまもなく|始-はじ|まる。",
+				"translation": "Концерт скоро начнется."
+			},
+			{
+				"japanese": "|家-いえ|に|帰-かえ|ってまもなく|客-きゃく|が|来-き|た。",
+				"translation": "Сразу как вернулся домой, пришел гость."
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "近々",
+			"reading": "ちかぢか",
+			"translation": "скоро, на днях"
+		},
+		"sentences":[
+			{
+				"japanese": "|近々-ちかぢか|お|伺-うかが|いします。",
+				"translation": "Я зайду к тебе на днях."
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "そのうち",
+			"reading": "",
+			"translation": "когда-нибудь, рано или поздно"
+		},
+		"sentences":[
+			{
+				"japanese": "そのうちわかるようになるでしょう。",
+				"translation": "Рано или поздно ты поймешь."
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "やがて",
+			"reading": "",
+			"translation": "скоро, почти"
+		},
+		"sentences":[
+			{
+				"japanese": "やがて|夏-なつ||休-やす|みも|終-お|わる。",
+				"translation": "Летние каникулы скоро закончатся."
+			},
+			{
+				"japanese": "|父-ちち|が|死-し|んでやがて１|年-ねん|になる。",
+				"translation": "Скоро будет год со смерти отца."
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "ようやく",
+			"reading": "",
+			"translation": "наконец, мало-помалу"
+		},
+		"sentences":[
+			{
+				"japanese": "ようやく|暖-あたた|かくなってきた。",
+				"translation": "Наконец-то стало теплеть."
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "いずれ",
+			"reading": "",
+			"translation": "когда-нибудь"
+		},
+		"sentences":[
+			{
+				"japanese": "いずれこうなると|思-おも|っていた。",
+				"translation": "Я понял, что в конце концов станет так."
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "たちまち",
+			"reading": "",
+			"translation": "разом, сразу, мгновенно"
+		},
+		"sentences":[
+			{
+				"japanese": "チケットはたちまち|売-う|り|切-き|れた。",
+				"translation": "Билеты были сразу распроданы."
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "ただちに",
+			"reading": "",
+			"translation": "сразу же, немедленно"
+		},
+		"sentences":[
+			{
+				"japanese": "ただちに|出-しゅっ||発-ぱつ|したほうがいい。",
+				"translation": "Тебе лучше уйти прямо сейчас."
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "にわかに",
+			"reading": "",
+			"translation": "неожиданно"
+		},
+		"expressions": [
+			{
+				"japanese": "にわか雨",
+				"reading": "にわかあめ",
+				"translation": "внезапный ливень"
+			}
+		],
+		"sentences":[
+			{
+				"japanese": "にわかに|空-そら|が|曇-くも|ってきた。",
+				"translation": "Неожиданно небо затянуло облаками."
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "絶えず",
+			"reading": "たえず",
+			"translation": "непрерывно, постоянно"
+		},
+		"sentences":[
+			{
+				"japanese": "|絶-た|えず|水-みず|が|流-なが|れている。",
+				"translation": "Вода постоянно течет."
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "常に",
+			"reading": "つねに",
+			"translation": "всегда, постоянно"
+		},
+		"sentences":[
+			{
+			"japanese": "|常-つね|に|健-けん||康-こう|に|注-ちゅう||意-い|する",
+			"translation": "постоянно заботится о здоровье"
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "しきりに",
+			"reading": "",
+			"translation": "беспрерывно, упорно"
+		},
+		"expressions":[
+			{
+				"japanese": "しきりにほめる",
+				"reading": "",
+				"translation": "непрерывно нахваливать"
+			}
+		],
+		"sentences":[
+			{
+				"japanese": "しきりに|電-でん||話-わ|が|鳴-な|る",
+				"translation": "телефон звонит без умолку"
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "しょっちゅう",
+			"reading": "",
+			"translation": "всегда, часто"
+		},
+		"expressions":[
+			{
+				"japanese": "しょっちゅう酒を飲む",
+				"reading": "しょっちゅうさけをのむ",
+				"translation": "любить выпить"
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "すでに",
+			"reading": "",
+			"translation": "уже"
+		},
+		"sentences":[
+			{
+				"japanese": "その|絵-え|はすでにうれてしまった。",
+				"translation": "Эта картина уже продана."
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "とっくに",
+			"reading": "",
+			"translation": "уже, давно"
+		},
+		"expressions":[
+			{
+				"japanese": "どっくの昔",
+				"reading": "どっくのむかし",
+				"translation": "давным давно"
+			}
+		],
+		"sentences":[
+			{
+				"japanese": "|期-き||限-げん|はとっくに|過-す|ぎている。",
+				"translation": "Дедлайн уже прошел."
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "前もって",
+			"reading": "まえもって",
+			"translation": "заранее, ранее"
+		},
+		"expressions":[
+			{
+				"japanese": "前もって調べておく",
+				"reading": "まえもってしらべておく",
+				"translation": "заранее исследовать"
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "ほぼ",
+			"reading": "",
+			"translation": "почти, большей частью"
+		},
+		"expressions":[
+			{
+				"japanese": "ほぼ１万円",
+				"reading": "ほぼ１まんえん",
+				"translation": "почти 10 тысяч йен"
+			},
+			{
+				"japanese": "ほぼ読み終わる",
+				"reading": "ほぼよみおわる",
+				"translation": "почти дочитал"
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "おおよそ",
+			"reading": "",
+			"translation": "примерно, около"
+		},
+		"expressions":[
+			{
+				"japanese": "おおよそ２週間",
+				"reading": "おおよそ２しゅうかん",
+				"translation": "около 2-х недель"
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "ほんの",
+			"reading": "",
+			"translation": "всего лишь, только лишь"
+		},
+		"expressions":[
+			{
+				"japanese": "ほんの少し",
+				"reading": "ほんのすこし",
+				"translation": "чуть-чуть"
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "たった",
+			"reading": "",
+			"translation": "только, не больше чем"
+		},
+		"expressions":[
+			{
+				"japanese": "たった一人で",
+				"reading": "たったひとりで",
+				"translation": "все сам"
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "せいぜい",
+			"reading": "",
+			"translation": "самое большое, насколько возможно"
+		},
+		"sentences":[
+			{
+				"japanese": "|出-しゅっ||席-せき||者-しゃ|はせいぜい３０|人-にん||程-てい||度-ど|だ。",
+				"translation": "Будет самое большее 30 присутствующих."
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "少なくとも",
+			"reading": "すくなくとも",
+			"translation": "по меньшей мере, по крайней мере"
+		},
+		"sentences":[
+			{
+				"japanese": "|少-すく|なくとも３０|人-にん|は|来-く|る。",
+				"translation": "По крайней 30 человек прийдет."
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "せめて",
+			"reading": "",
+			"translation": "хотя бы"
+		},
+		"sentences":[
+			{
+				"japanese": "せめて５|位-い||以-い||内-ない|になりたかった。",
+				"translation": "Хочу быть хотя бы в пятерке лидеров."
+			},
+			{
+				"japanese": "せめて|声-こえ|だけでも|聞-き|きたい。",
+				"translation": "Хотя бы голос ее услышать."
+			}
+		]
+	}
+	]
+}

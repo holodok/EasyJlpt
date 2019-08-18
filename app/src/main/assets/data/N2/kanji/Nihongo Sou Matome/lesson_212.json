@@ -1,0 +1,276 @@
+{
+	"title": "Неделя 1. День 2.",
+	"kanji":[
+	{
+		"japanese": "喫",
+		"on": "キツ",
+		"kun": "",
+		"translation": "употреблять, есть, пить, курить",
+		"words": [
+			{
+				"japanese": "喫茶店",
+				"reading": "きっさてん",
+				"translation": "кафе"
+			},
+			{
+				"japanese": "喫煙所",
+				"reading": "きつえんじょ",
+				"translation": "место для курения"
+			}
+		]
+	},
+	{
+		"japanese": "非",
+		"on": "ヒ",
+		"kun": "",
+		"translation": "анти-, не-",
+		"words": [
+			{
+				"japanese": "非〜",
+				"reading": "ひ",
+				"translation": "анти-, не-"
+			},
+			{
+				"japanese": "非常に",
+				"reading": "ひじょうに",
+				"translation": "чрезвычайно, очень"
+			},
+			{
+				"japanese": "非常口",
+				"reading": "ひじょうぐち",
+				"translation": "запасной выход"
+			}
+		]
+	},
+	{
+		"japanese": "御",
+		"on": "ゴ",
+		"kun": "おん お",
+		"translation": "почетный, вежливый преффикс",
+		"words": [
+			{
+				"japanese": "御中",
+				"reading": "おんちゅう",
+				"translation": "суффикс к адресам учереждений"
+			},
+			{
+				"japanese": "御手洗い",
+				"reading": "おてあらい",
+				"translation": "туалет"
+			}
+		]
+	},
+	{
+		"japanese": "常",
+		"on": "ジョウ",
+		"kun": "つね",
+		"translation": "обычный, нормальный",
+		"words": [
+			{
+				"japanese": "日常",
+				"reading": "にちじょう",
+				"translation": "обычно, повседневно"
+			},
+			{
+				"japanese": "常に",
+				"reading": "つねに",
+				"translation": "всегда"
+			},
+			{
+				"japanese": "常識",
+				"reading": "じょうしき",
+				"translation": "здравый смысл"
+			}
+		]
+	},
+	{
+		"japanese": "受",
+		"on": "ジュ",
+		"kun": "う・ける",
+		"translation": "принимать, получать",
+		"words": [
+			{
+				"japanese": "受験",
+				"reading": "じゅけん",
+				"translation": "сдавать экзамен"
+			},
+			{
+				"japanese": "受ける",
+				"reading": "うける",
+				"translation": "получать"
+			}
+		]
+	},
+	{
+		"japanese": "付",
+		"on": "フ",
+		"kun": "つ・ける つ・く",
+		"translation": "прикреплять",
+		"words": [
+			{
+				"japanese": "付近",
+				"reading": "ふきん",
+				"translation": "окрестность"
+			},
+			{
+				"japanese": "受付",
+				"reading": "うけつけ",
+				"translation": "регистратура"
+			},
+			{
+				"japanese": "〜付き",
+				"reading": "つき",
+				"translation": "прикрепленный, с"
+			},
+			{
+				"japanese": "日付",
+				"reading": "ひづけ",
+				"translation": "дата"
+			}
+		]
+	},
+	{
+		"japanese": "案",
+		"on": "アン",
+		"kun": "",
+		"translation": "план, предложение",
+		"words": [
+			{
+				"japanese": "案内",
+				"reading": "あんない",
+				"translation": "информация"
+			}
+		]
+	},
+	{
+		"japanese": "内",
+		"on": "ナイ",
+		"kun": "うち",
+		"translation": "внутри, в рамках",
+		"words": [
+			{
+				"japanese": "以内",
+				"reading": "いない",
+				"translation": "в рамках, в пределах"
+			},
+			{
+				"japanese": "〜内",
+				"reading": "ない",
+				"translation": "внутри, в рамках"
+			},
+			{
+				"japanese": "社内",
+				"reading": "しゃない",
+				"translation": "внутри компании"
+			},
+			{
+				"japanese": "内",
+				"reading": "うち",
+				"translation": "внутри"
+			}
+		]
+	},
+	{
+		"japanese": "議",
+		"on": "ギ",
+		"kun": "",
+		"translation": "обдумывание, дебаты",
+		"words": [
+			{
+				"japanese": "会議室",
+				"reading": "かいぎしつ",
+				"translation": "конференц зал"
+			},
+			{
+				"japanese": "議論",
+				"reading": "ぎろん",
+				"translation": "аргумент, дискуссия, дебаты"
+			},
+			{
+				"japanese": "不思議",
+				"reading": "ふしぎ",
+				"translation": "странный, загадочный"
+			},
+			{
+				"japanese": "議員",
+				"reading": "ぎいん",
+				"translation": "депутат, член парламента"
+			}
+		]
+	},
+	{
+		"japanese": "化",
+		"on": "カ ケ",
+		"kun": "",
+		"translation": "изменение, влияние",
+		"words": [
+			{
+				"japanese": "文化",
+				"reading": "ぶんか",
+				"translation": "культура"
+			},
+			{
+				"japanese": "〜化",
+				"reading": "か",
+				"translation": "~зация (что-то поменялось на что-то другое)"
+			},
+			{
+				"japanese": "化学",
+				"reading": "かがく",
+				"translation": "химия"
+			},
+			{
+				"japanese": "化粧室",
+				"reading": "けしょうしつ",
+				"translation": "туалет, комната для припудривания"
+			}
+		]
+	},
+	{
+		"japanese": "階",
+		"on": "カイ",
+		"kun": "",
+		"translation": "этаж, ступень",
+		"words": [
+			{
+				"japanese": "階段",
+				"reading": "かいだん",
+				"translation": "лестница"
+			},
+			{
+				"japanese": "段階",
+				"reading": "だんかい",
+				"translation": "уровень"
+			},
+			{
+				"japanese": "〜階",
+				"reading": "かい",
+				"translation": "этаж"
+			}
+		]
+	},
+	{
+		"japanese": "段",
+		"on": "ダン",
+		"kun": "だん",
+		"translation": "уровень, ступень",
+		"words": [
+			{
+				"japanese": "一段と",
+				"reading": "いちだんと",
+				"translation": "гораздо, еще более"
+			},
+			{
+				"japanese": "手段",
+				"reading": "しゅだん",
+				"translation": "средство, меры"
+			},
+			{
+				"japanese": "石段",
+				"reading": "いしだん",
+				"translation": "каменная ступень, каменная лестница"
+			}
+		]
+	}
+	]
+}

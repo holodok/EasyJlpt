@@ -2,28 +2,41 @@ package com.gogaworm.easyjlpt.utils;
 
 import android.content.Context;
 import android.text.SpannableString;
+import androidx.core.content.ContextCompat;
 import com.gogaworm.easyjlpt.R;
-import com.gogaworm.easyjlpt.data.Kanji;
-import com.gogaworm.easyjlpt.data.Word;
-import com.gogaworm.easyjlpt.ui.widgets.rcbs.RoundedCornersBackgroundSpan;
+import com.gogaworm.easyjlpt.db.Kanji;
+import com.gogaworm.easyjlpt.ui.widget.RoundedCornersBackgroundSpan;
+
+import static android.text.TextUtils.isEmpty;
 
 public class KanjiUtils {
-    public static CharSequence getReading(Context context, Word word) {
-        if (word instanceof Kanji) {
-            return getKanjiReading(context, (Kanji) word);
+
+    public static SpannableString getKanjiReading(Context context, Kanji kanji) {
+        boolean hasOnReading = !isEmpty(kanji.onReading);
+        boolean hasKunReading = !isEmpty(kanji.kunReading);
+
+        SpannableString reading = new SpannableString(kanji.getOnReading().concat(hasOnReading ? " " : "").concat(kanji.kunReading));
+        if (hasOnReading) {
+            setReadingSpans(reading, kanji.onReading, 0, ContextCompat.getColor(context, R.color.colorAccent), ContextCompat.getColor(context, android.R.color.white));
         }
-        return word.hasKanji() ? word.reading : "";
+        if (hasKunReading) {
+            int startPosition = hasOnReading ? (kanji.onReading.length() + 1) : 0;
+            setReadingSpans(reading, kanji.kunReading, startPosition, ContextCompat.getColor(context, R.color.colorPrimary), ContextCompat.getColor(context, android.R.color.white));
+        }
+        return reading;
     }
 
-    private static SpannableString getKanjiReading(Context context, Kanji kanji) {
-        SpannableString reading = new SpannableString(kanji.reading);
-        if (kanji.hasOnReading()) {
-            setReadingSpans(reading, kanji.onReading, 0, context.getResources().getColor(R.color.colorAccent), context.getResources().getColor(R.color.primaryInvertedText));
-        }
-        if (kanji.hasKunReading()) {
-            int startPosition = kanji.hasOnReading() ? (kanji.onReading.length() + 1) : 0;
-            setReadingSpans(reading, kanji.kunReading, startPosition, context.getResources().getColor(R.color.colorPrimary), context.getResources().getColor(R.color.primaryInvertedText));
-        }
+    public static SpannableString getOnReading(Context context, String onReading) {
+        SpannableString reading = new SpannableString(onReading);
+        setReadingSpans(reading, onReading, 0,
+                ContextCompat.getColor(context, R.color.colorAccent), ContextCompat.getColor(context, android.R.color.white));
+        return reading;
+    }
+
+    public static SpannableString getKunReading(Context context, String kunReading) {
+        SpannableString reading = new SpannableString(kunReading);
+        setReadingSpans(reading, kunReading, 0,
+                ContextCompat.getColor(context, R.color.colorPrimary), ContextCompat.getColor(context, android.R.color.white));
         return reading;
     }
 

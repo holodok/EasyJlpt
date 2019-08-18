@@ -1,0 +1,342 @@
+{
+	"title": "Неделя 4. День 4.",
+	"kanji":[
+	{
+		"japanese": "福",
+		"on": "フク",
+		"kun": "",
+		"translation": "благополучие, счастье",
+		"words": [
+			{
+				"japanese": "幸福",
+				"reading": "こうふく",
+				"translation": "счастье"
+			},
+			{
+				"japanese": "福祉",
+				"reading": "ふくし",
+				"translation": "благополучие, благосостояние"
+			}
+		]
+	},
+	{
+		"japanese": "拝",
+		"on": "ハイ",
+		"kun": "おが・む",
+		"translation": "поклонение, почитать, молиться",
+		"words": [
+			{
+				"japanese": "拝見",
+				"reading": "はいけん",
+				"translation": "смотреть (скромно)"
+			},
+			{
+				"japanese": "拝借",
+				"reading": "はいしゃく",
+				"translation": "занимать (скромно)"
+			},
+			{
+				"japanese": "参拝者",
+				"reading": "さんぱいしゃ",
+				"translation": "верующий (посетитель храма)"
+			},
+			{
+				"japanese": "拝む",
+				"reading": "おがむ",
+				"translation": "поклоняться, молиться"
+			}
+		]
+	},
+	{
+		"japanese": "打",
+		"on": "ダ",
+		"kun": "う・つ",
+		"translation": "удар",
+		"words": [
+			{
+				"japanese": "打者",
+				"reading": "だしゃ",
+				"translation": "игрок с битой"
+			},
+			{
+				"japanese": "打つ",
+				"reading": "うつ",
+				"translation": "бить, ударять"
+			},
+			{
+				"japanese": "打ち合わせ",
+				"reading": "うちあわせ",
+				"translation": "предварительная договоренность (о собрании)"
+			}
+		]
+	},
+	{
+		"japanese": "伺",
+		"on": "",
+		"kun": "うかが・う",
+		"translation": "посещать, спрашивать, слышать",
+		"words": [
+			{
+				"japanese": "伺う",
+				"reading": "うかがう",
+				"translation": "посещать, спрашивать, слышать"
+			}
+		]
+	},
+	{
+		"japanese": "幸",
+		"on": "コウ",
+		"kun": "さいわ・い　しあわ・せ",
+		"translation": "счастье, удача",
+		"words": [
+			{
+				"japanese": "幸運な",
+				"reading": "こううんな",
+				"translation": "счастливый, удачливый"
+			},
+			{
+				"japanese": "幸せな",
+				"reading": "しあわせな",
+				"translation": "счастливый"
+			},
+			{
+				"japanese": "不幸な",
+				"reading": "ふこうな",
+				"translation": "несчастный, несчастливый"
+			},
+			{
+				"japanese": "幸い",
+				"reading": "さいわい",
+				"translation": "счастье, везение"
+			}
+		]
+	},
+	{
+		"japanese": "失",
+		"on": "シツ",
+		"kun": "うしな・う",
+		"translation": "потерять, ошибка",
+		"words": [
+			{
+				"japanese": "失礼な",
+				"reading": "しつれいな",
+				"translation": "грубый, невежливый"
+			},
+			{
+				"japanese": "失望",
+				"reading": "しつぼう",
+				"translation": "отчаяние, разочарование"
+			},
+			{
+				"japanese": "失業",
+				"reading": "しつぎょう",
+				"translation": "безработица"
+			},
+			{
+				"japanese": "失う",
+				"reading": "うしなう",
+				"translation": "терять, утрачивать"
+			}
+		]
+	},
+	{
+		"japanese": "突",
+		"on": "トツ",
+		"kun": "つ・く",
+		"translation": "колоть, нападать, внезапно",
+		"words": [
+			{
+				"japanese": "突然",
+				"reading": "とつぜん",
+				"translation": "неожиданно, внезапно"
+			},
+			{
+				"japanese": "突き当たり",
+				"reading": "つきあたり",
+				"translation": "конец (улицы, коридора), тупик"
+			},
+			{
+				"japanese": "煙突",
+				"reading": "えんとつ",
+				"translation": "дымовая труба"
+			},
+			{
+				"japanese": "突っ込む",
+				"reading": "つっこむ",
+				"translation": "всовывать, заталкивать"
+			}
+		]
+	},
+	{
+		"japanese": "然",
+		"on": "ゼン　ネン",
+		"kun": "",
+		"translation": "в таком случае, вроде того",
+		"words": [
+			{
+				"japanese": "全然",
+				"reading": "ぜんぜん",
+				"translation": "совершенно, совсем"
+			},
+			{
+				"japanese": "当然",
+				"reading": "とうぜん",
+				"translation": "естественно, само собой"
+			},
+			{
+				"japanese": "自然",
+				"reading": "しぜん",
+				"translation": "природа"
+			},
+			{
+				"japanese": "天然",
+				"reading": "てんねん",
+				"translation": "природа, натуральный, дикорастущий"
+			}
+		]
+	},
+	{
+		"japanese": "諸",
+		"on": "ショ",
+		"kun": "",
+		"translation": "всевозможные, различные",
+		"words": [
+			{
+				"japanese": "諸～",
+				"reading": "しょ～",
+				"translation": "различные"
+			},
+			{
+				"japanese": "諸般",
+				"reading": "しょはん",
+				"translation": "всевозможные, все"
+			},
+			{
+				"japanese": "諸問題",
+				"reading": "しょもんだい",
+				"translation": "различные проблемы"
+			}
+		]
+	},
+	{
+		"japanese": "情",
+		"on": "ジョウ",
+		"kun": "なさ・け",
+		"translation": "эмоции, сочувствие, обстоятельства",
+		"words": [
+			{
+				"japanese": "事情",
+				"reading": "じじょう",
+				"translation": "обстоятельства, положение дел"
+			},
+			{
+				"japanese": "表情",
+				"reading": "ひょうじょう",
+				"translation": "выражение (лица)"
+			},
+			{
+				"japanese": "情け",
+				"reading": "なさけ",
+				"translation": "жалость, сострадание"
+			},
+			{
+				"japanese": "友情",
+				"reading": "ゆうじょう",
+				"translation": "дружба"
+			},
+			{
+				"japanese": "情けない",
+				"reading": "なさけない",
+				"translation": "безчувственный, бесссердечный"
+			}
+		]
+	},
+	{
+		"japanese": "退",
+		"on": "タイ",
+		"kun": "しりぞ・く",
+		"translation": "отступить, снимать (деньги), слагать полномочия",
+		"words": [
+			{
+				"japanese": "引退",
+				"reading": "いんたい",
+				"translation": "отставка, уход от дел"
+			},
+			{
+				"japanese": "退学",
+				"reading": "たいがく",
+				"translation": "уход из учебного заведения"
+			},
+			{
+				"japanese": "退院",
+				"reading": "たいいん",
+				"translation": "выписываться из больницы"
+			},
+			{
+				"japanese": "退く",
+				"reading": "しりぞく",
+				"translation": "отступить, ретироваться"
+			}
+		]
+	},
+	{
+		"japanese": "職",
+		"on": "ショク",
+		"kun": "",
+		"translation": "должность, работа",
+		"words": [
+			{
+				"japanese": "職業",
+				"reading": "しょくぎょう",
+				"translation": "занятие, профессия"
+			},
+			{
+				"japanese": "退職",
+				"reading": "たいしょく",
+				"translation": "уход с работы"
+			},
+			{
+				"japanese": "職場",
+				"reading": "しょくば",
+				"translation": "место работы"
+			},
+			{
+				"japanese": "職人",
+				"reading": "しょくにん",
+				"translation": "ремесленник, мастеровой"
+			}
+		]
+	},
+	{
+		"japanese": "紹",
+		"on": "ショウ",
+		"kun": "",
+		"translation": "знакомство, рекомендация",
+		"words": [
+			{
+				"japanese": "紹介",
+				"reading": "しょうかい",
+				"translation": "знакомство, рекомендация"
+			}
+		]
+	},
+	{
+		"japanese": "介",
+		"on": "カイ",
+		"kun": "",
+		"translation": "зажатый, уделять внимание",
+		"words": [
+			{
+				"japanese": "介入",
+				"reading": "かいにゅう",
+				"translation": "вмешательство"
+			},
+			{
+				"japanese": "介護",
+				"reading": "かいご",
+				"translation": "заботится (о престарелых, больных)"
+			}
+		]
+	}
+	]
+}

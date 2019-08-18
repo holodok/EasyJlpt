@@ -1,0 +1,409 @@
+﻿{
+	"title": "Неделя 5. День 2.",
+	"words": [
+	{
+		"word": {
+			"japanese": "大工",
+			"reading": "だいく",
+			"translation": "плотник"
+		},
+		"expressions":[
+			{
+				"japanese": "大工に修理を頼む",
+				"reading": "だいくにしゅうりをたのむ",
+				"translation": "попросить плотника о ремонте"
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "重大な",
+			"reading": "じゅうだいな",
+			"translation": "серьезный (положение, ошибка, ответственность)"
+		},
+		"expressions":[
+			{
+				"japanese": "重大な発表がある",
+				"reading": "じゅうだいなはっぴょうがある",
+				"translation": "есть важное сообщение"
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "大小",
+			"reading": "だいしょう",
+			"translation": "большой и маленький"
+		},
+		"expressions":[
+			{
+				"japanese": "箱が大小合わせて１０個ある",
+				"reading": "はこがだいしょうあわせて１０こある",
+				"translation": "есть 10 коробок, большие и маленькие"
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "大気",
+			"reading": "たいき",
+			"translation": "атмосфера"
+		},
+		"expressions":[
+			{
+				"japanese": "大気が汚れている",
+				"reading": "たいきがよごれている",
+				"translation": "атмосфера загрязняется"
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "大半",
+			"reading": "たいはん",
+			"translation": "большая половина, большинство"
+		},
+		"expressions":[
+			{
+				"japanese": "大半が賛成する",
+				"reading": "たいはんがさんせいする",
+				"translation": "большинство согласно"
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "大金",
+			"reading": "たいきん",
+			"translation": "большие деньги"
+		},
+		"expressions":[
+			{
+				"japanese": "大金を使う",
+				"reading": "たいきんをつかう",
+				"translation": "тратить много денег"
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "大木",
+			"reading": "たいぼく",
+			"translation": "высокое дерево"
+		},
+		"expressions":[
+			{
+				"japanese": "大木を切る",
+				"reading": "たいぼくをきる",
+				"translation": "срубить высокое дерево"
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "中心",
+			"reading": "ちゅうしん",
+			"translation": "центр, середина, фокус"
+		},
+		"expressions":[
+			{
+				"japanese": "円の中心",
+				"reading": "えんのちゅうしん",
+				"translation": "центр круга"
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "中世",
+			"reading": "ちゅうせい",
+			"translation": "середина века"
+		},
+		"expressions":[
+			{
+				"japanese": "中世の文学",
+				"reading": "ちゅうせいのぶんがく",
+				"translation": "средневековая литература"
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "中古",
+			"reading": "ちゅうこ",
+			"translation": "бывший в употреблении"
+		},
+		"expressions":[
+			{
+				"japanese": "中古の車を買う",
+				"reading": "ちゅうこのくるまをかう",
+				"translation": "купить б/у машину"
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "空中",
+			"reading": "くうちゅう",
+			"translation": "в воздухе, в небе"
+		},
+		"expressions":[
+			{
+				"japanese": "空中に浮く",
+				"reading": "くうちゅうにうく",
+				"translation": "парить в воздухе"
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "集中する",
+			"reading": "しゅうちゅうする",
+			"translation": "сосредоточивать, концентрировать"
+		},
+		"expressions":[
+			{
+				"japanese": "集中して勉強する",
+				"reading": "しゅうちゅうしてべんきょうする",
+				"translation": "концентрироваться на учебе"
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "夜中",
+			"reading": "よなか",
+			"translation": "всю ночь, полночь"
+		},
+		"expressions":[
+			{
+				"japanese": "夜中まで起きている",
+				"reading": "よなかまでおきている",
+				"translation": "не спать до полуночи"
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "世の中",
+			"reading": "よのなか",
+			"translation": "мир, свет"
+		},
+		"expressions":[
+			{
+				"japanese": "彼は世の中をよく知っている",
+				"reading": "かれはよのなかをよくしっている",
+				"translation": "он много знает о мире"
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "手間",
+			"reading": "てま",
+			"translation": "время, труд"
+		},
+		"expressions":[
+			{
+				"japanese": "手間がかかる",
+				"reading": "てまがかかる",
+				"translation": "обременительный, отнимает много времени, труда"
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "中間",
+			"reading": "ちゅうかん",
+			"translation": "середина, промежуточный"
+		},
+		"expressions":[
+			{
+				"japanese": "中間試験",
+				"reading": "ちゅうかんしけん",
+				"translation": "экзамен в середине семестра"
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "世間",
+			"reading": "せけん",
+			"translation": "люди, народ, свет"
+		},
+		"expressions":[
+			{
+				"japanese": "世間の人々",
+				"reading": "せけんのひとびと",
+				"translation": "народ, публика"
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "人間",
+			"reading": "にんげん",
+			"translation": "человек, человечество"
+		},
+		"expressions":[
+			{
+				"japanese": "人間関係",
+				"reading": "にんげんかんけい",
+				"translation": "отношения между людьми"
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "昼間",
+			"reading": "ひるま",
+			"translation": "дневное время, днем"
+		}
+	},
+	{
+		"word": {
+			"japanese": "夜間",
+			"reading": "やかん",
+			"translation": "ночное время"
+		},
+		"expressions":[
+			{
+				"japanese": "夜間の外出",
+				"reading": "やかんのがいしゅつ",
+				"translation": "гулять по ночам"
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "週間",
+			"reading": "しゅうかん",
+			"translation": "неделя"
+		}
+	},
+	{
+		"word": {
+			"japanese": "天気の週間予報を見る",
+			"reading": "てんきのしゅうかんよほうをみる",
+			"translation": "смотреть прогноз погоды на неделю"
+		}
+	},
+	{
+		"word": {
+			"japanese": "名作",
+			"reading": "めいさく",
+			"translation": "шедевр"
+		},
+		"expressions":[
+			{
+				"japanese": "名作を読む",
+				"reading": "めいさくをよむ",
+				"translation": "читать шедевры литературы"
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "作者",
+			"reading": "さくしゃ",
+			"translation": "автор"
+		},
+		"expressions":[
+			{
+				"japanese": "作者に話を聞く",
+				"reading": "さくしゃにはなしをきく",
+				"translation": "брать интервью у автора"
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "作品",
+			"reading": "さくひん",
+			"translation": "художественное произведение"
+		},
+		"expressions":[
+			{
+				"japanese": "作品が完成した",
+				"reading": "さくひんがかんせいした",
+				"translation": "работа (фильм, картина) окончена"
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "作業する",
+			"reading": "さぎょうする",
+			"translation": "вести работы"
+		},
+		"expressions":[
+			{
+				"japanese": "作業が進む",
+				"reading": "さぎょうがすすむ",
+				"translation": "работа продвигается"
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "通行する",
+			"reading": "つうこうする",
+			"translation": "проходить, проезжать"
+		},
+		"expressions":[
+			{
+				"japanese": "右側を通行する",
+				"reading": "みぎがわをつうこうする",
+				"translation": "держаться правой стороны"
+			},
+			{
+				"japanese": "一方通行",
+				"reading": "いっぽうつうこう",
+				"translation": "одностороннее движение"
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "通知する",
+			"reading": "つうちする",
+			"translation": "сообщать, уведомлять"
+		},
+		"expressions":[
+			{
+				"japanese": "合格通知",
+				"reading": "ごうかくつうち",
+				"translation": "уведомление о приеме (в университет)"
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "文通する",
+			"reading": "ぶんつうする",
+			"translation": "переписываться"
+		},
+		"expressions":[
+			{
+				"japanese": "文通相手",
+				"reading": "ぶんつうあいて",
+				"translation": "друг по переписке"
+			}
+		]
+	},
+	{
+		"word": {
+			"japanese": "一通り",
+			"reading": "ひととおり",
+			"translation": "бегло, вкратце"
+		},
+		"expressions":[
+			{
+				"japanese": "一通り復讐する",
+				"reading": "ひととおりふくしゅうする",
+				"translation": "бегло повторить пройденный материал"
+			}
+		]
+	}
+	]
+}

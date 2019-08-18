@@ -1,0 +1,138 @@
+{
+	"title": "Неделя 3. День 7.",
+	"kanji":[
+	{
+		"japanese": "昨",
+		"on": "サク",
+		"kun": "",
+		"translation": "прошлый",
+		"words": [
+			{
+				"japanese": "昨～",
+				"reading": "さく～",
+				"translation": "прошлый~"
+			},
+			{
+				"japanese": "昨日",
+				"reading": "さくじつ",
+				"translation": "вчера"
+			},
+			{
+				"japanese": "昨年",
+				"reading": "さくねん",
+				"translation": "прошлый год"
+			},
+			{
+				"japanese": "昨夜",
+				"reading": "さくや",
+				"translation": "прошлая ночь"
+			}
+		]
+	},
+	{
+		"japanese": "翌",
+		"on": "ヨク",
+		"kun": "",
+		"translation": "следующий",
+		"words": [
+			{
+				"japanese": "翌～",
+				"reading": "よく～",
+				"translation": "следующий"
+			},
+			{
+				"japanese": "翌日",
+				"reading": "よくじつ",
+				"translation": "следующий день"
+			},
+			{
+				"japanese": "翌年",
+				"reading": "よくねん",
+				"translation": "следующий год"
+			},
+			{
+				"japanese": "翌年",
+				"reading": "よくとし",
+				"translation": "следующий год"
+			},
+			{
+				"japanese": "翌朝",
+				"reading": "よくあさ",
+				"translation": "следующее утро"
+			}
+		]
+	},
+	{
+		"japanese": "軒",
+		"on": "ケン",
+		"kun": "",
+		"translation": "счетный суффикс для домов, свес крыши",
+		"words": [
+			{
+				"japanese": "～軒",
+				"reading": "～けん",
+				"translation": "~домов (количество)"
+			}
+		]
+	},
+	{
+		"japanese": "毒",
+		"on": "ドク",
+		"kun": "",
+		"translation": "яд, вирус, вред",
+		"words": [
+			{
+				"japanese": "中毒",
+				"reading": "ちゅうどく",
+				"translation": "отравление, зависимость"
+			},
+			{
+				"japanese": "気の毒",
+				"reading": "きのどく",
+				"translation": "сожаление"
+			},
+			{
+				"japanese": "気の毒な",
+				"reading": "きのどくな",
+				"translation": "достойный сожаления, несчастный"
+			},
+			{
+				"japanese": "消毒",
+				"reading": "しょうどく",
+				"translation": "дезинфекция, стерилизация"
+			}
+		]
+	},
+	{
+		"japanese": "涙",
+		"on": "",
+		"kun": "なみだ",
+		"translation": "слеза",
+		"words": [
+			{
+				"japanese": "涙",
+				"reading": "なみだ",
+				"translation": "слеза"
+			}
+		]
+	},
+	{
+		"japanese": "笑",
+		"on": "",
+		"kun": "わら・う　え・む",
+		"translation": "смех, улыбка",
+		"words": [
+			{
+				"japanese": "笑う",
+				"reading": "わらう",
+				"translation": "смеяться"
+			},
+			{
+				"japanese": "笑顔",
+				"reading": "えがお",
+				"translation": "улыбающееся лицо"
+			}
+		]
+	}
+	]
+}

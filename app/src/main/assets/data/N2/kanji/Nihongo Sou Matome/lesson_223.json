@@ -1,0 +1,337 @@
+{
+	"title": "Неделя 2. День 3.",
+	"kanji":[
+	{
+		"japanese": "温",
+		"on": "オン",
+		"kun": "あたた・かい あたた・まる あたた・める",
+		"translation": "теплота",
+		"words": [
+			{
+				"japanese": "温度",
+				"reading": "おんど",
+				"translation": "температура"
+			},
+			{
+				"japanese": "温室",
+				"reading": "おんしつ",
+				"translation": "теплица"
+			},
+			{
+				"japanese": "体温計",
+				"reading": "たいおんけい",
+				"translation": "термометр"
+			},
+			{
+				"japanese": "温かい",
+				"reading": "あたたかい",
+				"translation": "теплый (прикосновение)"
+			}
+		]
+	},
+	{
+		"japanese": "冷",
+		"on": "レイ",
+		"kun": "つめ・たい ひ・える ひ・やす さ・める さ・ます",
+		"translation": "прохлада",
+		"words": [
+			{
+				"japanese": "冷静",
+				"reading": "れいせい",
+				"translation": "спокойный, хладнокровный"
+			},
+			{
+				"japanese": "冷える",
+				"reading": "ひえる",
+				"translation": "становится холоднее, зябнуть"
+			},
+			{
+				"japanese": "冷める",
+				"reading": "さめる",
+				"translation": "остывать, охладевать"
+			},
+			{
+				"japanese": "冷たい",
+				"reading": "つめたい",
+				"translation": "прохладный"
+			},
+			{
+				"japanese": "冷やす",
+				"reading": "ひやす",
+				"translation": "остужать, замораживать"
+			},
+			{
+				"japanese": "冷ます",
+				"reading": "さます",
+				"translation": "охладить, остудить"
+			}
+		]
+	},
+	{
+		"japanese": "緑",
+		"on": "リョク",
+		"kun": "みどり",
+		"translation": "зелень",
+		"words": [
+			{
+				"japanese": "緑茶",
+				"reading": "りょくちゃ",
+				"translation": "зеленый чай"
+			},
+			{
+				"japanese": "緑",
+				"reading": "みどり",
+				"translation": "зелень, зеленый"
+			},
+			{
+				"japanese": "新緑",
+				"reading": "しんりょく",
+				"translation": "молодая листва, свежая зелень"
+			}
+		]
+	},
+	{
+		"japanese": "紅",
+		"on": "コウ",
+		"kun": "べに",
+		"translation": "багрянец, темно-красный",
+		"words": [
+			{
+				"japanese": "紅茶",
+				"reading": "こうちゃ",
+				"translation": "чай"
+			},
+			{
+				"japanese": "口紅",
+				"reading": "くちべに",
+				"translation": "губная помада"
+			}
+		]
+	},
+	{
+		"japanese": "玉",
+		"on": "",
+		"kun": "たま",
+		"translation": "драгоценность, шар",
+		"words": [
+			{
+				"japanese": "水玉",
+				"reading": "みずたま",
+				"translation": "капля воды"
+			},
+			{
+				"japanese": "十円玉",
+				"reading": "じゅうえんだま",
+				"translation": "монета 10 йен"
+			},
+			{
+				"japanese": "玉",
+				"reading": "たま",
+				"translation": "шар, сфера"
+			}
+		]
+	},
+	{
+		"japanese": "返",
+		"on": "ヘン",
+		"kun": "かえ・す かえ・る",
+		"translation": "возврат, ответ",
+		"words": [
+			{
+				"japanese": "返事",
+				"reading": "へんじ",
+				"translation": "ответ"
+			},
+			{
+				"japanese": "返金",
+				"reading": "へんきん",
+				"translation": "возврат денег"
+			},
+			{
+				"japanese": "返却",
+				"reading": "へんきゃく",
+				"translation": "возвращение чего-то, погашение долга"
+			},
+			{
+				"japanese": "返す",
+				"reading": "かえす",
+				"translation": "возвращать"
+			}
+		]
+	},
+	{
+		"japanese": "団",
+		"on": "ダン",
+		"kun": "トン",
+		"translation": "группа",
+		"words": [
+			{
+				"japanese": "団体",
+				"reading": "だんたい",
+				"translation": "группа, организация"
+			},
+			{
+				"japanese": "団地",
+				"reading": "だんち",
+				"translation": "кооперативный многоэтажный дом"
+			},
+			{
+				"japanese": "集団",
+				"reading": "しゅうだん",
+				"translation": "группа, коллектив"
+			},
+			{
+				"japanese": "布団",
+				"reading": "ふとん",
+				"translation": "футон (японский матрац)"
+			}
+		]
+	},
+	{
+		"japanese": "般",
+		"on": "ハン",
+		"kun": "",
+		"translation": "все",
+		"words": [
+			{
+				"japanese": "一般",
+				"reading": "いっぱん",
+				"translation": "общий, обыкновенный"
+			},
+			{
+				"japanese": "全般",
+				"reading": "ぜんぱん",
+				"translation": "весь, всеобщий"
+			}
+		]
+	},
+	{
+		"japanese": "幼",
+		"on": "ヨウ",
+		"kun": "おさな・い",
+		"translation": "детство",
+		"words": [
+			{
+				"japanese": "幼児",
+				"reading": "ようじ",
+				"translation": "младенец, дитя"
+			},
+			{
+				"japanese": "幼い",
+				"reading": "おさない",
+				"translation": "младенческий, ребяческий, неопытный"
+			}
+		]
+	},
+	{
+		"japanese": "児",
+		"on": "二 ジ",
+		"kun": "",
+		"translation": "новорожденный",
+		"words": [
+			{
+				"japanese": "小児科",
+				"reading": "しょうにか",
+				"translation": "педиатрия"
+			},
+			{
+				"japanese": "児童",
+				"reading": "じどう",
+				"translation": "ребенок, дети"
+			}
+		]
+	},
+	{
+		"japanese": "歳",
+		"on": "サイ",
+		"kun": "",
+		"translation": "возраст",
+		"words": [
+			{
+				"japanese": "～歳",
+				"reading": "～さい",
+				"translation": "лет"
+			},
+			{
+				"japanese": "二十歳",
+				"reading": "はたち",
+				"translation": "20 лет"
+			}
+		]
+	},
+	{
+		"japanese": "未",
+		"on": "ミ",
+		"kun": "",
+		"translation": "не-, еще не",
+		"words": [
+			{
+				"japanese": "未定",
+				"reading": "みてい",
+				"translation": "неустановленный, неопределенный"
+			},
+			{
+				"japanese": "未知",
+				"reading": "みち",
+				"translation": "незнакомый, неизвестный"
+			},
+			{
+				"japanese": "未来",
+				"reading": "みらい",
+				"translation": "будущее"
+			},
+			{
+				"japanese": "未～",
+				"reading": "み～",
+				"translation": "еще не"
+			}
+		]
+	},
+	{
+		"japanese": "満",
+		"on": "マン",
+		"kun": "み・ちる み・たす",
+		"translation": "полный, заполненый",
+		"words": [
+			{
+				"japanese": "未満",
+				"reading": "みまん",
+				"translation": "не достигший, неполный"
+			},
+			{
+				"japanese": "満足",
+				"reading": "まんぞく",
+				"translation": "удовлетворение"
+			},
+			{
+				"japanese": "満員",
+				"reading": "まんいん",
+				"translation": "заполнен (людьми)"
+			},
+			{
+				"japanese": "満ちる",
+				"reading": "みちる",
+				"translation": "наполняться чем-то, становиться полным"
+			}
+		]
+	},
+	{
+		"japanese": "老",
+		"on": "ロウ",
+		"kun": "お・いる",
+		"translation": "старик",
+		"words": [
+			{
+				"japanese": "老人",
+				"reading": "ろうじん",
+				"translation": "старик, старый человек"
+			},
+			{
+				"japanese": "年老いた",
+				"reading": "としおいた",
+				"translation": "престарелый"
+			}
+		]
+	}
+	]
+}

@@ -1,0 +1,257 @@
+{
+	"title": "Неделя 4. День 7.",
+	"kanji":[
+	{
+		"japanese": "腹",
+		"on": "フク",
+		"kun": "はら",
+		"translation": "живот, желудок",
+		"words": [
+			{
+				"japanese": "腹痛",
+				"reading": "ふくつう",
+				"translation": "боль в животе"
+			}
+		]
+	},
+	{
+		"japanese": "背",
+		"on": "",
+		"kun": "せ",
+		"translation": "рост, высота, спина",
+		"words": [
+			{
+				"japanese": "背中",
+				"reading": "せなか",
+				"translation": "спина"
+			}
+		]
+	},
+	{
+		"japanese": "吸",
+		"on": "キュウ",
+		"kun": "す・う",
+		"translation": "сосать, вдыхать, впитывать",
+		"words": [
+			{
+				"japanese": "呼吸",
+				"reading": "こきゅう",
+				"translation": "дыхание"
+			},
+			{
+				"japanese": "吸収",
+				"reading": "きゅうしゅう",
+				"translation": "всасывание, впитывание"
+			},
+			{
+				"japanese": "吸う",
+				"reading": "すう",
+				"translation": "вдыхать, втягивать, сосать"
+			}
+		]
+	},
+	{
+		"japanese": "息",
+		"on": "ソク",
+		"kun": "いき",
+		"translation": "дыхание, сын",
+		"words": [
+			{
+				"japanese": "休息",
+				"reading": "きゅうそく",
+				"translation": "отдых, покой"
+			},
+			{
+				"japanese": "息",
+				"reading": "いき",
+				"translation": "дыхание"
+			},
+			{
+				"japanese": "息子",
+				"reading": "むすこ",
+				"translation": "сын"
+			}
+		]
+	},
+	{
+		"japanese": "血",
+		"on": "ケツ",
+		"kun": "ち",
+		"translation": "кровь",
+		"words": [
+			{
+				"japanese": "高血圧",
+				"reading": "こうけつあつ",
+				"translation": "высокое кровяное давление"
+			},
+			{
+				"japanese": "血",
+				"reading": "ち",
+				"translation": "кровь"
+			}
+		]
+	},
+	{
+		"japanese": "眠",
+		"on": "ミン",
+		"kun": "ねむ・い　ねむ・る",
+		"translation": "сон, сонливость",
+		"words": [
+			{
+				"japanese": "睡眠",
+				"reading": "すいみん",
+				"translation": "сон"
+			},
+			{
+				"japanese": "眠い",
+				"reading": "ねむい",
+				"translation": "сонный, хочется спать"
+			},
+			{
+				"japanese": "眠る",
+				"reading": "ねむる",
+				"translation": "спать"
+			},
+			{
+				"japanese": "居眠り",
+				"reading": "いねむり",
+				"translation": "дремота"
+			}
+		]
+	},
+	{
+		"japanese": "圧",
+		"on": "アツ",
+		"kun": "",
+		"translation": "давление, нажим",
+		"words": [
+			{
+				"japanese": "圧力",
+				"reading": "あつりょく",
+				"translation": "давление, нажим"
+			}
+		]
+	},
+	{
+		"japanese": "欲",
+		"on": "ヨク",
+		"kun": "ほ・しい",
+		"translation": "сильное стремление, желание",
+		"words": [
+			{
+				"japanese": "食欲",
+				"reading": "しょくよく",
+				"translation": "аппетит"
+			},
+			{
+				"japanese": "欲張り",
+				"reading": "よくばり",
+				"translation": "жадность"
+			},
+			{
+				"japanese": "欲しい",
+				"reading": "ほしい",
+				"translation": "хотеть, желать чего-то"
+			}
+		]
+	},
+	{
+		"japanese": "臓",
+		"on": "ゾウ",
+		"kun": "",
+		"translation": "внуренние органы, внутренности",
+		"words": [
+			{
+				"japanese": "心臓",
+				"reading": "しんぞう",
+				"translation": "сердце (орган)"
+			},
+			{
+				"japanese": "内蔵",
+				"reading": "ないぞう",
+				"translation": "внуренние органы"
+			}
+		]
+	},
+	{
+		"japanese": "液",
+		"on": "エキ",
+		"kun": "",
+		"translation": "жидкость, сок",
+		"words": [
+			{
+				"japanese": "血液",
+				"reading": "けつえき",
+				"translation": "кровь"
+			}
+		]
+	},
+	{
+		"japanese": "疲",
+		"on": "",
+		"kun": "つか・れる",
+		"translation": "усталость, утомление",
+		"words": [
+			{
+				"japanese": "疲れる",
+				"reading": "つかれる",
+				"translation": "уставать"
+			}
+		]
+	},
+	{
+		"japanese": "胃",
+		"on": "イ",
+		"kun": "",
+		"translation": "живот",
+		"words": [
+			{
+				"japanese": "胃",
+				"reading": "い",
+				"translation": "желудок"
+			},
+			{
+				"japanese": "胃腸",
+				"reading": "いちょう",
+				"translation": "желудок и кишечник"
+			}
+		]
+	},
+	{
+		"japanese": "鼻",
+		"on": "ビ",
+		"kun": "はな",
+		"translation": "нос",
+		"words": [
+			{
+				"japanese": "耳鼻科",
+				"reading": "じびか",
+				"translation": "отоларингология"
+			},
+			{
+				"japanese": "鼻",
+				"reading": "はな",
+				"translation": "нос"
+			},
+			{
+				"japanese": "鼻水",
+				"reading": "はなみず",
+				"translation": "насморк"
+			}
+		]
+	},
+	{
+		"japanese": "胸",
+		"on": "",
+		"kun": "むね",
+		"translation": "грудь",
+		"words": [
+			{
+				"japanese": "胸",
+				"reading": "むね",
+				"translation": "грудь, душа"
+			}
+		]
+	}
+	]
+}

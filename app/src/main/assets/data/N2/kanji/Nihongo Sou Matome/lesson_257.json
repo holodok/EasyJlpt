@@ -1,0 +1,259 @@
+{
+	"title": "Неделя 5. День 7.",
+	"kanji":[
+	{
+		"japanese": "棒",
+		"on": "ボウ",
+		"kun": "",
+		"translation": "палка, дубинка",
+		"words": [
+			{
+				"japanese": "泥棒",
+				"reading": "どろぼう",
+				"translation": "вор"
+			}
+		]
+	},
+	{
+		"japanese": "枯",
+		"on": "",
+		"kun": "か・れる",
+		"translation": "засыхать, вянуть",
+		"words": [
+			{
+				"japanese": "枯れる",
+				"reading": "かれる",
+				"translation": "засыхать, вянуть"
+			}
+		]
+	},
+	{
+		"japanese": "舟",
+		"on": "",
+		"kun": "ふね",
+		"translation": "лодка, корабль",
+		"words": [
+			{
+				"japanese": "舟",
+				"reading": "ふね",
+				"translation": "корабль, судно"
+			}
+		]
+	},
+	{
+		"japanese": "貧",
+		"on": "",
+		"kun": "まず・しい",
+		"translation": "бедный, неимущий",
+		"words": [
+			{
+				"japanese": "貧しい",
+				"reading": "まずしい",
+				"translation": "бедный, нуждающийся"
+			}
+		]
+	},
+	{
+		"japanese": "昔",
+		"on": "",
+		"kun": "むかし",
+		"translation": "давным-давно",
+		"words": [
+			{
+				"japanese": "昔",
+				"reading": "むかし",
+				"translation": "давно, в старину"
+			}
+		]
+	},
+	{
+		"japanese": "岩",
+		"on": "ガン",
+		"kun": "いわ",
+		"translation": "скала, валун",
+		"words": [
+			{
+				"japanese": "岩",
+				"reading": "いわ",
+				"translation": "скала, валун"
+			}
+		]
+	},
+	{
+		"japanese": "泣く",
+		"on": "",
+		"kun": "な・く",
+		"translation": "плакать",
+		"words": [
+			{
+				"japanese": "泣く",
+				"reading": "なく",
+				"translation": "плакать"
+			}
+		]
+	},
+	{
+		"japanese": "咲",
+		"on": "",
+		"kun": "さ・く",
+		"translation": "цвести, расцветать",
+		"words": [
+			{
+				"japanese": "咲く",
+				"reading": "さく",
+				"translation": "цвести, расцветать"
+			}
+		]
+	},
+	{
+		"japanese": "司",
+		"on": "シ",
+		"kun": "",
+		"translation": "чиновник, управлять",
+		"words": [
+			{
+				"japanese": "司会",
+				"reading": "しかい",
+				"translation": "ведение собрание, председательство"
+			}
+		]
+	},
+	{
+		"japanese": "念",
+		"on": "ネン",
+		"kun": "",
+		"translation": "чувство, желание, ощущение",
+		"words": [
+			{
+				"japanese": "残念",
+				"reading": "ざんねん",
+				"translation": "сожаление, досада"
+			}
+		]
+	},
+	{
+		"japanese": "涼",
+		"on": "",
+		"kun": "すず・しい　すず・む",
+		"translation": "освежающий, приятный и прохладный",
+		"words": [
+			{
+				"japanese": "涼しい",
+				"reading": "すずしい",
+				"translation": "освежающий, приятный и прохладный"
+			}
+		]
+	},
+	{
+		"japanese": "散",
+		"on": "サン",
+		"kun": "ち・る　ち・らす　ち・らかす　ち・らかる",
+		"translation": "разбрасывать, рассыпать",
+		"words": [
+			{
+				"japanese": "散歩",
+				"reading": "さんぽ",
+				"translation": "прогулка"
+			},
+			{
+				"japanese": "散る",
+				"reading": "ちる",
+				"translation": "опадать, осыпаться"
+			},
+			{
+				"japanese": "散らす",
+				"reading": "ちらす",
+				"translation": "разбрасывать, рассыпать"
+			},
+			{
+				"japanese": "散らかす",
+				"reading": "ちらかす",
+				"translation": "разбрасывать где попало, приводить в беспорядок"
+			},
+			{
+				"japanese": "散らかる",
+				"reading": "ちらかる",
+				"translation": "быть в беспорядке"
+			}
+		]
+	},
+	{
+		"japanese": "吹",
+		"on": "",
+		"kun": "ふ・く",
+		"translation": "дуть, дыхание",
+		"words": [
+			{
+				"japanese": "吹く",
+				"reading": "ふく",
+				"translation": "дуть, играть на духовом инструменте"
+			}
+		]
+	},
+	{
+		"japanese": "坊",
+		"on": "ボウ　ボッ",
+		"kun": "",
+		"translation": "мальчик, монах, духовое лицо",
+		"words": [
+			{
+				"japanese": "赤ん坊",
+				"reading": "あかんぼう",
+				"translation": "ребенок"
+			}
+		]
+	},
+	{
+		"japanese": "怒",
+		"on": "ド",
+		"kun": "おこ・る",
+		"translation": "гнев, ярость",
+		"words": [
+			{
+				"japanese": "怒る",
+				"reading": "おこる",
+				"translation": "сердиться, раздражаться"
+			}
+		]
+	},
+	{
+		"japanese": "畜",
+		"on": "チク",
+		"kun": "",
+		"translation": "собирать, накапливать, запас",
+		"words": [
+			{
+				"japanese": "家畜",
+				"reading": "かちく",
+				"translation": "домашний скот"
+			}
+		]
+	},
+	{
+		"japanese": "才",
+		"on": "サイ",
+		"kun": "",
+		"translation": "гений, лет от роду",
+		"words": [
+			{
+				"japanese": "才能",
+				"reading": "さいのう",
+				"translation": "талант, способности"
+			}
+		]
+	},
+	{
+		"japanese": "珍",
+		"on": "",
+		"kun": "めずら・しい",
+		"translation": "редкий, необычный",
+		"words": [
+			{
+				"japanese": "珍しい",
+				"reading": "めずらしい",
+				"translation": "редкий, необычный"
+			}
+		]
+	}
+	]
+}
